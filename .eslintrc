@@ -1,0 +1,100 @@
+{
+  "root": true,
+  "extends": "airbnb",
+  "globals": {
+    "window": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "brace-style": [
+      "error",
+      "1tbs",
+      {
+        "allowSingleLine": false
+      }
+    ],
+    "curly": [
+      "error",
+      "all"
+    ],
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "max-len": "off",
+    "no-await-in-loop": "error",
+    "no-compare-neg-zero": "error",
+    "no-confusing-arrow": "off",
+    "no-mixed-operators": "off",
+    "no-multi-assign": "off",
+    "no-plusplus": "off",
+    "no-use-before-define": ["error", { "functions": false, "classes": true }],
+    "nonblock-statement-body-position": "error",
+    "operator-linebreak": [
+      "error",
+      "before",
+      {
+        "overrides": {
+          "+=": "after",
+          "=": "after"
+        }
+      }
+    ],
+    "prefer-arrow-callback": [
+      "error",
+      {
+        "allowNamedFunctions": true,
+        "allowUnboundThis": true
+      }
+    ],
+    "prefer-destructuring": "error",
+    "prefer-promise-reject-errors": "error",
+//    "react/jsx-sort-props": "error",
+    "react/forbid-prop-types": "off",
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "react/no-array-index-key": "off",
+    "react/no-danger": "off",
+    "react/prefer-stateless-function": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/require-default-props": "off",
+    "template-tag-spacing": "error",
+    "jsx-uses-react": "on",
+    "jsx-a11y/anchor-is-valid": [ "error", {
+      "components": [ "Link" ],
+      "specialLink": [ "hrefLeft", "hrefRight" ],
+      "aspects": [ "noHref", "invalidHref", "preferButton" ]
+    }]
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/__tests__/**/*.js",
+        "**/__mocks__/**/*.js"
+      ],
+      "env": {
+        "jest": true,
+        "browser": true,
+        "node": true,
+        "es6": true
+      }
+    }
+  ]
+}
