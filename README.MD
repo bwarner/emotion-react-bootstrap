@@ -1,4 +1,4 @@
-# Project Title
+# Emotion React Bootstrap
 
 A React component library for bootstrap using the [**emotion-js**](Emotion-JS framework)
 
