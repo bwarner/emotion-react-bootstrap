@@ -1,0 +1,26 @@
+{
+  "presets": [
+    "react",
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": {
+            "production": [
+              "> 1%",
+              "ie 10"
+            ],
+            "development": [
+              "last 1 chrome version",
+              "last 1 firefox version"
+            ]
+          }
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-class-properties",
+    ["transform-object-rest-spread", { "useBuiltIns": true }]
+  ]
+}

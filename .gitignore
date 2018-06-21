@@ -12,3 +12,4 @@ circle-output
 *~
 *.old
 /out
+/dist
