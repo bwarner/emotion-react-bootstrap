@@ -1,19 +1,23 @@
 import React from 'react';
 import Alert from '../lib/alert';
+import AlertLink from '../lib/alert/alert-link';
 
 const SimpleAlertStory = () => (
-  <Alert className="alert">
-    This is a primary alert with
-    <a href="http://www.healthline.com" className="alert-link">
-      an example link
-    </a>. Give it a click if you like.
-  </Alert>
+  <Alert className="alert">This is a simple alert with some text.</Alert>
 );
 
 const SuccessAlertStory = () => (
   <Alert className="alert" color="success">
-    Hello from alert stories
+    This is a success alert with some text.
   </Alert>
 );
 
-export { SimpleAlertStory, SuccessAlertStory };
+const AlertWithLinkStory = () => (
+  <Alert className="alert">
+    This is a primary alert with{' '}
+    <AlertLink href="http://www.healthline.com">an example link</AlertLink>.
+    Give it a click if you like.
+  </Alert>
+);
+
+export { SimpleAlertStory, SuccessAlertStory, AlertWithLinkStory };
