@@ -23,7 +23,7 @@
   "license": "ISC",
   "dependencies": {
     "emotion": "^9.1.2",
-    "emotion-bootstrap": "bwarner/emotion-bootstrap",
+    "emotion-bootstrap": "github:bwarner/emotion-bootstrap",
     "emotion-server": "^9.1.2",
     "es6-promise": "4.1.1",
     "prop-types": "^15.6.1",
@@ -33,10 +33,10 @@
     "webpack": "^4.12.0"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.4.3",
-    "@storybook/addon-links": "^3.4.3",
-    "@storybook/addons": "^3.4.3",
-    "@storybook/react": "^3.4.3",
+    "@storybook/addon-actions": "alpha",
+    "@storybook/addon-links": "alpha",
+    "@storybook/addons": "alpha",
+    "@storybook/react": "alpha",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
