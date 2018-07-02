@@ -20,7 +20,6 @@ export default function decorator(story) {
           __html: css,
         }}
       />
-      <h1>Wrapper</h1>
       {story()}
     </div>
   );
