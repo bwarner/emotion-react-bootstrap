@@ -1,6 +1,5 @@
 import React from 'react';
-import { Badge } from '../lib';
-import { Button } from '../lib/form';
+import { Badge, Button } from '../lib';
 import Description from './description';
 
 function Example1() {

@@ -1,6 +1,6 @@
 import { action } from '@storybook/addon-actions';
 import React from 'react';
-import { Button, Input, FormGroup } from '../lib/form';
+import { Button, Input, FormGroup } from '../lib';
 import { Container, Row, Col } from '../lib/layout';
 
 export default function story() {
