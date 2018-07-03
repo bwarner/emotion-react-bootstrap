@@ -4,6 +4,7 @@ import form from './form.stories';
 import layout from './layout.stories';
 import BadgeReadme from '../lib/badge/README.md';
 import { Example1, Example2, Example3, Example4, Example5 } from './badge.stories';
+import ButtonStories from './button.stories';
 import {
   SimpleAlertStory,
   SuccessAlertStory,
@@ -24,3 +25,7 @@ storiesOf('Badge', module)
   .add('Contextual variations', Example3)
   .add('Pills', Example4)
   .add('Links', Example5);
+
+ButtonStories.forEach(function (entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Buttons', module));
