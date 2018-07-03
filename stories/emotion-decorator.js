@@ -1,17 +1,9 @@
 import React from 'react';
-import { extractCritical, renderStylesToString } from 'emotion-server';
-import { renderToString } from 'react-dom/server';
-import { hydrate } from 'emotion';
+import {extractCritical} from 'emotion-server';
+import {renderToString} from 'react-dom/server';
 
 export default function decorator(story) {
-  console.log(
-    'renderStylesToString ',
-    renderStylesToString(renderToString(story())),
-  );
-  const { ids, html, css } = extractCritical(renderToString(story()));
-  console.log('html ', html);
-  console.log('css ', css);
-  console.log('hydrated ', hydrate(ids));
+  const { css } = extractCritical(renderToString(story()));
 
   return (
     <div>
@@ -20,7 +12,18 @@ export default function decorator(story) {
           __html: css,
         }}
       />
-      {story()}
+      <div style={{
+        height: '100%',
+        minHeight: 600,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexDirection: 'column',
+        flexAlign: 'center',
+      }}
+      >
+          {story()}
+      </div>
     </div>
   );
 }
