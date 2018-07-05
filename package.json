@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint --cache --ignore-path .gitignore --ext .js --ext .jsx .",
-    "format": "prettier-eslint --ignore \"**/tmp/**\" --write \"**/*.{js,jsx}\"",
+    "format": "prettier-eslint --ignore \"**/tmp/**\" --ignore \"**/dist/**\" --write \"**/*.{js,jsx}\"",
     "format:file": "prettier-eslint --write",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
@@ -45,7 +45,7 @@
     "@storybook/react": "^4.0.0-alpha.12",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.3",
+    "babel-eslint": "^8.0.1",
     "babel-loader": "^7.1.4",
     "babel-plugin-emotion": "^9.1.2",
     "babel-plugin-external-helpers": "^6.22.0",

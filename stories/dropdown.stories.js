@@ -25,7 +25,7 @@ export class Example1 extends React.Component {
       >
         <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
           <DropdownToggle caret>
-            Dropdownxxxx
+            Dropdown
           </DropdownToggle>
           <DropdownMenu>
             <DropdownItem header>Header</DropdownItem>
