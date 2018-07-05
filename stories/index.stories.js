@@ -5,8 +5,9 @@ import layout from './layout.stories';
 import BadgeReadme from '../lib/badge/README.md';
 import { Example1, Example2, Example3, Example4, Example5 } from './badge.stories';
 import buttonStories from './button.stories';
-import ButtonReadme from '../lib/buttons/README.md';
-
+import ButtonReadme from '../lib/button/README.md';
+import DropdownReadme from '../lib/dropdown/README.md';
+import dropdownStories from './dropdown.stories';
 import {
   SimpleAlertStory,
   SuccessAlertStory,
@@ -31,3 +32,7 @@ storiesOf('Badge', module)
 buttonStories.forEach(function (entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Buttons', module).addDecorator(withReadme(ButtonReadme)));
+
+dropdownStories.forEach(function (entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Dropdowns', module).addDecorator(withReadme(DropdownReadme)));
