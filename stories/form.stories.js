@@ -15,7 +15,7 @@ export default function story() {
               action('submit');
             }}
           >
-            <FormGroup action="/foo.ation" noValidate>
+            <FormGroup action="/foo.action" noValidate>
               <div>
                 <label htmlFor="number">
                   Number<Input id="number" name="number" type="type" />
