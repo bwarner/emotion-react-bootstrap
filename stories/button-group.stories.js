@@ -28,10 +28,7 @@ function Example1() {
 
 function Example2() {
   return (
-    <Description
-      title="Button Toolbar"
-      summary="Buttons with clear background"
-    >
+    <Description title="Button Toolbar" summary="Buttons with clear background">
       <ButtonToolbar>
         <ButtonGroup>
           <Button>1</Button>
@@ -112,11 +109,10 @@ class Example extends Component {
   }
 }
 
-
 export default [
   { name: 'Button Group', story: Example1 },
   { name: 'Button Toolbar', story: Example2 },
   { name: 'Sizing', story: Example3 },
-  { name: 'Nesting', story: () => (<Example />) },
-  { name: 'Vertical variation', story: () => (<Example vertical />) },
+  { name: 'Nesting', story: () => <Example /> },
+  { name: 'Vertical variation', story: () => <Example vertical /> },
 ];

@@ -13,12 +13,11 @@ const config = {
     rules: [
       {
         test: /.js$/,
-        use: 'babel-loader'
+        use: 'babel-loader',
       },
     ],
   },
 };
-
 
 const config2 = {
   entry: './lib/index.js',
@@ -28,9 +27,7 @@ const config2 = {
     filename: 'bundle.web.js',
   },
   module: {
-    rules: [
-      { test: /.js$/, use: 'babel-loader' },
-    ],
+    rules: [{ test: /.js$/, use: 'babel-loader' }],
   },
 };
 
@@ -46,7 +43,7 @@ module.exports = [
   },
   (env, argv) => {
     const mods = {
-      target: 'node'
+      target: 'node',
     };
     if (argv.mode === 'production') {
       mods.mode = 'production';

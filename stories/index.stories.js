@@ -3,7 +3,13 @@ import { withReadme } from 'storybook-readme';
 import form from './form.stories';
 import layout from './layout.stories';
 import BadgeReadme from '../lib/badge/README.md';
-import { Example1, Example2, Example3, Example4, Example5 } from './badge.stories';
+import {
+  Example1,
+  Example2,
+  Example3,
+  Example4,
+  Example5,
+} from './badge.stories';
 import buttonStories from './button.stories';
 import buttonGroupStories from './button-group.stories';
 import ButtonReadme from '../lib/button/README.md';
