@@ -23,6 +23,8 @@ import {
 } from './alert.stories';
 import { BreadcrumbStory } from './breadcrumb.stories';
 import BreadcrumbReadme from '../lib/breadcrumb/README.md';
+import { PaginationStory } from './pagination.stories';
+import PaginationReadme from '../lib/pagination/README.md';
 
 storiesOf('Form', module)
   .add('Simple Form', form)
@@ -53,3 +55,7 @@ buttonGroupStories.forEach(function (entry) {
 dropdownStories.forEach(function (entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Dropdowns', module).addDecorator(withReadme(DropdownReadme)));
+
+storiesOf('Pagination', module)
+  .add('Pagination', PaginationStory)
+  .addDecorator(withReadme(PaginationReadme));
