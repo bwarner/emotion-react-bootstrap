@@ -22,6 +22,7 @@ import {
   AlertWithLinkStory,
 } from './alert.stories';
 import { BreadcrumbStory } from './breadcrumb.stories';
+import BreadcrumbReadme from '../lib/breadcrumb/README.md';
 
 storiesOf('Form', module)
   .add('Simple Form', form)
@@ -37,7 +38,9 @@ storiesOf('Badge', module)
   .add('Contextual variations', Example3)
   .add('Pills', Example4)
   .add('Links', Example5);
-storiesOf('Breadcrumb', module).add('Breadcrumb', BreadcrumbStory);
+storiesOf('Breadcrumb', module)
+  .add('Breadcrumb', BreadcrumbStory)
+  .addDecorator(withReadme(BreadcrumbReadme));
 
 buttonStories.forEach(function (entry) {
   this.add(entry.name, entry.story);
