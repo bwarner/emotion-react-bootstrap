@@ -23,7 +23,13 @@ import {
 } from './alert.stories';
 import { BreadcrumbStory } from './breadcrumb.stories';
 import BreadcrumbReadme from '../lib/breadcrumb/README.md';
-import { PaginationStory } from './pagination.stories';
+import {
+  PaginationStory,
+  PaginationActiveStory,
+  PaginationDisabledStory,
+  PaginationLargeStory,
+  PaginationSmallStory,
+} from './pagination.stories';
 import PaginationReadme from '../lib/pagination/README.md';
 
 storiesOf('Form', module)
@@ -58,4 +64,8 @@ dropdownStories.forEach(function (entry) {
 
 storiesOf('Pagination', module)
   .add('Pagination', PaginationStory)
+  .add('Pagination Active', PaginationActiveStory)
+  .add('Pagination Disabled', PaginationDisabledStory)
+  .add('Pagination Large', PaginationLargeStory)
+  .add('Pagination Small', PaginationSmallStory)
   .addDecorator(withReadme(PaginationReadme));
