@@ -20,4 +20,20 @@ const AlertWithLinkStory = () => (
   </Alert>
 );
 
-export { SimpleAlertStory, SuccessAlertStory, AlertWithLinkStory };
+let isOpenAlert = true;
+function onDismiss() {
+  isOpenAlert = !isOpenAlert;
+}
+
+const AlertDismissStory = () => (
+  <Alert className="alert" isOpen={isOpenAlert} toggle={onDismiss}>
+    This is a primary alert dismissible.
+  </Alert>
+);
+
+export {
+  SimpleAlertStory,
+  SuccessAlertStory,
+  AlertWithLinkStory,
+  AlertDismissStory,
+};

@@ -18,6 +18,7 @@ import {
   SimpleAlertStory,
   SuccessAlertStory,
   AlertWithLinkStory,
+  AlertDismissStory,
 } from './alert.stories';
 
 storiesOf('Form', module)
@@ -26,7 +27,8 @@ storiesOf('Form', module)
 storiesOf('Alert', module)
   .add('Simple Alert', SimpleAlertStory)
   .add('Success Alert', SuccessAlertStory)
-  .add('Alert with link', AlertWithLinkStory);
+  .add('Alert with link', AlertWithLinkStory)
+  .add('Alert with dismiss', AlertDismissStory);
 storiesOf('Badge', module)
   .addDecorator(withReadme(BadgeReadme))
   .add('Example', Example1)
