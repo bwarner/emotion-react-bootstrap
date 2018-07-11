@@ -23,6 +23,7 @@ import {
 } from './alert.stories';
 import { BreadcrumbStory } from './breadcrumb.stories';
 import BreadcrumbReadme from '../lib/breadcrumb/README.md';
+import { TableSimpleStory } from './table.stories';
 
 storiesOf('Form', module)
   .add('Simple Form', form)
@@ -53,3 +54,5 @@ buttonGroupStories.forEach(function (entry) {
 dropdownStories.forEach(function (entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Dropdowns', module).addDecorator(withReadme(DropdownReadme)));
+
+storiesOf('Table', module).add('Simple', TableSimpleStory);
