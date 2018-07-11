@@ -1,9 +1,11 @@
 {
   "presets": [
     "react",
+    "stage-0",
     [
       "env",
       {
+        "debug": true,
         "modules": false,
         "targets": {
           // The % refers to the global coverage of users from browserslist
@@ -13,16 +15,31 @@
             "not op_mini all"
           ]
         }
+
       }
     ]
   ],
-  "ignore": [
-    "node_modules"
-  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "env",
+          {
+            "modules": "commonjs"
+          }
+        ]
+      ]
+    }
+  },
   "plugins": [
-    "transform-class-properties",
+    "emotion",
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }],
+    "babel-plugin-transform-function-bind",
     [
-      "transform-object-rest-spread",
+      "babel-plugin-transform-object-rest-spread",
       {
         "useBuiltIns": true
       }
