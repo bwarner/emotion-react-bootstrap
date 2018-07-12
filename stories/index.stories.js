@@ -16,10 +16,12 @@ import ButtonReadme from '../lib/button/README.md';
 import ButtonGroupReadme from '../lib/button-group/README.md';
 import DropdownReadme from '../lib/dropdown/README.md';
 import dropdownStories from './dropdown.stories';
+import { FadeStory } from './fade.stories';
 import {
   SimpleAlertStory,
   SuccessAlertStory,
   AlertWithLinkStory,
+  AlertDismissStory,
 } from './alert.stories';
 import { BreadcrumbStory } from './breadcrumb.stories';
 import BreadcrumbReadme from '../lib/breadcrumb/README.md';
@@ -38,7 +40,8 @@ storiesOf('Form', module)
 storiesOf('Alert', module)
   .add('Simple Alert', SimpleAlertStory)
   .add('Success Alert', SuccessAlertStory)
-  .add('Alert with link', AlertWithLinkStory);
+  .add('Alert with link', AlertWithLinkStory)
+  .add('Alert with dismiss', AlertDismissStory);
 storiesOf('Badge', module)
   .addDecorator(withReadme(BadgeReadme))
   .add('Example', Example1)
@@ -54,6 +57,7 @@ buttonStories.forEach(function (entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Buttons', module).addDecorator(withReadme(ButtonReadme)));
 
+storiesOf('Fade', module).add('Simple', FadeStory);
 buttonGroupStories.forEach(function (entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Button Group', module).addDecorator(withReadme(ButtonGroupReadme)));

@@ -31,11 +31,13 @@
     "emotion-server": "^9.1.2",
     "es6-promise": "4.1.1",
     "lodash.omit": "^4.5.0",
+    "lodash.pick": "^4.4.0",
     "prop-types": "^15.6.1",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-emotion": "^9.1.2",
     "react-popper": "^0.10.4",
+    "react-transition-group": "^2.3.1",
     "webpack": "^4.15.0"
   },
   "devDependencies": {
