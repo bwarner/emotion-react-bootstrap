@@ -19,10 +19,12 @@ import dropdownStories from './dropdown.stories';
 import { FadeStory } from './fade.stories';
 import {
   SimpleAlertStory,
-  SuccessAlertStory,
+  ColorsAlertStory,
+  AlertContentStory,
   AlertWithLinkStory,
   AlertDismissStory,
 } from './alert.stories';
+import { AlertFadelessStory } from './alert.fadeless.stories';
 import { BreadcrumbStory } from './breadcrumb.stories';
 import BreadcrumbReadme from '../lib/breadcrumb/README.md';
 import {
@@ -39,9 +41,12 @@ storiesOf('Form', module)
   .add('Layout Components', layout);
 storiesOf('Alert', module)
   .add('Simple Alert', SimpleAlertStory)
-  .add('Success Alert', SuccessAlertStory)
+  .add('Alert Colors', ColorsAlertStory)
+  .add('Alert with content', AlertContentStory)
   .add('Alert with link', AlertWithLinkStory)
-  .add('Alert with dismiss', AlertDismissStory);
+  .add('Alert with dismiss', AlertDismissStory)
+  .add('Alert with dismiss no fade', AlertFadelessStory);
+
 storiesOf('Badge', module)
   .addDecorator(withReadme(BadgeReadme))
   .add('Example', Example1)

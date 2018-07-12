@@ -6,9 +6,50 @@ const SimpleAlertStory = () => (
   <Alert className="alert">This is a simple alert with some text.</Alert>
 );
 
-const SuccessAlertStory = () => (
+function ColorsAlertStory() {
+  return (
+    <div>
+      <Alert className="alert" color="primary">
+        This is a primary alert with some text.
+      </Alert>
+      <Alert className="alert" color="secondary">
+        This is a secondary alert with some text.
+      </Alert>
+      <Alert className="alert" color="success">
+        This is a success alert with some text.
+      </Alert>
+      <Alert className="alert" color="danger">
+        This is a danger alert with some text.
+      </Alert>
+      <Alert className="alert" color="warning">
+        This is a warning alert with some text.
+      </Alert>
+      <Alert className="alert" color="info">
+        This is a info alert with some text.
+      </Alert>
+      <Alert className="alert" color="light">
+        This is a light alert with some text.
+      </Alert>
+      <Alert className="alert" color="dark">
+        This is a dark alert with some text.
+      </Alert>
+    </div>
+  );
+}
+
+const AlertContentStory = () => (
   <Alert className="alert" color="success">
-    This is a success alert with some text.
+    <h4 className="alert-heading">Well done!</h4>
+    <p>
+      Aww yeah, you successfully read this important alert message. This example
+      text is going to run a bit longer so that you can see how spacing within
+      an alert works with this kind of content.
+    </p>
+    <hr />
+    <p className="mb-0">
+      Whenever you need to, be sure to use margin utilities to keep things nice
+      and tidy.
+    </p>
   </Alert>
 );
 
@@ -53,7 +94,8 @@ const AlertDismissStory = () => <AlertWithDismiss />;
 
 export {
   SimpleAlertStory,
-  SuccessAlertStory,
+  ColorsAlertStory,
+  AlertContentStory,
   AlertWithLinkStory,
   AlertDismissStory,
 };
