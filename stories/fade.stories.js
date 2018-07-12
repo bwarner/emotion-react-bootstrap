@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../lib/buttons';
+import { Button } from '../lib/button';
 import Fade from '../lib/fade';
 
 // constructor(props) {
