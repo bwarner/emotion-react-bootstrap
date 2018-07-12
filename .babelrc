@@ -1,7 +1,6 @@
 {
   "presets": [
     "react",
-    "stage-0",
     [
       "env",
       {
@@ -15,9 +14,9 @@
             "not op_mini all"
           ]
         }
-
       }
-    ]
+    ],
+    "stage-0"
   ],
   "env": {
     "test": {
@@ -27,19 +26,22 @@
           {
             "modules": "commonjs"
           }
-        ]
+        ],
+        "stage-0"
       ]
     }
   },
   "plugins": [
     "emotion",
+    "require-context-hook",
     ["transform-runtime", {
       "polyfill": false,
       "regenerator": true
     }],
-    "babel-plugin-transform-function-bind",
+    "transform-function-bind",
+    "transform-class-properties",
     [
-      "babel-plugin-transform-object-rest-spread",
+      "transform-object-rest-spread",
       {
         "useBuiltIns": true
       }

@@ -3,7 +3,9 @@ import Alert from '../lib/alert';
 import AlertLink from '../lib/alert/alert-link';
 
 const SimpleAlertStory = () => (
-  <Alert className="alert">This is a simple alert with some text.</Alert>
+  <Alert className="alert">
+This is a simple alert with some text.
+  </Alert>
 );
 
 const SuccessAlertStory = () => (
@@ -14,8 +16,12 @@ const SuccessAlertStory = () => (
 
 const AlertWithLinkStory = () => (
   <Alert className="alert">
-    This is a primary alert with{' '}
-    <AlertLink href="http://www.healthline.com">an example link</AlertLink>.
+    This is a primary alert with
+    {' '}
+    <AlertLink href="http://www.healthline.com">
+an example link
+    </AlertLink>
+.
     Give it a click if you like.
   </Alert>
 );
