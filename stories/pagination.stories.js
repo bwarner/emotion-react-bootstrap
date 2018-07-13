@@ -10,19 +10,29 @@ const PaginationStory = () => (
         <PaginationLink previous href="#" />
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">1</PaginationLink>
+        <PaginationLink href="#">
+1
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">2</PaginationLink>
+        <PaginationLink href="#">
+2
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">3</PaginationLink>
+        <PaginationLink href="#">
+3
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">4</PaginationLink>
+        <PaginationLink href="#">
+4
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">5</PaginationLink>
+        <PaginationLink href="#">
+5
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
         <PaginationLink next href="#" />
@@ -38,19 +48,29 @@ const PaginationActiveStory = () => (
         <PaginationLink previous href="#" />
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">1</PaginationLink>
+        <PaginationLink href="#">
+1
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">2</PaginationLink>
+        <PaginationLink href="#">
+2
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">3</PaginationLink>
+        <PaginationLink href="#">
+3
+        </PaginationLink>
       </PaginationItem>
-      <PaginationItem active="true">
-        <PaginationLink href="#">4</PaginationLink>
+      <PaginationItem active>
+        <PaginationLink href="#">
+4
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">5</PaginationLink>
+        <PaginationLink href="#">
+5
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
         <PaginationLink next href="#" />
@@ -65,20 +85,30 @@ const PaginationDisabledStory = () => (
       <PaginationItem>
         <PaginationLink previous href="#" />
       </PaginationItem>
-      <PaginationItem disabled="true">
-        <PaginationLink href="#">1</PaginationLink>
+      <PaginationItem disabled>
+        <PaginationLink href="#">
+1
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">2</PaginationLink>
+        <PaginationLink href="#">
+2
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">3</PaginationLink>
+        <PaginationLink href="#">
+3
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">4</PaginationLink>
+        <PaginationLink href="#">
+4
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">5</PaginationLink>
+        <PaginationLink href="#">
+5
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
         <PaginationLink next href="#" />
@@ -93,20 +123,30 @@ const PaginationLargeStory = () => (
       <PaginationItem>
         <PaginationLink previous href="#" />
       </PaginationItem>
-      <PaginationItem disabled="true">
-        <PaginationLink href="#">1</PaginationLink>
+      <PaginationItem diabled>
+        <PaginationLink href="#">
+1
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">2</PaginationLink>
+        <PaginationLink href="#">
+2
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">3</PaginationLink>
+        <PaginationLink href="#">
+3
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">4</PaginationLink>
+        <PaginationLink href="#">
+4
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">5</PaginationLink>
+        <PaginationLink href="#">
+5
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
         <PaginationLink next href="#" />
@@ -121,20 +161,30 @@ const PaginationSmallStory = () => (
       <PaginationItem>
         <PaginationLink previous href="#" />
       </PaginationItem>
-      <PaginationItem disabled="true">
-        <PaginationLink href="#">1</PaginationLink>
+      <PaginationItem diabled>
+        <PaginationLink href="#">
+1
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">2</PaginationLink>
+        <PaginationLink href="#">
+2
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">3</PaginationLink>
+        <PaginationLink href="#">
+3
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">4</PaginationLink>
+        <PaginationLink href="#">
+4
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
-        <PaginationLink href="#">5</PaginationLink>
+        <PaginationLink href="#">
+5
+        </PaginationLink>
       </PaginationItem>
       <PaginationItem>
         <PaginationLink next href="#" />

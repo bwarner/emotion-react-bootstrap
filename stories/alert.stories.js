@@ -21,8 +21,7 @@ const AlertWithLinkStory = () => (
     <AlertLink href="http://www.healthline.com">
 an example link
     </AlertLink>
-.
-    Give it a click if you like.
+    . Give it a click if you like.
   </Alert>
 );
 

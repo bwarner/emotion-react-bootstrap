@@ -17,8 +17,11 @@
     "node_modules"
   ],
   "plugins": [
-    "syntax-class-properties",
-    "transform-class-properties",
-    ["transform-object-rest-spread", { "useBuiltIns": true }]
-  ]
+    "syntax-class-properties"
+  ],
+  "env": {
+    "test": {
+      "plugins": ["require-context-hook"]
+    }
+  }
 }

@@ -1,8 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Alert Alert with link 1`] = `
+exports[`Storyshots Alert Alert with dismiss 1`] = `
 .emotion-0 {
+  float: right;
+  font-size: 1.5rem;
   font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.5;
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  color: #000;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.emotion-0:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+button.emotion-0 {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
 }
 
 .emotion-1 {
@@ -14,14 +39,21 @@ exports[`Storyshots Alert Alert with link 1`] = `
   color: #004085;
   background-color: #cce5ff;
   border-color: #b8daff;
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
 }
 
 .emotion-1 hr {
   border-top-color: #9fcdff;
 }
 
-.emotion-1 .emotion-0 {
+.emotion-1 .css-1y9z1wr {
   color: #002752;
+}
+
+.emotion-1.css-4jsc0t {
+  opacity: 1;
 }
 
 <div>
@@ -39,19 +71,85 @@ exports[`Storyshots Alert Alert with link 1`] = `
     }
   >
     <div
-      className="alert emotion-1"
+      className="alert alert-dismissible emotion-1 false"
+      role="alert"
     >
-      <div>
-        This is a primary alert with
-         
-        <a
-          className="emotion-0"
-          href="http://www.healthline.com"
+      <button
+        aria-label="Close"
+        className="emotion-0"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          aria-hidden="true"
         >
-          an example link
-        </a>
-        . Give it a click if you like.
-      </div>
+          ×
+        </span>
+      </button>
+      This is a primary alert dismissible.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Alert Alert with link 1`] = `
+.emotion-0 {
+  font-weight: 700;
+}
+
+.emotion-1 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+
+.emotion-1 hr {
+  border-top-color: #9fcdff;
+}
+
+.emotion-1 .emotion-0 {
+  color: #002752;
+}
+
+.emotion-1.css-4jsc0t {
+  opacity: 1;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+      }
+    }
+  >
+    <div
+      className="alert emotion-1 false"
+      role="alert"
+    >
+      This is a primary alert with
+       
+      <a
+        className="emotion-0"
+        href="http://www.healthline.com"
+      >
+        an example link
+      </a>
+      . Give it a click if you like.
     </div>
   </div>
 </div>
@@ -67,6 +165,9 @@ exports[`Storyshots Alert Simple Alert 1`] = `
   color: #004085;
   background-color: #cce5ff;
   border-color: #b8daff;
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
 }
 
 .emotion-0 hr {
@@ -75,6 +176,10 @@ exports[`Storyshots Alert Simple Alert 1`] = `
 
 .emotion-0 .css-1y9z1wr {
   color: #002752;
+}
+
+.emotion-0.css-4jsc0t {
+  opacity: 1;
 }
 
 <div>
@@ -92,11 +197,10 @@ exports[`Storyshots Alert Simple Alert 1`] = `
     }
   >
     <div
-      className="alert emotion-0"
+      className="alert emotion-0 false"
+      role="alert"
     >
-      <div>
-        This is a simple alert with some text.
-      </div>
+      This is a simple alert with some text.
     </div>
   </div>
 </div>
@@ -112,6 +216,9 @@ exports[`Storyshots Alert Success Alert 1`] = `
   color: #155724;
   background-color: #d4edda;
   border-color: #c3e6cb;
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
 }
 
 .emotion-0 hr {
@@ -120,6 +227,10 @@ exports[`Storyshots Alert Success Alert 1`] = `
 
 .emotion-0 .css-1y9z1wr {
   color: #0b2e13;
+}
+
+.emotion-0.css-4jsc0t {
+  opacity: 1;
 }
 
 <div>
@@ -137,11 +248,10 @@ exports[`Storyshots Alert Success Alert 1`] = `
     }
   >
     <div
-      className="alert emotion-0"
+      className="alert emotion-0 false"
+      role="alert"
     >
-      <div>
-        This is a success alert with some text.
-      </div>
+      This is a success alert with some text.
     </div>
   </div>
 </div>
@@ -545,7 +655,8 @@ exports[`Storyshots Badge Example 1`] = `
         Badges scale to match the size of the immediate parent element by using relative font sizing and em units.
       </p>
       <h1>
-        Heading 
+        Heading
+         
         <span
           className="emotion-0"
           tag="span"
@@ -554,7 +665,8 @@ exports[`Storyshots Badge Example 1`] = `
         </span>
       </h1>
       <h2>
-        Heading 
+        Heading
+         
         <span
           className="emotion-0"
           tag="span"
@@ -563,7 +675,8 @@ exports[`Storyshots Badge Example 1`] = `
         </span>
       </h2>
       <h3>
-        Heading 
+        Heading
+         
         <span
           className="emotion-0"
           tag="span"
@@ -572,7 +685,8 @@ exports[`Storyshots Badge Example 1`] = `
         </span>
       </h3>
       <h4>
-        Heading 
+        Heading
+         
         <span
           className="emotion-0"
           tag="span"
@@ -581,7 +695,8 @@ exports[`Storyshots Badge Example 1`] = `
         </span>
       </h4>
       <h5>
-        Heading 
+        Heading
+         
         <span
           className="emotion-0"
           tag="span"
@@ -590,7 +705,8 @@ exports[`Storyshots Badge Example 1`] = `
         </span>
       </h5>
       <h6>
-        Heading 
+        Heading
+         
         <span
           className="emotion-0"
           tag="span"
@@ -1137,7 +1253,8 @@ fieldset:disabled a.emotion-1 {
         tag="button"
         type={undefined}
       >
-        Notifications 
+        Notifications
+         
         <span
           className="emotion-0"
           tag="span"
@@ -4800,7 +4917,7 @@ fieldset:disabled a.emotion-6 {
         className="emotion-0"
         onClick={[Function]}
         tag="button"
-        type={undefined}
+        type="button"
       >
         primary
       </button>
@@ -5157,7 +5274,6 @@ fieldset:disabled a.emotion-1 {
       </p>
       <button
         className="disabled emotion-0"
-        disabled={true}
         onClick={[Function]}
         tag="button"
         type={undefined}
@@ -5167,7 +5283,6 @@ fieldset:disabled a.emotion-1 {
        
       <button
         className="disabled emotion-1"
-        disabled={true}
         onClick={[Function]}
         tag="button"
         type={undefined}
@@ -7237,6 +7352,173 @@ fieldset:disabled a.emotion-0 {
 </div>
 `;
 
+exports[`Storyshots Fade Simple 1`] = `
+.emotion-1 {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+
+.emotion-1.css-4jsc0t {
+  opacity: 1;
+}
+
+.emotion-0 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0:focus,
+.emotion-0.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-0.disabled,
+.emotion-0:disabled {
+  opacity: 0.65;
+}
+
+.emotion-0:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active,
+.emotion-0:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-0.disabled,
+fieldset:disabled a.emotion-0 {
+  pointer-events: none;
+}
+
+.emotion-0 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-0:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.emotion-0:focus,
+.emotion-0.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5);
+}
+
+.emotion-0.disabled,
+.emotion-0:disabled {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active,
+.emotion-0:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active:focus,
+.emotion-0:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5);
+}
+
+.emotion-0.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-0.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+      }
+    }
+  >
+    <div>
+      <button
+        className="emotion-0"
+        onClick={[Function]}
+        tag="button"
+        type="button"
+      >
+        Toggle Fade
+      </button>
+      <div
+        className="mt3 emotion-1 false"
+      >
+        This content will fade in and out as the button is pressed
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Form Layout Components 1`] = `
 .emotion-0 {
   position: relative;
@@ -8030,6 +8312,1032 @@ fieldset:disabled a.emotion-2 {
           </form>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Pagination Pagination 1`] = `
+.emotion-0 {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.emotion-0:hover {
+  color: #0056b3;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.emotion-0:focus {
+  z-index: 2;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-0:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-1:first-child .emotion-0 {
+  margin-left: 0;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-1:last-child .emotion-0 {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.emotion-1.css-1vdl47n .emotion-0 {
+  z-index: 1;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.emotion-1.disabled .emotion-0 {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+      }
+    }
+  >
+    <div>
+      <nav
+        aria-label="Page navigation example"
+        className=""
+      >
+        <ul
+          className="emotion-14"
+        >
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label="Previous"
+              className="emotion-0"
+              href="#"
+            >
+              <span
+                aria-hidden="true"
+              >
+                «
+              </span>
+              <span
+                className="sr-only"
+              >
+                Previous
+              </span>
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              1
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              2
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              3
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              4
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              5
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label="Next"
+              className="emotion-0"
+              href="#"
+            >
+              <span
+                aria-hidden="true"
+              >
+                »
+              </span>
+              <span
+                className="sr-only"
+              >
+                Next
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Pagination Pagination Active 1`] = `
+.emotion-10.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-10.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-10.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-10.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+.emotion-0 {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.emotion-0:hover {
+  color: #0056b3;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.emotion-0:focus {
+  z-index: 2;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-0:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-1:first-child .emotion-0 {
+  margin-left: 0;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-1:last-child .emotion-0 {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.emotion-1.emotion-10 .emotion-0 {
+  z-index: 1;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.emotion-1.disabled .emotion-0 {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+.emotion-15 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+      }
+    }
+  >
+    <div>
+      <nav
+        aria-label="Page navigation example"
+        className=""
+      >
+        <ul
+          className="emotion-15"
+        >
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label="Previous"
+              className="emotion-0"
+              href="#"
+            >
+              <span
+                aria-hidden="true"
+              >
+                «
+              </span>
+              <span
+                className="sr-only"
+              >
+                Previous
+              </span>
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              1
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              2
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              3
+            </a>
+          </li>
+          <li
+            className="emotion-1 emotion-10 "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              4
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              5
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label="Next"
+              className="emotion-0"
+              href="#"
+            >
+              <span
+                aria-hidden="true"
+              >
+                »
+              </span>
+              <span
+                className="sr-only"
+              >
+                Next
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Pagination Pagination Disabled 1`] = `
+.emotion-0 {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.emotion-0:hover {
+  color: #0056b3;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.emotion-0:focus {
+  z-index: 2;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-0:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-1:first-child .emotion-0 {
+  margin-left: 0;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-1:last-child .emotion-0 {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.emotion-1.css-1vdl47n .emotion-0 {
+  z-index: 1;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.emotion-1.disabled .emotion-0 {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+      }
+    }
+  >
+    <div>
+      <nav
+        aria-label="Page navigation example"
+        className=""
+      >
+        <ul
+          className="emotion-14"
+        >
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label="Previous"
+              className="emotion-0"
+              href="#"
+            >
+              <span
+                aria-hidden="true"
+              >
+                «
+              </span>
+              <span
+                className="sr-only"
+              >
+                Previous
+              </span>
+            </a>
+          </li>
+          <li
+            className="emotion-1  disabled"
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              1
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              2
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              3
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              4
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              5
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label="Next"
+              className="emotion-0"
+              href="#"
+            >
+              <span
+                aria-hidden="true"
+              >
+                »
+              </span>
+              <span
+                className="sr-only"
+              >
+                Next
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Pagination Pagination Large 1`] = `
+.emotion-0 {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.emotion-0:hover {
+  color: #0056b3;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.emotion-0:focus {
+  z-index: 2;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-0:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-1:first-child .emotion-0 {
+  margin-left: 0;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-1:last-child .emotion-0 {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.emotion-1.css-1vdl47n .emotion-0 {
+  z-index: 1;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.emotion-1.disabled .emotion-0 {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+}
+
+.emotion-14 .emotion-0 {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.emotion-14 .emotion-1:first-child .emotion-0 {
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+
+.emotion-14 .emotion-1:last-child .emotion-0 {
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+      }
+    }
+  >
+    <div>
+      <nav
+        aria-label="Page navigation example"
+        className=""
+      >
+        <ul
+          className="emotion-14"
+        >
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label="Previous"
+              className="emotion-0"
+              href="#"
+            >
+              <span
+                aria-hidden="true"
+              >
+                «
+              </span>
+              <span
+                className="sr-only"
+              >
+                Previous
+              </span>
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+            diabled={true}
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              1
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              2
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              3
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              4
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              5
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label="Next"
+              className="emotion-0"
+              href="#"
+            >
+              <span
+                aria-hidden="true"
+              >
+                »
+              </span>
+              <span
+                className="sr-only"
+              >
+                Next
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Pagination Pagination Small 1`] = `
+.emotion-0 {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.emotion-0:hover {
+  color: #0056b3;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.emotion-0:focus {
+  z-index: 2;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-0:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-1:first-child .emotion-0 {
+  margin-left: 0;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-1:last-child .emotion-0 {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.emotion-1.css-1vdl47n .emotion-0 {
+  z-index: 1;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.emotion-1.disabled .emotion-0 {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+}
+
+.emotion-14 .emotion-0 {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.emotion-14 .emotion-1:first-child .emotion-0 {
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+}
+
+.emotion-14 .emotion-1:last-child .emotion-0 {
+  border-top-right-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+      }
+    }
+  >
+    <div>
+      <nav
+        aria-label="Page navigation example"
+        className=""
+      >
+        <ul
+          className="emotion-14"
+        >
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label="Previous"
+              className="emotion-0"
+              href="#"
+            >
+              <span
+                aria-hidden="true"
+              >
+                «
+              </span>
+              <span
+                className="sr-only"
+              >
+                Previous
+              </span>
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+            diabled={true}
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              1
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              2
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              3
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              4
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label={undefined}
+              className="emotion-0"
+              href="#"
+            >
+              5
+            </a>
+          </li>
+          <li
+            className="emotion-1  "
+          >
+            <a
+              aria-label="Next"
+              className="emotion-0"
+              href="#"
+            >
+              <span
+                aria-hidden="true"
+              >
+                »
+              </span>
+              <span
+                className="sr-only"
+              >
+                Next
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </div>
 </div>

@@ -1,15 +1,17 @@
 import React from 'react';
+import { actions } from '@storybook/addon-actions';
 import { Button } from '../lib/button';
 import Description from './description';
 
+const events = actions({ onClick: 'button onClick' });
 function Example1() {
   return (
     <Description
       title="Buttons"
       summary="Therea are several predefined button styles, each serving its own semantic purpose, with a few extras thrown in for more control."
     >
-      <Button color="primary">
-primary
+      <Button color="primary" {...events}>
+        primary
       </Button>
       {' '}
       <Button color="secondary">

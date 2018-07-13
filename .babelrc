@@ -33,18 +33,9 @@
   },
   "plugins": [
     "emotion",
-    "require-context-hook",
     ["transform-runtime", {
       "polyfill": false,
       "regenerator": true
-    }],
-    "transform-function-bind",
-    "transform-class-properties",
-    [
-      "transform-object-rest-spread",
-      {
-        "useBuiltIns": true
-      }
-    ]
+    }]
   ]
 }
