@@ -28,7 +28,7 @@ import {
 import { AlertFadelessStory } from './alert.fadeless.stories';
 import { BreadcrumbStory } from './breadcrumb.stories';
 import BreadcrumbReadme from '../lib/breadcrumb/README.md';
-import { TableSimpleStory } from './table.stories';
+import TableSimpleStory from './table.stories';
 import TableReadme from '../lib/table/README.md';
 import {
   PaginationStory,
@@ -68,6 +68,7 @@ buttonStories.forEach((entry) => {
 }, storiesOf('Buttons', module).addDecorator(withReadme(ButtonReadme)));
 
 storiesOf('Fade', module).add('Simple', FadeStory);
+
 buttonGroupStories.forEach((entry) => {
   this.add(entry.name, entry.story);
 }, storiesOf('Button Group', module).addDecorator(withReadme(ButtonGroupReadme)));
@@ -82,7 +83,7 @@ storiesOf('Table', module)
 
 storiesOf('Pagination', module)
   .addDecorator(withReadme(PaginationReadme))
-  .add('Pagination', PaginationStory)
+  .add('Pagination Simple', PaginationStory)
   .add('Pagination Active', PaginationActiveStory)
   .add('Pagination Disabled', PaginationDisabledStory)
   .add('Pagination Large', PaginationLargeStory)
