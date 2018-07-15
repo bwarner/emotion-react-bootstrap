@@ -50,6 +50,6 @@ module.exports = [
     } else {
       mods.devtool = 'source-map';
     }
-    return { ...config, ...mods };
+    return Object.assign({}, config, mods);
   },
 ];
