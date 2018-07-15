@@ -24,6 +24,6 @@ done
 
 if [ "$skipTests" = "" ]; then
   echo Running tests
-  yarn run lint
-  yarn run jest
+  npm run lint
+  npm run jest
 fi
