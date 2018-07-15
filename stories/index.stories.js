@@ -1,6 +1,7 @@
 import { storiesOf } from '@storybook/react';
 import { withReadme } from 'storybook-readme';
 import form from './form.stories';
+import FormReadme from '../lib/form/README.md';
 import layout from './layout.stories';
 import BadgeReadme from '../lib/badge/README.md';
 import {
@@ -37,8 +38,10 @@ import {
 import PaginationReadme from '../lib/pagination/README.md';
 
 storiesOf('Form', module)
+  .addDecorator(withReadme(FormReadme))
   .add('Simple Form', form)
   .add('Layout Components', layout);
+
 storiesOf('Alert', module)
   .add('Simple Alert', SimpleAlertStory)
   .add('Alert Colors', ColorsAlertStory)
@@ -55,8 +58,8 @@ storiesOf('Badge', module)
   .add('Pills', Example4)
   .add('Links', Example5);
 storiesOf('Breadcrumb', module)
-  .add('Breadcrumb', BreadcrumbStory)
-  .addDecorator(withReadme(BreadcrumbReadme));
+  .addDecorator(withReadme(BreadcrumbReadme))
+  .add('Breadcrumb', BreadcrumbStory);
 
 buttonStories.forEach(function (entry) {
   this.add(entry.name, entry.story);
@@ -72,9 +75,9 @@ dropdownStories.forEach(function (entry) {
 }, storiesOf('Dropdowns', module).addDecorator(withReadme(DropdownReadme)));
 
 storiesOf('Pagination', module)
+  .addDecorator(withReadme(PaginationReadme))
   .add('Pagination', PaginationStory)
   .add('Pagination Active', PaginationActiveStory)
   .add('Pagination Disabled', PaginationDisabledStory)
   .add('Pagination Large', PaginationLargeStory)
-  .add('Pagination Small', PaginationSmallStory)
-  .addDecorator(withReadme(PaginationReadme));
+  .add('Pagination Small', PaginationSmallStory);
