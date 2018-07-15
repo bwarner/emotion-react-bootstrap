@@ -58,18 +58,18 @@ storiesOf('Breadcrumb', module)
   .add('Breadcrumb', BreadcrumbStory)
   .addDecorator(withReadme(BreadcrumbReadme));
 
-buttonStories.forEach(function (entry) {
+buttonStories.forEach((entry) => {
   this.add(entry.name, entry.story);
 }, storiesOf('Buttons', module).addDecorator(withReadme(ButtonReadme)));
 
 storiesOf('Fade', module).add('Simple', FadeStory);
-buttonGroupStories.forEach(function (entry) {
+buttonGroupStories.forEach((entry) => {
   this.add(entry.name, entry.story);
 }, storiesOf('Button Group', module).addDecorator(
   withReadme(ButtonGroupReadme),
 ));
 
-dropdownStories.forEach(function (entry) {
+dropdownStories.forEach((entry) => {
   this.add(entry.name, entry.story);
 }, storiesOf('Dropdowns', module).addDecorator(withReadme(DropdownReadme)));
 
