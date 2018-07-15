@@ -16,22 +16,38 @@ import ButtonReadme from '../lib/button/README.md';
 import ButtonGroupReadme from '../lib/button-group/README.md';
 import DropdownReadme from '../lib/dropdown/README.md';
 import dropdownStories from './dropdown.stories';
+import { FadeStory } from './fade.stories';
 import {
   SimpleAlertStory,
-  SuccessAlertStory,
+  ColorsAlertStory,
+  AlertContentStory,
   AlertWithLinkStory,
+  AlertDismissStory,
 } from './alert.stories';
+import { AlertFadelessStory } from './alert.fadeless.stories';
 import { BreadcrumbStory } from './breadcrumb.stories';
 import BreadcrumbReadme from '../lib/breadcrumb/README.md';
 import { TableSimpleStory } from './table.stories';
+import {
+  PaginationStory,
+  PaginationActiveStory,
+  PaginationDisabledStory,
+  PaginationLargeStory,
+  PaginationSmallStory,
+} from './pagination.stories';
+import PaginationReadme from '../lib/pagination/README.md';
 
 storiesOf('Form', module)
   .add('Simple Form', form)
   .add('Layout Components', layout);
 storiesOf('Alert', module)
   .add('Simple Alert', SimpleAlertStory)
-  .add('Success Alert', SuccessAlertStory)
-  .add('Alert with link', AlertWithLinkStory);
+  .add('Alert Colors', ColorsAlertStory)
+  .add('Alert with content', AlertContentStory)
+  .add('Alert with link', AlertWithLinkStory)
+  .add('Alert with dismiss', AlertDismissStory)
+  .add('Alert with dismiss no fade', AlertFadelessStory);
+
 storiesOf('Badge', module)
   .addDecorator(withReadme(BadgeReadme))
   .add('Example', Example1)
@@ -47,6 +63,7 @@ buttonStories.forEach(function (entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Buttons', module).addDecorator(withReadme(ButtonReadme)));
 
+storiesOf('Fade', module).add('Simple', FadeStory);
 buttonGroupStories.forEach(function (entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Button Group', module).addDecorator(withReadme(ButtonGroupReadme)));
@@ -56,3 +73,10 @@ dropdownStories.forEach(function (entry) {
 }, storiesOf('Dropdowns', module).addDecorator(withReadme(DropdownReadme)));
 
 storiesOf('Table', module).add('Simple', TableSimpleStory);
+storiesOf('Pagination', module)
+  .add('Pagination', PaginationStory)
+  .add('Pagination Active', PaginationActiveStory)
+  .add('Pagination Disabled', PaginationDisabledStory)
+  .add('Pagination Large', PaginationLargeStory)
+  .add('Pagination Small', PaginationSmallStory)
+  .addDecorator(withReadme(PaginationReadme));
