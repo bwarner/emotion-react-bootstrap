@@ -58,8 +58,8 @@ storiesOf('Badge', module)
   .add('Pills', Example4)
   .add('Links', Example5);
 storiesOf('Breadcrumb', module)
-  .add('Breadcrumb', BreadcrumbStory)
-  .addDecorator(withReadme(BreadcrumbReadme));
+  .addDecorator(withReadme(BreadcrumbReadme))
+  .add('Breadcrumb', BreadcrumbStory);
 
 buttonStories.forEach(function (entry) {
   this.add(entry.name, entry.story);
