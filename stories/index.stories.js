@@ -65,9 +65,7 @@ buttonStories.forEach((entry) => {
 storiesOf('Fade', module).add('Simple', FadeStory);
 buttonGroupStories.forEach((entry) => {
   this.add(entry.name, entry.story);
-}, storiesOf('Button Group', module).addDecorator(
-  withReadme(ButtonGroupReadme),
-));
+}, storiesOf('Button Group', module).addDecorator(withReadme(ButtonGroupReadme)));
 
 dropdownStories.forEach((entry) => {
   this.add(entry.name, entry.story);

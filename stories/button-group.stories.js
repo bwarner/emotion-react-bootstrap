@@ -130,20 +130,23 @@ class Example extends Component {
   }
 
   toggle = () => {
-    this.setState({ dropdownOpen: !this.state.dropdownOpen });
+    const { dropdownOpen } = this.state;
+    this.setState({ dropdownOpen: !dropdownOpen });
   };
 
   render() {
+    const { vertical } = this.props;
+    const { dropdownOpen } = this.state;
     return (
       <Description title="Nesting" summary="Active Buttons">
-        <ButtonGroup vertical={this.props.vertical}>
+        <ButtonGroup vertical={vertical}>
           <Button>
 1
           </Button>
           <Button>
 2
           </Button>
-          <ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+          <ButtonDropdown isOpen={dropdownOpen} toggle={this.toggle}>
             <DropdownToggle caret>
 Dropdown
             </DropdownToggle>

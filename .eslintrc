@@ -81,7 +81,9 @@
       "components": [ "Link" ],
       "specialLink": [ "hrefLeft", "hrefRight" ],
       "aspects": [ "noHref", "invalidHref", "preferButton" ]
-    }]
+    }],
+    "jsx-a11y/label-has-for": "off",
+    "jsx-a11y/label-has-associated-control": "on",
   },
   "overrides": [
     {
