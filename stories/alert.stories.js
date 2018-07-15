@@ -3,7 +3,9 @@ import Alert from '../lib/alert';
 import AlertLink from '../lib/alert/alert-link';
 
 const SimpleAlertStory = () => (
-  <Alert className="alert">This is a simple alert with some text.</Alert>
+  <Alert className="alert">
+This is a simple alert with some text.
+  </Alert>
 );
 
 function ColorsAlertStory() {
@@ -39,7 +41,9 @@ function ColorsAlertStory() {
 
 const AlertContentStory = () => (
   <Alert className="alert" color="success">
-    <h4 className="alert-heading">Well done!</h4>
+    <h4 className="alert-heading">
+Well done!
+    </h4>
     <p>
       Aww yeah, you successfully read this important alert message. This example
       text is going to run a bit longer so that you can see how spacing within
@@ -55,9 +59,12 @@ const AlertContentStory = () => (
 
 const AlertWithLinkStory = () => (
   <Alert className="alert">
-    This is a primary alert with{' '}
-    <AlertLink href="http://www.healthline.com">an example link</AlertLink>.
-    Give it a click if you like.
+    This is a primary alert with
+    {' '}
+    <AlertLink href="http://www.healthline.com">
+an example link
+    </AlertLink>
+    . Give it a click if you like.
   </Alert>
 );
 
