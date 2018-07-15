@@ -20,12 +20,13 @@ export class Example1 extends React.Component {
   };
 
   render() {
+    const { dropdownOpen } = this.state;
     return (
       <Description
         title="Dropdowns"
         summary="The Dropdown component is used to pass the isOpen & toggle props via context to the following components: DropdownToggle, DropdownMenu. The DropdownToggle uses the Button component internally, meaning it also accepts all the props the Button component accepts."
       >
-        <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+        <Dropdown isOpen={dropdownOpen} toggle={this.toggle}>
           <DropdownToggle caret>
 Dropdown
           </DropdownToggle>

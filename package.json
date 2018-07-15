@@ -19,7 +19,9 @@
     "build-storybook": "build-storybook",
     "build": "webpack",
     "dev": "webpack --watch",
-    "prepublish": "npm run build"
+    "prepare": "npm run build",
+    "precommit": "./hooks/pre-commit.sh",
+    "prepush": "./hooks/pre-push.sh"
   },
   "keywords": [
     "react",
@@ -65,7 +67,7 @@
     "config-loader": "0.0.1",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
-    "eslint": "^5.1.0",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.1.0",
