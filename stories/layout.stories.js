@@ -4,22 +4,42 @@ import { Container, Row, Col } from '../lib';
 const LayoutStory = () => (
   <Container>
     <Row>
-      <Col>.col</Col>
+      <Col>
+.col
+      </Col>
     </Row>
     <Row>
-      <Col>.col</Col>
-      <Col>.col</Col>
-      <Col>.col</Col>
-      <Col>.col</Col>
+      <Col>
+.col
+      </Col>
+      <Col>
+.col
+      </Col>
+      <Col>
+.col
+      </Col>
+      <Col>
+.col
+      </Col>
     </Row>
     <Row>
-      <Col xs="3">.col-3</Col>
-      <Col xs="auto">.col-auto - variable width content</Col>
-      <Col xs="3">.col-3</Col>
+      <Col xs="3">
+.col-3
+      </Col>
+      <Col xs="auto">
+.col-auto - variable width content
+      </Col>
+      <Col xs="3">
+.col-3
+      </Col>
     </Row>
     <Row>
-      <Col xs="6">.col-6</Col>
-      <Col xs="6">.col-6</Col>
+      <Col xs="6">
+.col-6
+      </Col>
+      <Col xs="6">
+.col-6
+      </Col>
     </Row>
     <Row>
       <Col xs="6" sm="4">
@@ -28,7 +48,9 @@ const LayoutStory = () => (
       <Col xs="6" sm="4">
         .col-6 .col-sm-4
       </Col>
-      <Col sm="4">.col-sm-4</Col>
+      <Col sm="4">
+.col-sm-4
+      </Col>
     </Row>
     <Row>
       <Col sm={{ size: 6, order: 2, offset: 1 }}>
@@ -41,8 +63,12 @@ const LayoutStory = () => (
       </Col>
     </Row>
     <Row>
-      <Col sm={{ size: 'auto', offset: 1 }}>.col-sm .col-sm-offset-1</Col>
-      <Col sm={{ size: 'auto', offset: 1 }}>.col-sm .col-sm-offset-1</Col>
+      <Col sm={{ size: 'auto', offset: 1 }}>
+.col-sm .col-sm-offset-1
+      </Col>
+      <Col sm={{ size: 'auto', offset: 1 }}>
+.col-sm .col-sm-offset-1
+      </Col>
     </Row>
   </Container>
 );
