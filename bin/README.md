@@ -11,7 +11,7 @@ Runs lint and unit tests
 ## Installation
 From project root directory:
 ```
-ln -s -v ../../bin/pre-push.sh .git/hooks/pre-push.sh
-ln -s -v ../../bin/pre-commit.sh .git/hooks/pre-commit.sh
+ln -s -v ../../bin/pre-push.sh .git/hooks/pre-push
+ln -s -v ../../bin/pre-commit.sh .git/hooks/pre-commit
 ```
  
