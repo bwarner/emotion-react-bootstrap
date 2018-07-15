@@ -39,7 +39,7 @@ module.exports = [
     } else {
       mods.devtool = 'source-map';
     }
-    return { ...config2, ...mods };
+    return Object.assign({}, config2, mods);
   },
   (env, argv) => {
     const mods = {
