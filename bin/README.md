@@ -11,6 +11,7 @@ Runs lint and unit tests
 ## Installation
 From project root directory:
 ```
- find hooks  -type f -exec ln -s -v  ../../{} .git/{}  \;
+ln -s -v ../../bin/pre-push.sh .git/hooks/pre-push.sh
+ln -s -v ../../bin/pre-commit.sh .git/hooks/pre-commit.sh
 ```
  

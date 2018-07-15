@@ -1,4 +1,7 @@
-#!/bin/sh
+#! /bin/sh
+
+echo Pre commit $@
+
 jsfiles=$(git diff --cached --name-only --diff-filter=ACM | grep '\.jsx\?$' | tr '\n' ' ')
 [ -z "$jsfiles" ] && exit 0
 
