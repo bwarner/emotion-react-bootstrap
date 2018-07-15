@@ -9,22 +9,46 @@ function Example1() {
       summary="Badges scale to match the size of the immediate parent element by using relative font sizing and em units."
     >
       <h1>
-        Heading <Badge color="secondary">New</Badge>
+        Heading
+        {' '}
+        <Badge color="secondary">
+New
+        </Badge>
       </h1>
       <h2>
-        Heading <Badge color="secondary">New</Badge>
+        Heading
+        {' '}
+        <Badge color="secondary">
+New
+        </Badge>
       </h2>
       <h3>
-        Heading <Badge color="secondary">New</Badge>
+        Heading
+        {' '}
+        <Badge color="secondary">
+New
+        </Badge>
       </h3>
       <h4>
-        Heading <Badge color="secondary">New</Badge>
+        Heading
+        {' '}
+        <Badge color="secondary">
+New
+        </Badge>
       </h4>
       <h5>
-        Heading <Badge color="secondary">New</Badge>
+        Heading
+        {' '}
+        <Badge color="secondary">
+New
+        </Badge>
       </h5>
       <h6>
-        Heading <Badge color="secondary">New</Badge>
+        Heading
+        {' '}
+        <Badge color="secondary">
+New
+        </Badge>
       </h6>
     </Description>
   );
@@ -37,7 +61,11 @@ function Example2() {
       summary="Badges can be used as part of links or buttons to provide a counter."
     >
       <Button color="primary" outline>
-        Notifications <Badge color="secondary">4</Badge>
+        Notifications
+        {' '}
+        <Badge color="secondary">
+4
+        </Badge>
       </Button>
     </Description>
   );
@@ -49,14 +77,30 @@ function Example3() {
       title="Contextual variations"
       summary="Add any of the below mentioned modifier classes to change the appearance of a badge"
     >
-      <Badge color="primary">Primary</Badge>
-      <Badge color="secondary">Secondary</Badge>
-      <Badge color="success">Success</Badge>
-      <Badge color="danger">Danger</Badge>
-      <Badge color="warning">Warning</Badge>
-      <Badge color="info">Info</Badge>
-      <Badge color="light">Light</Badge>
-      <Badge color="dark">Dark</Badge>
+      <Badge color="primary">
+Primary
+      </Badge>
+      <Badge color="secondary">
+Secondary
+      </Badge>
+      <Badge color="success">
+Success
+      </Badge>
+      <Badge color="danger">
+Danger
+      </Badge>
+      <Badge color="warning">
+Warning
+      </Badge>
+      <Badge color="info">
+Info
+      </Badge>
+      <Badge color="light">
+Light
+      </Badge>
+      <Badge color="dark">
+Dark
+      </Badge>
     </Description>
   );
 }
@@ -129,4 +173,6 @@ function Example5() {
   );
 }
 
-export { Example1, Example2, Example3, Example4, Example5 };
+export {
+  Example1, Example2, Example3, Example4, Example5,
+};

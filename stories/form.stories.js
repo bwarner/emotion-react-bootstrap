@@ -18,7 +18,8 @@ export default function story() {
             <FormGroup action="/foo.action" noValidate>
               <div>
                 <label htmlFor="number">
-                  Number<Input id="number" name="number" type="type" />
+                  Number
+                  <Input id="number" name="number" type="type" />
                 </label>
               </div>
             </FormGroup>

@@ -4,6 +4,7 @@
     [
       "env",
       {
+        "debug": true,
         "modules": false,
         "targets": {
           // The % refers to the global coverage of users from browserslist
@@ -14,18 +15,27 @@
           ]
         }
       }
-    ]
+    ],
+    "stage-0"
   ],
-  "ignore": [
-    "node_modules"
-  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "env",
+          {
+            "modules": "commonjs"
+          }
+        ],
+        "stage-0"
+      ]
+    }
+  },
   "plugins": [
-    "transform-class-properties",
-    [
-      "transform-object-rest-spread",
-      {
-        "useBuiltIns": true
-      }
-    ]
+    "emotion",
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }]
   ]
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function decorator(story) {
-
   return (
     <div>
       <div

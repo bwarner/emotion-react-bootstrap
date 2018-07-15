@@ -10,13 +10,18 @@
           "browsers": [ ">5%", "not ie 11", "not op_mini all"]
         }
       }
-    ]
+    ],
+    "stage-0"
   ],
   "ignore": [
     "node_modules"
   ],
   "plugins": [
-    "transform-class-properties",
-    ["transform-object-rest-spread", { "useBuiltIns": true }]
-  ]
+    "syntax-class-properties"
+  ],
+  "env": {
+    "test": {
+      "plugins": ["require-context-hook"]
+    }
+  }
 }
