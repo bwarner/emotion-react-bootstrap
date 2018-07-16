@@ -67,7 +67,7 @@ storiesOf('Breadcrumb', module)
 
 storiesOf('Table', module)
   .addDecorator(withReadme(TableReadme))
-  .add('Simple', TableSimpleStory);
+  .add('Table/Simple', TableSimpleStory);
 
 buttonStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
