@@ -61,7 +61,7 @@ const AlertWithLinkStory = () => (
   <Alert className="alert">
     This is a primary alert with
     {' '}
-    <AlertLink href="http://www.healthline.com">
+    <AlertLink href="http://www.github.com">
 an example link
     </AlertLink>
     . Give it a click if you like.
