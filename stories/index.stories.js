@@ -71,7 +71,7 @@ buttonGroupStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Button Group', module).addDecorator(withReadme(ButtonGroupReadme)));
 
-dropdownStories.forEach(function cb(entry)  {
+dropdownStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Dropdowns', module).addDecorator(withReadme(DropdownReadme)));
 
