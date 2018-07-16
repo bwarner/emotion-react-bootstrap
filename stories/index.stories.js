@@ -67,13 +67,12 @@ storiesOf('Breadcrumb', module)
 
 storiesOf('Table', module)
   .addDecorator(withReadme(TableReadme))
-  .add('Table/Simple', TableSimpleStory);
+  .add('Simple', TableSimpleStory);
 
 buttonStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Buttons', module).addDecorator(withReadme(ButtonReadme)));
 
-storiesOf('Fade', module).add('Simple', FadeStory);
 buttonGroupStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Button Group', module).addDecorator(
