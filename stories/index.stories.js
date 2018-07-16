@@ -11,12 +11,12 @@ import {
   Example4,
   Example5,
 } from './badge.stories';
-// import buttonStories from './button.stories';
-// import buttonGroupStories from './button-group.stories';
-// import ButtonReadme from '../lib/button/README.md';
-// import ButtonGroupReadme from '../lib/button-group/README.md';
-// import DropdownReadme from '../lib/dropdown/README.md';
-// import dropdownStories from './dropdown.stories';
+import buttonStories from './button.stories';
+import buttonGroupStories from './button-group.stories';
+import ButtonReadme from '../lib/button/README.md';
+import ButtonGroupReadme from '../lib/button-group/README.md';
+import DropdownReadme from '../lib/dropdown/README.md';
+import dropdownStories from './dropdown.stories';
 import { FadeStory } from './fade.stories';
 import {
   SimpleAlertStory,
@@ -76,9 +76,11 @@ buttonStories.forEach(function cb(entry) {
 storiesOf('Fade', module).add('Simple', FadeStory);
 buttonGroupStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Button Group', module).addDecorator(withReadme(ButtonGroupReadme)));
+}, storiesOf('Button Group', module).addDecorator(
+  withReadme(ButtonGroupReadme),
+));
 
-dropdownStories.forEach(function cb(entry)  {
+dropdownStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Dropdowns', module).addDecorator(withReadme(DropdownReadme)));
 

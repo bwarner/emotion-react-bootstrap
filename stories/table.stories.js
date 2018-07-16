@@ -7,60 +7,60 @@ function TableSimpleStory() {
       <thead>
         <tr>
           <th>
-            #
+#
           </th>
           <th>
-            First Name
+First Name
           </th>
           <th>
-            Last Name
+Last Name
           </th>
           <th>
-            Username
+Username
           </th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <th scope="row">
-            1
+1
           </th>
           <td>
-            Mark
+Mark
           </td>
           <td>
-            Otto
+Otto
           </td>
           <td>
-            @mdo
+@mdo
           </td>
         </tr>
         <tr>
           <th scope="row">
-           2
+2
           </th>
           <td>
-            Jacob
+Jacob
           </td>
           <td>
-            Thornton
+Thornton
           </td>
           <td>
-            @fat
+@fat
           </td>
         </tr>
         <tr>
           <th scope="row">
-            3
+3
           </th>
           <td>
-            Larry
+Larry
           </td>
           <td>
-            the Bird
+the Bird
           </td>
           <td>
-            @twitter
+@twitter
           </td>
         </tr>
       </tbody>

@@ -6,32 +6,32 @@ const BreadcrumbStory = () => (
   <div>
     <Breadcrumb>
       <BreadcrumbItem active>
-        Home
+Home
       </BreadcrumbItem>
     </Breadcrumb>
     <Breadcrumb>
       <BreadcrumbItem>
         <a href="https://www.github.com">
-          Home
+Home
         </a>
       </BreadcrumbItem>
       <BreadcrumbItem active>
-        Library
+Library
       </BreadcrumbItem>
     </Breadcrumb>
     <Breadcrumb>
       <BreadcrumbItem>
         <a href="https://www.github.com">
-          Home
+Home
         </a>
       </BreadcrumbItem>
       <BreadcrumbItem>
         <a href="https://www.github.com">
-          Library
+Library
         </a>
       </BreadcrumbItem>
       <BreadcrumbItem active>
-        Data
+Data
       </BreadcrumbItem>
     </Breadcrumb>
   </div>
