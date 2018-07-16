@@ -11,12 +11,12 @@ import {
   Example4,
   Example5,
 } from './badge.stories';
-import buttonStories from './button.stories';
-import buttonGroupStories from './button-group.stories';
-import ButtonReadme from '../lib/button/README.md';
-import ButtonGroupReadme from '../lib/button-group/README.md';
-import DropdownReadme from '../lib/dropdown/README.md';
-import dropdownStories from './dropdown.stories';
+// import buttonStories from './button.stories';
+// import buttonGroupStories from './button-group.stories';
+// import ButtonReadme from '../lib/button/README.md';
+// import ButtonGroupReadme from '../lib/button-group/README.md';
+// import DropdownReadme from '../lib/dropdown/README.md';
+// import dropdownStories from './dropdown.stories';
 import { FadeStory } from './fade.stories';
 import {
   SimpleAlertStory,
@@ -44,6 +44,8 @@ storiesOf('Form', module)
   .add('Simple Form', form)
   .add('Layout Components', layout);
 
+storiesOf('Fade', module).add('Simple', FadeStory);
+
 storiesOf('Alert', module)
   .add('Simple Alert', SimpleAlertStory)
   .add('Alert Colors', ColorsAlertStory)
@@ -63,19 +65,17 @@ storiesOf('Breadcrumb', module)
   .addDecorator(withReadme(BreadcrumbReadme))
   .add('Breadcrumb', BreadcrumbStory);
 
-buttonStories.forEach((entry) => {
-  this.add(entry.name, entry.story);
-}, storiesOf('Buttons', module).addDecorator(withReadme(ButtonReadme)));
-
-storiesOf('Fade', module).add('Simple', FadeStory);
-
-buttonGroupStories.forEach((entry) => {
-  this.add(entry.name, entry.story);
-}, storiesOf('Button Group', module).addDecorator(withReadme(ButtonGroupReadme)));
-
-dropdownStories.forEach((entry) => {
-  this.add(entry.name, entry.story);
-}, storiesOf('Dropdowns', module).addDecorator(withReadme(DropdownReadme)));
+// buttonStories.forEach((entry) => {
+//   this.add(entry.name, entry.story);
+// }, storiesOf('Buttons', module).addDecorator(withReadme(ButtonReadme)));
+//
+// buttonGroupStories.forEach((entry) => {
+//   this.add(entry.name, entry.story);
+// }, storiesOf('Button Group', module).addDecorator(withReadme(ButtonGroupReadme)));
+//
+// dropdownStories.forEach((entry) => {
+//   this.add(entry.name, entry.story);
+// }, storiesOf('Dropdowns', module).addDecorator(withReadme(DropdownReadme)));
 
 storiesOf('Table', module)
   .addDecorator(withReadme(TableReadme))
