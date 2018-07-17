@@ -7,4 +7,6 @@ module.exports = {
   testPathIgnorePatterns: ['/node_modules/'],
   setupTestFrameworkScriptFile: './scripts/jest.init.js',
   moduleFileExtensions: ['js', 'jsx', 'json'],
+  coverageDirectory: './coverage/',
+  collectCoverage: true,
 };
