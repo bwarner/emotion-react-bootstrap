@@ -13,3 +13,4 @@ circle-output
 *.old
 /out
 /dist
+/coverage

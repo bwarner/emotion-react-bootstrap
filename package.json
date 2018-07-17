@@ -8,6 +8,7 @@
     "node": ">=8.0.0"
   },
   "scripts": {
+    "codecov": "codecov",
     "test": "npm run lint && npm run jest",
     "lint": "eslint --cache --ignore-path .gitignore --ext .js --ext .jsx .",
     "jest": "NODE_ENV=test jest",
@@ -64,6 +65,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "bundlesize": "^0.17.0",
+    "codecov": "^3.0.4",
     "config-loader": "0.0.1",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
