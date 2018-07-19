@@ -11,7 +11,7 @@ import { Table } from 'emotion-react-bootstrap';
 ### Properties
 
 - `className` - CSS classnames
-- `size` - set large or small font size
+- `small` - flag to set small font size
 - `bordered` - flag to turn on borders
 - `borderless` - flag
 - `striped` - flag to set alternating color rows
@@ -24,8 +24,8 @@ import { Table } from 'emotion-react-bootstrap';
 | propName      | propType          | defaultValue | isRequired |
 | ------------- | ----------------- | ------------ | ---------- |
 | className     | string            | -            |            |
-| size          | string            | -            |            |
-| bordered      | string            | -            |            |
+| small         | boolean           | -            |            |
+| bordered      | boolean           | -            |            |
 | borderless    | string            | -            |            |
 | striped       | boolean           | -            | -          |
 | dark          | boolean           | -            | -          |
