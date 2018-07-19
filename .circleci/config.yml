@@ -49,7 +49,7 @@ jobs:
             - v1-dependencies-
       - run: npm run storybook:build
       - store_artifacts:
-          path: artifacts/static
+          path: out/static
 workflows:
   version: 2
   build_and_test:
