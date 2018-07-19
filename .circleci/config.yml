@@ -44,8 +44,7 @@ jobs:
       - run: npm run test
       - run: npm run codecov
   storybook:
-    defaults: &defaults
-      requires:
+    <<: &defaults
       steps:
         - run: npm run storybook:build
         - store_artifacts:
