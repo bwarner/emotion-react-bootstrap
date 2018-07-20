@@ -3,19 +3,13 @@
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
 version: 2
+defaults: &defaults
+  docker:
+    - image: circleci/node:8.11.3-stretch-browsers
+  working_directory: /home/circleci/repo
 jobs:
   build:
-    docker:
-      # specify the version you desire here
-      - image: circleci/node:8.11.3
-
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/mongo:3.4.4
-
-    working_directory: ~/repo
-
+    <<: *defaults
     steps:
       - checkout
 
@@ -32,11 +26,70 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-
-      # run tests!
-      - run: npm run test
-
+  test:
+    <<: *defaults
+    steps:
+      - checkout
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+      - attach_workspace:
+          at: /home/circleci/repo
+      - run: npm run jest -- --ci --testResultsProcessor="jest-junit" -u
       - run: npm run codecov
+      - store_test_results:
+          path: out/junit
+      - store_artifacts:
+          path: tests/__image_snapshots__
+  storybook:
+    <<: *defaults
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+      - run: npm run storybook:build
+      - persist_to_workspace:
+          root: /home/circleci/repo
+          paths:
+            - out
+      - store_artifacts:
+          path: out/static
+  deploy:
+    <<: *defaults
+    steps:
+      - run:
+          name: Install aws cli
+          command:
+              sudo apt-get -y -qq install awscli
+      - attach_workspace:
+          at: /home/circleci/repo
+      - run: aws s3 sync /home/circleci/repo/out/static s3://emotion-react-bootstrap/ --delete
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
+      - test:
+          requires:
+            - storybook
+      - storybook:
+          requires:
+            - build
+      - deploy:
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - master
+
+
 
 
 
