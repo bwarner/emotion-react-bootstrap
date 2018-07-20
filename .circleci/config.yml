@@ -61,6 +61,10 @@ jobs:
   deploy:
     <<: *defaults
     steps:
+      - run:
+          name: Install aws cli
+          command:
+              sudo apt-get -y -qq install awscli
       - attach_workspace:
           at: /home/circleci/repo
       - run: aws s3 sync /home/circleci/repo/out/static s3://emotion-react-bootstrap/ --delete
