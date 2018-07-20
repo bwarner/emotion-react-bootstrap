@@ -36,6 +36,8 @@ jobs:
           - v1-dependencies-{{ checksum "package.json" }}
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
+      - attach_workspace:
+          at: /home/circleci/repo
       - run: npm run test
       - store_artifacts:
           path: tests/__image_snapshots__
@@ -50,6 +52,10 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
       - run: npm run storybook:build
+      - persist_to_workspace:
+          root: /home/circleci/repo
+          paths:
+            - out
       - store_artifacts:
           path: out/static
 workflows:
