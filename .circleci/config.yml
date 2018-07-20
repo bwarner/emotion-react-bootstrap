@@ -38,10 +38,12 @@ jobs:
           - v1-dependencies-
       - attach_workspace:
           at: /home/circleci/repo
-      - run: npm run jest -- -u
+      - run: npm run jest -- --ci --testResultsProcessor="jest-junit" -u
+      - run: npm run codecov
+      - store_test_results:
+          path: out/junit
       - store_artifacts:
           path: tests/__image_snapshots__
-      - run: npm run codecov
   storybook:
     <<: *defaults
     steps:
