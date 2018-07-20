@@ -9905,7 +9905,329 @@ exports[`Storyshots Pagination Pagination Small 1`] = `
 </div>
 `;
 
-exports[`Storyshots Table Simple 1`] = `
+exports[`Storyshots Tables Bordered 1`] = `
+.emotion-0 {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border: 1px solid #dee2e6;
+}
+
+.emotion-0 th,
+.emotion-0 td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.emotion-0 thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.emotion-0 tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.emotion-0 .emotion-0 {
+  background-color: #fff;
+}
+
+.emotion-0 .thead-dark th {
+  color: #fff;
+  background-color: #212529;
+  border-color: #32383e;
+}
+
+.emotion-0 .thead-light th {
+  color: #495057;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+@media print {
+  .emotion-0 {
+    border-collapse: collapse !important;
+  }
+
+  .emotion-0 td,
+  .emotion-0 th {
+    background-color: #fff !important;
+  }
+}
+
+.emotion-0 th,
+.emotion-0 td {
+  border: 1px solid #dee2e6;
+}
+
+.emotion-0 thead th,
+.emotion-0 thead td {
+  border-bottom-width: 2px;
+}
+
+@media print {
+  .emotion-0 th,
+  .emotion-0 td {
+    border: 1px solid #ddd !important;
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+      }
+    }
+  >
+    <table
+      className="emotion-0"
+    >
+      <thead>
+        <tr>
+          <th>
+            #
+          </th>
+          <th>
+            First Name
+          </th>
+          <th>
+            Last Name
+          </th>
+          <th>
+            Username
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th
+            scope="row"
+          >
+            1
+          </th>
+          <td>
+            Mark
+          </td>
+          <td>
+            Otto
+          </td>
+          <td>
+            @mdo
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            2
+          </th>
+          <td>
+            Jacob
+          </td>
+          <td>
+            Thornton
+          </td>
+          <td>
+            @fat
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            3
+          </th>
+          <td>
+            Larry
+          </td>
+          <td>
+            the Bird
+          </td>
+          <td>
+            @twitter
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tables Dark 1`] = `
+.emotion-0 {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  color: #fff;
+  background-color: #212529;
+}
+
+.emotion-0 th,
+.emotion-0 td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.emotion-0 thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.emotion-0 tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.emotion-0 .emotion-0 {
+  background-color: #fff;
+}
+
+.emotion-0 .thead-dark th {
+  color: #fff;
+  background-color: #212529;
+  border-color: #32383e;
+}
+
+.emotion-0 .thead-light th {
+  color: #495057;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+@media print {
+  .emotion-0 {
+    border-collapse: collapse !important;
+  }
+
+  .emotion-0 td,
+  .emotion-0 th {
+    background-color: #fff !important;
+  }
+}
+
+.emotion-0,
+.emotion-0 > th,
+.emotion-0 > td {
+  background-color: #c6c8ca;
+}
+
+.emotion-0 th,
+.emotion-0 td,
+.emotion-0 thead th {
+  border-color: #32383e;
+}
+
+.emotion-0.css-15ipb7o {
+  border: 0;
+}
+
+.emotion-0.css-nq1a33 tbody tr:nth-of-type(odd) {
+  background-color: rgba(255,255,255,0.05);
+}
+
+.emotion-0.css-zuoqtk tbody tr:hover {
+  background-color: rgba(255,255,255,0.075);
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+      }
+    }
+  >
+    <table
+      className="emotion-0"
+    >
+      <thead>
+        <tr>
+          <th>
+            #
+          </th>
+          <th>
+            First Name
+          </th>
+          <th>
+            Last Name
+          </th>
+          <th>
+            Username
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th
+            scope="row"
+          >
+            1
+          </th>
+          <td>
+            Mark
+          </td>
+          <td>
+            Otto
+          </td>
+          <td>
+            @mdo
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            2
+          </th>
+          <td>
+            Jacob
+          </td>
+          <td>
+            Thornton
+          </td>
+          <td>
+            @fat
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            3
+          </th>
+          <td>
+            Larry
+          </td>
+          <td>
+            the Bird
+          </td>
+          <td>
+            @twitter
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tables Hover 1`] = `
 .emotion-0 {
   width: 100%;
   max-width: 100%;
@@ -9954,6 +10276,517 @@ exports[`Storyshots Table Simple 1`] = `
   .emotion-0 th {
     background-color: #fff !important;
   }
+}
+
+.emotion-0 tbody tr:hover {
+  background-color: rgba(0,0,0,0.075);
+}
+
+.emotion-0 .:hover {
+  background-color: #9fcdff;
+}
+
+.emotion-0 .:hover > td,
+.emotion-0 .:hover > th {
+  background-color: #9fcdff;
+}
+
+.emotion-0 .:hover {
+  background-color: #c8cbcf;
+}
+
+.emotion-0 .:hover > td,
+.emotion-0 .:hover > th {
+  background-color: #c8cbcf;
+}
+
+.emotion-0 .:hover {
+  background-color: #b1dfbb;
+}
+
+.emotion-0 .:hover > td,
+.emotion-0 .:hover > th {
+  background-color: #b1dfbb;
+}
+
+.emotion-0 .:hover {
+  background-color: #abdde5;
+}
+
+.emotion-0 .:hover > td,
+.emotion-0 .:hover > th {
+  background-color: #abdde5;
+}
+
+.emotion-0 .:hover {
+  background-color: #ffe8a1;
+}
+
+.emotion-0 .:hover > td,
+.emotion-0 .:hover > th {
+  background-color: #ffe8a1;
+}
+
+.emotion-0 .css-8ncnw1:hover {
+  background-color: #f1b0b7;
+}
+
+.emotion-0 .css-8ncnw1:hover > td,
+.emotion-0 .css-8ncnw1:hover > th {
+  background-color: #f1b0b7;
+}
+
+.emotion-0 .:hover {
+  background-color: #ececf6;
+}
+
+.emotion-0 .:hover > td,
+.emotion-0 .:hover > th {
+  background-color: #ececf6;
+}
+
+.emotion-0 .:hover {
+  background-color: #b9bbbe;
+}
+
+.emotion-0 .:hover > td,
+.emotion-0 .:hover > th {
+  background-color: #b9bbbe;
+}
+
+.emotion-0 .css-62oscg:hover {
+  background-color: rgba(0,0,0,0.075);
+}
+
+.emotion-0 .css-62oscg:hover > td,
+.emotion-0 .css-62oscg:hover > th {
+  background-color: rgba(0,0,0,0.075);
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+      }
+    }
+  >
+    <table
+      className="emotion-0"
+    >
+      <thead>
+        <tr>
+          <th>
+            #
+          </th>
+          <th>
+            First Name
+          </th>
+          <th>
+            Last Name
+          </th>
+          <th>
+            Username
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th
+            scope="row"
+          >
+            1
+          </th>
+          <td>
+            Mark
+          </td>
+          <td>
+            Otto
+          </td>
+          <td>
+            @mdo
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            2
+          </th>
+          <td>
+            Jacob
+          </td>
+          <td>
+            Thornton
+          </td>
+          <td>
+            @fat
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            3
+          </th>
+          <td>
+            Larry
+          </td>
+          <td>
+            the Bird
+          </td>
+          <td>
+            @twitter
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tables Simple 1`] = `
+.emotion-0 {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.emotion-0 th,
+.emotion-0 td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.emotion-0 thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.emotion-0 tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.emotion-0 .emotion-0 {
+  background-color: #fff;
+}
+
+.emotion-0 .thead-dark th {
+  color: #fff;
+  background-color: #212529;
+  border-color: #32383e;
+}
+
+.emotion-0 .thead-light th {
+  color: #495057;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+@media print {
+  .emotion-0 {
+    border-collapse: collapse !important;
+  }
+
+  .emotion-0 td,
+  .emotion-0 th {
+    background-color: #fff !important;
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+      }
+    }
+  >
+    <table
+      className="emotion-0"
+    >
+      <thead>
+        <tr>
+          <th>
+            #
+          </th>
+          <th>
+            First Name
+          </th>
+          <th>
+            Last Name
+          </th>
+          <th>
+            Username
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th
+            scope="row"
+          >
+            1
+          </th>
+          <td>
+            Mark
+          </td>
+          <td>
+            Otto
+          </td>
+          <td>
+            @mdo
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            2
+          </th>
+          <td>
+            Jacob
+          </td>
+          <td>
+            Thornton
+          </td>
+          <td>
+            @fat
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            3
+          </th>
+          <td>
+            Larry
+          </td>
+          <td>
+            the Bird
+          </td>
+          <td>
+            @twitter
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tables Small 1`] = `
+.emotion-0 {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.emotion-0 th,
+.emotion-0 td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.emotion-0 thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.emotion-0 tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.emotion-0 .emotion-0 {
+  background-color: #fff;
+}
+
+.emotion-0 .thead-dark th {
+  color: #fff;
+  background-color: #212529;
+  border-color: #32383e;
+}
+
+.emotion-0 .thead-light th {
+  color: #495057;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+@media print {
+  .emotion-0 {
+    border-collapse: collapse !important;
+  }
+
+  .emotion-0 td,
+  .emotion-0 th {
+    background-color: #fff !important;
+  }
+}
+
+.emotion-0 th,
+.emotion-0 td {
+  padding: 0.3rem;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+      }
+    }
+  >
+    <table
+      className="emotion-0"
+    >
+      <thead>
+        <tr>
+          <th>
+            #
+          </th>
+          <th>
+            First Name
+          </th>
+          <th>
+            Last Name
+          </th>
+          <th>
+            Username
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th
+            scope="row"
+          >
+            1
+          </th>
+          <td>
+            Mark
+          </td>
+          <td>
+            Otto
+          </td>
+          <td>
+            @mdo
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            2
+          </th>
+          <td>
+            Jacob
+          </td>
+          <td>
+            Thornton
+          </td>
+          <td>
+            @fat
+          </td>
+        </tr>
+        <tr>
+          <th
+            scope="row"
+          >
+            3
+          </th>
+          <td>
+            Larry
+          </td>
+          <td>
+            the Bird
+          </td>
+          <td>
+            @twitter
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tables Striped 1`] = `
+.emotion-0 {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.emotion-0 th,
+.emotion-0 td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.emotion-0 thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.emotion-0 tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.emotion-0 .emotion-0 {
+  background-color: #fff;
+}
+
+.emotion-0 .thead-dark th {
+  color: #fff;
+  background-color: #212529;
+  border-color: #32383e;
+}
+
+.emotion-0 .thead-light th {
+  color: #495057;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+@media print {
+  .emotion-0 {
+    border-collapse: collapse !important;
+  }
+
+  .emotion-0 td,
+  .emotion-0 th {
+    background-color: #fff !important;
+  }
+}
+
+.emotion-0 tbody tr:nth-of-type(odd) {
+  background-color: rgba(0,0,0,0.05);
 }
 
 <div>
