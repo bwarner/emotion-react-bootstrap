@@ -58,6 +58,13 @@ jobs:
             - out
       - store_artifacts:
           path: out/static
+  upload_storybook:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: /home/circleci/repo
+      - run: npm run codecov
+      - aws s3 sync /home/circleci/repo/out/static s3://emotion-react-bootstrap/ --delete
 workflows:
   version: 2
   build_and_test:
@@ -69,6 +76,11 @@ workflows:
       - storybook:
           requires:
             - build
+      - upload_storybook:
+          filters:
+            branches:
+              only:
+                - master
 
 
 
