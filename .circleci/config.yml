@@ -50,6 +50,7 @@ jobs:
       - run: npm run storybook:build
       - store_artifacts:
           path: out/static
+          path: tests/__image_snapshots__
 workflows:
   version: 2
   build_and_test:
