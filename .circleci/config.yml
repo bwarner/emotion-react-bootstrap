@@ -61,7 +61,7 @@ workflows:
             - build
       - storybook:
           requires:
-            - build
+            - test
 
 
 
