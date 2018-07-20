@@ -38,7 +38,7 @@ jobs:
           - v1-dependencies-
       - attach_workspace:
           at: /home/circleci/repo
-      - run: npm run test
+      - run: npm run jest -- -u
       - store_artifacts:
           path: tests/__image_snapshots__
       - run: npm run codecov
