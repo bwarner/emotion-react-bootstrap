@@ -58,7 +58,7 @@ jobs:
             - out
       - store_artifacts:
           path: out/static
-  upload_storybook:
+  deploy:
     <<: *defaults
     steps:
       - attach_workspace:
@@ -76,7 +76,7 @@ workflows:
       - storybook:
           requires:
             - build
-      - upload_storybook:
+      - deploy:
           filters:
             branches:
               only:
