@@ -5,7 +5,7 @@
 version: 2
 defaults: &defaults
   docker:
-    - image: circleci/node:8.11.3
+    - image: circleci/node:8.11.3-stretch-browsers
   working_directory: ~/repo
 jobs:
   build:
