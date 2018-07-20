@@ -58,10 +58,10 @@ workflows:
       - build
       - test:
           requires:
-            - build
+            - storybook
       - storybook:
           requires:
-            - test
+            - build
 
 
 
