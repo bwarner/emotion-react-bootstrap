@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Alert Alert Colors 1`] = `
+exports[`Image storyshots Alert Alert Colors 1`] = `
 .emotion-0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -277,7 +277,7 @@ exports[`Storyshots Alert Alert Colors 1`] = `
 </div>
 `;
 
-exports[`Storyshots Alert Alert with content 1`] = `
+exports[`Image storyshots Alert Alert with content 1`] = `
 .emotion-0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -341,7 +341,7 @@ exports[`Storyshots Alert Alert with content 1`] = `
 </div>
 `;
 
-exports[`Storyshots Alert Alert with dismiss 1`] = `
+exports[`Image storyshots Alert Alert with dismiss 1`] = `
 .emotion-0 {
   float: right;
   font-size: 1.5rem;
@@ -433,7 +433,7 @@ button.emotion-0 {
 </div>
 `;
 
-exports[`Storyshots Alert Alert with dismiss no fade 1`] = `
+exports[`Image storyshots Alert Alert with dismiss no fade 1`] = `
 .emotion-0 {
   float: right;
   font-size: 1.5rem;
@@ -518,7 +518,7 @@ button.emotion-0 {
 </div>
 `;
 
-exports[`Storyshots Alert Alert with link 1`] = `
+exports[`Image storyshots Alert Alert with link 1`] = `
 .emotion-0 {
   font-weight: 700;
 }
@@ -581,7 +581,7 @@ exports[`Storyshots Alert Alert with link 1`] = `
 </div>
 `;
 
-exports[`Storyshots Alert Simple Alert 1`] = `
+exports[`Image storyshots Alert Simple Alert 1`] = `
 .emotion-0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -632,7 +632,7 @@ exports[`Storyshots Alert Simple Alert 1`] = `
 </div>
 `;
 
-exports[`Storyshots Badge Contextual variations 1`] = `
+exports[`Image storyshots Badge Contextual variations 1`] = `
 .emotion-1 {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -969,7 +969,7 @@ exports[`Storyshots Badge Contextual variations 1`] = `
 </div>
 `;
 
-exports[`Storyshots Badge Example 1`] = `
+exports[`Image storyshots Badge Example 1`] = `
 .emotion-0 {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -1094,7 +1094,7 @@ exports[`Storyshots Badge Example 1`] = `
 </div>
 `;
 
-exports[`Storyshots Badge Links 1`] = `
+exports[`Image storyshots Badge Links 1`] = `
 .emotion-1 {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -1439,7 +1439,7 @@ exports[`Storyshots Badge Links 1`] = `
 </div>
 `;
 
-exports[`Storyshots Badge Notifications 1`] = `
+exports[`Image storyshots Badge Notifications 1`] = `
 .emotion-0 {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -1642,7 +1642,7 @@ fieldset:disabled a.emotion-1 {
 </div>
 `;
 
-exports[`Storyshots Badge Pills 1`] = `
+exports[`Image storyshots Badge Pills 1`] = `
 .emotion-0 {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -2003,7 +2003,7 @@ exports[`Storyshots Badge Pills 1`] = `
 </div>
 `;
 
-exports[`Storyshots Breadcrumb Breadcrumb 1`] = `
+exports[`Image storyshots Breadcrumb Breadcrumb 1`] = `
 .emotion-1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2139,7 +2139,7 @@ exports[`Storyshots Breadcrumb Breadcrumb 1`] = `
 </div>
 `;
 
-exports[`Storyshots Button Group Button Group 1`] = `
+exports[`Image storyshots Button Group Button Group 1`] = `
 .emotion-0 {
   display: inline-block;
   font-weight: 400;
@@ -2377,7 +2377,7 @@ fieldset:disabled a.emotion-0 {
 </div>
 `;
 
-exports[`Storyshots Button Group Button Toolbar 1`] = `
+exports[`Image storyshots Button Group Button Toolbar 1`] = `
 .emotion-11 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2693,7 +2693,7 @@ fieldset:disabled a.emotion-0 {
 </div>
 `;
 
-exports[`Storyshots Button Group Nesting 1`] = `
+exports[`Image storyshots Button Group Nesting 1`] = `
 .emotion-6 {
   position: relative;
 }
@@ -3167,7 +3167,7 @@ fieldset:disabled a.emotion-2 {
 </div>
 `;
 
-exports[`Storyshots Button Group Sizing 1`] = `
+exports[`Image storyshots Button Group Sizing 1`] = `
 .emotion-0 {
   display: inline-block;
   font-weight: 400;
@@ -3593,7 +3593,7 @@ fieldset:disabled a.emotion-0 {
 </div>
 `;
 
-exports[`Storyshots Button Group Vertical variation 1`] = `
+exports[`Image storyshots Button Group Vertical variation 1`] = `
 .emotion-6 {
   position: relative;
 }
@@ -4094,7 +4094,7 @@ fieldset:disabled a.emotion-2 {
 </div>
 `;
 
-exports[`Storyshots Buttons Active State 1`] = `
+exports[`Image storyshots Buttons Active State 1`] = `
 .emotion-0 {
   display: inline-block;
   font-weight: 400;
@@ -4432,7 +4432,7 @@ input[type="button"].emotion-1 {
 </div>
 `;
 
-exports[`Storyshots Buttons Buttons 1`] = `
+exports[`Image storyshots Buttons Buttons 1`] = `
 .emotion-1 {
   display: inline-block;
   font-weight: 400;
@@ -5355,7 +5355,7 @@ fieldset:disabled a.emotion-6 {
 </div>
 `;
 
-exports[`Storyshots Buttons Disabled State 1`] = `
+exports[`Image storyshots Buttons Disabled State 1`] = `
 .emotion-0 {
   display: inline-block;
   font-weight: 400;
@@ -5669,7 +5669,7 @@ fieldset:disabled a.emotion-1 {
 </div>
 `;
 
-exports[`Storyshots Buttons Outline Buttons 1`] = `
+exports[`Image storyshots Buttons Outline Buttons 1`] = `
 .emotion-0 {
   display: inline-block;
   font-weight: 400;
@@ -6493,7 +6493,7 @@ fieldset:disabled a.emotion-5 {
 </div>
 `;
 
-exports[`Storyshots Buttons Sizes 1`] = `
+exports[`Image storyshots Buttons Sizes 1`] = `
 .emotion-0 {
   display: inline-block;
   font-weight: 400;
@@ -7408,7 +7408,7 @@ input[type="button"].emotion-5 {
 </div>
 `;
 
-exports[`Storyshots Dropdowns Dropdown 1`] = `
+exports[`Image storyshots Dropdowns Dropdown 1`] = `
 .emotion-7 {
   position: relative;
 }
@@ -7727,7 +7727,7 @@ fieldset:disabled a.emotion-0 {
 </div>
 `;
 
-exports[`Storyshots Fade Simple 1`] = `
+exports[`Image storyshots Fade Simple 1`] = `
 .emotion-1 {
   opacity: 0;
   -webkit-transition: opacity 0.15s linear;
@@ -7894,7 +7894,7 @@ fieldset:disabled a.emotion-0 {
 </div>
 `;
 
-exports[`Storyshots Form Layout Components 1`] = `
+exports[`Image storyshots Form Layout Components 1`] = `
 .emotion-0 {
   position: relative;
   width: 100%;
@@ -8337,7 +8337,7 @@ exports[`Storyshots Form Layout Components 1`] = `
 </div>
 `;
 
-exports[`Storyshots Form Simple Form 1`] = `
+exports[`Image storyshots Form Simple Form 1`] = `
 .emotion-5 {
   width: 100%;
   padding-right: 15px;
@@ -8692,7 +8692,7 @@ fieldset:disabled a.emotion-2 {
 </div>
 `;
 
-exports[`Storyshots Jumbotron Example 1`] = `
+exports[`Image storyshots Jumbotron Example 1`] = `
 .emotion-1 {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
@@ -8879,7 +8879,7 @@ fieldset:disabled a.emotion-0 {
 </div>
 `;
 
-exports[`Storyshots Pagination Pagination Active 1`] = `
+exports[`Image storyshots Pagination Pagination Active 1`] = `
 .emotion-10.carousel-item-right {
   -webkit-transform: translateX(100%);
   -webkit-transform: translateX(100%);
@@ -9103,7 +9103,7 @@ exports[`Storyshots Pagination Pagination Active 1`] = `
 </div>
 `;
 
-exports[`Storyshots Pagination Pagination Disabled 1`] = `
+exports[`Image storyshots Pagination Pagination Disabled 1`] = `
 .emotion-0 {
   position: relative;
   display: block;
@@ -9295,7 +9295,7 @@ exports[`Storyshots Pagination Pagination Disabled 1`] = `
 </div>
 `;
 
-exports[`Storyshots Pagination Pagination Large 1`] = `
+exports[`Image storyshots Pagination Pagination Large 1`] = `
 .emotion-0 {
   position: relative;
   display: block;
@@ -9504,7 +9504,7 @@ exports[`Storyshots Pagination Pagination Large 1`] = `
 </div>
 `;
 
-exports[`Storyshots Pagination Pagination Simple 1`] = `
+exports[`Image storyshots Pagination Pagination Simple 1`] = `
 .emotion-0 {
   position: relative;
   display: block;
@@ -9696,7 +9696,7 @@ exports[`Storyshots Pagination Pagination Simple 1`] = `
 </div>
 `;
 
-exports[`Storyshots Pagination Pagination Small 1`] = `
+exports[`Image storyshots Pagination Pagination Small 1`] = `
 .emotion-0 {
   position: relative;
   display: block;
@@ -9905,7 +9905,7 @@ exports[`Storyshots Pagination Pagination Small 1`] = `
 </div>
 `;
 
-exports[`Storyshots Tables Bordered 1`] = `
+exports[`Image storyshots Tables Bordered 1`] = `
 .emotion-0 {
   width: 100%;
   max-width: 100%;
@@ -10062,7 +10062,7 @@ exports[`Storyshots Tables Bordered 1`] = `
 </div>
 `;
 
-exports[`Storyshots Tables Dark 1`] = `
+exports[`Image storyshots Tables Dark 1`] = `
 .emotion-0 {
   width: 100%;
   max-width: 100%;
@@ -10227,7 +10227,7 @@ exports[`Storyshots Tables Dark 1`] = `
 </div>
 `;
 
-exports[`Storyshots Tables Hover 1`] = `
+exports[`Image storyshots Tables Hover 1`] = `
 .emotion-0 {
   width: 100%;
   max-width: 100%;
@@ -10451,7 +10451,7 @@ exports[`Storyshots Tables Hover 1`] = `
 </div>
 `;
 
-exports[`Storyshots Tables Simple 1`] = `
+exports[`Image storyshots Tables Simple 1`] = `
 .emotion-0 {
   width: 100%;
   max-width: 100%;
@@ -10590,7 +10590,7 @@ exports[`Storyshots Tables Simple 1`] = `
 </div>
 `;
 
-exports[`Storyshots Tables Small 1`] = `
+exports[`Image storyshots Tables Small 1`] = `
 .emotion-0 {
   width: 100%;
   max-width: 100%;
@@ -10734,7 +10734,7 @@ exports[`Storyshots Tables Small 1`] = `
 </div>
 `;
 
-exports[`Storyshots Tables Striped 1`] = `
+exports[`Image storyshots Tables Striped 1`] = `
 .emotion-0 {
   width: 100%;
   max-width: 100%;
