@@ -28,6 +28,9 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
   test:
     <<: *defaults
+    environment:
+      JEST_SUITE_NAME: "Storybook Snapshots"
+      JEST_JUNIT_OUTPUT: "./out/junit/junit.xml"
     steps:
       - checkout
       # Download and cache dependencies
@@ -38,7 +41,7 @@ jobs:
           - v1-dependencies-
       - attach_workspace:
           at: /home/circleci/repo
-      - run: npm run jest -- --ci --testResultsProcessor="jest-junit" -u
+      - run: npm run jest -- --reporters="default" --reporters="jest-junit" --ci -u
       - run: npm run codecov
       - store_test_results:
           path: out/junit
