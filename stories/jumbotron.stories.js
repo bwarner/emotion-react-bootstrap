@@ -6,7 +6,7 @@ function JumbotronExample1() {
   return (
     <Jumbotron>
       <h1 className="display-3">
-        Hello, world!
+Hello, world!
       </h1>
       <p className="lead">
         This is a simple hero unit, a simple Jumbotron-style component for
@@ -19,7 +19,7 @@ function JumbotronExample1() {
       </p>
       <p className="lead">
         <Button color="primary">
-          Learn More
+Learn More
         </Button>
       </p>
     </Jumbotron>
