@@ -38,7 +38,7 @@ import {
   PaginationSmallStory,
 } from './pagination.stories';
 import PaginationReadme from '../lib/pagination/README.md';
-import JumbotronExample1 from './jumbotron.stories';
+import jumbotronStories from './jumbotron.stories';
 import JumbotronReadme from '../lib/jumbotron/README.md';
 
 storiesOf('Form', module)
@@ -91,6 +91,6 @@ storiesOf('Pagination', module)
   .add('Pagination Large', PaginationLargeStory)
   .add('Pagination Small', PaginationSmallStory);
 
-storiesOf('Jumbotron', module)
-  .addDecorator(withReadme(JumbotronReadme))
-  .add('Example', JumbotronExample1);
+jumbotronStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Jumbotron', module).addDecorator(withReadme(JumbotronReadme)));
