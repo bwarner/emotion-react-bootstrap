@@ -136,7 +136,6 @@ const Example3 = () => (
 export class Example4 extends React.Component {
   constructor(props) {
     super(props);
-
     this.toggleDropDown = this.toggleDropDown.bind(this);
     this.toggleSplit = this.toggleSplit.bind(this);
     this.state = {
@@ -146,14 +145,16 @@ export class Example4 extends React.Component {
   }
 
   toggleDropDown() {
+    const { dropdownOpen } = this.state;
     this.setState({
-      dropdownOpen: !this.state.dropdownOpen,
+      dropdownOpen: !dropdownOpen,
     });
   }
 
   toggleSplit() {
+    const { splitButtonOpen } = this.state;
     this.setState({
-      splitButtonOpen: !this.state.splitButtonOpen,
+      splitButtonOpen: !splitButtonOpen,
     });
   }
 
@@ -163,7 +164,7 @@ export class Example4 extends React.Component {
         <InputGroup>
           <InputGroupAddon addonType="prepend">
             <Button>
-I'm a button
+I&apos;m a button
             </Button>
           </InputGroupAddon>
           <Input />
@@ -226,7 +227,7 @@ Another Action
           <Input placeholder="and..." />
           <InputGroupAddon addonType="append">
             <Button color="secondary">
-I'm a button
+I&apos;m a button
             </Button>
           </InputGroupAddon>
         </InputGroup>
@@ -239,5 +240,5 @@ export default [
   { name: 'Input Group', story: Example1 },
   { name: 'Addon', story: Example2 },
   { name: 'Addon Sizing', story: Example3 },
-  { name: 'Buttons / Dropdowns', story: Example4 },
+  { name: 'Buttons / Dropdowns', story: () => <Example4 />},
 ];
