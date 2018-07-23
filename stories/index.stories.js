@@ -40,6 +40,8 @@ import {
 import PaginationReadme from '../lib/pagination/README.md';
 import JumbotronExample1 from './jumbotron.stories';
 import JumbotronReadme from '../lib/jumbotron/README.md';
+import CarouselStory from './carousel.stories';
+import CarouselReadme from '../lib/carousel/README.md';
 
 storiesOf('Form', module)
   .addDecorator(withReadme(FormReadme))
@@ -94,3 +96,7 @@ storiesOf('Pagination', module)
 storiesOf('Jumbotron', module)
   .addDecorator(withReadme(JumbotronReadme))
   .add('Example', JumbotronExample1);
+
+storiesOf('Carousel', module)
+  .addDecorator(withReadme(CarouselReadme))
+  .add('Example', CarouselStory);
