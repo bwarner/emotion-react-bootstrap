@@ -3,11 +3,11 @@ import styled from 'react-emotion';
 import { Container, Row, Col } from '../lib';
 
 const BlueCol = styled(Col)`
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  background-color: #E5EDF5;
-  border: 1px solid #C9C1D5;
-  color: #5F5F5F;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: #e5edf5;
+  border: 1px solid #c9c1d5;
+  color: #5f5f5f;
 `;
 
 const LayoutStory = () => (

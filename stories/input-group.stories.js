@@ -240,5 +240,5 @@ export default [
   { name: 'Input Group', story: Example1 },
   { name: 'Addon', story: Example2 },
   { name: 'Addon Sizing', story: Example3 },
-  { name: 'Buttons / Dropdowns', story: () => <Example4 />},
+  { name: 'Buttons / Dropdowns', story: () => <Example4 /> },
 ];

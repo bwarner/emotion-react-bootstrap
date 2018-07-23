@@ -1,6 +1,6 @@
 import { storiesOf } from '@storybook/react';
 import { withReadme } from 'storybook-readme';
-import form from './form.stories';
+import formStories from './form.stories';
 import FormReadme from '../lib/form/README.md';
 import layout from './layout.stories';
 import BadgeReadme from '../lib/badge/README.md';
@@ -94,9 +94,9 @@ dropdownStories.forEach(function cb(entry) {
 
 storiesOf('Components/Fade', module).add('Simple', FadeStory);
 
-storiesOf('Components/Form', module)
-  .addDecorator(withReadme(FormReadme))
-  .add('Simple Form', form);
+formStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/Form', module).addDecorator(withReadme(FormReadme)));
 
 inputGroupStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
