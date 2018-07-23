@@ -75,6 +75,7 @@
     "react/prefer-stateless-function": "off",
     "react/react-in-jsx-scope": "off",
     "react/require-default-props": "off",
+    "react/destructuring-assignment": "off",
     "template-tag-spacing": "error",
     "jsx-uses-react": "on",
     "jsx-a11y/anchor-is-valid": [ "error", {

@@ -1,6 +1,6 @@
 import { storiesOf } from '@storybook/react';
 import { withReadme } from 'storybook-readme';
-import form from './form.stories';
+import formStories from './form.stories';
 import FormReadme from '../lib/form/README.md';
 import layout from './layout.stories';
 import BadgeReadme from '../lib/badge/README.md';
@@ -40,15 +40,21 @@ import {
 import PaginationReadme from '../lib/pagination/README.md';
 import JumbotronExample1 from './jumbotron.stories';
 import JumbotronReadme from '../lib/jumbotron/README.md';
+import inputGroupStories from './input-group.stories';
+import InputGroupReadme from '../lib/input-group/README.md';
+import LayoutReadme from '../lib/layout/README.md';
 
-storiesOf('Form', module)
-  .addDecorator(withReadme(FormReadme))
-  .add('Simple Form', form)
-  .add('Layout Components', layout);
+storiesOf('Layout', module)
+  .addDecorator(withReadme(LayoutReadme))
+  .add('Grid', layout);
 
-storiesOf('Fade', module).add('Simple', FadeStory);
+tableStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/Tables', module).addDecorator(
+  withReadme(TableReadme),
+));
 
-storiesOf('Alert', module)
+storiesOf('Components/Alert', module)
   .add('Simple Alert', SimpleAlertStory)
   .add('Alert Colors', ColorsAlertStory)
   .add('Alert with content', AlertContentStory)
@@ -56,41 +62,56 @@ storiesOf('Alert', module)
   .add('Alert with dismiss', AlertDismissStory)
   .add('Alert with dismiss no fade', AlertFadelessStory);
 
-storiesOf('Badge', module)
+storiesOf('Components/Badge', module)
   .addDecorator(withReadme(BadgeReadme))
   .add('Example', Example1)
   .add('Notifications', Example2)
   .add('Contextual variations', Example3)
   .add('Pills', Example4)
   .add('Links', Example5);
-storiesOf('Breadcrumb', module)
+
+storiesOf('Components/Breadcrumb', module)
   .addDecorator(withReadme(BreadcrumbReadme))
   .add('Breadcrumb', BreadcrumbStory);
 
-tableStories.forEach(function cb(entry) {
-  this.add(entry.name, entry.story);
-}, storiesOf('Tables', module).addDecorator(withReadme(TableReadme)));
-
 buttonStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Buttons', module).addDecorator(withReadme(ButtonReadme)));
+}, storiesOf('Components/Buttons', module).addDecorator(
+  withReadme(ButtonReadme),
+));
 
 buttonGroupStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Button Group', module).addDecorator(withReadme(ButtonGroupReadme)));
+}, storiesOf('Components/Button Group', module).addDecorator(
+  withReadme(ButtonGroupReadme),
+));
 
 dropdownStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Dropdowns', module).addDecorator(withReadme(DropdownReadme)));
+}, storiesOf('Components/Dropdowns', module).addDecorator(
+  withReadme(DropdownReadme),
+));
 
-storiesOf('Pagination', module)
+storiesOf('Components/Fade', module).add('Simple', FadeStory);
+
+formStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/Form', module).addDecorator(withReadme(FormReadme)));
+
+inputGroupStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/Input Group', module).addDecorator(
+  withReadme(InputGroupReadme),
+));
+
+storiesOf('Components/Jumbotron', module)
+  .addDecorator(withReadme(JumbotronReadme))
+  .add('Example', JumbotronExample1);
+
+storiesOf('Components/Pagination', module)
   .addDecorator(withReadme(PaginationReadme))
   .add('Pagination Simple', PaginationStory)
   .add('Pagination Active', PaginationActiveStory)
   .add('Pagination Disabled', PaginationDisabledStory)
   .add('Pagination Large', PaginationLargeStory)
   .add('Pagination Small', PaginationSmallStory);
-
-storiesOf('Jumbotron', module)
-  .addDecorator(withReadme(JumbotronReadme))
-  .add('Example', JumbotronExample1);
