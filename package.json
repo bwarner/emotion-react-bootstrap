@@ -1,5 +1,5 @@
 {
-  "name": "emotion-react-bootstrap",
+  "name": "@farvisionllc/emotion-react-bootstrap",
   "repository": "https://github.com/bwarner/emotion-react-bootstrap.git",
   "version": "1.0.0",
   "description": "A library of React compoents using CSS in JS",
@@ -14,7 +14,7 @@
     "jest": "NODE_ENV=test jest",
     "jest:update": "jest --updateSnapshot",
     "jest:watch": "jest --watch",
-    "format": "prettier-eslint --ignore \"**/tmp/**\" --ignore \"**/dist/**\" --write \"**/*.{js,jsx}\"",
+    "format": "prettier-eslint --ignore \"**/tmp/**\" --ignore \"**/out/**\" --ignore \"**/dist/**\" --write \"**/*.{js,jsx}\"",
     "format:file": "prettier-eslint --write",
     "storybook": "start-storybook -p 6006",
     "storybook:build": "build-storybook -c .storybook -o out/static",
@@ -32,9 +32,9 @@
   "author": "Byron Warner",
   "license": "ISC",
   "dependencies": {
+    "@farvisionllc/emotion-bootstrap": "^4.0.0",
     "core-js": "^2.5.7",
     "emotion": "^9.2.5",
-    "@farvisionllc/emotion-bootstrap": "^4.0.0",
     "emotion-server": "^9.2.5",
     "es6-promise": "4.1.1",
     "lodash.omit": "^4.5.0",
@@ -42,15 +42,15 @@
     "prop-types": "^15.6.1",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
-    "react-transition-group": "^2.3.1",
     "react-emotion": "^9.2.5",
-    "react-popper": "^0.10.4"
+    "react-popper": "^0.10.4",
+    "react-transition-group": "^2.3.1"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^4.0.0-alpha.13",
     "@storybook/addon-links": "^4.0.0-alpha.13",
     "@storybook/addon-storyshots": "^4.0.0-alpha.13",
-    "@storybook/addon-storyshots-puppeteer": "^4.0.0-alpha.11",
+    "@storybook/addon-storyshots-puppeteer": "^4.0.0-alpha.14",
     "@storybook/addons": "^4.0.0-alpha.13",
     "@storybook/react": "^4.0.0-alpha.13",
     "@storybook/storybook-deployer": "^2.3.0",
@@ -58,8 +58,8 @@
     "babel-core": "^6.26.3",
     "babel-eslint": "^7.2.2",
     "babel-jest": "^23.4.0",
-    "babel-plugin-emotion": "^9.2.5",
-    "babel-plugin-macros": "^2.2.2",
+    "babel-plugin-emotion": "^9.2.6",
+    "babel-plugin-macros": "^2.3.0",
     "babel-plugin-require-context-hook": "^1.0.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -74,7 +74,7 @@
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.7.0",
     "html-loader": "^0.5.5",
     "jest": "^22.4.4",
@@ -91,8 +91,8 @@
     "prettier-eslint-cli": "^4.7.1",
     "regenerator-runtime": "^0.12.0",
     "storybook-readme": "^3.3.0",
-    "webpack": "^4.15.1",
+    "webpack": "^4.16.1",
     "webpack-bundle-analyzer": "^2.13.1",
-    "webpack-cli": "^3.0.3"
+    "webpack-cli": "^3.1.0"
   }
 }

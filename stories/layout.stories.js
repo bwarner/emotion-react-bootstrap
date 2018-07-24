@@ -1,74 +1,83 @@
 import React from 'react';
+import styled from 'react-emotion';
 import { Container, Row, Col } from '../lib';
+
+const BlueCol = styled(Col)`
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: #e5edf5;
+  border: 1px solid #c9c1d5;
+  color: #5f5f5f;
+`;
 
 const LayoutStory = () => (
   <Container>
     <Row>
-      <Col>
+      <BlueCol>
 .col
-      </Col>
+      </BlueCol>
     </Row>
     <Row>
-      <Col>
+      <BlueCol>
 .col
-      </Col>
-      <Col>
+      </BlueCol>
+      <BlueCol>
 .col
-      </Col>
-      <Col>
+      </BlueCol>
+      <BlueCol>
 .col
-      </Col>
-      <Col>
+      </BlueCol>
+      <BlueCol>
 .col
-      </Col>
+      </BlueCol>
     </Row>
     <Row>
-      <Col xs="3">
+      <BlueCol xs="3">
 .col-3
-      </Col>
-      <Col xs="auto">
+      </BlueCol>
+      <BlueCol xs="auto">
 .col-auto - variable width content
-      </Col>
-      <Col xs="3">
+      </BlueCol>
+      <BlueCol xs="3">
 .col-3
-      </Col>
+      </BlueCol>
     </Row>
     <Row>
-      <Col xs="6">
+      <BlueCol xs="6">
 .col-6
-      </Col>
-      <Col xs="6">
+      </BlueCol>
+      <BlueCol xs="6">
 .col-6
-      </Col>
+      </BlueCol>
     </Row>
     <Row>
-      <Col xs="6" sm="4">
+      <BlueCol xs="6" sm="4">
         .col-6 .col-sm-4
-      </Col>
-      <Col xs="6" sm="4">
+      </BlueCol>
+      <BlueCol xs="6" sm="4">
         .col-6 .col-sm-4
-      </Col>
-      <Col sm="4">
+      </BlueCol>
+      <BlueCol sm="4">
 .col-sm-4
-      </Col>
+      </BlueCol>
     </Row>
     <Row>
-      <Col sm={{ size: 6, order: 2, offset: 1 }}>
+      <BlueCol sm={{ size: 6, order: 2, offset: 1 }}>
         .col-sm-6 .col-sm-order-2 .col-sm-offset-2
-      </Col>
+      </BlueCol>
     </Row>
     <Row>
-      <Col sm="12" md={{ size: 8, offset: 2 }}>
+      <BlueCol sm="12" md={{ size: 8, offset: 2 }}>
         .col-sm-12 .col-md-6 .col-md-offset-3
-      </Col>
+      </BlueCol>
     </Row>
     <Row>
-      <Col sm={{ size: 'auto', offset: 1 }}>
-.col-sm .col-sm-offset-1
-      </Col>
-      <Col sm={{ size: 'auto', offset: 1 }}>
-.col-sm .col-sm-offset-1
-      </Col>
+      <BlueCol sm={{ size: 'auto', offset: 1 }}>
+        .col-sm .col-sm-offset-1
+      </BlueCol>
+      <BlueCol sm={{ size: 'auto', offset: 1 }}>
+        .col-sm .col-sm-offset-1
+      </BlueCol>
     </Row>
   </Container>
 );
