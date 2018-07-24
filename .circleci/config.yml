@@ -44,7 +44,7 @@ jobs:
       - run: npm run jest -- --reporters="default" --reporters="jest-junit" --ci -u
       - run: npm run codecov
       - store_test_results:
-          path: out/junit
+          path: out/junit/junit.xml
       - store_artifacts:
           path: tests/__image_snapshots__
   storybook:
