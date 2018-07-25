@@ -1,7 +1,7 @@
 import React from 'react';
 import { lead, display3, my2 } from '@farvisionllc/emotion-bootstrap';
 import Jumbotron from '../lib/jumbotron';
-import Container from '../lib/container';
+import Container from '../lib/layout/container';
 import { Button } from '../lib/button';
 
 function JumbotronExample1() {

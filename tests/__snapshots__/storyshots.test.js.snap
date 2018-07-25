@@ -17198,6 +17198,36 @@ exports[`Image storyshots Layout Grid 1`] = `
   margin-left: auto;
 }
 
+@media (min-width:576px) {
+  .emotion-42 {
+    max-width: 540px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-42 {
+    max-width: 720px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-42 {
+    max-width: 960px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-42 {
+    max-width: 1140px;
+  }
+}
+
+@media print {
+  .emotion-42 {
+    min-width: 992px !important;
+  }
+}
+
 .emotion-2 {
   display: -webkit-box;
   display: -ms-flexbox;
