@@ -3,6 +3,7 @@ import { withReadme } from 'storybook-readme';
 import formStories from './form.stories';
 import FormReadme from '../lib/form/README.md';
 import layout from './layout.stories';
+import LayoutReadme from '../lib/layout/README.md';
 import BadgeReadme from '../lib/badge/README.md';
 import {
   Example1,
@@ -42,7 +43,8 @@ import JumbotronExample1 from './jumbotron.stories';
 import JumbotronReadme from '../lib/jumbotron/README.md';
 import inputGroupStories from './input-group.stories';
 import InputGroupReadme from '../lib/input-group/README.md';
-import LayoutReadme from '../lib/layout/README.md';
+import listGroupStories from './list-group.stories';
+import ListGroupReadme from '../lib/list-group/README.md';
 
 storiesOf('Layout', module)
   .addDecorator(withReadme(LayoutReadme))
@@ -102,6 +104,12 @@ inputGroupStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Components/Input Group', module).addDecorator(
   withReadme(InputGroupReadme),
+));
+
+listGroupStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/List Group', module).addDecorator(
+  withReadme(ListGroupReadme),
 ));
 
 storiesOf('Components/Jumbotron', module)
