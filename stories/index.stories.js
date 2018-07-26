@@ -54,7 +54,9 @@ storiesOf('Layout', module)
 
 tableStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Tables', module).addDecorator(withReadme(TableReadme)));
+}, storiesOf('Components/Tables', module).addDecorator(
+  withReadme(TableReadme),
+));
 
 storiesOf('Components/Alert', module)
   .add('Simple Alert', SimpleAlertStory)
@@ -78,15 +80,21 @@ storiesOf('Components/Breadcrumb', module)
 
 buttonStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Buttons', module).addDecorator(withReadme(ButtonReadme)));
+}, storiesOf('Components/Buttons', module).addDecorator(
+  withReadme(ButtonReadme),
+));
 
 buttonGroupStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Button Group', module).addDecorator(withReadme(ButtonGroupReadme)));
+}, storiesOf('Components/Button Group', module).addDecorator(
+  withReadme(ButtonGroupReadme),
+));
 
 dropdownStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Dropdowns', module).addDecorator(withReadme(DropdownReadme)));
+}, storiesOf('Components/Dropdowns', module).addDecorator(
+  withReadme(DropdownReadme),
+));
 
 storiesOf('Components/Fade', module).add('Simple', FadeStory);
 
@@ -96,7 +104,6 @@ formStories.forEach(function cb(entry) {
 
 inputGroupStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-  
 }, storiesOf('Components/Input Group', module).addDecorator(
   withReadme(InputGroupReadme),
 ));
@@ -107,10 +114,6 @@ listGroupStories.forEach(function cb(entry) {
   withReadme(ListGroupReadme),
 ));
 
-storiesOf('Components/Jumbotron', module)
-  .addDecorator(withReadme(JumbotronReadme))
-  .add('Example', JumbotronExample1);
-
 storiesOf('Components/Pagination', module)
   .addDecorator(withReadme(PaginationReadme))
   .add('Pagination Simple', PaginationStory)
@@ -119,10 +122,12 @@ storiesOf('Components/Pagination', module)
   .add('Pagination Large', PaginationLargeStory)
   .add('Pagination Small', PaginationSmallStory);
 
-storiesOf('Carousel', module)
+storiesOf('Components/Carousel', module)
   .addDecorator(withReadme(CarouselReadme))
-  .add('Components/Carousel', CarouselStory);
+  .add('Example', CarouselStory);
 
 jumbotronStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Jumbotron', module).addDecorator(withReadme(JumbotronReadme)));
+}, storiesOf('Components/Jumbotron', module).addDecorator(
+  withReadme(JumbotronReadme),
+));
