@@ -33,10 +33,12 @@
   "license": "ISC",
   "dependencies": {
     "@farvisionllc/emotion-bootstrap": "^4.0.0",
+    "classnames": "^2.2.6",
     "core-js": "^2.5.7",
     "emotion": "^9.2.5",
     "emotion-server": "^9.2.5",
     "es6-promise": "4.1.1",
+    "holderjs": "^2.9.4",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
     "prop-types": "^15.6.1",
