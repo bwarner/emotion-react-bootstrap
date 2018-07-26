@@ -14874,7 +14874,13 @@ select.emotion-2:focus::-ms-value {
 `;
 
 exports[`Image storyshots Components/Jumbotron Example 1`] = `
-.emotion-1 {
+.emotion-0 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.emotion-5 {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
@@ -14882,12 +14888,22 @@ exports[`Image storyshots Components/Jumbotron Example 1`] = `
 }
 
 @media (min-width:576px) {
-  .emotion-1 {
+  .emotion-5 {
     padding: 4rem 2rem;
   }
 }
 
-.emotion-0 {
+.emotion-1 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.emotion-2 {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.emotion-3 {
   display: inline-block;
   font-weight: 400;
   text-align: center;
@@ -14912,73 +14928,73 @@ exports[`Image storyshots Components/Jumbotron Example 1`] = `
   border-color: #007bff;
 }
 
-.emotion-0:hover,
-.emotion-0:focus {
+.emotion-3:hover,
+.emotion-3:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.emotion-0:focus,
-.emotion-0.focus {
+.emotion-3:focus,
+.emotion-3.focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
 }
 
-.emotion-0.disabled,
-.emotion-0:disabled {
+.emotion-3.disabled,
+.emotion-3:disabled {
   opacity: 0.65;
 }
 
-.emotion-0:not(:disabled):not(.disabled) {
+.emotion-3:not(:disabled):not(.disabled) {
   cursor: pointer;
 }
 
-.emotion-0:not(:disabled):not(.disabled):active,
-.emotion-0:not(:disabled):not(.disabled). {
+.emotion-3:not(:disabled):not(.disabled):active,
+.emotion-3:not(:disabled):not(.disabled). {
   background-image: none;
 }
 
-a.emotion-0.disabled,
-fieldset:disabled a.emotion-0 {
+a.emotion-3.disabled,
+fieldset:disabled a.emotion-3 {
   pointer-events: none;
 }
 
-.emotion-0 . {
+.emotion-3 . {
   position: relative;
   top: -1px;
 }
 
-.emotion-0:hover {
+.emotion-3:hover {
   color: #fff;
   background-color: #0069d9;
   border-color: #0062cc;
 }
 
-.emotion-0:focus,
-.emotion-0.focus {
+.emotion-3:focus,
+.emotion-3.focus {
   box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5);
 }
 
-.emotion-0.disabled,
-.emotion-0:disabled {
+.emotion-3.disabled,
+.emotion-3:disabled {
   color: #fff;
   background-color: #007bff;
   border-color: #007bff;
 }
 
-.emotion-0:not(:disabled):not(.disabled):active,
-.emotion-0:not(:disabled):not(.disabled).css-1vdl47n {
+.emotion-3:not(:disabled):not(.disabled):active,
+.emotion-3:not(:disabled):not(.disabled).css-1vdl47n {
   color: #fff;
   background-color: #0062cc;
   border-color: #005cbf;
 }
 
-.emotion-0:not(:disabled):not(.disabled):active:focus,
-.emotion-0:not(:disabled):not(.disabled).css-1vdl47n:focus {
+.emotion-3:not(:disabled):not(.disabled):active:focus,
+.emotion-3:not(:disabled):not(.disabled).css-1vdl47n:focus {
   box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5);
 }
 
-.emotion-0.carousel-item-right {
+.emotion-3.carousel-item-right {
   -webkit-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   -ms-transform: translateX(100%);
@@ -14986,7 +15002,7 @@ fieldset:disabled a.emotion-0 {
 }
 
 @supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
-  .emotion-0.carousel-item-right {
+  .emotion-3.carousel-item-right {
     -webkit-transform: translate3d(100%,0,0);
     -webkit-transform: translate3d(100%,0,0);
     -ms-transform: translate3d(100%,0,0);
@@ -14994,7 +15010,7 @@ fieldset:disabled a.emotion-0 {
   }
 }
 
-.emotion-0.carousel-item-left {
+.emotion-3.carousel-item-left {
   -webkit-transform: translateX(-100%);
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
@@ -15002,7 +15018,7 @@ fieldset:disabled a.emotion-0 {
 }
 
 @supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
-  .emotion-0.carousel-item-left {
+  .emotion-3.carousel-item-left {
     -webkit-transform: translate3d(-100%,0,0);
     -webkit-transform: translate3d(-100%,0,0);
     -ms-transform: translate3d(-100%,0,0);
@@ -15026,29 +15042,29 @@ fieldset:disabled a.emotion-0 {
     }
   >
     <div
-      className="emotion-1"
+      className="emotion-5"
     >
       <h1
-        className="display-3"
+        className="emotion-0"
       >
         Hello, world!
       </h1>
       <p
-        className="lead"
+        className="emotion-1"
       >
         This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.
       </p>
       <hr
-        className="my-2"
+        className="emotion-2"
       />
       <p>
         It uses utility classes for typography and spacing to space content out within the larger container.
       </p>
       <p
-        className="lead"
+        className="emotion-1"
       >
         <button
-          className="emotion-0"
+          className="emotion-3"
           onClick={[Function]}
           tag="button"
           type={undefined}
@@ -15056,6 +15072,109 @@ fieldset:disabled a.emotion-0 {
           Learn More
         </button>
       </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Jumbotron Fluid 1`] = `
+.emotion-2 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width:576px) {
+  .emotion-2 {
+    max-width: 540px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-2 {
+    max-width: 720px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-2 {
+    max-width: 960px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-2 {
+    max-width: 1140px;
+  }
+}
+
+@media print {
+  .emotion-2 {
+    min-width: 992px !important;
+  }
+}
+
+.emotion-0 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.emotion-1 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.emotion-3 {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 0;
+}
+
+@media (min-width:576px) {
+  .emotion-3 {
+    padding: 4rem 2rem;
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      className="emotion-3"
+    >
+      <div
+        className="emotion-2"
+      >
+        <h1
+          className="emotion-0"
+        >
+          Fluid jumbotron
+        </h1>
+        <p
+          className="emotion-1"
+        >
+          This is a modified jumbotron that occupies the entire horizontal space of its parent.
+        </p>
+      </div>
     </div>
   </div>
 </div>
@@ -17077,6 +17196,36 @@ exports[`Image storyshots Layout Grid 1`] = `
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media (min-width:576px) {
+  .emotion-42 {
+    max-width: 540px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-42 {
+    max-width: 720px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-42 {
+    max-width: 960px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-42 {
+    max-width: 1140px;
+  }
+}
+
+@media print {
+  .emotion-42 {
+    min-width: 992px !important;
+  }
 }
 
 .emotion-2 {
