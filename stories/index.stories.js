@@ -45,6 +45,11 @@ import inputGroupStories from './input-group.stories';
 import InputGroupReadme from '../lib/input-group/README.md';
 import listGroupStories from './list-group.stories';
 import ListGroupReadme from '../lib/list-group/README.md';
+import mediaStories from './media.stories';
+
+mediaStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Layout/Media', module));
 
 storiesOf('Layout', module)
   .addDecorator(withReadme(LayoutReadme))
