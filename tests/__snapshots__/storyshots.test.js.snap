@@ -7738,7 +7738,7 @@ exports[`Image storyshots Components/Carousel Example 1`] = `
         role="listbox"
       >
         <div
-          className="emotion-3 emotion-0"
+          className="emotion-3 emotion-0  "
         >
           <img
             alt="Slide 1"
@@ -7756,7 +7756,7 @@ exports[`Image storyshots Components/Carousel Example 1`] = `
           </div>
         </div>
         <div
-          className="emotion-3 "
+          className="emotion-3   "
         >
           <img
             alt="Slide 2"
@@ -7774,7 +7774,7 @@ exports[`Image storyshots Components/Carousel Example 1`] = `
           </div>
         </div>
         <div
-          className="emotion-3 "
+          className="emotion-3   "
         >
           <img
             alt="Slide 3"
