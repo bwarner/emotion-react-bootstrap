@@ -46,6 +46,12 @@ import InputGroupReadme from '../lib/input-group/README.md';
 import listGroupStories from './list-group.stories';
 import ListGroupReadme from '../lib/list-group/README.md';
 import mediaStories from './media.stories';
+import modalStories from './modal.stories';
+import ModalReadme from '../lib/modal/README.md';
+
+modalStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/Modal', module).addDecorator(withReadme(ModalReadme)));
 
 mediaStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
