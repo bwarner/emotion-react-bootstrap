@@ -41,6 +41,8 @@ import {
 import PaginationReadme from '../lib/pagination/README.md';
 import jumbotronStories from './jumbotron.stories';
 import JumbotronReadme from '../lib/jumbotron/README.md';
+import CarouselStory from './carousel.stories';
+import CarouselReadme from '../lib/carousel/README.md';
 import inputGroupStories from './input-group.stories';
 import InputGroupReadme from '../lib/input-group/README.md';
 import listGroupStories from './list-group.stories';
@@ -124,6 +126,10 @@ storiesOf('Components/Pagination', module)
   .add('Pagination Disabled', PaginationDisabledStory)
   .add('Pagination Large', PaginationLargeStory)
   .add('Pagination Small', PaginationSmallStory);
+
+storiesOf('Components/Carousel', module)
+  .addDecorator(withReadme(CarouselReadme))
+  .add('Example', CarouselStory);
 
 jumbotronStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
