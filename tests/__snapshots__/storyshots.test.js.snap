@@ -1,6 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Image storyshots Components/Alert Alert Colors 1`] = `
+.emotion-1 {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+
+.emotion-1.css-4jsc0t {
+  opacity: 1;
+}
+
 .emotion-0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -10,9 +20,6 @@ exports[`Image storyshots Components/Alert Alert Colors 1`] = `
   color: #004085;
   background-color: #cce5ff;
   border-color: #b8daff;
-  opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
-  transition: opacity 0.15s linear;
 }
 
 .emotion-0 hr {
@@ -23,11 +30,7 @@ exports[`Image storyshots Components/Alert Alert Colors 1`] = `
   color: #002752;
 }
 
-.emotion-0.css-4jsc0t {
-  opacity: 1;
-}
-
-.emotion-1 {
+.emotion-2 {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
@@ -36,73 +39,14 @@ exports[`Image storyshots Components/Alert Alert Colors 1`] = `
   color: #383d41;
   background-color: #e2e3e5;
   border-color: #d6d8db;
-  opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
-  transition: opacity 0.15s linear;
-}
-
-.emotion-1 hr {
-  border-top-color: #c8cbcf;
-}
-
-.emotion-1 .css-1y9z1wr {
-  color: #202326;
-}
-
-.emotion-1.css-4jsc0t {
-  opacity: 1;
-}
-
-.emotion-2 {
-  position: relative;
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 1rem;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-  color: #155724;
-  background-color: #d4edda;
-  border-color: #c3e6cb;
-  opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
-  transition: opacity 0.15s linear;
 }
 
 .emotion-2 hr {
-  border-top-color: #b1dfbb;
+  border-top-color: #c8cbcf;
 }
 
 .emotion-2 .css-1y9z1wr {
-  color: #0b2e13;
-}
-
-.emotion-2.css-4jsc0t {
-  opacity: 1;
-}
-
-.emotion-3 {
-  position: relative;
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 1rem;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-  color: #721c24;
-  background-color: #f8d7da;
-  border-color: #f5c6cb;
-  opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
-  transition: opacity 0.15s linear;
-}
-
-.emotion-3 hr {
-  border-top-color: #f1b0b7;
-}
-
-.emotion-3 .css-1y9z1wr {
-  color: #491217;
-}
-
-.emotion-3.css-4jsc0t {
-  opacity: 1;
+  color: #202326;
 }
 
 .emotion-4 {
@@ -111,50 +55,17 @@ exports[`Image storyshots Components/Alert Alert Colors 1`] = `
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  color: #856404;
-  background-color: #fff3cd;
-  border-color: #ffeeba;
-  opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
-  transition: opacity 0.15s linear;
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
 }
 
 .emotion-4 hr {
-  border-top-color: #ffe8a1;
+  border-top-color: #b1dfbb;
 }
 
 .emotion-4 .css-1y9z1wr {
-  color: #533f03;
-}
-
-.emotion-4.css-4jsc0t {
-  opacity: 1;
-}
-
-.emotion-5 {
-  position: relative;
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 1rem;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
-  color: #0c5460;
-  background-color: #d1ecf1;
-  border-color: #bee5eb;
-  opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
-  transition: opacity 0.15s linear;
-}
-
-.emotion-5 hr {
-  border-top-color: #abdde5;
-}
-
-.emotion-5 .css-1y9z1wr {
-  color: #062c33;
-}
-
-.emotion-5.css-4jsc0t {
-  opacity: 1;
+  color: #0b2e13;
 }
 
 .emotion-6 {
@@ -163,27 +74,77 @@ exports[`Image storyshots Components/Alert Alert Colors 1`] = `
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  color: #818182;
-  background-color: #fefefe;
-  border-color: #fdfdfe;
-  opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
-  transition: opacity 0.15s linear;
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
 }
 
 .emotion-6 hr {
-  border-top-color: #ececf6;
+  border-top-color: #f1b0b7;
 }
 
 .emotion-6 .css-1y9z1wr {
+  color: #491217;
+}
+
+.emotion-8 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+.emotion-8 hr {
+  border-top-color: #ffe8a1;
+}
+
+.emotion-8 .css-1y9z1wr {
+  color: #533f03;
+}
+
+.emotion-10 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+}
+
+.emotion-10 hr {
+  border-top-color: #abdde5;
+}
+
+.emotion-10 .css-1y9z1wr {
+  color: #062c33;
+}
+
+.emotion-12 {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #818182;
+  background-color: #fefefe;
+  border-color: #fdfdfe;
+}
+
+.emotion-12 hr {
+  border-top-color: #ececf6;
+}
+
+.emotion-12 .css-1y9z1wr {
   color: #686868;
 }
 
-.emotion-6.css-4jsc0t {
-  opacity: 1;
-}
-
-.emotion-7 {
+.emotion-14 {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
@@ -192,21 +153,14 @@ exports[`Image storyshots Components/Alert Alert Colors 1`] = `
   color: #1b1e21;
   background-color: #d6d8d9;
   border-color: #c6c8ca;
-  opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
-  transition: opacity 0.15s linear;
 }
 
-.emotion-7 hr {
+.emotion-14 hr {
   border-top-color: #b9bbbe;
 }
 
-.emotion-7 .css-1y9z1wr {
+.emotion-14 .css-1y9z1wr {
   color: #040505;
-}
-
-.emotion-7.css-4jsc0t {
-  opacity: 1;
 }
 
 <div>
@@ -226,49 +180,49 @@ exports[`Image storyshots Components/Alert Alert Colors 1`] = `
   >
     <div>
       <div
-        className="alert emotion-0 false"
+        className="alert emotion-0 emotion-1"
         role="alert"
       >
         This is a primary alert with some text.
       </div>
       <div
-        className="alert emotion-1 false"
+        className="alert emotion-2 emotion-1"
         role="alert"
       >
         This is a secondary alert with some text.
       </div>
       <div
-        className="alert emotion-2 false"
+        className="alert emotion-4 emotion-1"
         role="alert"
       >
         This is a success alert with some text.
       </div>
       <div
-        className="alert emotion-3 false"
+        className="alert emotion-6 emotion-1"
         role="alert"
       >
         This is a danger alert with some text.
       </div>
       <div
-        className="alert emotion-4 false"
+        className="alert emotion-8 emotion-1"
         role="alert"
       >
         This is a warning alert with some text.
       </div>
       <div
-        className="alert emotion-5 false"
+        className="alert emotion-10 emotion-1"
         role="alert"
       >
         This is a info alert with some text.
       </div>
       <div
-        className="alert emotion-6 false"
+        className="alert emotion-12 emotion-1"
         role="alert"
       >
         This is a light alert with some text.
       </div>
       <div
-        className="alert emotion-7 false"
+        className="alert emotion-14 emotion-1"
         role="alert"
       >
         This is a dark alert with some text.
@@ -279,6 +233,16 @@ exports[`Image storyshots Components/Alert Alert Colors 1`] = `
 `;
 
 exports[`Image storyshots Components/Alert Alert with content 1`] = `
+.emotion-1 {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+
+.emotion-1.css-4jsc0t {
+  opacity: 1;
+}
+
 .emotion-0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -288,9 +252,6 @@ exports[`Image storyshots Components/Alert Alert with content 1`] = `
   color: #155724;
   background-color: #d4edda;
   border-color: #c3e6cb;
-  opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
-  transition: opacity 0.15s linear;
 }
 
 .emotion-0 hr {
@@ -299,10 +260,6 @@ exports[`Image storyshots Components/Alert Alert with content 1`] = `
 
 .emotion-0 .css-1y9z1wr {
   color: #0b2e13;
-}
-
-.emotion-0.css-4jsc0t {
-  opacity: 1;
 }
 
 <div>
@@ -321,7 +278,7 @@ exports[`Image storyshots Components/Alert Alert with content 1`] = `
     }
   >
     <div
-      className="alert emotion-0 false"
+      className="alert emotion-0 emotion-1"
       role="alert"
     >
       <h4
@@ -373,6 +330,16 @@ button.emotion-0 {
   -webkit-appearance: none;
 }
 
+.emotion-2 {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+
+.emotion-2.css-4jsc0t {
+  opacity: 1;
+}
+
 .emotion-1 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -382,9 +349,6 @@ button.emotion-0 {
   color: #004085;
   background-color: #cce5ff;
   border-color: #b8daff;
-  opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
-  transition: opacity 0.15s linear;
 }
 
 .emotion-1 hr {
@@ -393,10 +357,6 @@ button.emotion-0 {
 
 .emotion-1 .css-1y9z1wr {
   color: #002752;
-}
-
-.emotion-1.css-4jsc0t {
-  opacity: 1;
 }
 
 <div>
@@ -415,7 +375,7 @@ button.emotion-0 {
     }
   >
     <div
-      className="alert alert-dismissible emotion-1 false"
+      className="alert alert-dismissible emotion-1 emotion-2"
       role="alert"
     >
       <button
@@ -501,7 +461,7 @@ button.emotion-0 {
     }
   >
     <div
-      className="alert alert-dismissible emotion-1 false"
+      className="alert alert-dismissible emotion-1"
       role="alert"
     >
       <button
@@ -527,6 +487,16 @@ exports[`Image storyshots Components/Alert Alert with link 1`] = `
   font-weight: 700;
 }
 
+.emotion-2 {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+
+.emotion-2.css-4jsc0t {
+  opacity: 1;
+}
+
 .emotion-1 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -536,9 +506,6 @@ exports[`Image storyshots Components/Alert Alert with link 1`] = `
   color: #004085;
   background-color: #cce5ff;
   border-color: #b8daff;
-  opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
-  transition: opacity 0.15s linear;
 }
 
 .emotion-1 hr {
@@ -547,10 +514,6 @@ exports[`Image storyshots Components/Alert Alert with link 1`] = `
 
 .emotion-1 .emotion-0 {
   color: #002752;
-}
-
-.emotion-1.css-4jsc0t {
-  opacity: 1;
 }
 
 <div>
@@ -569,7 +532,7 @@ exports[`Image storyshots Components/Alert Alert with link 1`] = `
     }
   >
     <div
-      className="alert emotion-1 false"
+      className="alert emotion-1 emotion-2"
       role="alert"
     >
       This is a primary alert with
@@ -587,6 +550,16 @@ exports[`Image storyshots Components/Alert Alert with link 1`] = `
 `;
 
 exports[`Image storyshots Components/Alert Simple Alert 1`] = `
+.emotion-1 {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+
+.emotion-1.css-4jsc0t {
+  opacity: 1;
+}
+
 .emotion-0 {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -596,9 +569,6 @@ exports[`Image storyshots Components/Alert Simple Alert 1`] = `
   color: #004085;
   background-color: #cce5ff;
   border-color: #b8daff;
-  opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
-  transition: opacity 0.15s linear;
 }
 
 .emotion-0 hr {
@@ -607,10 +577,6 @@ exports[`Image storyshots Components/Alert Simple Alert 1`] = `
 
 .emotion-0 .css-1y9z1wr {
   color: #002752;
-}
-
-.emotion-0.css-4jsc0t {
-  opacity: 1;
 }
 
 <div>
@@ -629,7 +595,7 @@ exports[`Image storyshots Components/Alert Simple Alert 1`] = `
     }
   >
     <div
-      className="alert emotion-0 false"
+      className="alert emotion-0 emotion-1"
       role="alert"
     >
       This is a simple alert with some text.
@@ -4451,6 +4417,129 @@ input[type="button"].emotion-1 {
 `;
 
 exports[`Image storyshots Components/Buttons Buttons 1`] = `
+.emotion-5 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.emotion-5:hover,
+.emotion-5:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-5:focus,
+.emotion-5.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-5.disabled,
+.emotion-5:disabled {
+  opacity: 0.65;
+}
+
+.emotion-5:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-5:not(:disabled):not(.disabled):active,
+.emotion-5:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-5.disabled,
+fieldset:disabled a.emotion-5 {
+  pointer-events: none;
+}
+
+.emotion-5 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-5:hover {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.emotion-5:focus,
+.emotion-5.focus {
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.emotion-5.disabled,
+.emotion-5:disabled {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.emotion-5:not(:disabled):not(.disabled):active,
+.emotion-5:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #bd2130;
+  border-color: #b21f2d;
+}
+
+.emotion-5:not(:disabled):not(.disabled):active:focus,
+.emotion-5:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.emotion-5.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-5.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-5.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-5.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
 .emotion-0 {
   display: inline-block;
   font-weight: 400;
@@ -5059,129 +5148,6 @@ fieldset:disabled a.emotion-4 {
 
 @supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
   .emotion-4.carousel-item-left {
-    -webkit-transform: translate3d(-100%,0,0);
-    -webkit-transform: translate3d(-100%,0,0);
-    -ms-transform: translate3d(-100%,0,0);
-    transform: translate3d(-100%,0,0);
-  }
-}
-
-.emotion-5 {
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: 0.25rem;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
-}
-
-.emotion-5:hover,
-.emotion-5:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.emotion-5:focus,
-.emotion-5.focus {
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
-}
-
-.emotion-5.disabled,
-.emotion-5:disabled {
-  opacity: 0.65;
-}
-
-.emotion-5:not(:disabled):not(.disabled) {
-  cursor: pointer;
-}
-
-.emotion-5:not(:disabled):not(.disabled):active,
-.emotion-5:not(:disabled):not(.disabled). {
-  background-image: none;
-}
-
-a.emotion-5.disabled,
-fieldset:disabled a.emotion-5 {
-  pointer-events: none;
-}
-
-.emotion-5 . {
-  position: relative;
-  top: -1px;
-}
-
-.emotion-5:hover {
-  color: #fff;
-  background-color: #c82333;
-  border-color: #bd2130;
-}
-
-.emotion-5:focus,
-.emotion-5.focus {
-  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
-}
-
-.emotion-5.disabled,
-.emotion-5:disabled {
-  color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
-}
-
-.emotion-5:not(:disabled):not(.disabled):active,
-.emotion-5:not(:disabled):not(.disabled).css-1vdl47n {
-  color: #fff;
-  background-color: #bd2130;
-  border-color: #b21f2d;
-}
-
-.emotion-5:not(:disabled):not(.disabled):active:focus,
-.emotion-5:not(:disabled):not(.disabled).css-1vdl47n:focus {
-  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
-}
-
-.emotion-5.carousel-item-right {
-  -webkit-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  transform: translateX(100%);
-}
-
-@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
-  .emotion-5.carousel-item-right {
-    -webkit-transform: translate3d(100%,0,0);
-    -webkit-transform: translate3d(100%,0,0);
-    -ms-transform: translate3d(100%,0,0);
-    transform: translate3d(100%,0,0);
-  }
-}
-
-.emotion-5.carousel-item-left {
-  -webkit-transform: translateX(-100%);
-  -webkit-transform: translateX(-100%);
-  -ms-transform: translateX(-100%);
-  transform: translateX(-100%);
-}
-
-@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
-  .emotion-5.carousel-item-left {
     -webkit-transform: translate3d(-100%,0,0);
     -webkit-transform: translate3d(-100%,0,0);
     -ms-transform: translate3d(-100%,0,0);
@@ -8308,7 +8274,7 @@ fieldset:disabled a.emotion-0 {
         Toggle Fade
       </button>
       <div
-        className="mt3 emotion-1 false"
+        className="mt3 emotion-1"
       >
         This content will fade in and out as the button is pressed
       </div>
@@ -17639,6 +17605,1438 @@ exports[`Image storyshots Components/List Group Tags 1`] = `
         </span>
       </li>
     </ul>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Modal Backdrop 1`] = `
+.emotion-0 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  -ms-flex-preferred-size: 0;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.emotion-1 {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+.emotion-1::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.emotion-1:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-1::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-1::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-1:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-1::-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-1::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-1::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-1:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-1::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-1:disabled,
+.emotion-1[readonly] {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+
+select.emotion-1:not([size]):not([multiple]) {
+  height: calc(2.25rem + 2px);
+}
+
+select.emotion-1:focus::-ms-value {
+  color: #495057;
+  background-color: #fff;
+}
+
+.emotion-1.is-valid {
+  border-color: #28a745;
+}
+
+.emotion-1.is-valid:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40,167,69,0.25);
+}
+
+.emotion-1.is-valid ~ .css-10arz9j,
+.emotion-1.is-valid ~ .css-1d9zx8i {
+  display: block;
+}
+
+.emotion-1.is-invalid {
+  border-color: #dc3545;
+}
+
+.emotion-1.is-invalid:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.25);
+}
+
+.emotion-1.is-invalid ~ .css-19wxil,
+.emotion-1.is-invalid ~ .css-109a0p5 {
+  display: block;
+}
+
+.emotion-2 {
+  margin-bottom: 1rem;
+}
+
+.emotion-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-5 .css-169pmwi {
+  width: 100%;
+}
+
+@media (min-width:576px) {
+  .emotion-5 label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  .emotion-5 .emotion-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .emotion-5 .emotion-1 {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+
+  .emotion-5 .css-1hqnnsr {
+    display: inline-block;
+  }
+
+  .emotion-5 .css-1tf9gz3 {
+    width: auto;
+  }
+
+  .emotion-5 .css-169pmwi {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: auto;
+    padding-left: 0;
+  }
+
+  .emotion-5 .css-1ftrsrg {
+    position: relative;
+    margin-top: 0;
+    margin-right: 0.25rem;
+    margin-left: 0;
+  }
+
+  .emotion-5 .css-1dsy8m7 {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .emotion-5 .css-yrjk74 {
+    margin-bottom: 0;
+  }
+}
+
+.emotion-3 {
+  position: relative !important;
+}
+
+.emotion-4 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.emotion-4:hover,
+.emotion-4:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-4:focus,
+.emotion-4.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-4.disabled,
+.emotion-4:disabled {
+  opacity: 0.65;
+}
+
+.emotion-4:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-4:not(:disabled):not(.disabled):active,
+.emotion-4:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-4.disabled,
+fieldset:disabled a.emotion-4 {
+  pointer-events: none;
+}
+
+.emotion-4 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-4:hover {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.emotion-4:focus,
+.emotion-4.focus {
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.emotion-4.disabled,
+.emotion-4:disabled {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.emotion-4:not(:disabled):not(.disabled):active,
+.emotion-4:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #bd2130;
+  border-color: #b21f2d;
+}
+
+.emotion-4:not(:disabled):not(.disabled):active:focus,
+.emotion-4:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.emotion-4.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-4.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-4.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-4.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      className="docs-example"
+    >
+      <div
+        className="btn-group"
+      >
+        <div
+          className="btn"
+        >
+          <div>
+            <form
+              className="emotion-5"
+              onSubmit={[Function]}
+            >
+              <div
+                className="emotion-2 emotion-3"
+              >
+                <label
+                  className="emotion-0 col-form-label"
+                  htmlFor="backdrop"
+                >
+                  Backdrop value
+                </label>
+                 
+                <select
+                  className=" emotion-1"
+                  id="backdrop"
+                  name="backdrop"
+                  onChange={[Function]}
+                  type="select"
+                >
+                  <option
+                    value="true"
+                  >
+                    true
+                  </option>
+                  <option
+                    value="false"
+                  >
+                    false
+                  </option>
+                  <option
+                    value="static"
+                  >
+                    "static"
+                  </option>
+                </select>
+              </div>
+               
+              <button
+                className="emotion-4"
+                onClick={[Function]}
+                tag="button"
+                type="button"
+              >
+                Launch Modal
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Modal Modals 1`] = `
+.emotion-1 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+.emotion-1:hover,
+.emotion-1:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-1:focus,
+.emotion-1.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-1.disabled,
+.emotion-1:disabled {
+  opacity: 0.65;
+}
+
+.emotion-1:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-1:not(:disabled):not(.disabled):active,
+.emotion-1:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-1.disabled,
+fieldset:disabled a.emotion-1 {
+  pointer-events: none;
+}
+
+.emotion-1 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-4 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.emotion-4 > .emotion-1 {
+  position: relative;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+
+.emotion-4 > .emotion-1:hover {
+  z-index: 1;
+}
+
+.emotion-4 > .emotion-1:focus,
+.emotion-4 > .emotion-1:active,
+.emotion-4 > .emotion-1.css-1vdl47n {
+  z-index: 1;
+}
+
+.emotion-4 .emotion-1 + .emotion-1,
+.emotion-4 .emotion-1 + .emotion-4,
+.emotion-4 .emotion-4 + .emotion-1,
+.emotion-4 .emotion-4 + .emotion-4 {
+  margin-left: -1px;
+}
+
+.emotion-4 > .emotion-1:first-child {
+  margin-left: 0;
+}
+
+.emotion-4 > .emotion-1:not(:last-child):not(.css-1kaxs1e),
+.emotion-4 > .emotion-4:not(:last-child) > .emotion-1 {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.emotion-4 > .emotion-1:not(:first-child),
+.emotion-4 > .emotion-4:not(:first-child) > .emotion-1 {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.emotion-0 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0:focus,
+.emotion-0.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-0.disabled,
+.emotion-0:disabled {
+  opacity: 0.65;
+}
+
+.emotion-0:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active,
+.emotion-0:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-0.disabled,
+fieldset:disabled a.emotion-0 {
+  pointer-events: none;
+}
+
+.emotion-0 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-0:hover {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.emotion-0:focus,
+.emotion-0.focus {
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.emotion-0.disabled,
+.emotion-0:disabled {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active,
+.emotion-0:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #bd2130;
+  border-color: #b21f2d;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active:focus,
+.emotion-0:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.emotion-0.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-0.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      className="docs-example"
+    >
+      <div
+        className="emotion-4"
+      >
+        <div
+          className="emotion-1"
+        >
+          <div>
+            <button
+              className="emotion-0"
+              onClick={[Function]}
+              tag="button"
+              type="button"
+            >
+              Launch Modal
+            </button>
+          </div>
+        </div>
+        <div
+          className="emotion-1"
+        >
+          <div>
+            <button
+              className="emotion-0"
+              onClick={[Function]}
+              tag="button"
+              type="button"
+            >
+              Launch Modal with custom className
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Modal Modals with Custom Transition Timeouts 1`] = `
+.emotion-0 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0:focus,
+.emotion-0.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-0.disabled,
+.emotion-0:disabled {
+  opacity: 0.65;
+}
+
+.emotion-0:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active,
+.emotion-0:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-0.disabled,
+fieldset:disabled a.emotion-0 {
+  pointer-events: none;
+}
+
+.emotion-0 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-0:hover {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.emotion-0:focus,
+.emotion-0.focus {
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.emotion-0.disabled,
+.emotion-0:disabled {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active,
+.emotion-0:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #bd2130;
+  border-color: #b21f2d;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active:focus,
+.emotion-0:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.emotion-0.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-0.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      className="docs-example"
+    >
+      <div
+        className="btn-group"
+      >
+        <div
+          className="btn"
+        >
+          <div>
+            <button
+              className="emotion-0"
+              onClick={[Function]}
+              tag="button"
+              type="button"
+            >
+              Launch Modal with Custom Transition Timeouts Example
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Modal Modals with external button 1`] = `
+.emotion-0 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0:focus,
+.emotion-0.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-0.disabled,
+.emotion-0:disabled {
+  opacity: 0.65;
+}
+
+.emotion-0:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active,
+.emotion-0:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-0.disabled,
+fieldset:disabled a.emotion-0 {
+  pointer-events: none;
+}
+
+.emotion-0 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-0:hover {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.emotion-0:focus,
+.emotion-0.focus {
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.emotion-0.disabled,
+.emotion-0:disabled {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active,
+.emotion-0:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #bd2130;
+  border-color: #b21f2d;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active:focus,
+.emotion-0:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.emotion-0.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-0.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      className="docs-example"
+    >
+      <div
+        className="btn-group"
+      >
+        <div
+          className="btn"
+        >
+          <div>
+            <button
+              className="emotion-0"
+              onClick={[Function]}
+              tag="button"
+              type="button"
+            >
+              Launch Modal with external close button
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Modal Modals without Fade Effect 1`] = `
+.emotion-0 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0:focus,
+.emotion-0.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-0.disabled,
+.emotion-0:disabled {
+  opacity: 0.65;
+}
+
+.emotion-0:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active,
+.emotion-0:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-0.disabled,
+fieldset:disabled a.emotion-0 {
+  pointer-events: none;
+}
+
+.emotion-0 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-0:hover {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.emotion-0:focus,
+.emotion-0.focus {
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.emotion-0.disabled,
+.emotion-0:disabled {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active,
+.emotion-0:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #bd2130;
+  border-color: #b21f2d;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active:focus,
+.emotion-0:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.emotion-0.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-0.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      className="docs-example"
+    >
+      <div
+        className="btn-group"
+      >
+        <div
+          className="btn"
+        >
+          <div>
+            <button
+              className="emotion-0"
+              onClick={[Function]}
+              tag="button"
+              type="button"
+            >
+              Launch Modal without Fade Effect Example
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Modal Nested Modals 1`] = `
+.emotion-0 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0:focus,
+.emotion-0.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-0.disabled,
+.emotion-0:disabled {
+  opacity: 0.65;
+}
+
+.emotion-0:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active,
+.emotion-0:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-0.disabled,
+fieldset:disabled a.emotion-0 {
+  pointer-events: none;
+}
+
+.emotion-0 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-0:hover {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.emotion-0:focus,
+.emotion-0.focus {
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.emotion-0.disabled,
+.emotion-0:disabled {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active,
+.emotion-0:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #bd2130;
+  border-color: #b21f2d;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active:focus,
+.emotion-0:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.5);
+}
+
+.emotion-0.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-0.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      className="docs-example"
+    >
+      <div
+        className="btn-group"
+      >
+        <div
+          className="btn"
+        >
+          <div>
+            <button
+              className="emotion-0"
+              onClick={[Function]}
+              tag="button"
+              type="button"
+            >
+              Launch Modal w/ Nested Example
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
