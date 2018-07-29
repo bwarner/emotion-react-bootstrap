@@ -45,7 +45,6 @@ import CarouselStory from './carousel.stories';
 import CarouselReadme from '../lib/carousel/README.md';
 import inputGroupStories from './input-group.stories';
 import InputGroupReadme from '../lib/input-group/README.md';
-import LayoutReadme from '../lib/layout/README.md';
 import cardStories from './card';
 import CardReadme from '../lib/card/README.md';
 import listGroupStories from './list-group.stories';
