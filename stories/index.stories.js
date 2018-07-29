@@ -43,6 +43,8 @@ import JumbotronReadme from '../lib/jumbotron/README.md';
 import inputGroupStories from './input-group.stories';
 import InputGroupReadme from '../lib/input-group/README.md';
 import LayoutReadme from '../lib/layout/README.md';
+import cardStories from './card';
+import CardReadme from '../lib/card/README.md';
 
 storiesOf('Layout', module)
   .addDecorator(withReadme(LayoutReadme))
@@ -85,6 +87,10 @@ buttonGroupStories.forEach(function cb(entry) {
 }, storiesOf('Components/Button Group', module).addDecorator(
   withReadme(ButtonGroupReadme),
 ));
+
+cardStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/Card', module).addDecorator(withReadme(CardReadme)));
 
 dropdownStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
