@@ -3,6 +3,7 @@ import { withReadme } from 'storybook-readme';
 import formStories from './form.stories';
 import FormReadme from '../lib/form/README.md';
 import layout from './layout.stories';
+import LayoutReadme from '../lib/layout/README.md';
 import BadgeReadme from '../lib/badge/README.md';
 import {
   Example1,
@@ -38,13 +39,28 @@ import {
   PaginationSmallStory,
 } from './pagination.stories';
 import PaginationReadme from '../lib/pagination/README.md';
-import JumbotronExample1 from './jumbotron.stories';
+import jumbotronStories from './jumbotron.stories';
 import JumbotronReadme from '../lib/jumbotron/README.md';
+import CarouselStory from './carousel.stories';
+import CarouselReadme from '../lib/carousel/README.md';
 import inputGroupStories from './input-group.stories';
 import InputGroupReadme from '../lib/input-group/README.md';
 import LayoutReadme from '../lib/layout/README.md';
 import cardStories from './card';
 import CardReadme from '../lib/card/README.md';
+import listGroupStories from './list-group.stories';
+import ListGroupReadme from '../lib/list-group/README.md';
+import mediaStories from './media.stories';
+import modalStories from './modal.stories';
+import ModalReadme from '../lib/modal/README.md';
+
+modalStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/Modal', module).addDecorator(withReadme(ModalReadme)));
+
+mediaStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Layout/Media', module));
 
 storiesOf('Layout', module)
   .addDecorator(withReadme(LayoutReadme))
@@ -110,9 +126,11 @@ inputGroupStories.forEach(function cb(entry) {
   withReadme(InputGroupReadme),
 ));
 
-storiesOf('Components/Jumbotron', module)
-  .addDecorator(withReadme(JumbotronReadme))
-  .add('Example', JumbotronExample1);
+listGroupStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/List Group', module).addDecorator(
+  withReadme(ListGroupReadme),
+));
 
 storiesOf('Components/Pagination', module)
   .addDecorator(withReadme(PaginationReadme))
@@ -121,3 +139,13 @@ storiesOf('Components/Pagination', module)
   .add('Pagination Disabled', PaginationDisabledStory)
   .add('Pagination Large', PaginationLargeStory)
   .add('Pagination Small', PaginationSmallStory);
+
+storiesOf('Components/Carousel', module)
+  .addDecorator(withReadme(CarouselReadme))
+  .add('Example', CarouselStory);
+
+jumbotronStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/Jumbotron', module).addDecorator(
+  withReadme(JumbotronReadme),
+));

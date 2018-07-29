@@ -41,6 +41,7 @@ jobs:
           - v1-dependencies-
       - attach_workspace:
           at: /home/circleci/repo
+      - run: npm run lint
       - run: npm run jest -- --reporters="default" --reporters="jest-junit" --ci -u
       - run: npm run codecov
       - store_test_results:
