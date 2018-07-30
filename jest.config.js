@@ -9,4 +9,14 @@ module.exports = {
   moduleFileExtensions: ['js', 'jsx', 'json'],
   coverageDirectory: './coverage/',
   collectCoverage: true,
+  collectCoverageFrom: [
+    '**/*.{js,jsx}',
+    '!**/node_modules/**',
+    '!**/scripts/**',
+    '!**/stories/**',
+    '!**/out/**',
+    '!**/coverage/**',
+    '!**/dist/**',
+    '!*.config.js',
+  ],
 };
