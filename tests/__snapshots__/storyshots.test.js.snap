@@ -7722,16 +7722,31 @@ exports[`Image storyshots Components/Carousel Example 1`] = `
       >
         <li
           className="emotion-0"
-          onClick={[Function]}
-        />
+        >
+          <button
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            type="button"
+          />
+        </li>
         <li
           className=""
-          onClick={[Function]}
-        />
+        >
+          <button
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            type="button"
+          />
+        </li>
         <li
           className=""
-          onClick={[Function]}
-        />
+        >
+          <button
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            type="button"
+          />
+        </li>
       </ol>
       <div
         className="emotion-9"
@@ -7792,11 +7807,12 @@ exports[`Image storyshots Components/Carousel Example 1`] = `
           </div>
         </div>
       </div>
-      <a
+      <button
         className="emotion-12"
         onClick={[Function]}
-        role="button"
+        onKeyPress={[Function]}
         tabIndex="0"
+        type="button"
       >
         <span
           aria-hidden="true"
@@ -7807,12 +7823,13 @@ exports[`Image storyshots Components/Carousel Example 1`] = `
         >
           Previous
         </span>
-      </a>
-      <a
+      </button>
+      <button
         className="emotion-15"
         onClick={[Function]}
-        role="button"
+        onKeyPress={[Function]}
         tabIndex="0"
+        type="button"
       >
         <span
           aria-hidden="true"
@@ -7823,7 +7840,7 @@ exports[`Image storyshots Components/Carousel Example 1`] = `
         >
           Next
         </span>
-      </a>
+      </button>
     </div>
   </div>
 </div>
