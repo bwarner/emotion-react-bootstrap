@@ -103,7 +103,6 @@ buttonGroupStories.forEach(function cb(entry) {
   withReadme(ButtonGroupReadme),
 ));
 
-console.log('>>>>>>> cardStories ', cardStories);
 cardStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Components/Card', module).addDecorator(withReadme(CardReadme)));
