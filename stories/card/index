@@ -1,17 +1,17 @@
-import CardExample from './card.stories';
-import CardAlignmentExample from './card-alignment.stories';
-import CardBackgroundsExample from './card-backgrounds.stories';
-import CardColumnsExample from './card-columns.stories';
-import CardContentTypesExample from './card-content-types.stories';
-import CardDecksExample from './card-decks.stories';
-import CardGroupsExample from './card-groups.stories';
-import CardHeaderFooterExample from './card-header-footer.stories';
-import CardImageCapsExample from './card-image-caps.stories';
-import CardImageOverlayExample from './card-image-overlay.stories';
-import CardOutlineExample from './card-outline.stories';
-import CardSizingExample from './card-sizing.stories';
+const CardExample = require('./card.stories');
+const CardAlignmentExample = require('./card-alignment.stories');
+const CardBackgroundsExample = require('./card-backgrounds.stories');
+const CardColumnsExample = require('./card-columns.stories');
+const CardContentTypesExample = require('./card-content-types.stories');
+const CardDecksExample = require('./card-decks.stories');
+const CardGroupsExample = require('./card-groups.stories');
+const CardHeaderFooterExample = require('./card-header-footer.stories');
+const CardImageCapsExample = require('./card-image-caps.stories');
+const CardImageOverlayExample = require('./card-image-overlay.stories');
+const CardOutlineExample = require('./card-outline.stories');
+const CardSizingExample = require('./card-sizing.stories');
 
-export default [
+module.exports = [
   { name: 'Card', story: CardExample },
   { name: 'Content Types', story: CardContentTypesExample },
   { name: 'Sizing', story: CardSizingExample },
