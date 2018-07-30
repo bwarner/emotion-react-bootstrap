@@ -46,7 +46,6 @@ import CarouselReadme from '../lib/carousel/README.md';
 import inputGroupStories from './input-group.stories';
 import InputGroupReadme from '../lib/input-group/README.md';
 import cardStories from './card';
-import story from './card/card.stories';
 import CardReadme from '../lib/card/README.md';
 import listGroupStories from './list-group.stories';
 import ListGroupReadme from '../lib/list-group/README.md';
@@ -104,9 +103,10 @@ buttonGroupStories.forEach(function cb(entry) {
   withReadme(ButtonGroupReadme),
 ));
 
-// cardStories.forEach(function cb(entry) {
-//  this.add(entry.name, entry.story);
-// }, storiesOf('Components/Card', module).addDecorator(withReadme(CardReadme)));
+console.log('>>>>>>> cardStories ', cardStories);
+cardStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/Card', module).addDecorator(withReadme(CardReadme)));
 
 dropdownStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
