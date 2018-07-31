@@ -43,8 +43,12 @@ import jumbotronStories from './jumbotron.stories';
 import JumbotronReadme from '../lib/jumbotron/README.md';
 import CarouselStory from './carousel.stories';
 import CarouselReadme from '../lib/carousel/README.md';
+import CollapseStory from './collapse.stories';
+import CollapseReadme from '../lib/collapse/README.md';
 import inputGroupStories from './input-group.stories';
 import InputGroupReadme from '../lib/input-group/README.md';
+import cardStories from './card';
+import CardReadme from '../lib/card/README.md';
 import listGroupStories from './list-group.stories';
 import ListGroupReadme from '../lib/list-group/README.md';
 import mediaStories from './media.stories';
@@ -103,6 +107,10 @@ buttonGroupStories.forEach(function cb(entry) {
   withReadme(ButtonGroupReadme),
 ));
 
+cardStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/Card', module).addDecorator(withReadme(CardReadme)));
+
 dropdownStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Components/Dropdowns', module).addDecorator(
@@ -138,6 +146,10 @@ storiesOf('Components/Pagination', module)
 storiesOf('Components/Carousel', module)
   .addDecorator(withReadme(CarouselReadme))
   .add('Example', CarouselStory);
+
+storiesOf('Components/Collapse', module)
+  .addDecorator(withReadme(CollapseReadme))
+  .add('Example', CollapseStory);
 
 jumbotronStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
