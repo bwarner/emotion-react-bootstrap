@@ -7396,6 +7396,3396 @@ input[type="button"].emotion-5 {
 </div>
 `;
 
+exports[`Image storyshots Components/Card Backgrounds variants 1`] = `
+.emotion-40 {
+  background-color: #dc3545 !important;
+}
+
+a.emotion-40:hover,
+a.emotion-40:focus,
+button.emotion-40:hover,
+button.emotion-40:focus {
+  background-color: #bd2130 !important;
+}
+
+.emotion-26 {
+  background-color: #17a2b8 !important;
+}
+
+a.emotion-26:hover,
+a.emotion-26:focus,
+button.emotion-26:hover,
+button.emotion-26:focus {
+  background-color: #117a8b !important;
+}
+
+.emotion-12 {
+  background-color: #007bff !important;
+}
+
+a.emotion-12:hover,
+a.emotion-12:focus,
+button.emotion-12:hover,
+button.emotion-12:focus {
+  background-color: #0062cc !important;
+}
+
+.emotion-19 {
+  background-color: #28a745 !important;
+}
+
+a.emotion-19:hover,
+a.emotion-19:focus,
+button.emotion-19:hover,
+button.emotion-19:focus {
+  background-color: #1e7e34 !important;
+}
+
+.emotion-33 {
+  background-color: #ffc107 !important;
+}
+
+a.emotion-33:hover,
+a.emotion-33:focus,
+button.emotion-33:hover,
+button.emotion-33:focus {
+  background-color: #d39e00 !important;
+}
+
+.emotion-3 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+}
+
+.emotion-3 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-3 > .css-1em19k4:first-child .css-11fuk1v:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-3 > .css-1em19k4:last-child .css-11fuk1v:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-5 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-0 {
+  margin-bottom: 0.75rem;
+}
+
+.emotion-4 {
+  color: #fff !important;
+}
+
+.emotion-2 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-2:hover,
+.emotion-2:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-2:focus,
+.emotion-2.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-2.disabled,
+.emotion-2:disabled {
+  opacity: 0.65;
+}
+
+.emotion-2:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-2:not(:disabled):not(.disabled):active,
+.emotion-2:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-2.disabled,
+fieldset:disabled a.emotion-2 {
+  pointer-events: none;
+}
+
+.emotion-2 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-2:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-2:focus,
+.emotion-2.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-2.disabled,
+.emotion-2:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-2:not(:disabled):not(.disabled):active,
+.emotion-2:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-2:not(:disabled):not(.disabled):active:focus,
+.emotion-2:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-2.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-2.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-2.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-2.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <div
+        className="emotion-3 emotion-4 emotion-5"
+        style={
+          Object {
+            "backgroundColor": "#333",
+            "borderColor": "#333",
+          }
+        }
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+      <div
+        className="emotion-3 emotion-4 emotion-5 emotion-12"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+      <div
+        className="emotion-3 emotion-4 emotion-5 emotion-19"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+      <div
+        className="emotion-3 emotion-4 emotion-5 emotion-26"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+      <div
+        className="emotion-3 emotion-4 emotion-5 emotion-33"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+      <div
+        className="emotion-3 emotion-4 emotion-5 emotion-40"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Card Card 1`] = `
+.emotion-5 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+}
+
+.emotion-5 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-5 > .css-1em19k4:first-child .css-11fuk1v:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-5 > .css-1em19k4:last-child .css-11fuk1v:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-4 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-1 {
+  margin-top: -0.375rem;
+  margin-bottom: 0;
+}
+
+.emotion-0 {
+  margin-bottom: 0.75rem;
+}
+
+.emotion-3 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-3:hover,
+.emotion-3:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-3:focus,
+.emotion-3.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-3.disabled,
+.emotion-3:disabled {
+  opacity: 0.65;
+}
+
+.emotion-3:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active,
+.emotion-3:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-3.disabled,
+fieldset:disabled a.emotion-3 {
+  pointer-events: none;
+}
+
+.emotion-3 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-3:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-3:focus,
+.emotion-3.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-3.disabled,
+.emotion-3:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active,
+.emotion-3:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active:focus,
+.emotion-3:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-3.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-3.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-3.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-3.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <div
+        className="emotion-5"
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-4"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            Some quick example text to build on the card title and make up the bulk of the card"s content.
+          </p>
+          <button
+            className="emotion-3"
+            onClick={[Function]}
+            tag="button"
+            type="button"
+          >
+            Button
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Card Columns 1`] = `
+.emotion-31 {
+  background-color: #007bff !important;
+}
+
+a.emotion-31:hover,
+a.emotion-31:focus,
+button.emotion-31:hover,
+button.emotion-31:focus {
+  background-color: #0062cc !important;
+}
+
+.emotion-5 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+}
+
+.emotion-5 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-5 > .css-1em19k4:first-child .css-11fuk1v:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-5 > .css-1em19k4:last-child .css-11fuk1v:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-4 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-32 .emotion-5 {
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width:576px) {
+  .emotion-32 {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
+    -webkit-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+  }
+
+  .emotion-32 .emotion-5 {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+.emotion-1 {
+  margin-top: -0.375rem;
+  margin-bottom: 0;
+}
+
+.emotion-0 {
+  margin-bottom: 0.75rem;
+}
+
+.emotion-17 {
+  color: #fff !important;
+}
+
+.emotion-3 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-3:hover,
+.emotion-3:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-3:focus,
+.emotion-3.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-3.disabled,
+.emotion-3:disabled {
+  opacity: 0.65;
+}
+
+.emotion-3:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active,
+.emotion-3:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-3.disabled,
+fieldset:disabled a.emotion-3 {
+  pointer-events: none;
+}
+
+.emotion-3 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-3:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-3:focus,
+.emotion-3.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-3.disabled,
+.emotion-3:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active,
+.emotion-3:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active:focus,
+.emotion-3:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-3.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-3.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-3.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-3.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      className="emotion-32"
+    >
+      <div
+        className="emotion-5"
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-4"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <button
+            className="emotion-3"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Button
+          </button>
+        </div>
+      </div>
+      <div
+        className="emotion-5"
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+          width="100%"
+        />
+      </div>
+      <div
+        className="emotion-5"
+      >
+        <div
+          className="emotion-4"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            This card has supporting text below as a natural lead-in to additional content.
+          </p>
+          <button
+            className="emotion-3"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Button
+          </button>
+        </div>
+      </div>
+      <div
+        className="emotion-5 emotion-17 emotion-4"
+        style={
+          Object {
+            "backgroundColor": "#333",
+            "borderColor": "#333",
+          }
+        }
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-3"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+      <div
+        className="emotion-5"
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-4"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+          </p>
+          <button
+            className="emotion-3"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Button
+          </button>
+        </div>
+      </div>
+      <div
+        className="emotion-5 emotion-17 emotion-4 emotion-31"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-3"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Card Content Types 1`] = `
+.emotion-7 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+}
+
+.emotion-7 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-7 > .css-1em19k4:first-child .css-11fuk1v:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-7 > .css-1em19k4:last-child .css-11fuk1v:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-2 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-4:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-4 + .emotion-4 {
+  margin-left: 1.25rem;
+}
+
+.emotion-1 {
+  margin-top: -0.375rem;
+  margin-bottom: 0;
+}
+
+.emotion-0 {
+  margin-bottom: 0.75rem;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <div
+        className="emotion-7"
+      >
+        <div
+          className="emotion-2"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+        </div>
+        <img
+          alt="Card cap"
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-2"
+        >
+          <p
+            className="emotion-0"
+          >
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+          <a
+            className="emotion-4"
+            href="#"
+          >
+            Card Link
+          </a>
+          <a
+            className="emotion-4"
+            href="#"
+          >
+            Another Link
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Card Decks 1`] = `
+.emotion-5 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+}
+
+.emotion-5 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-5 > .css-1em19k4:first-child .css-11fuk1v:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-5 > .css-1em19k4:last-child .css-11fuk1v:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-4 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-18 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-18 .emotion-5 {
+  margin-bottom: 15px;
+}
+
+@media (min-width:576px) {
+  .emotion-18 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .emotion-18 .emotion-5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 0%;
+    -webkit-flex: 1 0 0%;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+}
+
+.emotion-1 {
+  margin-top: -0.375rem;
+  margin-bottom: 0;
+}
+
+.emotion-0 {
+  margin-bottom: 0.75rem;
+}
+
+.emotion-3 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-3:hover,
+.emotion-3:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-3:focus,
+.emotion-3.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-3.disabled,
+.emotion-3:disabled {
+  opacity: 0.65;
+}
+
+.emotion-3:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active,
+.emotion-3:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-3.disabled,
+fieldset:disabled a.emotion-3 {
+  pointer-events: none;
+}
+
+.emotion-3 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-3:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-3:focus,
+.emotion-3.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-3.disabled,
+.emotion-3:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active,
+.emotion-3:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active:focus,
+.emotion-3:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-3.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-3.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-3.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-3.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      className="emotion-18"
+    >
+      <div
+        className="emotion-5"
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-4"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <button
+            className="emotion-3"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Button
+          </button>
+        </div>
+      </div>
+      <div
+        className="emotion-5"
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-4"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            This card has supporting text below as a natural lead-in to additional content.
+          </p>
+          <button
+            className="emotion-3"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Button
+          </button>
+        </div>
+      </div>
+      <div
+        className="emotion-5"
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-4"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+          </p>
+          <button
+            className="emotion-3"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Button
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Card Groups 1`] = `
+.emotion-5 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+}
+
+.emotion-5 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-5 > .css-1em19k4:first-child .css-11fuk1v:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-5 > .css-1em19k4:last-child .css-11fuk1v:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-4 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-18 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-18 > .emotion-5 {
+  margin-bottom: 15px;
+}
+
+@media (min-width:576px) {
+  .emotion-18 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+
+  .emotion-18 > .emotion-5 {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 0%;
+    -webkit-flex: 1 0 0%;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    margin-bottom: 0;
+  }
+
+  .emotion-18 > .emotion-5 + .emotion-5 {
+    margin-left: 0;
+    border-left: 0;
+  }
+
+  .emotion-18 > .emotion-5:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .emotion-18 > .emotion-5:first-child .css-8juvrl,
+  .emotion-18 > .emotion-5:first-child .css-1oq9tup {
+    border-top-right-radius: 0;
+  }
+
+  .emotion-18 > .emotion-5:first-child .css-1t38bxq,
+  .emotion-18 > .emotion-5:first-child .css-vagxjk {
+    border-bottom-right-radius: 0;
+  }
+
+  .emotion-18 > .emotion-5:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .emotion-18 > .emotion-5:last-child .css-8juvrl,
+  .emotion-18 > .emotion-5:last-child .css-1oq9tup {
+    border-top-left-radius: 0;
+  }
+
+  .emotion-18 > .emotion-5:last-child .css-1t38bxq,
+  .emotion-18 > .emotion-5:last-child .css-vagxjk {
+    border-bottom-left-radius: 0;
+  }
+
+  .emotion-18 > .emotion-5:only-child {
+    border-radius: 0.25rem;
+  }
+
+  .emotion-18 > .emotion-5:only-child .css-8juvrl,
+  .emotion-18 > .emotion-5:only-child .css-1oq9tup {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+
+  .emotion-18 > .emotion-5:only-child .css-1t38bxq,
+  .emotion-18 > .emotion-5:only-child .css-vagxjk {
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+
+  .emotion-18 > .emotion-5:not(:first-child):not(:last-child):not(:only-child) {
+    border-radius: 0;
+  }
+
+  .emotion-18 > .emotion-5:not(:first-child):not(:last-child):not(:only-child) .css-8juvrl,
+  .emotion-18 > .emotion-5:not(:first-child):not(:last-child):not(:only-child) .css-1t38bxq,
+  .emotion-18 > .emotion-5:not(:first-child):not(:last-child):not(:only-child) .css-1oq9tup,
+  .emotion-18 > .emotion-5:not(:first-child):not(:last-child):not(:only-child) .css-vagxjk {
+    border-radius: 0;
+  }
+}
+
+.emotion-1 {
+  margin-top: -0.375rem;
+  margin-bottom: 0;
+}
+
+.emotion-0 {
+  margin-bottom: 0.75rem;
+}
+
+.emotion-3 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-3:hover,
+.emotion-3:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-3:focus,
+.emotion-3.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-3.disabled,
+.emotion-3:disabled {
+  opacity: 0.65;
+}
+
+.emotion-3:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active,
+.emotion-3:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-3.disabled,
+fieldset:disabled a.emotion-3 {
+  pointer-events: none;
+}
+
+.emotion-3 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-3:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-3:focus,
+.emotion-3.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-3.disabled,
+.emotion-3:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active,
+.emotion-3:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active:focus,
+.emotion-3:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-3.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-3.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-3.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-3.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      className="emotion-18"
+    >
+      <div
+        className="emotion-5"
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-4"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <button
+            className="emotion-3"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Button
+          </button>
+        </div>
+      </div>
+      <div
+        className="emotion-5"
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-4"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            This card has supporting text below as a natural lead-in to additional content.
+          </p>
+          <button
+            className="emotion-3"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Button
+          </button>
+        </div>
+      </div>
+      <div
+        className="emotion-5"
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-4"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+          </p>
+          <button
+            className="emotion-3"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Button
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Card Header and Footer 1`] = `
+.emotion-6 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+}
+
+.emotion-6 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-6 > .css-1em19k4:first-child .css-11fuk1v:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-6 > .css-1em19k4:last-child .css-11fuk1v:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-4 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-5 {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0,0,0,0.03);
+  border-top: 1px solid rgba(0,0,0,0.125);
+}
+
+.emotion-5:last-child {
+  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+
+.emotion-0 {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0,0,0,0.03);
+  border-bottom: 1px solid rgba(0,0,0,0.125);
+}
+
+.emotion-0:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.emotion-0 + .css-1em19k4 .css-11fuk1v:first-child {
+  border-top: 0;
+}
+
+.emotion-1 {
+  margin-bottom: 0.75rem;
+}
+
+.emotion-3 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-3:hover,
+.emotion-3:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-3:focus,
+.emotion-3.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-3.disabled,
+.emotion-3:disabled {
+  opacity: 0.65;
+}
+
+.emotion-3:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active,
+.emotion-3:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-3.disabled,
+fieldset:disabled a.emotion-3 {
+  pointer-events: none;
+}
+
+.emotion-3 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-3:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-3:focus,
+.emotion-3.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-3.disabled,
+.emotion-3:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active,
+.emotion-3:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active:focus,
+.emotion-3:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-3.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-3.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-3.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-3.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <div
+        className="emotion-6"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Header
+        </h5>
+        <div
+          className="emotion-4"
+        >
+          <h5
+            className="emotion-1"
+          >
+            Special Title Treatment
+          </h5>
+          <p
+            className="emotion-1"
+          >
+            With supporting text below as a natural lead-in to additional content.
+          </p>
+          <button
+            className="emotion-3"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Go somewhere
+          </button>
+        </div>
+        <h5
+          className="emotion-5"
+        >
+          Footer
+        </h5>
+      </div>
+      <div
+        className="emotion-6"
+      >
+        <h3
+          className="emotion-0"
+        >
+          Featured
+        </h3>
+        <div
+          className="emotion-4"
+        >
+          <h5
+            className="emotion-1"
+          >
+            Special Title Treatment
+          </h5>
+          <p
+            className="emotion-1"
+          >
+            With supporting text below as a natural lead-in to additional content.
+          </p>
+          <button
+            className="emotion-3"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Go somewhere
+          </button>
+        </div>
+        <h5
+          className="text-muted emotion-5"
+        >
+          Footer
+        </h5>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Card Image Caps 1`] = `
+.emotion-4 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+}
+
+.emotion-4 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-4 > .css-1em19k4:first-child .css-11fuk1v:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-4 > .css-1em19k4:last-child .css-11fuk1v:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-3 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-9 {
+  width: 100%;
+  border-bottom-right-radius: calc(0.25rem - 1px);
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+
+.emotion-0 {
+  margin-bottom: 0.75rem;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <div
+        className="emotion-4"
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-3"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card Title
+          </h5>
+          <p
+            className="emotion-0"
+          >
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <p
+            className="emotion-0"
+          >
+            <small
+              className="text-muted"
+            >
+              Last updated 3 mins ago
+            </small>
+          </p>
+        </div>
+      </div>
+      <div
+        className="emotion-4"
+      >
+        <div
+          className="emotion-3"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card Title
+          </h5>
+          <p
+            className="emotion-0"
+          >
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <p
+            className="emotion-0"
+          >
+            <small
+              className="text-muted"
+            >
+              Last updated 3 mins ago
+            </small>
+          </p>
+        </div>
+        <img
+          alt="Card image cap"
+          className="emotion-9"
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"
+          width="100%"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Card Image Overlay 1`] = `
+.emotion-5 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+}
+
+.emotion-5 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-5 > .css-1em19k4:first-child .css-11fuk1v:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-5 > .css-1em19k4:last-child .css-11fuk1v:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-0 {
+  width: 100%;
+  border-radius: calc(0.25rem - 1px);
+}
+
+.emotion-4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
+}
+
+.emotion-1 {
+  margin-bottom: 0.75rem;
+}
+
+.emotion-6 {
+  color: #fff !important;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <div
+        className="emotion-5 emotion-6"
+      >
+        <img
+          alt="Card image cap"
+          className="emotion-0"
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97270&w=318&h=270&bg=333333&txtclr=666666"
+          width="100%"
+        />
+        <div
+          className="emotion-4"
+        >
+          <h5
+            className="emotion-1"
+          >
+            Card Title
+          </h5>
+          <p
+            className="emotion-1"
+          >
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <p
+            className="emotion-1"
+          >
+            <small
+              className="text-muted"
+            >
+              Last updated 3 mins ago
+            </small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Card Outline variants 1`] = `
+.emotion-35 {
+  border-color: #dc3545 !important;
+}
+
+.emotion-23 {
+  border-color: #17a2b8 !important;
+}
+
+.emotion-11 {
+  border-color: #007bff !important;
+}
+
+.emotion-5 {
+  border-color: #6c757d !important;
+}
+
+.emotion-17 {
+  border-color: #28a745 !important;
+}
+
+.emotion-29 {
+  border-color: #ffc107 !important;
+}
+
+.emotion-3 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+}
+
+.emotion-3 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-3 > .css-1em19k4:first-child .css-11fuk1v:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-3 > .css-1em19k4:last-child .css-11fuk1v:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-4 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-0 {
+  margin-bottom: 0.75rem;
+}
+
+.emotion-2 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-2:hover,
+.emotion-2:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-2:focus,
+.emotion-2.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-2.disabled,
+.emotion-2:disabled {
+  opacity: 0.65;
+}
+
+.emotion-2:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-2:not(:disabled):not(.disabled):active,
+.emotion-2:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-2.disabled,
+fieldset:disabled a.emotion-2 {
+  pointer-events: none;
+}
+
+.emotion-2 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-2:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-2:focus,
+.emotion-2.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-2.disabled,
+.emotion-2:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-2:not(:disabled):not(.disabled):active,
+.emotion-2:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-2:not(:disabled):not(.disabled):active:focus,
+.emotion-2:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-2.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-2.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-2.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-2.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <div
+        className="emotion-3 emotion-4 emotion-5"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+      <div
+        className="emotion-3 emotion-4 emotion-11"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+      <div
+        className="emotion-3 emotion-4 emotion-17"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+      <div
+        className="emotion-3 emotion-4 emotion-23"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+      <div
+        className="emotion-3 emotion-4 emotion-29"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+      <div
+        className="emotion-3 emotion-4 emotion-35"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Card Sizing 1`] = `
+.emotion-3 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+}
+
+.emotion-3 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-3 > .css-1em19k4:first-child .css-11fuk1v:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-3 > .css-1em19k4:last-child .css-11fuk1v:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-4 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-0 {
+  margin-bottom: 0.75rem;
+}
+
+.emotion-5 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width:576px) {
+  .emotion-5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.emotion-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.emotion-2 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-2:hover,
+.emotion-2:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-2:focus,
+.emotion-2.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-2.disabled,
+.emotion-2:disabled {
+  opacity: 0.65;
+}
+
+.emotion-2:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-2:not(:disabled):not(.disabled):active,
+.emotion-2:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-2.disabled,
+fieldset:disabled a.emotion-2 {
+  pointer-events: none;
+}
+
+.emotion-2 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-2:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-2:focus,
+.emotion-2.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-2.disabled,
+.emotion-2:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-2:not(:disabled):not(.disabled):active,
+.emotion-2:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-2:not(:disabled):not(.disabled):active:focus,
+.emotion-2:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-2.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-2.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-2.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-2.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      className="emotion-12"
+    >
+      <div
+        className="emotion-5"
+      >
+        <div
+          className="emotion-3 emotion-4"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Special Title Treatment
+          </h5>
+          <p
+            className="emotion-0"
+          >
+            With supporting text below as a natural lead-in to additional content.
+          </p>
+          <button
+            className="emotion-2"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Go somewhere
+          </button>
+        </div>
+      </div>
+      <div
+        className="emotion-5"
+      >
+        <div
+          className="emotion-3 emotion-4"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Special Title Treatment
+          </h5>
+          <p
+            className="emotion-0"
+          >
+            With supporting text below as a natural lead-in to additional content.
+          </p>
+          <button
+            className="emotion-2"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Go somewhere
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Card Text Alignment 1`] = `
+.emotion-3 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+}
+
+.emotion-3 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-3 > .css-1em19k4:first-child .css-11fuk1v:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-3 > .css-1em19k4:last-child .css-11fuk1v:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-4 {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-0 {
+  margin-bottom: 0.75rem;
+}
+
+.emotion-2 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-2:hover,
+.emotion-2:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-2:focus,
+.emotion-2.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-2.disabled,
+.emotion-2:disabled {
+  opacity: 0.65;
+}
+
+.emotion-2:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-2:not(:disabled):not(.disabled):active,
+.emotion-2:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-2.disabled,
+fieldset:disabled a.emotion-2 {
+  pointer-events: none;
+}
+
+.emotion-2 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-2:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-2:focus,
+.emotion-2.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-2.disabled,
+.emotion-2:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-2:not(:disabled):not(.disabled):active,
+.emotion-2:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-2:not(:disabled):not(.disabled):active:focus,
+.emotion-2:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-2.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-2.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-2.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-2.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <div
+        className="emotion-3 emotion-4"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2"
+          onClick={[Function]}
+          tag="button"
+          type="button"
+        >
+          Go somewhere
+        </button>
+      </div>
+      <div
+        className="text-center emotion-3 emotion-4"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2"
+          onClick={[Function]}
+          tag="button"
+          type="button"
+        >
+          Go somewhere
+        </button>
+      </div>
+      <div
+        className="text-right emotion-3 emotion-4"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2"
+          onClick={[Function]}
+          tag="button"
+          type="button"
+        >
+          Go somewhere
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Image storyshots Components/Carousel Example 1`] = `
 .emotion-0.carousel-item-right {
   -webkit-transform: translateX(100%);
@@ -7688,19 +11078,31 @@ exports[`Image storyshots Components/Carousel Example 1`] = `
       >
         <li
           className="emotion-0"
-          onClick={[Function]}
-          onKeyUp={[Function]}
-        />
+        >
+          <button
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          />
+        </li>
         <li
           className=""
-          onClick={[Function]}
-          onKeyUp={[Function]}
-        />
+        >
+          <button
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          />
+        </li>
         <li
           className=""
-          onClick={[Function]}
-          onKeyUp={[Function]}
-        />
+        >
+          <button
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          />
+        </li>
       </ol>
       <div
         className="emotion-9"
@@ -7761,12 +11163,12 @@ exports[`Image storyshots Components/Carousel Example 1`] = `
           </div>
         </div>
       </div>
-      <a
+      <button
         className="emotion-12"
         onClick={[Function]}
         onKeyUp={[Function]}
-        role="button"
         tabIndex="0"
+        type="button"
       >
         <span
           aria-hidden="true"
@@ -7777,13 +11179,13 @@ exports[`Image storyshots Components/Carousel Example 1`] = `
         >
           Previous
         </span>
-      </a>
-      <a
+      </button>
+      <button
         className="emotion-15"
         onClick={[Function]}
         onKeyUp={[Function]}
-        role="button"
         tabIndex="0"
+        type="button"
       >
         <span
           aria-hidden="true"
@@ -7794,7 +11196,253 @@ exports[`Image storyshots Components/Carousel Example 1`] = `
         >
           Next
         </span>
-      </a>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Collapse Example 1`] = `
+.emotion-3 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width:576px) {
+  .emotion-3 {
+    max-width: 540px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-3 {
+    max-width: 720px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-3 {
+    max-width: 960px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-3 {
+    max-width: 1140px;
+  }
+}
+
+@media print {
+  .emotion-3 {
+    min-width: 992px !important;
+  }
+}
+
+.emotion-1 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.emotion-2 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.emotion-0 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0:focus,
+.emotion-0.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-0.disabled,
+.emotion-0:disabled {
+  opacity: 0.65;
+}
+
+.emotion-0:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active,
+.emotion-0:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-0.disabled,
+fieldset:disabled a.emotion-0 {
+  pointer-events: none;
+}
+
+.emotion-0 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-0:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.emotion-0:focus,
+.emotion-0.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5);
+}
+
+.emotion-0.disabled,
+.emotion-0:disabled {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active,
+.emotion-0:not(:disabled):not(.disabled).css-1vdl47n {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active:focus,
+.emotion-0:not(:disabled):not(.disabled).css-1vdl47n:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5);
+}
+
+.emotion-0.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-0.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+.emotion-4 {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 0;
+}
+
+@media (min-width:576px) {
+  .emotion-4 {
+    padding: 4rem 2rem;
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <button
+        className="emotion-0"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginBottom": "1rem",
+          }
+        }
+        tag="button"
+        type="button"
+      >
+        Toggle
+      </button>
+      <div
+        className="collapse show"
+        style={Object {}}
+      >
+        <div
+          className="emotion-4"
+        >
+          <div
+            className="emotion-3"
+          >
+            <h1
+              className="emotion-1"
+            >
+              Fluid jumbotron
+            </h1>
+            <p
+              className="emotion-2"
+            >
+              This is a modified jumbotron that occupies the entire horizontal space of its parent.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

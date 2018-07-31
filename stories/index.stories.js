@@ -43,6 +43,8 @@ import jumbotronStories from './jumbotron.stories';
 import JumbotronReadme from '../lib/jumbotron/README.md';
 import CarouselStory from './carousel.stories';
 import CarouselReadme from '../lib/carousel/README.md';
+import CollapseStory from './collapse.stories';
+import CollapseReadme from '../lib/collapse/README.md';
 import inputGroupStories from './input-group.stories';
 import InputGroupReadme from '../lib/input-group/README.md';
 import cardStories from './card';
@@ -142,6 +144,10 @@ storiesOf('Components/Pagination', module)
 storiesOf('Components/Carousel', module)
   .addDecorator(withReadme(CarouselReadme))
   .add('Example', CarouselStory);
+
+storiesOf('Components/Collapse', module)
+  .addDecorator(withReadme(CollapseReadme))
+  .add('Example', CollapseStory);
 
 jumbotronStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
