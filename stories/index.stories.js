@@ -56,6 +56,8 @@ import modalStories from './modal.stories';
 import ModalReadme from '../lib/modal/README.md';
 import navStories from './nav.stories';
 import navReadme from '../lib/nav/README.md';
+import navbarStories from './navbar.stories';
+import navbarReadme from '../lib/navbar/README.md';
 
 modalStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
@@ -160,3 +162,9 @@ jumbotronStories.forEach(function cb(entry) {
 storiesOf('Components/Nav', module)
   .addDecorator(withReadme(navReadme))
   .add('Example', navStories);
+
+navbarStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/Navbar', module).addDecorator(
+  withReadme(navbarReadme),
+));
