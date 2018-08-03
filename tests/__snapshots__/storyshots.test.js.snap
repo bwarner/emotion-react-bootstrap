@@ -21662,6 +21662,151 @@ fieldset:disabled a.emotion-0 {
 </div>
 `;
 
+exports[`Image storyshots Components/Nav Example 1`] = `
+.emotion-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.emotion-0 {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0.disabled {
+  color: #6c757d;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <p>
+        List Based
+      </p>
+      <ul
+        className="emotion-4"
+      >
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-0  "
+            href="#"
+            onClick={[Function]}
+          >
+            Link
+          </a>
+        </li>
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-0  "
+            href="#"
+            onClick={[Function]}
+          >
+            Link
+          </a>
+        </li>
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-0  "
+            href="#"
+            onClick={[Function]}
+          >
+            Another Link
+          </a>
+        </li>
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-0 disabled "
+            disabled={true}
+            href="#"
+            onClick={[Function]}
+          >
+            Disabled Link
+          </a>
+        </li>
+      </ul>
+      <hr />
+      <p>
+        Link Based
+      </p>
+      <ul
+        className="emotion-4"
+      >
+        <a
+          className="emotion-0  "
+          href="#"
+          onClick={[Function]}
+        >
+          Link
+        </a>
+         
+        <a
+          className="emotion-0  "
+          href="#"
+          onClick={[Function]}
+        >
+          Link
+        </a>
+         
+        <a
+          className="emotion-0  "
+          href="#"
+          onClick={[Function]}
+        >
+          Another Link
+        </a>
+         
+        <a
+          className="emotion-0 disabled "
+          disabled={true}
+          href="#"
+          onClick={[Function]}
+        >
+          Disabled Link
+        </a>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Image storyshots Components/Pagination Pagination Active 1`] = `
 .emotion-10.carousel-item-right {
   -webkit-transform: translateX(100%);

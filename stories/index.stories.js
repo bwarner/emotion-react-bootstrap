@@ -54,6 +54,8 @@ import ListGroupReadme from '../lib/list-group/README.md';
 import mediaStories from './media.stories';
 import modalStories from './modal.stories';
 import ModalReadme from '../lib/modal/README.md';
+import navStories from './nav.stories';
+import navReadme from '../lib/nav/README.md';
 
 modalStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
@@ -154,3 +156,7 @@ jumbotronStories.forEach(function cb(entry) {
 }, storiesOf('Components/Jumbotron', module).addDecorator(
   withReadme(JumbotronReadme),
 ));
+
+storiesOf('Components/Nav', module)
+  .addDecorator(withReadme(navReadme))
+  .add('Example', navStories);
