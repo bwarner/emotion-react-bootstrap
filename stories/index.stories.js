@@ -43,6 +43,8 @@ import jumbotronStories from './jumbotron.stories';
 import JumbotronReadme from '../lib/jumbotron/README.md';
 import CarouselStory from './carousel.stories';
 import CarouselReadme from '../lib/carousel/README.md';
+import CollapseStory from './collapse.stories';
+import CollapseReadme from '../lib/collapse/README.md';
 import inputGroupStories from './input-group.stories';
 import InputGroupReadme from '../lib/input-group/README.md';
 import cardStories from './card';
@@ -52,6 +54,8 @@ import ListGroupReadme from '../lib/list-group/README.md';
 import mediaStories from './media.stories';
 import modalStories from './modal.stories';
 import ModalReadme from '../lib/modal/README.md';
+import navStories from './nav.stories';
+import navReadme from '../lib/nav/README.md';
 
 modalStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
@@ -143,8 +147,16 @@ storiesOf('Components/Carousel', module)
   .addDecorator(withReadme(CarouselReadme))
   .add('Example', CarouselStory);
 
+storiesOf('Components/Collapse', module)
+  .addDecorator(withReadme(CollapseReadme))
+  .add('Example', CollapseStory);
+
 jumbotronStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Components/Jumbotron', module).addDecorator(
   withReadme(JumbotronReadme),
 ));
+
+storiesOf('Components/Nav', module)
+  .addDecorator(withReadme(navReadme))
+  .add('Example', navStories);
