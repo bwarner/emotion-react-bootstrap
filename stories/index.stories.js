@@ -157,6 +157,6 @@ jumbotronStories.forEach(function cb(entry) {
   withReadme(JumbotronReadme),
 ));
 
-storiesOf('Components/Nav', module)
-  .addDecorator(withReadme(navReadme))
-  .add('Example', navStories);
+navStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/Nav', module).addDecorator(withReadme(navReadme)));
