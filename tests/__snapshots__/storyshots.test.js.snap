@@ -22838,6 +22838,2651 @@ exports[`Image storyshots Components/Pagination Pagination Small 1`] = `
 </div>
 `;
 
+exports[`Image storyshots Components/Progress Animated 1`] = `
+.emotion-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  animation: progress-bar-stripes 1s linear infinite;
+  background-image: linear-gradient( 45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent );
+  background-size: 1rem 1rem;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  animation: progress-bar-stripes 1s linear infinite;
+  background-color: #28a745 !important;
+  background-image: linear-gradient( 45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent );
+  background-size: 1rem 1rem;
+}
+
+a.emotion-2:hover,
+a.emotion-2:focus,
+button.emotion-2:hover,
+button.emotion-2:focus {
+  background-color: #1e7e34 !important;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  animation: progress-bar-stripes 1s linear infinite;
+  background-color: #17a2b8 !important;
+  background-image: linear-gradient( 45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent );
+  background-size: 1rem 1rem;
+}
+
+a.emotion-4:hover,
+a.emotion-4:focus,
+button.emotion-4:hover,
+button.emotion-4:focus {
+  background-color: #117a8b !important;
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  animation: progress-bar-stripes 1s linear infinite;
+  background-color: #ffc107 !important;
+  background-image: linear-gradient( 45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent );
+  background-size: 1rem 1rem;
+}
+
+a.emotion-6:hover,
+a.emotion-6:focus,
+button.emotion-6:hover,
+button.emotion-6:focus {
+  background-color: #d39e00 !important;
+}
+
+.emotion-8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  animation: progress-bar-stripes 1s linear infinite;
+  background-color: #dc3545 !important;
+  background-image: linear-gradient( 45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent );
+  background-size: 1rem 1rem;
+}
+
+a.emotion-8:hover,
+a.emotion-8:focus,
+button.emotion-8:hover,
+button.emotion-8:focus {
+  background-color: #bd2130 !important;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "width": 500,
+        }
+      }
+    >
+      <div
+        className="emotion-1"
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow={10}
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "10%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="25"
+          className="emotion-2"
+          role="progressbar"
+          style={
+            Object {
+              "width": "25%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow={50}
+          className="emotion-4"
+          role="progressbar"
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow={75}
+          className="emotion-6"
+          role="progressbar"
+          style={
+            Object {
+              "width": "75%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="100"
+          className="emotion-8"
+          role="progressbar"
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="10"
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "10%",
+            }
+          }
+        />
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="30"
+          className="emotion-2"
+          role="progressbar"
+          style={
+            Object {
+              "width": "30%",
+            }
+          }
+        />
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="20"
+          className="emotion-6"
+          role="progressbar"
+          style={
+            Object {
+              "width": "20%",
+            }
+          }
+        />
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="20"
+          className="emotion-8"
+          role="progressbar"
+          style={
+            Object {
+              "width": "20%",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Progress Color 1`] = `
+.emotion-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #28a745 !important;
+}
+
+a.emotion-2:hover,
+a.emotion-2:focus,
+button.emotion-2:hover,
+button.emotion-2:focus {
+  background-color: #1e7e34 !important;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #17a2b8 !important;
+}
+
+a.emotion-4:hover,
+a.emotion-4:focus,
+button.emotion-4:hover,
+button.emotion-4:focus {
+  background-color: #117a8b !important;
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #ffc107 !important;
+}
+
+a.emotion-6:hover,
+a.emotion-6:focus,
+button.emotion-6:hover,
+button.emotion-6:focus {
+  background-color: #d39e00 !important;
+}
+
+.emotion-8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #dc3545 !important;
+}
+
+a.emotion-8:hover,
+a.emotion-8:focus,
+button.emotion-8:hover,
+button.emotion-8:focus {
+  background-color: #bd2130 !important;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "width": 500,
+        }
+      }
+    >
+      <div
+        className="emotion-1"
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow={10}
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "10%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="25"
+          className="emotion-2"
+          role="progressbar"
+          style={
+            Object {
+              "width": "25%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow={50}
+          className="emotion-4"
+          role="progressbar"
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow={75}
+          className="emotion-6"
+          role="progressbar"
+          style={
+            Object {
+              "width": "75%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="100"
+          className="emotion-8"
+          role="progressbar"
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Progress Labels 1`] = `
+.emotion-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #28a745 !important;
+}
+
+a.emotion-6:hover,
+a.emotion-6:focus,
+button.emotion-6:hover,
+button.emotion-6:focus {
+  background-color: #1e7e34 !important;
+}
+
+.emotion-10 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #17a2b8 !important;
+}
+
+a.emotion-10:hover,
+a.emotion-10:focus,
+button.emotion-10:hover,
+button.emotion-10:focus {
+  background-color: #117a8b !important;
+}
+
+.emotion-11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #ffc107 !important;
+}
+
+a.emotion-11:hover,
+a.emotion-11:focus,
+button.emotion-11:hover,
+button.emotion-11:focus {
+  background-color: #d39e00 !important;
+}
+
+.emotion-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #dc3545 !important;
+}
+
+a.emotion-12:hover,
+a.emotion-12:focus,
+button.emotion-12:hover,
+button.emotion-12:focus {
+  background-color: #bd2130 !important;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "width": 500,
+        }
+      }
+    >
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="25"
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "25%",
+            }
+          }
+        >
+          25%
+        </div>
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow={50}
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          1/2
+        </div>
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow={75}
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "75%",
+            }
+          }
+        >
+          You're almost there!
+        </div>
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="100"
+          className="emotion-6"
+          role="progressbar"
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          You did it!
+        </div>
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="15"
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "15%",
+            }
+          }
+        >
+          Meh
+        </div>
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="30"
+          className="emotion-6"
+          role="progressbar"
+          style={
+            Object {
+              "width": "30%",
+            }
+          }
+        >
+          Wow!
+        </div>
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="25"
+          className="emotion-10"
+          role="progressbar"
+          style={
+            Object {
+              "width": "25%",
+            }
+          }
+        >
+          Cool
+        </div>
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="20"
+          className="emotion-11"
+          role="progressbar"
+          style={
+            Object {
+              "width": "20%",
+            }
+          }
+        >
+          20%
+        </div>
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="5"
+          className="emotion-12"
+          role="progressbar"
+          style={
+            Object {
+              "width": "5%",
+            }
+          }
+        >
+          !!
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Progress Max 1`] = `
+.emotion-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+.emotion-9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #28a745 !important;
+}
+
+a.emotion-9:hover,
+a.emotion-9:focus,
+button.emotion-9:hover,
+button.emotion-9:focus {
+  background-color: #1e7e34 !important;
+}
+
+.emotion-10 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #ffc107 !important;
+}
+
+a.emotion-10:hover,
+a.emotion-10:focus,
+button.emotion-10:hover,
+button.emotion-10:focus {
+  background-color: #d39e00 !important;
+}
+
+.emotion-11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #dc3545 !important;
+}
+
+a.emotion-11:hover,
+a.emotion-11:focus,
+button.emotion-11:hover,
+button.emotion-11:focus {
+  background-color: #bd2130 !important;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "width": 500,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        1 of 5
+      </div>
+      <div
+        className="emotion-1"
+      >
+        <div
+          aria-valuemax="5"
+          aria-valuemin="0"
+          aria-valuenow="1"
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "20%",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        50 of 135
+      </div>
+      <div
+        className="emotion-1"
+      >
+        <div
+          aria-valuemax="135"
+          aria-valuemin="0"
+          aria-valuenow={50}
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "37.03703703703704%",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        75 of 111
+      </div>
+      <div
+        className="emotion-1"
+      >
+        <div
+          aria-valuemax={111}
+          aria-valuemin="0"
+          aria-valuenow={75}
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "67.56756756756756%",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        463 of 500
+      </div>
+      <div
+        className="emotion-1"
+      >
+        <div
+          aria-valuemax={500}
+          aria-valuemin="0"
+          aria-valuenow="463"
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "92.60000000000001%",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        Various (40) of 55
+      </div>
+      <div
+        className="emotion-1"
+      >
+        <div
+          aria-valuemax={55}
+          aria-valuemin="0"
+          aria-valuenow="5"
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "9.090909090909092%",
+            }
+          }
+        >
+          5
+        </div>
+        <div
+          aria-valuemax={55}
+          aria-valuemin="0"
+          aria-valuenow="15"
+          className="emotion-9"
+          role="progressbar"
+          style={
+            Object {
+              "width": "27.27272727272727%",
+            }
+          }
+        >
+          15
+        </div>
+        <div
+          aria-valuemax={55}
+          aria-valuemin="0"
+          aria-valuenow="10"
+          className="emotion-10"
+          role="progressbar"
+          style={
+            Object {
+              "width": "18.181818181818183%",
+            }
+          }
+        >
+          10
+        </div>
+        <div
+          aria-valuemax={55}
+          aria-valuemin="0"
+          aria-valuenow="10"
+          className="emotion-11"
+          role="progressbar"
+          style={
+            Object {
+              "width": "18.181818181818183%",
+            }
+          }
+        >
+          10
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Progress Multi 1`] = `
+.emotion-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #28a745 !important;
+}
+
+a.emotion-1:hover,
+a.emotion-1:focus,
+button.emotion-1:hover,
+button.emotion-1:focus {
+  background-color: #1e7e34 !important;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #17a2b8 !important;
+}
+
+a.emotion-2:hover,
+a.emotion-2:focus,
+button.emotion-2:hover,
+button.emotion-2:focus {
+  background-color: #117a8b !important;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #ffc107 !important;
+}
+
+a.emotion-3:hover,
+a.emotion-3:focus,
+button.emotion-3:hover,
+button.emotion-3:focus {
+  background-color: #d39e00 !important;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #dc3545 !important;
+}
+
+a.emotion-4:hover,
+a.emotion-4:focus,
+button.emotion-4:hover,
+button.emotion-4:focus {
+  background-color: #bd2130 !important;
+}
+
+.emotion-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  animation: progress-bar-stripes 1s linear infinite;
+  background-color: #28a745 !important;
+  background-image: linear-gradient( 45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent );
+  background-size: 1rem 1rem;
+}
+
+a.emotion-12:hover,
+a.emotion-12:focus,
+button.emotion-12:hover,
+button.emotion-12:focus {
+  background-color: #1e7e34 !important;
+}
+
+.emotion-11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-image: linear-gradient( 45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent );
+  background-size: 1rem 1rem;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "width": 500,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        Plain
+      </div>
+      <div
+        className="emotion-5"
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="15"
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "15%",
+            }
+          }
+        />
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="20"
+          className="emotion-1"
+          role="progressbar"
+          style={
+            Object {
+              "width": "20%",
+            }
+          }
+        />
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="25"
+          className="emotion-2"
+          role="progressbar"
+          style={
+            Object {
+              "width": "25%",
+            }
+          }
+        />
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="20"
+          className="emotion-3"
+          role="progressbar"
+          style={
+            Object {
+              "width": "20%",
+            }
+          }
+        />
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="15"
+          className="emotion-4"
+          role="progressbar"
+          style={
+            Object {
+              "width": "15%",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        With Labels
+      </div>
+      <div
+        className="emotion-5"
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="15"
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "15%",
+            }
+          }
+        >
+          Meh
+        </div>
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="35"
+          className="emotion-1"
+          role="progressbar"
+          style={
+            Object {
+              "width": "35%",
+            }
+          }
+        >
+          Wow!
+        </div>
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="25"
+          className="emotion-3"
+          role="progressbar"
+          style={
+            Object {
+              "width": "25%",
+            }
+          }
+        >
+          25%
+        </div>
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="25"
+          className="emotion-4"
+          role="progressbar"
+          style={
+            Object {
+              "width": "25%",
+            }
+          }
+        >
+          LOOK OUT!!
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        Stripes and Animations
+      </div>
+      <div
+        className="emotion-5"
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="15"
+          className="emotion-11"
+          role="progressbar"
+          style={
+            Object {
+              "width": "15%",
+            }
+          }
+        >
+          Stripes
+        </div>
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="30"
+          className="emotion-12"
+          role="progressbar"
+          style={
+            Object {
+              "width": "30%",
+            }
+          }
+        >
+          Animated Stripes
+        </div>
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="25"
+          className="emotion-2"
+          role="progressbar"
+          style={
+            Object {
+              "width": "25%",
+            }
+          }
+        >
+          Plain
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Progress Simple 1`] = `
+.emotion-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+.emotion-11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #28a745 !important;
+}
+
+a.emotion-11:hover,
+a.emotion-11:focus,
+button.emotion-11:hover,
+button.emotion-11:focus {
+  background-color: #1e7e34 !important;
+}
+
+.emotion-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #17a2b8 !important;
+}
+
+a.emotion-12:hover,
+a.emotion-12:focus,
+button.emotion-12:hover,
+button.emotion-12:focus {
+  background-color: #117a8b !important;
+}
+
+.emotion-13 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #ffc107 !important;
+}
+
+a.emotion-13:hover,
+a.emotion-13:focus,
+button.emotion-13:hover,
+button.emotion-13:focus {
+  background-color: #d39e00 !important;
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #dc3545 !important;
+}
+
+a.emotion-14:hover,
+a.emotion-14:focus,
+button.emotion-14:hover,
+button.emotion-14:focus {
+  background-color: #bd2130 !important;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "width": 500,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        0%
+      </div>
+      <div
+        className="emotion-1"
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow={0}
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "0%",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        25%
+      </div>
+      <div
+        className="emotion-1"
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="25"
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "25%",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        50%
+      </div>
+      <div
+        className="emotion-1"
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow={50}
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        75%
+      </div>
+      <div
+        className="emotion-1"
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow={75}
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "75%",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        100%
+      </div>
+      <div
+        className="emotion-1"
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="100"
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "textAlign": "center",
+          }
+        }
+      >
+        Multiple bars
+      </div>
+      <div
+        className="emotion-1"
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="15"
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "15%",
+            }
+          }
+        />
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="30"
+          className="emotion-11"
+          role="progressbar"
+          style={
+            Object {
+              "width": "30%",
+            }
+          }
+        />
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="25"
+          className="emotion-12"
+          role="progressbar"
+          style={
+            Object {
+              "width": "25%",
+            }
+          }
+        />
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="20"
+          className="emotion-13"
+          role="progressbar"
+          style={
+            Object {
+              "width": "20%",
+            }
+          }
+        />
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="5"
+          className="emotion-14"
+          role="progressbar"
+          style={
+            Object {
+              "width": "5%",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Progress Striped 1`] = `
+.emotion-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-image: linear-gradient( 45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent );
+  background-size: 1rem 1rem;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #28a745 !important;
+  background-image: linear-gradient( 45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent );
+  background-size: 1rem 1rem;
+}
+
+a.emotion-2:hover,
+a.emotion-2:focus,
+button.emotion-2:hover,
+button.emotion-2:focus {
+  background-color: #1e7e34 !important;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #17a2b8 !important;
+  background-image: linear-gradient( 45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent );
+  background-size: 1rem 1rem;
+}
+
+a.emotion-4:hover,
+a.emotion-4:focus,
+button.emotion-4:hover,
+button.emotion-4:focus {
+  background-color: #117a8b !important;
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #ffc107 !important;
+  background-image: linear-gradient( 45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent );
+  background-size: 1rem 1rem;
+}
+
+a.emotion-6:hover,
+a.emotion-6:focus,
+button.emotion-6:hover,
+button.emotion-6:focus {
+  background-color: #d39e00 !important;
+}
+
+.emotion-8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  background-color: #dc3545 !important;
+  background-image: linear-gradient( 45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent );
+  background-size: 1rem 1rem;
+}
+
+a.emotion-8:hover,
+a.emotion-8:focus,
+button.emotion-8:hover,
+button.emotion-8:focus {
+  background-color: #bd2130 !important;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "width": 500,
+        }
+      }
+    >
+      <div
+        className="emotion-1"
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow={10}
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "10%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="25"
+          className="emotion-2"
+          role="progressbar"
+          style={
+            Object {
+              "width": "25%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow={50}
+          className="emotion-4"
+          role="progressbar"
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow={75}
+          className="emotion-6"
+          role="progressbar"
+          style={
+            Object {
+              "width": "75%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="100"
+          className="emotion-8"
+          role="progressbar"
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="emotion-1"
+        style={
+          Object {
+            "marginTop": 10,
+          }
+        }
+      >
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="10"
+          className="emotion-0"
+          role="progressbar"
+          style={
+            Object {
+              "width": "10%",
+            }
+          }
+        />
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="30"
+          className="emotion-2"
+          role="progressbar"
+          style={
+            Object {
+              "width": "30%",
+            }
+          }
+        />
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="20"
+          className="emotion-6"
+          role="progressbar"
+          style={
+            Object {
+              "width": "20%",
+            }
+          }
+        />
+        <div
+          aria-valuemax={100}
+          aria-valuemin="0"
+          aria-valuenow="20"
+          className="emotion-8"
+          role="progressbar"
+          style={
+            Object {
+              "width": "20%",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Image storyshots Components/Tables Bordered 1`] = `
 .emotion-0 {
   width: 100%;
