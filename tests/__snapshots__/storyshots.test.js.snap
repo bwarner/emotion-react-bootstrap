@@ -21662,7 +21662,328 @@ fieldset:disabled a.emotion-0 {
 </div>
 `;
 
-exports[`Image storyshots Components/Nav Example 1`] = `
+exports[`Image storyshots Components/Nav Pills 1`] = `
+.emotion-1.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-1.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-1.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-1.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+.emotion-9 {
+  position: relative;
+}
+
+.emotion-6 {
+  height: 0;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  border-top: 1px solid #e9ecef;
+}
+
+.emotion-3 {
+  display: block;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 0;
+  font-size: 0.875rem;
+  color: #6c757d;
+  white-space: nowrap;
+}
+
+.emotion-4 {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.emotion-4:hover,
+.emotion-4:focus {
+  color: #16181b;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+
+.emotion-4.emotion-1,
+.emotion-4:active {
+  color: #fff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #007bff;
+}
+
+.emotion-4.disabled,
+.emotion-4:disabled {
+  color: #6c757d;
+  background-color: transparent;
+}
+
+.emotion-8 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 0.25rem;
+}
+
+.emotion-8.css-4jsc0t {
+  display: block;
+}
+
+.emotion-0 {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0.disabled {
+  color: #6c757d;
+}
+
+.emotion-13 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.emotion-13 .emotion-0 {
+  border-radius: 0.25rem;
+}
+
+.emotion-13 .emotion-0.emotion-1,
+.emotion-13 .css-4jsc0t > .emotion-0 {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.emotion-2 {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.emotion-2::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.emotion-2:empty::after {
+  margin-left: 0;
+}
+
+.emotion-2:hover,
+.emotion-2:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-2.disabled {
+  color: #6c757d;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <ul
+        className="emotion-13"
+      >
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-0 emotion-1  "
+            href="#"
+            onClick={[Function]}
+          >
+            Link
+          </a>
+        </li>
+        <li
+          className="emotion-9 nav-item"
+          onKeyDown={[Function]}
+        >
+          <a
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="emotion-2"
+            href="#"
+            onClick={[Function]}
+          >
+            Dropdown
+          </a>
+          <div
+            aria-hidden={true}
+            className="emotion-8 false"
+            role="menu"
+            tabIndex="-1"
+            x-placement={undefined}
+          >
+            <h6
+              className="emotion-3"
+              onClick={[Function]}
+              tabIndex="-1"
+              tag="button"
+              type={undefined}
+            >
+              Header
+            </h6>
+            <button
+              className="emotion-4 disabled"
+              disabled={true}
+              onClick={[Function]}
+              tabIndex="-1"
+              tag="button"
+              type="button"
+            >
+              Action
+            </button>
+            <button
+              className="emotion-4"
+              onClick={[Function]}
+              tabIndex="0"
+              tag="button"
+              type="button"
+            >
+              Another Action
+            </button>
+            <div
+              className="emotion-6"
+              onClick={[Function]}
+              tabIndex="-1"
+              tag="button"
+              type={undefined}
+            />
+            <button
+              className="emotion-4"
+              onClick={[Function]}
+              tabIndex="0"
+              tag="button"
+              type="button"
+            >
+              Another Action
+            </button>
+          </div>
+        </li>
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-0  "
+            href="#"
+            onClick={[Function]}
+          >
+            Link
+          </a>
+        </li>
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-0  "
+            href="#"
+            onClick={[Function]}
+          >
+            Another Link
+          </a>
+        </li>
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-0 disabled "
+            disabled={true}
+            href="#"
+            onClick={[Function]}
+          >
+            Disabled Link
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Nav Simple 1`] = `
 .emotion-4 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21765,6 +22086,503 @@ exports[`Image storyshots Components/Nav Example 1`] = `
       <hr />
       <p>
         Link Based
+      </p>
+      <ul
+        className="emotion-4"
+      >
+        <a
+          className="emotion-0  "
+          href="#"
+          onClick={[Function]}
+        >
+          Link
+        </a>
+         
+        <a
+          className="emotion-0  "
+          href="#"
+          onClick={[Function]}
+        >
+          Link
+        </a>
+         
+        <a
+          className="emotion-0  "
+          href="#"
+          onClick={[Function]}
+        >
+          Another Link
+        </a>
+         
+        <a
+          className="emotion-0 disabled "
+          disabled={true}
+          href="#"
+          onClick={[Function]}
+        >
+          Disabled Link
+        </a>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Nav Tabs 1`] = `
+.emotion-1.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-1.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-1.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-1.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+.emotion-9 {
+  position: relative;
+}
+
+.emotion-6 {
+  height: 0;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  border-top: 1px solid #e9ecef;
+}
+
+.emotion-3 {
+  display: block;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 0;
+  font-size: 0.875rem;
+  color: #6c757d;
+  white-space: nowrap;
+}
+
+.emotion-4 {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.emotion-4:hover,
+.emotion-4:focus {
+  color: #16181b;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+
+.emotion-4.emotion-1,
+.emotion-4:active {
+  color: #fff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #007bff;
+}
+
+.emotion-4.disabled,
+.emotion-4:disabled {
+  color: #6c757d;
+  background-color: transparent;
+}
+
+.emotion-8 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 0.25rem;
+}
+
+.emotion-8.css-4jsc0t {
+  display: block;
+}
+
+.emotion-0 {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0.disabled {
+  color: #6c757d;
+}
+
+.emotion-2 {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.emotion-2::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.emotion-2:empty::after {
+  margin-left: 0;
+}
+
+.emotion-2:hover,
+.emotion-2:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-2.disabled {
+  color: #6c757d;
+}
+
+.emotion-13 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.emotion-13 .nav-item {
+  margin-bottom: -1px;
+}
+
+.emotion-13 .emotion-0 {
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-13 .emotion-0:hover,
+.emotion-13 .emotion-0:focus {
+  border-color: #e9ecef #e9ecef #dee2e6;
+}
+
+.emotion-13 .emotion-0.disabled {
+  color: #6c757d;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.emotion-13 .emotion-0.emotion-1,
+.emotion-13 .nav-item.css-4jsc0t .emotion-0 {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.emotion-13 .emotion-8 {
+  margin-top: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <ul
+        className="emotion-13"
+      >
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-0 emotion-1  "
+            href="#"
+            onClick={[Function]}
+          >
+            Link
+          </a>
+        </li>
+        <li
+          className="emotion-9 nav-item"
+          onKeyDown={[Function]}
+        >
+          <a
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="emotion-2"
+            href="#"
+            onClick={[Function]}
+          >
+            Dropdown
+          </a>
+          <div
+            aria-hidden={true}
+            className="emotion-8 false"
+            role="menu"
+            tabIndex="-1"
+            x-placement={undefined}
+          >
+            <h6
+              className="emotion-3"
+              onClick={[Function]}
+              tabIndex="-1"
+              tag="button"
+              type={undefined}
+            >
+              Header
+            </h6>
+            <button
+              className="emotion-4 disabled"
+              disabled={true}
+              onClick={[Function]}
+              tabIndex="-1"
+              tag="button"
+              type="button"
+            >
+              Action
+            </button>
+            <button
+              className="emotion-4"
+              onClick={[Function]}
+              tabIndex="0"
+              tag="button"
+              type="button"
+            >
+              Another Action
+            </button>
+            <div
+              className="emotion-6"
+              onClick={[Function]}
+              tabIndex="-1"
+              tag="button"
+              type={undefined}
+            />
+            <button
+              className="emotion-4"
+              onClick={[Function]}
+              tabIndex="0"
+              tag="button"
+              type="button"
+            >
+              Another Action
+            </button>
+          </div>
+        </li>
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-0  "
+            href="#"
+            onClick={[Function]}
+          >
+            Link
+          </a>
+        </li>
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-0  "
+            href="#"
+            onClick={[Function]}
+          >
+            Another Link
+          </a>
+        </li>
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-0 disabled "
+            disabled={true}
+            href="#"
+            onClick={[Function]}
+          >
+            Disabled Link
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Nav Vertical 1`] = `
+.emotion-0 {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0.disabled {
+  color: #6c757d;
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: column !important;
+  -webkit-flex-direction: column !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <p>
+        List Based
+      </p>
+      <ul
+        className="emotion-4"
+      >
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-0  "
+            href="#"
+            onClick={[Function]}
+          >
+            Link
+          </a>
+        </li>
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-0  "
+            href="#"
+            onClick={[Function]}
+          >
+            Link
+          </a>
+        </li>
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-0  "
+            href="#"
+            onClick={[Function]}
+          >
+            Another Link
+          </a>
+        </li>
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-0 disabled "
+            disabled={true}
+            href="#"
+            onClick={[Function]}
+          >
+            Disabled Link
+          </a>
+        </li>
+      </ul>
+      <hr />
+      <p>
+        Link based
       </p>
       <ul
         className="emotion-4"
