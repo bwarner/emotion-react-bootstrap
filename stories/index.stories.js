@@ -39,6 +39,8 @@ import {
   PaginationSmallStory,
 } from './pagination.stories';
 import PaginationReadme from '../lib/pagination/README.md';
+import popoverStories from './popovers';
+import PopoverReadme from '../lib/popovers/README.md';
 import jumbotronStories from './jumbotron.stories';
 import JumbotronReadme from '../lib/jumbotron/README.md';
 import CarouselStory from './carousel.stories';
@@ -58,6 +60,8 @@ import navStories from './nav.stories';
 import navReadme from '../lib/nav/README.md';
 import progressStories from './progress.stories';
 import progressReadme from '../lib/progress/README.md';
+import navbarStories from './navbar.stories';
+import navbarReadme from '../lib/navbar/README.md';
 
 modalStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
@@ -145,6 +149,12 @@ storiesOf('Components/Pagination', module)
   .add('Pagination Large', PaginationLargeStory)
   .add('Pagination Small', PaginationSmallStory);
 
+popoverStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/Popovers', module).addDecorator(
+  withReadme(PopoverReadme),
+));
+
 storiesOf('Components/Carousel', module)
   .addDecorator(withReadme(CarouselReadme))
   .add('Example', CarouselStory);
@@ -167,4 +177,10 @@ progressStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Components/Progress', module).addDecorator(
   withReadme(progressReadme),
+));
+
+navbarStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/Navbar', module).addDecorator(
+  withReadme(navbarReadme),
 ));
