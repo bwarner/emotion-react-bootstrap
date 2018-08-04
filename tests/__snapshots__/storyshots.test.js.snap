@@ -23047,6 +23047,806 @@ exports[`Image storyshots Components/Nav Vertical 1`] = `
 </div>
 `;
 
+exports[`Image storyshots Components/Navbar Simple 1`] = `
+.emotion-11 {
+  position: relative;
+}
+
+.emotion-8 {
+  height: 0;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  border-top: 1px solid #e9ecef;
+}
+
+.emotion-6 {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.emotion-6:hover,
+.emotion-6:focus {
+  color: #16181b;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+
+.emotion-6.css-1vdl47n,
+.emotion-6:active {
+  color: #fff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #007bff;
+}
+
+.emotion-6.disabled,
+.emotion-6:disabled {
+  color: #6c757d;
+  background-color: transparent;
+}
+
+.emotion-10 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 0.25rem;
+}
+
+.emotion-10.css-4jsc0t {
+  display: block;
+}
+
+.emotion-3 {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.emotion-3:hover,
+.emotion-3:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-3.disabled {
+  color: #6c757d;
+}
+
+.emotion-0 {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-13 {
+  -ms-flex-preferred-size: 100%;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.emotion-12 .emotion-3 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.emotion-12 .emotion-10 {
+  position: static;
+  float: none;
+}
+
+.emotion-2 {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.emotion-2:hover,
+.emotion-2:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-2:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-1 {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.emotion-14 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.emotion-14 > .css-195hh7d,
+.emotion-14 > .css-12ihheu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media print {
+  .emotion-14 {
+    display: none;
+  }
+}
+
+@media (max-width:767.98px) {
+  .emotion-14 > .css-195hh7d,
+  .emotion-14 > .css-12ihheu {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-14 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .emotion-14 .emotion-12 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .emotion-14 .emotion-12 .emotion-10 {
+    position: absolute;
+  }
+
+  .emotion-14 .emotion-12 .dropdown-menu-right {
+    right: 0;
+    left: auto;
+  }
+
+  .emotion-14 .emotion-12 .emotion-3 {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  .emotion-14 > .css-195hh7d,
+  .emotion-14 > .css-12ihheu {
+    -ms-flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .emotion-14 .emotion-13 {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+
+  .emotion-14 .emotion-2 {
+    display: none;
+  }
+
+  .emotion-14 .css-oy1ke2 .emotion-10 {
+    top: auto;
+    bottom: 100%;
+  }
+}
+
+.emotion-14 .emotion-0 {
+  color: rgba(0,0,0,0.9);
+}
+
+.emotion-14 .emotion-0:hover,
+.emotion-14 .emotion-0:focus {
+  color: rgba(0,0,0,0.9);
+}
+
+.emotion-14 .emotion-12 .emotion-3 {
+  color: rgba(0,0,0,0.5);
+}
+
+.emotion-14 .emotion-12 .emotion-3:hover,
+.emotion-14 .emotion-12 .emotion-3:focus {
+  color: rgba(0,0,0,0.7);
+}
+
+.emotion-14 .emotion-12 .emotion-3.disabled {
+  color: rgba(0,0,0,0.3);
+}
+
+.emotion-14 .emotion-12 .css-4jsc0t > .emotion-3,
+.emotion-14 .emotion-12 .css-1vdl47n > .emotion-3,
+.emotion-14 .emotion-12 .emotion-3.css-4jsc0t,
+.emotion-14 .emotion-12 .emotion-3.css-1vdl47n {
+  color: rgba(0,0,0,0.9);
+}
+
+.emotion-14 .emotion-2 {
+  color: rgba(0,0,0,0.5);
+  border-color: rgba(0,0,0,0.1);
+}
+
+.emotion-14 .emotion-1 {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");background-color:#f8f9fa !important;}.emotion-14 .emotion-1 .css-16ngfr3{color:rgba(0,0,0,0.5);}.emotion-14 .emotion-1 .css-16ngfr3 a{color:rgba(0,0,0,0.9);}.emotion-14 .emotion-1 .css-16ngfr3 a:hover,.emotion-14 .emotion-1 .css-16ngfr3 a:focus{color:rgba(0,0,0,0.9);}a.emotion-14 .emotion-1:hover,a.emotion-14 .emotion-1:focus,button.emotion-14 .emotion-1:hover,button.emotion-14 .emotion-1:focus{background-color:#dae0e5 !important;}.emotion-5{display:block;padding:0.5rem 1rem;}.emotion-5::after{display:inline-block;width:0;height:0;margin-left:0.255em;vertical-align:0.255em;content:"";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.emotion-5:empty::after {
+  margin-left: 0;
+}
+
+.emotion-5:hover,
+.emotion-5:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-5.disabled {
+  color: #6c757d;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <nav
+        className="emotion-14"
+      >
+        <a
+          className="emotion-0"
+          href="/"
+        >
+          Navbar
+        </a>
+        <button
+          className="emotion-2"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="emotion-1"
+          />
+        </button>
+        <div
+          className="collapse show emotion-13"
+          style={Object {}}
+        >
+          <ul
+            className="ml-auto emotion-12"
+          >
+            <li
+              className=" nav-item "
+            >
+              <a
+                className="emotion-3  "
+                href="/components/"
+                onClick={[Function]}
+              >
+                Components
+              </a>
+            </li>
+            <li
+              className=" nav-item "
+            >
+              <a
+                className="emotion-3  "
+                href="https://github.com/reactstrap/reactstrap"
+                onClick={[Function]}
+              >
+                GitHub
+              </a>
+            </li>
+            <li
+              className="emotion-11 nav-item"
+              onKeyDown={[Function]}
+            >
+              <a
+                aria-expanded={false}
+                aria-haspopup={true}
+                className="emotion-5"
+                href="#"
+                onClick={[Function]}
+              >
+                Options
+              </a>
+              <div
+                aria-hidden={true}
+                className="emotion-10 dropdown-menu-right false"
+                role="menu"
+                tabIndex="-1"
+                x-placement={undefined}
+              >
+                <button
+                  className="emotion-6"
+                  onClick={[Function]}
+                  tabIndex="0"
+                  tag="button"
+                  type="button"
+                >
+                  Option 1
+                </button>
+                <button
+                  className="emotion-6"
+                  onClick={[Function]}
+                  tabIndex="0"
+                  tag="button"
+                  type="button"
+                >
+                  Option 2
+                </button>
+                <div
+                  className="emotion-8"
+                  onClick={[Function]}
+                  tabIndex="-1"
+                  tag="button"
+                  type={undefined}
+                />
+                <button
+                  className="emotion-6"
+                  onClick={[Function]}
+                  tabIndex="0"
+                  tag="button"
+                  type="button"
+                >
+                  Reset
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Navbar Toggler 1`] = `
+.emotion-3 {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.emotion-3:hover,
+.emotion-3:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-3.disabled {
+  color: #6c757d;
+}
+
+.emotion-0 {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.emotion-5 .emotion-3 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.emotion-5 .css-1sfrnoz {
+  position: static;
+  float: none;
+}
+
+.emotion-2 {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.emotion-2:hover,
+.emotion-2:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-2:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-1 {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.emotion-7 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.emotion-7 > .css-195hh7d,
+.emotion-7 > .css-12ihheu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media print {
+  .emotion-7 {
+    display: none;
+  }
+}
+
+.emotion-7 .emotion-0 {
+  color: rgba(0,0,0,0.9);
+}
+
+.emotion-7 .emotion-0:hover,
+.emotion-7 .emotion-0:focus {
+  color: rgba(0,0,0,0.9);
+}
+
+.emotion-7 .emotion-5 .emotion-3 {
+  color: rgba(0,0,0,0.5);
+}
+
+.emotion-7 .emotion-5 .emotion-3:hover,
+.emotion-7 .emotion-5 .emotion-3:focus {
+  color: rgba(0,0,0,0.7);
+}
+
+.emotion-7 .emotion-5 .emotion-3.disabled {
+  color: rgba(0,0,0,0.3);
+}
+
+.emotion-7 .emotion-5 .css-4jsc0t > .emotion-3,
+.emotion-7 .emotion-5 .css-1vdl47n > .emotion-3,
+.emotion-7 .emotion-5 .emotion-3.css-4jsc0t,
+.emotion-7 .emotion-5 .emotion-3.css-1vdl47n {
+  color: rgba(0,0,0,0.9);
+}
+
+.emotion-7 .emotion-2 {
+  color: rgba(0,0,0,0.5);
+  border-color: rgba(0,0,0,0.1);
+}
+
+.emotion-7 .emotion-1 {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.emotion-7 .emotion-1 .css-16ngfr3 {
+  color: rgba(0,0,0,0.5);
+}
+
+.emotion-7 .emotion-1 .css-16ngfr3 a {
+  color: rgba(0,0,0,0.9);
+}
+
+.emotion-7 .emotion-1 .css-16ngfr3 a:hover,
+.emotion-7 .emotion-1 .css-16ngfr3 a:focus {
+  color: rgba(0,0,0,0.9);
+}
+
+.emotion-6 {
+  display: none;
+  -ms-flex-preferred-size: 100%;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-6.css-4jsc0t {
+  display: block;
+}
+
+tr.emotion-6.css-4jsc0t {
+  display: table-row;
+}
+
+tbody.emotion-6.css-4jsc0t {
+  display: table-row-group;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <nav
+        className="emotion-7"
+      >
+        <a
+          className="mr-auto emotion-0"
+          href="/"
+        >
+          Navbar
+        </a>
+        <button
+          className="mr-2 emotion-2"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            className="emotion-1"
+          />
+        </button>
+        <div
+          className="emotion-6"
+          style={Object {}}
+        >
+          <ul
+            className="emotion-5"
+          >
+            <li
+              className=" nav-item "
+            >
+              <a
+                className="emotion-3  "
+                href="/components/"
+                onClick={[Function]}
+              >
+                Components
+              </a>
+            </li>
+            <li
+              className=" nav-item "
+            >
+              <a
+                className="emotion-3  "
+                href="https://github.com/reactstrap/reactstrap"
+                onClick={[Function]}
+              >
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Image storyshots Components/Pagination Pagination Active 1`] = `
 .emotion-10.carousel-item-right {
   -webkit-transform: translateX(100%);
