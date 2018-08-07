@@ -62,6 +62,8 @@ import progressStories from './progress.stories';
 import progressReadme from '../lib/progress/README.md';
 import navbarStories from './navbar.stories';
 import navbarReadme from '../lib/navbar/README.md';
+import tabsStories from './tabs.stories';
+import tabReadme from '../lib/tab/README.md';
 
 modalStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
@@ -77,9 +79,7 @@ storiesOf('Layout', module)
 
 tableStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Tables', module).addDecorator(
-  withReadme(TableReadme),
-));
+}, storiesOf('Components/Tables', module).addDecorator(withReadme(TableReadme)));
 
 storiesOf('Components/Alert', module)
   .add('Simple Alert', SimpleAlertStory)
@@ -103,15 +103,11 @@ storiesOf('Components/Breadcrumb', module)
 
 buttonStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Buttons', module).addDecorator(
-  withReadme(ButtonReadme),
-));
+}, storiesOf('Components/Buttons', module).addDecorator(withReadme(ButtonReadme)));
 
 buttonGroupStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Button Group', module).addDecorator(
-  withReadme(ButtonGroupReadme),
-));
+}, storiesOf('Components/Button Group', module).addDecorator(withReadme(ButtonGroupReadme)));
 
 cardStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
@@ -119,9 +115,7 @@ cardStories.forEach(function cb(entry) {
 
 dropdownStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Dropdowns', module).addDecorator(
-  withReadme(DropdownReadme),
-));
+}, storiesOf('Components/Dropdowns', module).addDecorator(withReadme(DropdownReadme)));
 
 storiesOf('Components/Fade', module).add('Simple', FadeStory);
 
@@ -131,15 +125,11 @@ formStories.forEach(function cb(entry) {
 
 inputGroupStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Input Group', module).addDecorator(
-  withReadme(InputGroupReadme),
-));
+}, storiesOf('Components/Input Group', module).addDecorator(withReadme(InputGroupReadme)));
 
 listGroupStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/List Group', module).addDecorator(
-  withReadme(ListGroupReadme),
-));
+}, storiesOf('Components/List Group', module).addDecorator(withReadme(ListGroupReadme)));
 
 storiesOf('Components/Pagination', module)
   .addDecorator(withReadme(PaginationReadme))
@@ -151,9 +141,7 @@ storiesOf('Components/Pagination', module)
 
 popoverStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Popovers', module).addDecorator(
-  withReadme(PopoverReadme),
-));
+}, storiesOf('Components/Popovers', module).addDecorator(withReadme(PopoverReadme)));
 
 storiesOf('Components/Carousel', module)
   .addDecorator(withReadme(CarouselReadme))
@@ -165,9 +153,7 @@ storiesOf('Components/Collapse', module)
 
 jumbotronStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Jumbotron', module).addDecorator(
-  withReadme(JumbotronReadme),
-));
+}, storiesOf('Components/Jumbotron', module).addDecorator(withReadme(JumbotronReadme)));
 
 navStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
@@ -175,12 +161,12 @@ navStories.forEach(function cb(entry) {
 
 progressStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Progress', module).addDecorator(
-  withReadme(progressReadme),
-));
+}, storiesOf('Components/Progress', module).addDecorator(withReadme(progressReadme)));
 
 navbarStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Navbar', module).addDecorator(
-  withReadme(navbarReadme),
-));
+}, storiesOf('Components/Navbar', module).addDecorator(withReadme(navbarReadme)));
+
+tabsStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/Tabs', module).addDecorator(withReadme(tabReadme)));

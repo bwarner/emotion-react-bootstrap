@@ -1,4 +1,6 @@
 import React from 'react';
+import classNames from 'classnames';
+
 import {
   TabContent,
   TabPane,
@@ -11,10 +13,9 @@ import {
   CardText,
   Row,
   Col,
-} from 'reactstrap';
-import classNames from 'classnames';
+} from '../lib';
 
-export default class Example extends React.Component {
+class Example extends React.Component {
   constructor(props) {
     super(props);
 
@@ -94,3 +95,5 @@ export default class Example extends React.Component {
     );
   }
 }
+
+export default [{ name: 'Simple', story: () => <Example /> }];
