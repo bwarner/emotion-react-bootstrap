@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import { active } from '@farvisionllc/emotion-bootstrap/dist/bootstrap';
 
 import {
   TabContent,
@@ -39,7 +40,9 @@ class Example extends React.Component {
         <Nav tabs>
           <NavItem>
             <NavLink
-              className={classNames({ active: this.state.activeTab === '1' })}
+              className={classNames(
+                this.state.activeTab === '1' ? active : null,
+              )}
               onClick={() => {
                 this.toggle('1');
               }}
@@ -49,7 +52,9 @@ class Example extends React.Component {
           </NavItem>
           <NavItem>
             <NavLink
-              className={classNames({ active: this.state.activeTab === '2' })}
+              className={classNames(
+                this.state.activeTab === '2' ? active : null,
+              )}
               onClick={() => {
                 this.toggle('2');
               }}
@@ -62,7 +67,9 @@ class Example extends React.Component {
           <TabPane tabId="1">
             <Row>
               <Col sm="12">
-                <h4>Tab 1 Contents</h4>
+                <h4>
+Tab 1 Contents
+                </h4>
               </Col>
             </Row>
           </TabPane>
@@ -70,22 +77,30 @@ class Example extends React.Component {
             <Row>
               <Col sm="6">
                 <Card body>
-                  <CardTitle>Special Title Treatment</CardTitle>
+                  <CardTitle>
+Special Title Treatment
+                  </CardTitle>
                   <CardText>
                     With supporting text below as a natural lead-in to
                     additional content.
                   </CardText>
-                  <Button>Go somewhere</Button>
+                  <Button>
+Go somewhere
+                  </Button>
                 </Card>
               </Col>
               <Col sm="6">
                 <Card body>
-                  <CardTitle>Special Title Treatment</CardTitle>
+                  <CardTitle>
+Special Title Treatment
+                  </CardTitle>
                   <CardText>
                     With supporting text below as a natural lead-in to
                     additional content.
                   </CardText>
-                  <Button>Go somewhere</Button>
+                  <Button>
+Go somewhere
+                  </Button>
                 </Card>
               </Col>
             </Row>
