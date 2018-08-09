@@ -29085,7 +29085,7 @@ fieldset:disabled a.emotion-9 {
             className="emotion-1  "
             onClick={[Function]}
           >
-            Moar Tabs
+            More Tabs
           </a>
         </li>
       </ul>

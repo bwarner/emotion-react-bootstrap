@@ -59,7 +59,7 @@ class Example extends React.Component {
                 this.toggle('2');
               }}
             >
-              Moar Tabs
+              More Tabs
             </NavLink>
           </NavItem>
         </Nav>
