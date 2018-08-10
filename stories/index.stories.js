@@ -64,6 +64,8 @@ import navbarStories from './navbar.stories';
 import navbarReadme from '../lib/navbar/README.md';
 import tabsStories from './tabs.stories';
 import tabReadme from '../lib/tab/README.md';
+import tooltipsStories from './tooltips';
+import TooltipsReadme from '../lib/tooltip/README.md';
 
 modalStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
@@ -190,3 +192,11 @@ navbarStories.forEach(function cb(entry) {
 tabsStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Components/Tabs', module).addDecorator(withReadme(tabReadme)));
+
+if (process.env.NODE_ENV !== 'test') {
+  tooltipsStories.forEach(function cb(entry) {
+    this.add(entry.name, entry.story);
+  }, storiesOf('Components/Tooltips', module).addDecorator(
+    withReadme(TooltipsReadme),
+  ));
+}
