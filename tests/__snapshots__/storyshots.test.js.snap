@@ -28718,40 +28718,6 @@ exports[`Image storyshots Components/Tables Striped 1`] = `
 `;
 
 exports[`Image storyshots Components/Tabs Simple 1`] = `
-.emotion-10 {
-  position: relative;
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0,0,0,0.125);
-  border-radius: 0.25rem;
-}
-
-.emotion-10 > hr {
-  margin-right: 0;
-  margin-left: 0;
-}
-
-.emotion-10 > .:first-child .:first-child {
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-}
-
-.emotion-10 > .:last-child .:last-child {
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-}
-
 .emotion-0.carousel-item-right {
   -webkit-transform: translateX(100%);
   -webkit-transform: translateX(100%);
@@ -28781,36 +28747,6 @@ exports[`Image storyshots Components/Tabs Simple 1`] = `
     -webkit-transform: translate3d(-100%,0,0);
     -ms-transform: translate3d(-100%,0,0);
     transform: translate3d(-100%,0,0);
-  }
-}
-
-.emotion-11 {
-  -ms-flex: 1 1 auto;
-  -webkit-flex: 1 1 auto;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  padding: 1.25rem;
-}
-
-.emotion-7 {
-  margin-bottom: 0.75rem;
-}
-
-.emotion-12 {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-@media (min-width:576px) {
-  .emotion-12 {
-    -ms-flex: 0 0 50%;
-    -webkit-flex: 0 0 50%;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
   }
 }
 
@@ -28861,15 +28797,278 @@ exports[`Image storyshots Components/Tabs Simple 1`] = `
   margin-left: -15px;
 }
 
-.emotion-20 > .tab-pane {
+.emotion-9 > .tab-pane {
   display: none;
 }
 
-.emotion-20 > .emotion-0 {
+.emotion-9 > .emotion-0 {
   display: block;
 }
 
+.emotion-3 {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.emotion-3 .nav-item {
+  margin-bottom: -1px;
+}
+
+.emotion-3 .emotion-1 {
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-3 .emotion-1:hover,
+.emotion-3 .emotion-1:focus {
+  border-color: #e9ecef #e9ecef #dee2e6;
+}
+
+.emotion-3 .emotion-1.disabled {
+  color: #6c757d;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.emotion-3 .emotion-1.emotion-0,
+.emotion-3 .nav-item.css-vbgn0l-show .emotion-1 {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.emotion-3 .css-1a4ux2o-dropdownMenu {
+  margin-top: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <ul
+        className="emotion-3"
+      >
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-0 emotion-1  "
+            onClick={[Function]}
+          >
+            Tab1
+          </a>
+        </li>
+        <li
+          className=" nav-item "
+        >
+          <a
+            className="emotion-1  "
+            onClick={[Function]}
+          >
+            More Tabs
+          </a>
+        </li>
+      </ul>
+      <div
+        className="emotion-9"
+      >
+        <div
+          className="emotion-0 tab-pane "
+        >
+          <div
+            className="emotion-5"
+          >
+            <div
+              className="emotion-4"
+            >
+              <h4>
+                Tab 1 Contents
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div
+          className=" tab-pane "
+        >
+          <div
+            className="emotion-5"
+          >
+            <div
+              className="emotion-4"
+            >
+              <h4>
+                Tab 2 Contents
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Tabs With Cards 1`] = `
+.emotion-7 {
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+}
+
+.emotion-7 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-7 > .:first-child .:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-7 > .:last-child .:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-0.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-0.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+.emotion-8 {
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-4 {
+  margin-bottom: 0.75rem;
+}
+
 .emotion-9 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width:576px) {
+  .emotion-9 {
+    -ms-flex: 0 0 50%;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.emotion-1 {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.emotion-1:hover,
+.emotion-1:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-1.disabled {
+  color: #6c757d;
+}
+
+.emotion-16 {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.emotion-31 > .tab-pane {
+  display: none;
+}
+
+.emotion-31 > .emotion-0 {
+  display: block;
+}
+
+.emotion-6 {
   display: inline-block;
   font-weight: 400;
   text-align: center;
@@ -28895,79 +29094,79 @@ exports[`Image storyshots Components/Tabs Simple 1`] = `
 }
 
 @media screen and (prefers-reduced-motion:reduce) {
-  .emotion-9 {
+  .emotion-6 {
     -webkit-transition: none;
     transition: none;
   }
 }
 
-.emotion-9:hover,
-.emotion-9:focus {
+.emotion-6:hover,
+.emotion-6:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.emotion-9:focus,
-.emotion-9.focus {
+.emotion-6:focus,
+.emotion-6.focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
 }
 
-.emotion-9.disabled,
-.emotion-9:disabled {
+.emotion-6.disabled,
+.emotion-6:disabled {
   opacity: 0.65;
 }
 
-.emotion-9:not(:disabled):not(.disabled) {
+.emotion-6:not(:disabled):not(.disabled) {
   cursor: pointer;
 }
 
-.emotion-9:not(:disabled):not(.disabled):active,
-.emotion-9:not(:disabled):not(.disabled). {
+.emotion-6:not(:disabled):not(.disabled):active,
+.emotion-6:not(:disabled):not(.disabled). {
   background-image: none;
 }
 
-a.emotion-9.disabled,
-fieldset:disabled a.emotion-9 {
+a.emotion-6.disabled,
+fieldset:disabled a.emotion-6 {
   pointer-events: none;
 }
 
-.emotion-9 . {
+.emotion-6 . {
   position: relative;
   top: -1px;
 }
 
-.emotion-9:hover {
+.emotion-6:hover {
   color: #fff;
   background-color: #5a6268;
   border-color: #545b62;
 }
 
-.emotion-9:focus,
-.emotion-9.focus {
+.emotion-6:focus,
+.emotion-6.focus {
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
 }
 
-.emotion-9.disabled,
-.emotion-9:disabled {
+.emotion-6.disabled,
+.emotion-6:disabled {
   color: #fff;
   background-color: #6c757d;
   border-color: #6c757d;
 }
 
-.emotion-9:not(:disabled):not(.disabled):active,
-.emotion-9:not(:disabled):not(.disabled).emotion-0 {
+.emotion-6:not(:disabled):not(.disabled):active,
+.emotion-6:not(:disabled):not(.disabled).emotion-0 {
   color: #fff;
   background-color: #545b62;
   border-color: #4e555b;
 }
 
-.emotion-9:not(:disabled):not(.disabled):active:focus,
-.emotion-9:not(:disabled):not(.disabled).emotion-0:focus {
+.emotion-6:not(:disabled):not(.disabled):active:focus,
+.emotion-6:not(:disabled):not(.disabled).emotion-0:focus {
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
 }
 
-.emotion-9.carousel-item-right {
+.emotion-6.carousel-item-right {
   -webkit-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   -ms-transform: translateX(100%);
@@ -28975,7 +29174,7 @@ fieldset:disabled a.emotion-9 {
 }
 
 @supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
-  .emotion-9.carousel-item-right {
+  .emotion-6.carousel-item-right {
     -webkit-transform: translate3d(100%,0,0);
     -webkit-transform: translate3d(100%,0,0);
     -ms-transform: translate3d(100%,0,0);
@@ -28983,7 +29182,7 @@ fieldset:disabled a.emotion-9 {
   }
 }
 
-.emotion-9.carousel-item-left {
+.emotion-6.carousel-item-left {
   -webkit-transform: translateX(-100%);
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
@@ -28991,7 +29190,7 @@ fieldset:disabled a.emotion-9 {
 }
 
 @supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
-  .emotion-9.carousel-item-left {
+  .emotion-6.carousel-item-left {
     -webkit-transform: translate3d(-100%,0,0);
     -webkit-transform: translate3d(-100%,0,0);
     -ms-transform: translate3d(-100%,0,0);
@@ -29090,47 +29289,32 @@ fieldset:disabled a.emotion-9 {
         </li>
       </ul>
       <div
-        className="emotion-20"
+        className="emotion-31"
       >
         <div
           className="emotion-0 tab-pane "
         >
           <div
-            className="emotion-5"
+            className="emotion-16"
           >
             <div
-              className="emotion-4"
-            >
-              <h4>
-                Tab 1 Contents
-              </h4>
-            </div>
-          </div>
-        </div>
-        <div
-          className=" tab-pane "
-        >
-          <div
-            className="emotion-5"
-          >
-            <div
-              className="emotion-12"
+              className="emotion-9"
             >
               <div
-                className="emotion-10 emotion-11"
+                className="emotion-7 emotion-8"
               >
                 <h5
-                  className="emotion-7"
+                  className="emotion-4"
                 >
-                  Special Title Treatment
+                  Tab 1 Title Treatment
                 </h5>
                 <p
-                  className="emotion-7"
+                  className="emotion-4"
                 >
                   With supporting text below as a natural lead-in to additional content.
                 </p>
                 <button
-                  className="emotion-9"
+                  className="emotion-6"
                   onClick={[Function]}
                   tag="button"
                   type={undefined}
@@ -29140,28 +29324,88 @@ fieldset:disabled a.emotion-9 {
               </div>
             </div>
             <div
-              className="emotion-12"
+              className="emotion-9"
             >
               <div
-                className="emotion-10 emotion-11"
+                className="emotion-7 emotion-8"
               >
                 <h5
-                  className="emotion-7"
+                  className="emotion-4"
                 >
-                  Special Title Treatment
+                  Tab 1 Title Treatment
                 </h5>
                 <p
-                  className="emotion-7"
+                  className="emotion-4"
                 >
                   With supporting text below as a natural lead-in to additional content.
                 </p>
                 <button
-                  className="emotion-9"
+                  className="emotion-6"
                   onClick={[Function]}
                   tag="button"
                   type={undefined}
                 >
                   Go somewhere
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className=" tab-pane "
+        >
+          <div
+            className="emotion-16"
+          >
+            <div
+              className="emotion-9"
+            >
+              <div
+                className="emotion-7 emotion-8"
+              >
+                <h5
+                  className="emotion-4"
+                >
+                  Special Title Treatment
+                </h5>
+                <p
+                  className="emotion-4"
+                >
+                  With supporting text below as a natural lead-in to additional content.
+                </p>
+                <button
+                  className="emotion-6"
+                  onClick={[Function]}
+                  tag="button"
+                  type={undefined}
+                >
+                  Click me
+                </button>
+              </div>
+            </div>
+            <div
+              className="emotion-9"
+            >
+              <div
+                className="emotion-7 emotion-8"
+              >
+                <h5
+                  className="emotion-4"
+                >
+                  Special Title Treatment
+                </h5>
+                <p
+                  className="emotion-4"
+                >
+                  With supporting text below as a natural lead-in to additional content.
+                </p>
+                <button
+                  className="emotion-6"
+                  onClick={[Function]}
+                  tag="button"
+                  type={undefined}
+                >
+                  Click me
                 </button>
               </div>
             </div>
