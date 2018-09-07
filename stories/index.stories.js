@@ -62,6 +62,8 @@ import progressStories from './progress.stories';
 import progressReadme from '../lib/progress/README.md';
 import navbarStories from './navbar.stories';
 import navbarReadme from '../lib/navbar/README.md';
+import tabsStories from './tabs.stories';
+import tabReadme from '../lib/tab/README.md';
 import tooltipsStories from './tooltips';
 import TooltipsReadme from '../lib/tooltip/README.md';
 
@@ -186,6 +188,10 @@ navbarStories.forEach(function cb(entry) {
 }, storiesOf('Components/Navbar', module).addDecorator(
   withReadme(navbarReadme),
 ));
+
+tabsStories.forEach(function cb(entry) {
+  this.add(entry.name, entry.story);
+}, storiesOf('Components/Tabs', module).addDecorator(withReadme(tabReadme)));
 
 if (process.env.NODE_ENV !== 'test') {
   tooltipsStories.forEach(function cb(entry) {

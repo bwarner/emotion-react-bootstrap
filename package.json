@@ -36,6 +36,7 @@
     "core-js": "^2.5.7",
     "es6-promise": "4.1.1",
     "emotion": "^9.2.5",
+    "lodash.isobject": "^3.0.2",
     "lodash.omit": "^4.5.0",
     "lodash.pick": "^4.4.0",
     "lodash.tonumber": "^4.0.3",
