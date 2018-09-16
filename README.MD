@@ -4,52 +4,54 @@ A React component library for bootstrap using the [**emotion-js**](Emotion-JS fr
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
+Install emotion-react-bootstrap and Bootstrap from NPM. emotion-react-bootstrap does not include Bootstrap CSS so this needs to be installed as well:
 
 ```
-Give examples
-```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+npm install --save bootstrap@4.1.1
+npm install --save @farvisionllc/emotion-react-bootstrap
 
 ```
-Give the example
+
+Import Bootstrap CSS in the ```src/index.js``` file:
+
+```js
+import 'bootstrap/dist/css/bootstrap.css';
 ```
 
-And repeat
+Import required emotion-react-bootstrap components within ```src/App.js``` file or your custom component files:
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+```js
+import { Button } from '@farvisionllc/emotion-react-bootstrap';
 ```
 
-### And coding style tests
+Now you are ready to use the imported emotion-react-bootstrap components within your component hierarchy defined in the render
+method.
 
-Explain what these tests test and why
+### Development
 
+Install dependencies:
+
+```sh
+npm install
 ```
-Give an example
+
+Run examples at [http://localhost:8080/](http://localhost:8080/) with webpack dev server:
+
+```sh
+npm start
+```
+
+Run tests & coverage report:
+
+```sh
+npm test
+```
+
+Watch tests:
+
+```sh
+npm run test-watch
 ```
 
 ## Deployment
@@ -66,7 +68,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Authors
 
