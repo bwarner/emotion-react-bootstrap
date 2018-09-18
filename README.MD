@@ -13,12 +13,6 @@ npm install --save @farvisionllc/emotion-react-bootstrap
 
 ```
 
-Import Bootstrap CSS in the ```src/index.js``` file:
-
-```js
-import 'bootstrap/dist/css/bootstrap.css';
-```
-
 Import required emotion-react-bootstrap components within ```src/App.js``` file or your custom component files:
 
 ```js
