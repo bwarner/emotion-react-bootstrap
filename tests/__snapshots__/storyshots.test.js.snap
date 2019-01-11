@@ -13579,7 +13579,7 @@ fieldset:disabled a.emotion-43 {
 `;
 
 exports[`Image storyshots Components/Form Form Grid 1`] = `
-.emotion-32 {
+.emotion-38 {
   position: relative;
   width: 100%;
   min-height: 1px;
@@ -13633,37 +13633,37 @@ exports[`Image storyshots Components/Form Form Grid 1`] = `
   }
 }
 
-.emotion-33 {
+.emotion-39 {
   position: relative;
   display: block;
   padding-left: 1.25rem;
 }
 
-.emotion-31 {
+.emotion-37 {
   position: absolute;
   margin-top: 0.3rem;
   margin-left: -1.25rem;
 }
 
-.emotion-31:disabled ~ . {
+.emotion-37:disabled ~ . {
   color: #6c757d;
 }
 
-.emotion-31.is-valid ~ . {
+.emotion-37.is-valid ~ . {
   color: #28a745;
 }
 
-.emotion-31.is-valid ~ .css-ljr0fe-validFeedback,
-.emotion-31.is-valid ~ .css-9ejfky-validTooltip {
+.emotion-37.is-valid ~ .css-ljr0fe-validFeedback,
+.emotion-37.is-valid ~ .css-9ejfky-validTooltip {
   display: block;
 }
 
-.emotion-31.is-invalid ~ . {
+.emotion-37.is-invalid ~ . {
   color: #dc3545;
 }
 
-.emotion-31.is-invalid ~ .css-knz77-invalidFeedback,
-.emotion-31.is-invalid ~ .css-1lbr7xj-invalidTooltip {
+.emotion-37.is-invalid ~ .css-knz77-invalidFeedback,
+.emotion-37.is-invalid ~ .css-1lbr7xj-invalidTooltip {
   display: block;
 }
 
@@ -13785,26 +13785,48 @@ select.emotion-1:focus::-ms-value {
   display: block;
 }
 
-.emotion-26 {
+.emotion-31 {
   display: block;
   width: 100%;
 }
 
-.emotion-26.is-valid ~ .css-ljr0fe-validFeedback,
-.emotion-26.is-valid ~ .css-9ejfky-validTooltip {
+.emotion-31.is-valid ~ .css-ljr0fe-validFeedback,
+.emotion-31.is-valid ~ .css-9ejfky-validTooltip {
   display: block;
 }
 
-.emotion-26.is-invalid ~ .css-knz77-invalidFeedback,
-.emotion-26.is-invalid ~ .css-1lbr7xj-invalidTooltip {
+.emotion-31.is-invalid ~ .css-knz77-invalidFeedback,
+.emotion-31.is-invalid ~ .css-1lbr7xj-invalidTooltip {
   display: block;
 }
 
 .emotion-4 {
+  margin-bottom: 1rem;
+}
+
+.emotion-64 {
+  margin-left: 16.666667%;
+}
+
+.emotion-5 {
   position: relative !important;
 }
 
-.emotion-54 {
+.emotion-3 {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.emotion-62 {
   display: inline-block;
   font-weight: 400;
   text-align: center;
@@ -13830,79 +13852,79 @@ select.emotion-1:focus::-ms-value {
 }
 
 @media screen and (prefers-reduced-motion:reduce) {
-  .emotion-54 {
+  .emotion-62 {
     -webkit-transition: none;
     transition: none;
   }
 }
 
-.emotion-54:hover,
-.emotion-54:focus {
+.emotion-62:hover,
+.emotion-62:focus {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.emotion-54:focus,
-.emotion-54.focus {
+.emotion-62:focus,
+.emotion-62.focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
 }
 
-.emotion-54.disabled,
-.emotion-54:disabled {
+.emotion-62.disabled,
+.emotion-62:disabled {
   opacity: 0.65;
 }
 
-.emotion-54:not(:disabled):not(.disabled) {
+.emotion-62:not(:disabled):not(.disabled) {
   cursor: pointer;
 }
 
-.emotion-54:not(:disabled):not(.disabled):active,
-.emotion-54:not(:disabled):not(.disabled). {
+.emotion-62:not(:disabled):not(.disabled):active,
+.emotion-62:not(:disabled):not(.disabled). {
   background-image: none;
 }
 
-a.emotion-54.disabled,
-fieldset:disabled a.emotion-54 {
+a.emotion-62.disabled,
+fieldset:disabled a.emotion-62 {
   pointer-events: none;
 }
 
-.emotion-54 . {
+.emotion-62 . {
   position: relative;
   top: -1px;
 }
 
-.emotion-54:hover {
+.emotion-62:hover {
   color: #fff;
   background-color: #5a6268;
   border-color: #545b62;
 }
 
-.emotion-54:focus,
-.emotion-54.focus {
+.emotion-62:focus,
+.emotion-62.focus {
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
 }
 
-.emotion-54.disabled,
-.emotion-54:disabled {
+.emotion-62.disabled,
+.emotion-62:disabled {
   color: #fff;
   background-color: #6c757d;
   border-color: #6c757d;
 }
 
-.emotion-54:not(:disabled):not(.disabled):active,
-.emotion-54:not(:disabled):not(.disabled).css-12ijxoh-active {
+.emotion-62:not(:disabled):not(.disabled):active,
+.emotion-62:not(:disabled):not(.disabled).css-12ijxoh-active {
   color: #fff;
   background-color: #545b62;
   border-color: #4e555b;
 }
 
-.emotion-54:not(:disabled):not(.disabled):active:focus,
-.emotion-54:not(:disabled):not(.disabled).css-12ijxoh-active:focus {
+.emotion-62:not(:disabled):not(.disabled):active:focus,
+.emotion-62:not(:disabled):not(.disabled).css-12ijxoh-active:focus {
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
 }
 
-.emotion-54.carousel-item-right {
+.emotion-62.carousel-item-right {
   -webkit-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   -ms-transform: translateX(100%);
@@ -13910,7 +13932,7 @@ fieldset:disabled a.emotion-54 {
 }
 
 @supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
-  .emotion-54.carousel-item-right {
+  .emotion-62.carousel-item-right {
     -webkit-transform: translate3d(100%,0,0);
     -webkit-transform: translate3d(100%,0,0);
     -ms-transform: translate3d(100%,0,0);
@@ -13918,7 +13940,7 @@ fieldset:disabled a.emotion-54 {
   }
 }
 
-.emotion-54.carousel-item-left {
+.emotion-62.carousel-item-left {
   -webkit-transform: translateX(-100%);
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
@@ -13926,7 +13948,7 @@ fieldset:disabled a.emotion-54 {
 }
 
 @supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
-  .emotion-54.carousel-item-left {
+  .emotion-62.carousel-item-left {
     -webkit-transform: translate3d(-100%,0,0);
     -webkit-transform: translate3d(-100%,0,0);
     -ms-transform: translate3d(-100%,0,0);
@@ -13934,71 +13956,16 @@ fieldset:disabled a.emotion-54 {
   }
 }
 
-.emotion-58 {
+.emotion-68 {
   min-width: 320px;
   padding: 10px;
   border: 1px solid #ccc;
 }
 
-.emotion-27 {
+.emotion-32 {
   display: block;
   margin-top: 0.25rem;
   color: #6c757d !important;
-}
-
-.emotion-3 {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-  margin-bottom: 1rem;
-}
-
-.emotion-51 {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: 83.333333%;
-  -ms-flex-order: 10;
-  -webkit-order: 10;
-  -ms-flex-order: 10;
-  order: 10;
-}
-
-@media (min-width:576px) {
-  .emotion-51 {
-    -ms-flex: 0 0 83.333333%;
-    -webkit-flex: 0 0 83.333333%;
-    -ms-flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
-  }
-}
-
-.emotion-56 {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-  position: relative;
-  display: block;
-  padding-left: 1.25rem;
 }
 
 <div>
@@ -14017,10 +13984,10 @@ fieldset:disabled a.emotion-54 {
     }
   >
     <form
-      className="emotion-58 emotion-59"
+      className="emotion-68 emotion-69"
     >
       <div
-        className="emotion-3 emotion-4"
+        className="emotion-3 emotion-4 emotion-5"
       >
         <label
           className="emotion-0 col-form-label"
@@ -14041,7 +14008,7 @@ fieldset:disabled a.emotion-54 {
         </div>
       </div>
       <div
-        className="emotion-3 emotion-4"
+        className="emotion-3 emotion-4 emotion-5"
       >
         <label
           className="emotion-0 col-form-label"
@@ -14062,7 +14029,7 @@ fieldset:disabled a.emotion-54 {
         </div>
       </div>
       <div
-        className="emotion-3 emotion-4"
+        className="emotion-3 emotion-4 emotion-5"
       >
         <label
           className="emotion-0 col-form-label"
@@ -14082,7 +14049,7 @@ fieldset:disabled a.emotion-54 {
         </div>
       </div>
       <div
-        className="emotion-3 emotion-4"
+        className="emotion-3 emotion-4 emotion-5"
       >
         <label
           className="emotion-0 col-form-label"
@@ -14103,7 +14070,7 @@ fieldset:disabled a.emotion-54 {
         </div>
       </div>
       <div
-        className="emotion-3 emotion-4"
+        className="emotion-3 emotion-4 emotion-5"
       >
         <label
           className="emotion-0 col-form-label"
@@ -14123,7 +14090,7 @@ fieldset:disabled a.emotion-54 {
         </div>
       </div>
       <div
-        className="emotion-3 emotion-4"
+        className="emotion-3 emotion-4 emotion-5"
       >
         <label
           className="emotion-0 col-form-label"
@@ -14135,20 +14102,20 @@ fieldset:disabled a.emotion-54 {
           className="emotion-2"
         >
           <input
-            className=" emotion-26"
+            className=" emotion-31"
             id="exampleFile"
             name="file"
             type="file"
           />
           <small
-            className="emotion-27"
+            className="emotion-32"
           >
             This is some placeholder block-level help text for the above input. It' a bit lighter and easily wraps to a new line.
           </small>
         </div>
       </div>
       <fieldset
-        className="emotion-3 emotion-4"
+        className="emotion-3 emotion-4 emotion-5"
       >
         <legend
           className="col-form-label col-sm-2"
@@ -14159,14 +14126,14 @@ fieldset:disabled a.emotion-54 {
           className="emotion-2"
         >
           <div
-            className="emotion-33 emotion-4"
+            className="emotion-39 emotion-5"
           >
             <label
-              className="form-check-label emotion-32 col-form-label"
+              className="form-check-label emotion-38 col-form-label"
               htmlFor={undefined}
             >
               <input
-                className=" emotion-31"
+                className=" emotion-37"
                 name="radio2"
                 type="radio"
               />
@@ -14175,14 +14142,14 @@ fieldset:disabled a.emotion-54 {
             </label>
           </div>
           <div
-            className="emotion-33 emotion-4"
+            className="emotion-39 emotion-5"
           >
             <label
-              className="form-check-label emotion-32 col-form-label"
+              className="form-check-label emotion-38 col-form-label"
               htmlFor={undefined}
             >
               <input
-                className=" emotion-31"
+                className=" emotion-37"
                 name="radio2"
                 type="radio"
               />
@@ -14191,14 +14158,14 @@ fieldset:disabled a.emotion-54 {
             </label>
           </div>
           <div
-            className="emotion-33 disabled emotion-4"
+            className="emotion-39 disabled emotion-5"
           >
             <label
-              className="form-check-label emotion-32 col-form-label"
+              className="form-check-label emotion-38 col-form-label"
               htmlFor={undefined}
             >
               <input
-                className=" emotion-31"
+                className=" emotion-37"
                 disabled={true}
                 name="radio2"
                 type="radio"
@@ -14210,7 +14177,7 @@ fieldset:disabled a.emotion-54 {
         </div>
       </fieldset>
       <div
-        className="emotion-3 emotion-4"
+        className="emotion-3 emotion-4 emotion-5"
       >
         <label
           className="emotion-0 col-form-label"
@@ -14219,17 +14186,17 @@ fieldset:disabled a.emotion-54 {
           Checkbox
         </label>
         <div
-          className="emotion-51"
+          className="emotion-2"
         >
           <div
-            className="emotion-33 emotion-4"
+            className="emotion-39 emotion-5"
           >
             <label
-              className="form-check-label emotion-32 col-form-label"
+              className="form-check-label emotion-38 col-form-label"
               htmlFor={undefined}
             >
               <input
-                className=" emotion-31"
+                className=" emotion-37"
                 id="checkbox2"
                 type="checkbox"
               />
@@ -14240,13 +14207,13 @@ fieldset:disabled a.emotion-54 {
         </div>
       </div>
       <div
-        className="emotion-56 emotion-4"
+        className="emotion-3 emotion-39 emotion-5"
       >
         <div
-          className="emotion-51"
+          className="emotion-2 emotion-64"
         >
           <button
-            className="emotion-54"
+            className="emotion-62"
             onClick={[Function]}
             tag="button"
             type={undefined}
@@ -15117,6 +15084,12 @@ exports[`Image storyshots Components/Form Inline Checkboxes 1`] = `
   max-width: 100%;
 }
 
+.emotion-2 {
+  position: relative;
+  display: block;
+  padding-left: 1.25rem;
+}
+
 .emotion-0 {
   position: absolute;
   margin-top: 0.3rem;
@@ -15146,19 +15119,6 @@ exports[`Image storyshots Components/Form Inline Checkboxes 1`] = `
 }
 
 .emotion-3 {
-  position: relative !important;
-}
-
-.emotion-8 {
-  min-width: 320px;
-  padding: 10px;
-  border: 1px solid #ccc;
-}
-
-.emotion-2 {
-  position: relative;
-  display: block;
-  padding-left: 1.25rem;
   display: -ms-inline-flexbox;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -15173,11 +15133,21 @@ exports[`Image storyshots Components/Form Inline Checkboxes 1`] = `
   margin-right: 0.75rem;
 }
 
-.emotion-2 .emotion-0 {
+.emotion-3 .emotion-0 {
   position: static;
   margin-top: 0;
   margin-right: 0.3125rem;
   margin-left: 0;
+}
+
+.emotion-4 {
+  position: relative !important;
+}
+
+.emotion-10 {
+  min-width: 320px;
+  padding: 10px;
+  border: 1px solid #ccc;
 }
 
 <div>
@@ -15196,10 +15166,10 @@ exports[`Image storyshots Components/Form Inline Checkboxes 1`] = `
     }
   >
     <form
-      className="emotion-8 emotion-9"
+      className="emotion-10 emotion-11"
     >
       <div
-        className="emotion-2 emotion-3"
+        className="emotion-2 emotion-3 emotion-4"
       >
         <label
           className="form-check-label emotion-1 col-form-label"
@@ -15214,7 +15184,7 @@ exports[`Image storyshots Components/Form Inline Checkboxes 1`] = `
         </label>
       </div>
       <div
-        className="emotion-2 emotion-3"
+        className="emotion-2 emotion-3 emotion-4"
       >
         <label
           className="form-check-label emotion-1 col-form-label"
@@ -15866,13 +15836,11 @@ select.emotion-1:not([size]):not([multiple]) {
 }
 
 .emotion-5 {
-  position: relative !important;
+  margin-bottom: 1rem;
 }
 
-.emotion-11 {
-  min-width: 320px;
-  padding: 10px;
-  border: 1px solid #ccc;
+.emotion-6 {
+  position: relative !important;
 }
 
 .emotion-4 {
@@ -15887,7 +15855,12 @@ select.emotion-1:not([size]):not([multiple]) {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  margin-bottom: 1rem;
+}
+
+.emotion-13 {
+  min-width: 320px;
+  padding: 10px;
+  border: 1px solid #ccc;
 }
 
 <div>
@@ -15906,10 +15879,10 @@ select.emotion-1:not([size]):not([multiple]) {
     }
   >
     <form
-      className="emotion-11 emotion-12"
+      className="emotion-13 emotion-14"
     >
       <div
-        className="emotion-4 emotion-5"
+        className="emotion-4 emotion-5 emotion-6"
       >
         <label
           className="col-form-label-lg emotion-0 col-form-label"
@@ -15931,7 +15904,7 @@ select.emotion-1:not([size]):not([multiple]) {
         </div>
       </div>
       <div
-        className="emotion-4 emotion-5"
+        className="emotion-4 emotion-5 emotion-6"
       >
         <label
           className="emotion-0 col-form-label"
@@ -28718,59 +28691,7 @@ exports[`Image storyshots Components/Tables Striped 1`] = `
 `;
 
 exports[`Image storyshots Layout Grid 1`] = `
-.emotion-42 {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@media (min-width:576px) {
-  .emotion-42 {
-    max-width: 540px;
-  }
-}
-
-@media (min-width:768px) {
-  .emotion-42 {
-    max-width: 720px;
-  }
-}
-
-@media (min-width:992px) {
-  .emotion-42 {
-    max-width: 960px;
-  }
-}
-
-@media (min-width:1200px) {
-  .emotion-42 {
-    max-width: 1140px;
-  }
-}
-
-@media print {
-  .emotion-42 {
-    min-width: 992px !important;
-  }
-}
-
-.emotion-2 {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
-.emotion-1 {
+.emotion-0 {
   position: relative;
   width: 100%;
   min-height: 1px;
@@ -28786,14 +28707,9 @@ exports[`Image storyshots Layout Grid 1`] = `
   -ms-flex-positive: 1;
   flex-grow: 1;
   max-width: 100%;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  background-color: #e5edf5;
-  border: 1px solid #c9c1d5;
-  color: #5f5f5f;
 }
 
-.emotion-13 {
+.emotion-17 {
   position: relative;
   width: 100%;
   min-height: 1px;
@@ -28804,14 +28720,22 @@ exports[`Image storyshots Layout Grid 1`] = `
   -ms-flex: 0 0 25%;
   flex: 0 0 25%;
   max-width: 25%;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  background-color: #e5edf5;
-  border: 1px solid #c9c1d5;
-  color: #5f5f5f;
 }
 
-.emotion-15 {
+.emotion-27 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  -ms-flex: 0 0 50%;
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.emotion-20 {
   position: relative;
   width: 100%;
   min-height: 1px;
@@ -28823,112 +28747,23 @@ exports[`Image storyshots Layout Grid 1`] = `
   flex: 0 0 auto;
   width: auto;
   max-width: none;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  background-color: #e5edf5;
-  border: 1px solid #c9c1d5;
-  color: #5f5f5f;
 }
 
-.emotion-20 {
+.emotion-53 {
   position: relative;
   width: 100%;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-  -ms-flex: 0 0 50%;
-  -webkit-flex: 0 0 50%;
-  -ms-flex: 0 0 50%;
-  flex: 0 0 50%;
-  max-width: 50%;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  background-color: #e5edf5;
-  border: 1px solid #c9c1d5;
-  color: #5f5f5f;
 }
 
-.emotion-25 {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-  -ms-flex: 0 0 50%;
-  -webkit-flex: 0 0 50%;
-  -ms-flex: 0 0 50%;
-  flex: 0 0 50%;
-  max-width: 50%;
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  background-color: #e5edf5;
-  border: 1px solid #c9c1d5;
-  color: #5f5f5f;
-}
-
-@media (min-width:576px) {
-  .emotion-25 {
-    -ms-flex: 0 0 33.333333%;
-    -webkit-flex: 0 0 33.333333%;
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-}
-
-.emotion-29 {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  background-color: #e5edf5;
-  border: 1px solid #c9c1d5;
-  color: #5f5f5f;
-}
-
-@media (min-width:576px) {
-  .emotion-29 {
-    -ms-flex: 0 0 33.333333%;
-    -webkit-flex: 0 0 33.333333%;
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-  }
-}
-
-.emotion-32 {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: 50%;
-  -ms-flex-order: 6;
-  -webkit-order: 6;
-  -ms-flex-order: 6;
-  order: 6;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  background-color: #e5edf5;
-  border: 1px solid #c9c1d5;
-  color: #5f5f5f;
-}
-
-@media (min-width:576px) {
-  .emotion-32 {
-    -ms-flex: 0 0 50%;
-    -webkit-flex: 0 0 50%;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
+@media (min-width:768px) {
+  .emotion-53 {
+    -ms-flex: 0 0 66.666667%;
+    -webkit-flex: 0 0 66.666667%;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
   }
 }
 
@@ -28938,25 +28773,46 @@ exports[`Image storyshots Layout Grid 1`] = `
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+@media (min-width:576px) {
+  .emotion-35 {
+    -ms-flex: 0 0 33.333333%;
+    -webkit-flex: 0 0 33.333333%;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+
+.emotion-46 {
   position: relative;
   width: 100%;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-  margin-left: 66.666667%;
-  -ms-flex-order: 8;
-  -webkit-order: 8;
-  -ms-flex-order: 8;
-  order: 8;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  background-color: #e5edf5;
-  border: 1px solid #c9c1d5;
-  color: #5f5f5f;
 }
 
 @media (min-width:576px) {
-  .emotion-35 {
+  .emotion-46 {
+    -ms-flex: 0 0 50%;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.emotion-52 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width:576px) {
+  .emotion-52 {
     -ms-flex: 0 0 100%;
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
@@ -28965,70 +28821,98 @@ exports[`Image storyshots Layout Grid 1`] = `
   }
 }
 
-@media (min-width:768px) {
-  .emotion-35 {
-    -ms-flex: 0 0 66.666667%;
-    -webkit-flex: 0 0 66.666667%;
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%;
+.emotion-58 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width:576px) {
+  .emotion-58 {
+    -ms-flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
   }
 }
 
-.emotion-38 {
-  position: relative;
+.emotion-67 {
   width: 100%;
-  min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width:576px) {
+  .emotion-67 {
+    max-width: 540px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-67 {
+    max-width: 720px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-67 {
+    max-width: 960px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-67 {
+    max-width: 1140px;
+  }
+}
+
+@media print {
+  .emotion-67 {
+    min-width: 992px !important;
+  }
+}
+
+.emotion-47 {
+  margin-left: 8.333333%;
+}
+
+.emotion-54 {
+  margin-left: 16.666667%;
+}
+
+.emotion-48 {
+  -ms-flex-order: 2;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.emotion-3 {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.emotion-1 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   background-color: #e5edf5;
   border: 1px solid #c9c1d5;
   color: #5f5f5f;
-}
-
-@media (min-width:576px) {
-  .emotion-38 {
-    -ms-flex: 0 0 auto;
-    -webkit-flex: 0 0 auto;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: auto;
-    max-width: none;
-  }
-}
-
-@media (min-width:576px) {
-  .emotion-38 {
-    -ms-flex: 0 0 auto;
-    -webkit-flex: 0 0 auto;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: auto;
-    max-width: none;
-  }
-}
-
-@media (min-width:576px) {
-  .emotion-38 {
-    -ms-flex: 0 0 auto;
-    -webkit-flex: 0 0 auto;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: auto;
-    max-width: none;
-  }
 }
 
 <div>
@@ -29047,121 +28931,121 @@ exports[`Image storyshots Layout Grid 1`] = `
     }
   >
     <div
-      className="emotion-42"
+      className="emotion-67"
     >
       <div
-        className="emotion-2"
+        className="emotion-3"
       >
         <div
-          className="emotion-0 emotion-1"
+          className="emotion-0 emotion-1 emotion-2"
         >
           .col
         </div>
       </div>
       <div
-        className="emotion-2"
+        className="emotion-3"
       >
         <div
-          className="emotion-0 emotion-1"
+          className="emotion-0 emotion-1 emotion-2"
         >
           .col
         </div>
         <div
-          className="emotion-0 emotion-1"
+          className="emotion-0 emotion-1 emotion-2"
         >
           .col
         </div>
         <div
-          className="emotion-0 emotion-1"
+          className="emotion-0 emotion-1 emotion-2"
         >
           .col
         </div>
         <div
-          className="emotion-0 emotion-1"
+          className="emotion-0 emotion-1 emotion-2"
         >
           .col
         </div>
       </div>
       <div
-        className="emotion-2"
+        className="emotion-3"
       >
         <div
-          className="emotion-0 emotion-13"
+          className="emotion-17 emotion-1 emotion-2"
         >
           .col-3
         </div>
         <div
-          className="emotion-0 emotion-15"
+          className="emotion-20 emotion-1 emotion-2"
         >
           .col-auto - variable width content
         </div>
         <div
-          className="emotion-0 emotion-13"
+          className="emotion-17 emotion-1 emotion-2"
         >
           .col-3
         </div>
       </div>
       <div
-        className="emotion-2"
+        className="emotion-3"
       >
         <div
-          className="emotion-0 emotion-20"
+          className="emotion-27 emotion-1 emotion-2"
         >
           .col-6
         </div>
         <div
-          className="emotion-0 emotion-20"
+          className="emotion-27 emotion-1 emotion-2"
         >
           .col-6
         </div>
       </div>
       <div
-        className="emotion-2"
+        className="emotion-3"
       >
         <div
-          className="emotion-0 emotion-25"
+          className="emotion-27 emotion-35 emotion-1 emotion-2"
         >
           .col-6 .col-sm-4
         </div>
         <div
-          className="emotion-0 emotion-25"
+          className="emotion-27 emotion-35 emotion-1 emotion-2"
         >
           .col-6 .col-sm-4
         </div>
         <div
-          className="emotion-0 emotion-29"
+          className="emotion-35 emotion-1 emotion-2"
         >
           .col-sm-4
         </div>
       </div>
       <div
-        className="emotion-2"
+        className="emotion-3"
       >
         <div
-          className="emotion-0 emotion-32"
+          className="emotion-46 emotion-47 emotion-48 emotion-1 emotion-2"
         >
           .col-sm-6 .col-sm-order-2 .col-sm-offset-2
         </div>
       </div>
       <div
-        className="emotion-2"
+        className="emotion-3"
       >
         <div
-          className="emotion-0 emotion-35"
+          className="emotion-52 emotion-53 emotion-54 emotion-1 emotion-2"
         >
           .col-sm-12 .col-md-6 .col-md-offset-3
         </div>
       </div>
       <div
-        className="emotion-2"
+        className="emotion-3"
       >
         <div
-          className="emotion-0 emotion-38"
+          className="emotion-58 emotion-47 emotion-1 emotion-2"
         >
           .col-sm .col-sm-offset-1
         </div>
         <div
-          className="emotion-0 emotion-38"
+          className="emotion-58 emotion-47 emotion-1 emotion-2"
         >
           .col-sm .col-sm-offset-1
         </div>
