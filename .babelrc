@@ -1,8 +1,8 @@
 {
   "presets": [
-    "react",
+    "@babel/react",
     [
-      "env",
+      "@babel/env",
       {
         "debug": true,
         "modules": false,
@@ -15,27 +15,21 @@
           ]
         }
       }
-    ],
-    "stage-0"
+    ]
   ],
   "env": {
     "test": {
       "presets": [
-        [
-          "env",
+          "@babel/env",
           {
             "modules": "commonjs"
           }
-        ],
-        "stage-0"
       ]
     }
   },
   "plugins": [
     "emotion",
-    ["transform-runtime", {
-      "polyfill": false,
-      "regenerator": true
-    }]
+    "@babel/plugin-proposal-export-default-from",
+    "@babel/plugin-proposal-class-properties"
   ]
 }

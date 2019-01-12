@@ -1,23 +1,22 @@
 {
   "presets": [
-    "react",
+    "@babel/react",
     [
-      "env",
+      "@babel/env",
       {
         "modules": false,
         "targets": {
-          // The % refers to the global coverage of users from browserslist
           "browsers": [ ">5%", "not ie 11", "not op_mini all"]
         }
       }
-    ],
-    "stage-0"
+    ]
   ],
-  "ignore": [
-  ],
+  "ignore": [],
   "plugins": [
     ["emotion", { "sourceMap": true, "autoLabel": true }],
-    "syntax-class-properties"
+    "@babel/plugin-syntax-class-properties",
+    "@babel/plugin-proposal-export-default-from",
+    "@babel/plugin-proposal-class-properties"
   ],
   "env": {
     "test": {
@@ -27,3 +26,4 @@
     }
   }
 }
+
