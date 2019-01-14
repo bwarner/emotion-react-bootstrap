@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { lead, display3 } from '@farvisionllc/emotion-bootstrap';
-import Collapse from '../lib/collapse';
+import { Collapse } from '../lib';
 import { Button } from '../lib/button';
 import Jumbotron from '../lib/jumbotron';
 import Container from '../lib/layout/container';

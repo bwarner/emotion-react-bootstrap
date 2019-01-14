@@ -4,6 +4,7 @@ module.exports = {
     '^.+\\.jsx?$': 'babel-jest',
     '^.+\\.md?$': 'markdown-loader-jest',
   },
+  testURL: 'http://localhost/',
   testPathIgnorePatterns: ['/node_modules/'],
   setupTestFrameworkScriptFile: './scripts/jest.init.js',
   moduleFileExtensions: ['js', 'jsx', 'json'],
