@@ -7697,11 +7697,11 @@ fieldset:disabled a.emotion-3 {
       <div
         className="emotion-8"
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Header
-        </h5>
+        </div>
         <div
           className="emotion-6"
         >
@@ -19791,7 +19791,7 @@ exports[`Image storyshots Components/Nav Pills 1`] = `
         className="emotion-13 emotion-14"
       >
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0 emotion-1  "
@@ -19868,7 +19868,7 @@ exports[`Image storyshots Components/Nav Pills 1`] = `
           </div>
         </li>
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0  "
@@ -19879,7 +19879,7 @@ exports[`Image storyshots Components/Nav Pills 1`] = `
           </a>
         </li>
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0  "
@@ -19890,7 +19890,7 @@ exports[`Image storyshots Components/Nav Pills 1`] = `
           </a>
         </li>
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0 disabled "
@@ -19961,7 +19961,7 @@ exports[`Image storyshots Components/Nav Simple 1`] = `
         className="emotion-4"
       >
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0  "
@@ -19972,7 +19972,7 @@ exports[`Image storyshots Components/Nav Simple 1`] = `
           </a>
         </li>
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0  "
@@ -19983,7 +19983,7 @@ exports[`Image storyshots Components/Nav Simple 1`] = `
           </a>
         </li>
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0  "
@@ -19994,7 +19994,7 @@ exports[`Image storyshots Components/Nav Simple 1`] = `
           </a>
         </li>
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0 disabled "
@@ -20291,7 +20291,7 @@ exports[`Image storyshots Components/Nav Tabs 1`] = `
         className="emotion-13 emotion-14"
       >
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0 emotion-1  "
@@ -20368,7 +20368,7 @@ exports[`Image storyshots Components/Nav Tabs 1`] = `
           </div>
         </li>
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0  "
@@ -20379,7 +20379,7 @@ exports[`Image storyshots Components/Nav Tabs 1`] = `
           </a>
         </li>
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0  "
@@ -20390,7 +20390,7 @@ exports[`Image storyshots Components/Nav Tabs 1`] = `
           </a>
         </li>
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0 disabled "
@@ -20468,7 +20468,7 @@ exports[`Image storyshots Components/Nav Vertical 1`] = `
         className="emotion-4 emotion-5"
       >
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0  "
@@ -20479,7 +20479,7 @@ exports[`Image storyshots Components/Nav Vertical 1`] = `
           </a>
         </li>
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0  "
@@ -20490,7 +20490,7 @@ exports[`Image storyshots Components/Nav Vertical 1`] = `
           </a>
         </li>
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0  "
@@ -20501,7 +20501,7 @@ exports[`Image storyshots Components/Nav Vertical 1`] = `
           </a>
         </li>
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0 disabled "
@@ -20963,7 +20963,7 @@ button.emotion-17:focus {
             className="ml-auto emotion-12"
           >
             <li
-              className=" nav-item "
+              className=" .nav-item"
             >
               <a
                 className="emotion-3  "
@@ -20974,7 +20974,7 @@ button.emotion-17:focus {
               </a>
             </li>
             <li
-              className=" nav-item "
+              className=" .nav-item"
             >
               <a
                 className="emotion-3  "
@@ -21312,7 +21312,7 @@ button.emotion-9:focus {
             className="emotion-5"
           >
             <li
-              className=" nav-item "
+              className=" .nav-item"
             >
               <a
                 className="emotion-3  "
@@ -21323,7 +21323,7 @@ button.emotion-9:focus {
               </a>
             </li>
             <li
-              className=" nav-item "
+              className=" .nav-item"
             >
               <a
                 className="emotion-3  "
@@ -26376,7 +26376,7 @@ exports[`Image storyshots Components/Tabs Simple 1`] = `
         className="emotion-3 emotion-4"
       >
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0 emotion-1  "
@@ -26386,7 +26386,7 @@ exports[`Image storyshots Components/Tabs Simple 1`] = `
           </a>
         </li>
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-1  "
@@ -26743,7 +26743,7 @@ fieldset:disabled a.emotion-7 {
         className="emotion-3 emotion-4"
       >
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-0 emotion-1  "
@@ -26753,7 +26753,7 @@ fieldset:disabled a.emotion-7 {
           </a>
         </li>
         <li
-          className=" nav-item "
+          className=" .nav-item"
         >
           <a
             className="emotion-1  "
