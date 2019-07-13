@@ -32,16 +32,12 @@ class NavbarExample extends Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">
-Navbar
-          </NavbarBrand>
+          <NavbarBrand href="/">Navbar</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">
-Components
-                </NavLink>
+                <NavLink href="/components/">Components</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/reactstrap/reactstrap">
@@ -53,16 +49,10 @@ Components
                   Options
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>
-Option 1
-                  </DropdownItem>
-                  <DropdownItem>
-Option 2
-                  </DropdownItem>
+                  <DropdownItem>Option 1</DropdownItem>
+                  <DropdownItem>Option 2</DropdownItem>
                   <DropdownItem divider />
-                  <DropdownItem>
-Reset
-                  </DropdownItem>
+                  <DropdownItem>Reset</DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>
@@ -93,7 +83,7 @@ class TogglerExample extends Component {
   render() {
     return (
       <div>
-        <Navbar color="faded" light>
+        <Navbar color="primary" light>
           <NavbarBrand href="/" className="mr-auto">
             Navbar
           </NavbarBrand>
@@ -101,9 +91,7 @@ class TogglerExample extends Component {
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink href="/components/">
-Components
-                </NavLink>
+                <NavLink href="/components/">Components</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/reactstrap/reactstrap">

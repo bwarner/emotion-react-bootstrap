@@ -4,8 +4,6 @@ module.exports = {
       '@babel/env',
       {
         useBuiltIns: 'entry',
-        debug: true,
-        // modules: false,
       },
     ],
     '@babel/react',

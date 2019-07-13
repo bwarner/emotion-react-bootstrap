@@ -1,7 +1,7 @@
 /* eslint-disable react/no-multi-comp */
 import React from 'react';
 import classNames from 'classnames';
-import { active } from '@farvisionllc/emotion-bootstrap/dist/bootstrap';
+import { active } from '@farvisionllc/emotion-bootstrap';
 
 import {
   TabContent,
@@ -68,18 +68,14 @@ class Example extends React.Component {
           <TabPane tabId="1">
             <Row>
               <Col sm="12">
-                <h4>
-Tab 1 Contents
-                </h4>
+                <h4>Tab 1 Contents</h4>
               </Col>
             </Row>
           </TabPane>
           <TabPane tabId="2">
             <Row>
               <Col sm="12">
-                <h4>
-Tab 2 Contents
-                </h4>
+                <h4>Tab 2 Contents</h4>
               </Col>
             </Row>
           </TabPane>
@@ -141,30 +137,22 @@ class Example2 extends React.Component {
             <Row>
               <Col sm="6">
                 <Card body>
-                  <CardTitle>
-Tab 1 Title Treatment
-                  </CardTitle>
+                  <CardTitle>Tab 1 Title Treatment</CardTitle>
                   <CardText>
                     With supporting text below as a natural lead-in to
                     additional content.
                   </CardText>
-                  <Button>
-Go somewhere
-                  </Button>
+                  <Button>Go somewhere</Button>
                 </Card>
               </Col>
               <Col sm="6">
                 <Card body>
-                  <CardTitle>
-Tab 1 Title Treatment
-                  </CardTitle>
+                  <CardTitle>Tab 1 Title Treatment</CardTitle>
                   <CardText>
                     With supporting text below as a natural lead-in to
                     additional content.
                   </CardText>
-                  <Button>
-Go somewhere
-                  </Button>
+                  <Button>Go somewhere</Button>
                 </Card>
               </Col>
             </Row>
@@ -173,30 +161,22 @@ Go somewhere
             <Row>
               <Col sm="6">
                 <Card body>
-                  <CardTitle>
-Special Title Treatment
-                  </CardTitle>
+                  <CardTitle>Special Title Treatment</CardTitle>
                   <CardText>
                     With supporting text below as a natural lead-in to
                     additional content.
                   </CardText>
-                  <Button>
-Click me
-                  </Button>
+                  <Button>Click me</Button>
                 </Card>
               </Col>
               <Col sm="6">
                 <Card body>
-                  <CardTitle>
-Special Title Treatment
-                  </CardTitle>
+                  <CardTitle>Special Title Treatment</CardTitle>
                   <CardText>
                     With supporting text below as a natural lead-in to
                     additional content.
                   </CardText>
-                  <Button>
-Click me
-                  </Button>
+                  <Button>Click me</Button>
                 </Card>
               </Col>
             </Row>
