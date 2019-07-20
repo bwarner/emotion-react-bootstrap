@@ -1642,7 +1642,6 @@ fieldset:disabled a.emotion-1 {
         className="emotion-1 emotion-2 emotion-3"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         Notifications
          
@@ -2102,7 +2101,6 @@ exports[`Image storyshots Components/Breadcrumb Breadcrumb 1`] = `
           className="emotion-1"
         >
           <li
-            aria-current={undefined}
             className="emotion-0"
           >
             <a
@@ -2127,7 +2125,6 @@ exports[`Image storyshots Components/Breadcrumb Breadcrumb 1`] = `
           className="emotion-1"
         >
           <li
-            aria-current={undefined}
             className="emotion-0"
           >
             <a
@@ -2137,7 +2134,6 @@ exports[`Image storyshots Components/Breadcrumb Breadcrumb 1`] = `
             </a>
           </li>
           <li
-            aria-current={undefined}
             className="emotion-0"
           >
             <a
@@ -2380,7 +2376,6 @@ fieldset:disabled a.emotion-0 {
           className="emotion-0 emotion-1 emotion-2"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Left
         </button>
@@ -2388,7 +2383,6 @@ fieldset:disabled a.emotion-0 {
           className="emotion-0 emotion-1 emotion-2"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Middle
         </button>
@@ -2396,7 +2390,6 @@ fieldset:disabled a.emotion-0 {
           className="emotion-0 emotion-1 emotion-2"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Right
         </button>
@@ -2652,7 +2645,6 @@ fieldset:disabled a.emotion-0 {
             className="emotion-0 emotion-1 emotion-2"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             1
           </button>
@@ -2660,7 +2652,6 @@ fieldset:disabled a.emotion-0 {
             className="emotion-0 emotion-1 emotion-2"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             2
           </button>
@@ -2668,7 +2659,6 @@ fieldset:disabled a.emotion-0 {
             className="emotion-0 emotion-1 emotion-2"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             3
           </button>
@@ -2676,7 +2666,6 @@ fieldset:disabled a.emotion-0 {
             className="emotion-0 emotion-1 emotion-2"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             4
           </button>
@@ -2689,7 +2678,6 @@ fieldset:disabled a.emotion-0 {
             className="emotion-0 emotion-1 emotion-2"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             5
           </button>
@@ -2697,7 +2685,6 @@ fieldset:disabled a.emotion-0 {
             className="emotion-0 emotion-1 emotion-2"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             6
           </button>
@@ -2705,7 +2692,6 @@ fieldset:disabled a.emotion-0 {
             className="emotion-0 emotion-1 emotion-2"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             7
           </button>
@@ -2718,7 +2704,6 @@ fieldset:disabled a.emotion-0 {
             className="emotion-0 emotion-1 emotion-2"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             8
           </button>
@@ -3038,7 +3023,6 @@ fieldset:disabled a.emotion-0 {
           className="emotion-0 emotion-1 emotion-2"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           1
         </button>
@@ -3046,7 +3030,6 @@ fieldset:disabled a.emotion-0 {
           className="emotion-0 emotion-1 emotion-2"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           2
         </button>
@@ -3069,7 +3052,6 @@ fieldset:disabled a.emotion-0 {
             className="emotion-12 false"
             role="menu"
             tabIndex="-1"
-            x-placement={undefined}
           >
             <button
               className="emotion-10"
@@ -3444,7 +3426,6 @@ fieldset:disabled a.emotion-0 {
           className="emotion-0 emotion-1 emotion-2"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Left
         </button>
@@ -3452,7 +3433,6 @@ fieldset:disabled a.emotion-0 {
           className="emotion-0 emotion-1 emotion-2"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Middle
         </button>
@@ -3460,7 +3440,6 @@ fieldset:disabled a.emotion-0 {
           className="emotion-0 emotion-1 emotion-2"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Right
         </button>
@@ -3473,7 +3452,6 @@ fieldset:disabled a.emotion-0 {
           className="emotion-0 emotion-1 emotion-2"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Left
         </button>
@@ -3481,7 +3459,6 @@ fieldset:disabled a.emotion-0 {
           className="emotion-0 emotion-1 emotion-2"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Middle
         </button>
@@ -3489,7 +3466,6 @@ fieldset:disabled a.emotion-0 {
           className="emotion-0 emotion-1 emotion-2"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Right
         </button>
@@ -3502,7 +3478,6 @@ fieldset:disabled a.emotion-0 {
           className="emotion-0 emotion-1 emotion-2"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Left
         </button>
@@ -3510,7 +3485,6 @@ fieldset:disabled a.emotion-0 {
           className="emotion-0 emotion-1 emotion-2"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Middle
         </button>
@@ -3518,7 +3492,6 @@ fieldset:disabled a.emotion-0 {
           className="emotion-0 emotion-1 emotion-2"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Right
         </button>
@@ -3860,7 +3833,6 @@ fieldset:disabled a.emotion-0 {
           className="emotion-0 emotion-1 emotion-2"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           1
         </button>
@@ -3868,7 +3840,6 @@ fieldset:disabled a.emotion-0 {
           className="emotion-0 emotion-1 emotion-2"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           2
         </button>
@@ -3891,7 +3862,6 @@ fieldset:disabled a.emotion-0 {
             className="emotion-12 false"
             role="menu"
             tabIndex="-1"
-            x-placement={undefined}
           >
             <button
               className="emotion-10"
@@ -4148,7 +4118,6 @@ input[type="button"].emotion-3 {
         className="emotion-0 emotion-1 emotion-2 emotion-3 emotion-4"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         Small Button
       </button>
@@ -4157,7 +4126,6 @@ input[type="button"].emotion-3 {
         className="emotion-0 emotion-6 emotion-2 emotion-3 emotion-4"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         Small Button
       </button>
@@ -4521,7 +4489,6 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-4 emotion-2"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         secondary
       </button>
@@ -4530,7 +4497,6 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-7 emotion-2"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         success
       </button>
@@ -4539,7 +4505,6 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-10 emotion-2"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         info
       </button>
@@ -4548,7 +4513,6 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-13 emotion-2"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         warning
       </button>
@@ -4557,7 +4521,6 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-16 emotion-2"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         danger
       </button>
@@ -4566,7 +4529,6 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-2"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         link
       </button>
@@ -4789,7 +4751,6 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-1 emotion-2 emotion-3 disabled"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         Primary button
       </button>
@@ -4798,7 +4759,6 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-5 emotion-2 emotion-3 disabled"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         Button
       </button>
@@ -5153,7 +5113,6 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-1 emotion-2"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         primary
       </button>
@@ -5162,7 +5121,6 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-4 emotion-2"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         secondary
       </button>
@@ -5171,7 +5129,6 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-7 emotion-2"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         success
       </button>
@@ -5180,7 +5137,6 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-10 emotion-2"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         info
       </button>
@@ -5189,7 +5145,6 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-13 emotion-2"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         warning
       </button>
@@ -5198,7 +5153,6 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-16 emotion-2"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         danger
       </button>
@@ -5452,7 +5406,6 @@ input[type="button"].emotion-19 {
           className="emotion-0 emotion-1 emotion-2 emotion-3"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Large Button
         </button>
@@ -5461,7 +5414,6 @@ input[type="button"].emotion-19 {
           className="emotion-0 emotion-5 emotion-2 emotion-3"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Large Button
         </button>
@@ -5474,7 +5426,6 @@ input[type="button"].emotion-19 {
           className="emotion-0 emotion-1 emotion-10 emotion-3"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Small Button
         </button>
@@ -5483,7 +5434,6 @@ input[type="button"].emotion-19 {
           className="emotion-0 emotion-5 emotion-10 emotion-3"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Small Button
         </button>
@@ -5496,7 +5446,6 @@ input[type="button"].emotion-19 {
           className="emotion-0 emotion-1 emotion-10 emotion-19 emotion-3"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Small Button
         </button>
@@ -5505,7 +5454,6 @@ input[type="button"].emotion-19 {
           className="emotion-0 emotion-5 emotion-10 emotion-19 emotion-3"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Small Button
         </button>
@@ -5779,11 +5727,11 @@ button.emotion-43:focus {
           }
         }
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Special Title Treatment
-        </h5>
+        </div>
         <p
           className="emotion-0"
         >
@@ -5793,7 +5741,6 @@ button.emotion-43:focus {
           className="emotion-2 emotion-3 emotion-4"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Button
         </button>
@@ -5801,11 +5748,11 @@ button.emotion-43:focus {
       <div
         className="emotion-5 emotion-6 emotion-7 emotion-16"
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Special Title Treatment
-        </h5>
+        </div>
         <p
           className="emotion-0"
         >
@@ -5815,7 +5762,6 @@ button.emotion-43:focus {
           className="emotion-2 emotion-3 emotion-4"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Button
         </button>
@@ -5823,11 +5769,11 @@ button.emotion-43:focus {
       <div
         className="emotion-5 emotion-6 emotion-7 emotion-25"
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Special Title Treatment
-        </h5>
+        </div>
         <p
           className="emotion-0"
         >
@@ -5837,7 +5783,6 @@ button.emotion-43:focus {
           className="emotion-2 emotion-3 emotion-4"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Button
         </button>
@@ -5845,11 +5790,11 @@ button.emotion-43:focus {
       <div
         className="emotion-5 emotion-6 emotion-7 emotion-34"
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Special Title Treatment
-        </h5>
+        </div>
         <p
           className="emotion-0"
         >
@@ -5859,7 +5804,6 @@ button.emotion-43:focus {
           className="emotion-2 emotion-3 emotion-4"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Button
         </button>
@@ -5867,11 +5811,11 @@ button.emotion-43:focus {
       <div
         className="emotion-5 emotion-6 emotion-7 emotion-43"
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Special Title Treatment
-        </h5>
+        </div>
         <p
           className="emotion-0"
         >
@@ -5881,7 +5825,6 @@ button.emotion-43:focus {
           className="emotion-2 emotion-3 emotion-4"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Button
         </button>
@@ -5889,11 +5832,11 @@ button.emotion-43:focus {
       <div
         className="emotion-5 emotion-6 emotion-7 emotion-52"
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Special Title Treatment
-        </h5>
+        </div>
         <p
           className="emotion-0"
         >
@@ -5903,7 +5846,6 @@ button.emotion-43:focus {
           className="emotion-2 emotion-3 emotion-4"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Button
         </button>
@@ -6126,11 +6068,11 @@ fieldset:disabled a.emotion-3 {
         <div
           className="emotion-6"
         >
-          <h5
+          <div
             className="emotion-0"
           >
             Card title
-          </h5>
+          </div>
           <h6
             className="emotion-1"
           >
@@ -6410,11 +6352,11 @@ button.emotion-41:focus {
         <div
           className="emotion-6"
         >
-          <h5
+          <div
             className="emotion-0"
           >
             Card title
-          </h5>
+          </div>
           <h6
             className="emotion-1"
           >
@@ -6429,7 +6371,6 @@ button.emotion-41:focus {
             className="emotion-3 emotion-4 emotion-5"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             Button
           </button>
@@ -6451,11 +6392,11 @@ button.emotion-41:focus {
         <div
           className="emotion-6"
         >
-          <h5
+          <div
             className="emotion-0"
           >
             Card title
-          </h5>
+          </div>
           <h6
             className="emotion-1"
           >
@@ -6470,7 +6411,6 @@ button.emotion-41:focus {
             className="emotion-3 emotion-4 emotion-5"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             Button
           </button>
@@ -6485,11 +6425,11 @@ button.emotion-41:focus {
           }
         }
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Special Title Treatment
-        </h5>
+        </div>
         <p
           className="emotion-0"
         >
@@ -6499,7 +6439,6 @@ button.emotion-41:focus {
           className="emotion-3 emotion-4 emotion-5"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Button
         </button>
@@ -6516,11 +6455,11 @@ button.emotion-41:focus {
         <div
           className="emotion-6"
         >
-          <h5
+          <div
             className="emotion-0"
           >
             Card title
-          </h5>
+          </div>
           <h6
             className="emotion-1"
           >
@@ -6535,7 +6474,6 @@ button.emotion-41:focus {
             className="emotion-3 emotion-4 emotion-5"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             Button
           </button>
@@ -6544,11 +6482,11 @@ button.emotion-41:focus {
       <div
         className="emotion-7 emotion-23 emotion-6 emotion-41"
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Special Title Treatment
-        </h5>
+        </div>
         <p
           className="emotion-0"
         >
@@ -6558,7 +6496,6 @@ button.emotion-41:focus {
           className="emotion-3 emotion-4 emotion-5"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Button
         </button>
@@ -6651,11 +6588,11 @@ exports[`Image storyshots Components/Card Content Types 1`] = `
         <div
           className="emotion-2"
         >
-          <h5
+          <div
             className="emotion-0"
           >
             Card title
-          </h5>
+          </div>
           <h6
             className="emotion-1"
           >
@@ -6955,11 +6892,11 @@ fieldset:disabled a.emotion-3 {
         <div
           className="emotion-6"
         >
-          <h5
+          <div
             className="emotion-0"
           >
             Card title
-          </h5>
+          </div>
           <h6
             className="emotion-1"
           >
@@ -6974,7 +6911,6 @@ fieldset:disabled a.emotion-3 {
             className="emotion-3 emotion-4 emotion-5"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             Button
           </button>
@@ -6992,11 +6928,11 @@ fieldset:disabled a.emotion-3 {
         <div
           className="emotion-6"
         >
-          <h5
+          <div
             className="emotion-0"
           >
             Card title
-          </h5>
+          </div>
           <h6
             className="emotion-1"
           >
@@ -7011,7 +6947,6 @@ fieldset:disabled a.emotion-3 {
             className="emotion-3 emotion-4 emotion-5"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             Button
           </button>
@@ -7029,11 +6964,11 @@ fieldset:disabled a.emotion-3 {
         <div
           className="emotion-6"
         >
-          <h5
+          <div
             className="emotion-0"
           >
             Card title
-          </h5>
+          </div>
           <h6
             className="emotion-1"
           >
@@ -7048,7 +6983,6 @@ fieldset:disabled a.emotion-3 {
             className="emotion-3 emotion-4 emotion-5"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             Button
           </button>
@@ -7369,11 +7303,11 @@ fieldset:disabled a.emotion-3 {
         <div
           className="emotion-6"
         >
-          <h5
+          <div
             className="emotion-0"
           >
             Card title
-          </h5>
+          </div>
           <h6
             className="emotion-1"
           >
@@ -7388,7 +7322,6 @@ fieldset:disabled a.emotion-3 {
             className="emotion-3 emotion-4 emotion-5"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             Button
           </button>
@@ -7406,11 +7339,11 @@ fieldset:disabled a.emotion-3 {
         <div
           className="emotion-6"
         >
-          <h5
+          <div
             className="emotion-0"
           >
             Card title
-          </h5>
+          </div>
           <h6
             className="emotion-1"
           >
@@ -7425,7 +7358,6 @@ fieldset:disabled a.emotion-3 {
             className="emotion-3 emotion-4 emotion-5"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             Button
           </button>
@@ -7443,11 +7375,11 @@ fieldset:disabled a.emotion-3 {
         <div
           className="emotion-6"
         >
-          <h5
+          <div
             className="emotion-0"
           >
             Card title
-          </h5>
+          </div>
           <h6
             className="emotion-1"
           >
@@ -7462,7 +7394,6 @@ fieldset:disabled a.emotion-3 {
             className="emotion-3 emotion-4 emotion-5"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             Button
           </button>
@@ -7705,11 +7636,11 @@ fieldset:disabled a.emotion-3 {
         <div
           className="emotion-6"
         >
-          <h5
+          <div
             className="emotion-1"
           >
             Special Title Treatment
-          </h5>
+          </div>
           <p
             className="emotion-1"
           >
@@ -7719,7 +7650,6 @@ fieldset:disabled a.emotion-3 {
             className="emotion-3 emotion-4 emotion-5"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             Go somewhere
           </button>
@@ -7741,11 +7671,11 @@ fieldset:disabled a.emotion-3 {
         <div
           className="emotion-6"
         >
-          <h5
+          <div
             className="emotion-1"
           >
             Special Title Treatment
-          </h5>
+          </div>
           <p
             className="emotion-1"
           >
@@ -7755,7 +7685,6 @@ fieldset:disabled a.emotion-3 {
             className="emotion-3 emotion-4 emotion-5"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             Go somewhere
           </button>
@@ -7852,11 +7781,11 @@ exports[`Image storyshots Components/Card Image Caps 1`] = `
         <div
           className="emotion-3"
         >
-          <h5
+          <div
             className="emotion-0"
           >
             Card Title
-          </h5>
+          </div>
           <p
             className="emotion-0"
           >
@@ -7879,11 +7808,11 @@ exports[`Image storyshots Components/Card Image Caps 1`] = `
         <div
           className="emotion-3"
         >
-          <h5
+          <div
             className="emotion-0"
           >
             Card Title
-          </h5>
+          </div>
           <p
             className="emotion-0"
           >
@@ -7996,11 +7925,11 @@ exports[`Image storyshots Components/Card Image Overlay 1`] = `
         <div
           className="emotion-4"
         >
-          <h5
+          <div
             className="emotion-1"
           >
             Card Title
-          </h5>
+          </div>
           <p
             className="emotion-1"
           >
@@ -8245,11 +8174,11 @@ fieldset:disabled a.emotion-2 {
       <div
         className="emotion-5 emotion-6 emotion-7"
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Special Title Treatment
-        </h5>
+        </div>
         <p
           className="emotion-0"
         >
@@ -8259,7 +8188,6 @@ fieldset:disabled a.emotion-2 {
           className="emotion-2 emotion-3 emotion-4"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Button
         </button>
@@ -8267,11 +8195,11 @@ fieldset:disabled a.emotion-2 {
       <div
         className="emotion-5 emotion-6 emotion-15"
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Special Title Treatment
-        </h5>
+        </div>
         <p
           className="emotion-0"
         >
@@ -8281,7 +8209,6 @@ fieldset:disabled a.emotion-2 {
           className="emotion-2 emotion-3 emotion-4"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Button
         </button>
@@ -8289,11 +8216,11 @@ fieldset:disabled a.emotion-2 {
       <div
         className="emotion-5 emotion-6 emotion-23"
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Special Title Treatment
-        </h5>
+        </div>
         <p
           className="emotion-0"
         >
@@ -8303,7 +8230,6 @@ fieldset:disabled a.emotion-2 {
           className="emotion-2 emotion-3 emotion-4"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Button
         </button>
@@ -8311,11 +8237,11 @@ fieldset:disabled a.emotion-2 {
       <div
         className="emotion-5 emotion-6 emotion-31"
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Special Title Treatment
-        </h5>
+        </div>
         <p
           className="emotion-0"
         >
@@ -8325,7 +8251,6 @@ fieldset:disabled a.emotion-2 {
           className="emotion-2 emotion-3 emotion-4"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Button
         </button>
@@ -8333,11 +8258,11 @@ fieldset:disabled a.emotion-2 {
       <div
         className="emotion-5 emotion-6 emotion-39"
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Special Title Treatment
-        </h5>
+        </div>
         <p
           className="emotion-0"
         >
@@ -8347,7 +8272,6 @@ fieldset:disabled a.emotion-2 {
           className="emotion-2 emotion-3 emotion-4"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Button
         </button>
@@ -8355,11 +8279,11 @@ fieldset:disabled a.emotion-2 {
       <div
         className="emotion-5 emotion-6 emotion-47"
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Special Title Treatment
-        </h5>
+        </div>
         <p
           className="emotion-0"
         >
@@ -8369,7 +8293,6 @@ fieldset:disabled a.emotion-2 {
           className="emotion-2 emotion-3 emotion-4"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Button
         </button>
@@ -8615,11 +8538,11 @@ fieldset:disabled a.emotion-2 {
         <div
           className="emotion-5 emotion-6"
         >
-          <h5
+          <div
             className="emotion-0"
           >
             Special Title Treatment
-          </h5>
+          </div>
           <p
             className="emotion-0"
           >
@@ -8629,7 +8552,6 @@ fieldset:disabled a.emotion-2 {
             className="emotion-2 emotion-3 emotion-4"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             Go somewhere
           </button>
@@ -8641,11 +8563,11 @@ fieldset:disabled a.emotion-2 {
         <div
           className="emotion-5 emotion-6"
         >
-          <h5
+          <div
             className="emotion-0"
           >
             Special Title Treatment
-          </h5>
+          </div>
           <p
             className="emotion-0"
           >
@@ -8655,7 +8577,6 @@ fieldset:disabled a.emotion-2 {
             className="emotion-2 emotion-3 emotion-4"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             Go somewhere
           </button>
@@ -8865,11 +8786,11 @@ fieldset:disabled a.emotion-2 {
       <div
         className="emotion-5 emotion-6"
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Special Title Treatment
-        </h5>
+        </div>
         <p
           className="emotion-0"
         >
@@ -8887,11 +8808,11 @@ fieldset:disabled a.emotion-2 {
       <div
         className="text-center emotion-5 emotion-6"
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Special Title Treatment
-        </h5>
+        </div>
         <p
           className="emotion-0"
         >
@@ -8909,11 +8830,11 @@ fieldset:disabled a.emotion-2 {
       <div
         className="text-right emotion-5 emotion-6"
       >
-        <h5
+        <div
           className="emotion-0"
         >
           Special Title Treatment
-        </h5>
+        </div>
         <p
           className="emotion-0"
         >
@@ -9885,14 +9806,12 @@ fieldset:disabled a.emotion-1 {
           className="emotion-9 false"
           role="menu"
           tabIndex="-1"
-          x-placement={undefined}
         >
           <h6
             className="emotion-4"
             onClick={[Function]}
             tabIndex="-1"
             tag="button"
-            type={undefined}
           >
             Header
           </h6>
@@ -9920,7 +9839,6 @@ fieldset:disabled a.emotion-1 {
             onClick={[Function]}
             tabIndex="-1"
             tag="button"
-            type={undefined}
           />
           <button
             className="emotion-5"
@@ -11422,7 +11340,6 @@ select.emotion-1:focus::-ms-value {
         >
           <label
             className="form-check-label emotion-0 col-form-label"
-            htmlFor={undefined}
           >
             <input
               className=" emotion-25"
@@ -11437,7 +11354,6 @@ select.emotion-1:focus::-ms-value {
         >
           <label
             className="form-check-label emotion-0 col-form-label"
-            htmlFor={undefined}
           >
             <input
               className=" emotion-25"
@@ -11452,7 +11368,6 @@ select.emotion-1:focus::-ms-value {
         >
           <label
             className="form-check-label emotion-0 col-form-label"
-            htmlFor={undefined}
           >
             <input
               className=" emotion-25"
@@ -11469,7 +11384,6 @@ select.emotion-1:focus::-ms-value {
       >
         <label
           className="form-check-label emotion-0 col-form-label"
-          htmlFor={undefined}
         >
           <input
             className=" emotion-25"
@@ -11482,7 +11396,6 @@ select.emotion-1:focus::-ms-value {
         className="emotion-43 emotion-44 emotion-45"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         Submit
       </button>
@@ -12048,7 +11961,6 @@ select.emotion-1:focus::-ms-value {
           >
             <label
               className="form-check-label emotion-38 col-form-label"
-              htmlFor={undefined}
             >
               <input
                 className=" emotion-37"
@@ -12064,7 +11976,6 @@ select.emotion-1:focus::-ms-value {
           >
             <label
               className="form-check-label emotion-38 col-form-label"
-              htmlFor={undefined}
             >
               <input
                 className=" emotion-37"
@@ -12080,7 +11991,6 @@ select.emotion-1:focus::-ms-value {
           >
             <label
               className="form-check-label emotion-38 col-form-label"
-              htmlFor={undefined}
             >
               <input
                 className=" emotion-37"
@@ -12111,7 +12021,6 @@ select.emotion-1:focus::-ms-value {
           >
             <label
               className="form-check-label emotion-38 col-form-label"
-              htmlFor={undefined}
             >
               <input
                 className=" emotion-37"
@@ -12134,7 +12043,6 @@ select.emotion-1:focus::-ms-value {
             className="emotion-62 emotion-63 emotion-64"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             Submit
           </button>
@@ -12977,7 +12885,6 @@ select.emotion-1:focus::-ms-value {
         className="emotion-8 emotion-9 emotion-10"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         Submit
       </button>
@@ -13094,7 +13001,6 @@ exports[`Image storyshots Components/Form Inline Checkboxes 1`] = `
       >
         <label
           className="form-check-label emotion-1 col-form-label"
-          htmlFor={undefined}
         >
           <input
             className=" emotion-0"
@@ -13109,7 +13015,6 @@ exports[`Image storyshots Components/Form Inline Checkboxes 1`] = `
       >
         <label
           className="form-check-label emotion-1 col-form-label"
-          htmlFor={undefined}
         >
           <input
             className=" emotion-0"
@@ -13584,7 +13489,6 @@ select.emotion-1:focus::-ms-value {
         className="emotion-8 emotion-9 emotion-10"
         onClick={[Function]}
         tag="button"
-        type={undefined}
       >
         Submit
       </button>
@@ -14585,7 +14489,6 @@ select.emotion-5:focus::-ms-value {
       >
         <label
           className="form-check-label emotion-0 col-form-label"
-          htmlFor={undefined}
         >
           <input
             className=" emotion-57"
@@ -14600,7 +14503,6 @@ select.emotion-5:focus::-ms-value {
       >
         <label
           className="form-check-label emotion-0 col-form-label"
-          htmlFor={undefined}
         >
           <input
             className=" emotion-57"
@@ -16195,7 +16097,6 @@ select.emotion-4:focus::-ms-value {
             className="emotion-0 emotion-1 emotion-2"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             I'm a button
           </button>
@@ -16232,14 +16133,12 @@ select.emotion-4:focus::-ms-value {
             className="emotion-16 false"
             role="menu"
             tabIndex="-1"
-            x-placement={undefined}
           >
             <h6
               className="emotion-11"
               onClick={[Function]}
               tabIndex="-1"
               tag="button"
-              type={undefined}
             >
               Header
             </h6>
@@ -16267,7 +16166,6 @@ select.emotion-4:focus::-ms-value {
               onClick={[Function]}
               tabIndex="-1"
               tag="button"
-              type={undefined}
             />
             <button
               className="emotion-12"
@@ -16293,7 +16191,6 @@ select.emotion-4:focus::-ms-value {
             className="emotion-0 emotion-19 emotion-2"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             Split Button
           </button>
@@ -16316,14 +16213,12 @@ select.emotion-4:focus::-ms-value {
             className="emotion-16 false"
             role="menu"
             tabIndex="-1"
-            x-placement={undefined}
           >
             <h6
               className="emotion-11"
               onClick={[Function]}
               tabIndex="-1"
               tag="button"
-              type={undefined}
             >
               Header
             </h6>
@@ -16351,7 +16246,6 @@ select.emotion-4:focus::-ms-value {
               onClick={[Function]}
               tabIndex="-1"
               tag="button"
-              type={undefined}
             />
             <button
               className="emotion-12"
@@ -16376,7 +16270,6 @@ select.emotion-4:focus::-ms-value {
             className="emotion-0 emotion-1 emotion-2"
             onClick={[Function]}
             tag="button"
-            type={undefined}
           >
             I'm a button
           </button>
@@ -17034,7 +16927,6 @@ fieldset:disabled a.emotion-3 {
           className="emotion-3 emotion-4 emotion-5"
           onClick={[Function]}
           tag="button"
-          type={undefined}
         >
           Learn More
         </button>
@@ -19819,14 +19711,12 @@ exports[`Image storyshots Components/Nav Pills 1`] = `
             className="emotion-8 false"
             role="menu"
             tabIndex="-1"
-            x-placement={undefined}
           >
             <h6
               className="emotion-3"
               onClick={[Function]}
               tabIndex="-1"
               tag="button"
-              type={undefined}
             >
               Header
             </h6>
@@ -19854,7 +19744,6 @@ exports[`Image storyshots Components/Nav Pills 1`] = `
               onClick={[Function]}
               tabIndex="-1"
               tag="button"
-              type={undefined}
             />
             <button
               className="emotion-4"
@@ -20319,14 +20208,12 @@ exports[`Image storyshots Components/Nav Tabs 1`] = `
             className="emotion-8 false"
             role="menu"
             tabIndex="-1"
-            x-placement={undefined}
           >
             <h6
               className="emotion-3"
               onClick={[Function]}
               tabIndex="-1"
               tag="button"
-              type={undefined}
             >
               Header
             </h6>
@@ -20354,7 +20241,6 @@ exports[`Image storyshots Components/Nav Tabs 1`] = `
               onClick={[Function]}
               tabIndex="-1"
               tag="button"
-              type={undefined}
             />
             <button
               className="emotion-4"
@@ -21002,7 +20888,6 @@ button.emotion-17:focus {
                 className="emotion-10 dropdown-menu-right false"
                 role="menu"
                 tabIndex="-1"
-                x-placement={undefined}
               >
                 <button
                   className="emotion-6"
@@ -21027,7 +20912,6 @@ button.emotion-17:focus {
                   onClick={[Function]}
                   tabIndex="-1"
                   tag="button"
-                  type={undefined}
                 />
                 <button
                   className="emotion-6"
@@ -21488,7 +21372,6 @@ exports[`Image storyshots Components/Pagination Pagination Active 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -21499,7 +21382,6 @@ exports[`Image storyshots Components/Pagination Pagination Active 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -21510,7 +21392,6 @@ exports[`Image storyshots Components/Pagination Pagination Active 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -21521,7 +21402,6 @@ exports[`Image storyshots Components/Pagination Pagination Active 1`] = `
             className="emotion-1 emotion-10 "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -21532,7 +21412,6 @@ exports[`Image storyshots Components/Pagination Pagination Active 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -21681,7 +21560,6 @@ exports[`Image storyshots Components/Pagination Pagination Disabled 1`] = `
             className="emotion-1  undefined"
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -21692,7 +21570,6 @@ exports[`Image storyshots Components/Pagination Pagination Disabled 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -21703,7 +21580,6 @@ exports[`Image storyshots Components/Pagination Pagination Disabled 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -21714,7 +21590,6 @@ exports[`Image storyshots Components/Pagination Pagination Disabled 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -21725,7 +21600,6 @@ exports[`Image storyshots Components/Pagination Pagination Disabled 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -21891,7 +21765,6 @@ exports[`Image storyshots Components/Pagination Pagination Large 1`] = `
             diabled={true}
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -21902,7 +21775,6 @@ exports[`Image storyshots Components/Pagination Pagination Large 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -21913,7 +21785,6 @@ exports[`Image storyshots Components/Pagination Pagination Large 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -21924,7 +21795,6 @@ exports[`Image storyshots Components/Pagination Pagination Large 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -21935,7 +21805,6 @@ exports[`Image storyshots Components/Pagination Pagination Large 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -22084,7 +21953,6 @@ exports[`Image storyshots Components/Pagination Pagination Simple 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -22095,7 +21963,6 @@ exports[`Image storyshots Components/Pagination Pagination Simple 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -22106,7 +21973,6 @@ exports[`Image storyshots Components/Pagination Pagination Simple 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -22117,7 +21983,6 @@ exports[`Image storyshots Components/Pagination Pagination Simple 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -22128,7 +21993,6 @@ exports[`Image storyshots Components/Pagination Pagination Simple 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -22294,7 +22158,6 @@ exports[`Image storyshots Components/Pagination Pagination Small 1`] = `
             diabled={true}
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -22305,7 +22168,6 @@ exports[`Image storyshots Components/Pagination Pagination Small 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -22316,7 +22178,6 @@ exports[`Image storyshots Components/Pagination Pagination Small 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -22327,7 +22188,6 @@ exports[`Image storyshots Components/Pagination Pagination Small 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -22338,7 +22198,6 @@ exports[`Image storyshots Components/Pagination Pagination Small 1`] = `
             className="emotion-1  "
           >
             <a
-              aria-label={undefined}
               className="emotion-0"
               href="#"
             >
@@ -26778,11 +26637,11 @@ fieldset:disabled a.emotion-7 {
               <div
                 className="emotion-10 emotion-11"
               >
-                <h5
+                <div
                   className="emotion-5"
                 >
                   Tab 1 Title Treatment
-                </h5>
+                </div>
                 <p
                   className="emotion-5"
                 >
@@ -26792,7 +26651,6 @@ fieldset:disabled a.emotion-7 {
                   className="emotion-7 emotion-8 emotion-0"
                   onClick={[Function]}
                   tag="button"
-                  type={undefined}
                 >
                   Go somewhere
                 </button>
@@ -26804,11 +26662,11 @@ fieldset:disabled a.emotion-7 {
               <div
                 className="emotion-10 emotion-11"
               >
-                <h5
+                <div
                   className="emotion-5"
                 >
                   Tab 1 Title Treatment
-                </h5>
+                </div>
                 <p
                   className="emotion-5"
                 >
@@ -26818,7 +26676,6 @@ fieldset:disabled a.emotion-7 {
                   className="emotion-7 emotion-8 emotion-0"
                   onClick={[Function]}
                   tag="button"
-                  type={undefined}
                 >
                   Go somewhere
                 </button>
@@ -26838,11 +26695,11 @@ fieldset:disabled a.emotion-7 {
               <div
                 className="emotion-10 emotion-11"
               >
-                <h5
+                <div
                   className="emotion-5"
                 >
                   Special Title Treatment
-                </h5>
+                </div>
                 <p
                   className="emotion-5"
                 >
@@ -26852,7 +26709,6 @@ fieldset:disabled a.emotion-7 {
                   className="emotion-7 emotion-8 emotion-0"
                   onClick={[Function]}
                   tag="button"
-                  type={undefined}
                 >
                   Click me
                 </button>
@@ -26864,11 +26720,11 @@ fieldset:disabled a.emotion-7 {
               <div
                 className="emotion-10 emotion-11"
               >
-                <h5
+                <div
                   className="emotion-5"
                 >
                   Special Title Treatment
-                </h5>
+                </div>
                 <p
                   className="emotion-5"
                 >
@@ -26878,7 +26734,6 @@ fieldset:disabled a.emotion-7 {
                   className="emotion-7 emotion-8 emotion-0"
                   onClick={[Function]}
                   tag="button"
-                  type={undefined}
                 >
                   Click me
                 </button>

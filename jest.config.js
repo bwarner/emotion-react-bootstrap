@@ -6,7 +6,7 @@ module.exports = {
   },
   testURL: 'http://localhost/',
   testPathIgnorePatterns: ['/node_modules/'],
-  setupTestFrameworkScriptFile: './scripts/jest.init.js',
+  setupFilesAfterEnv: ['./scripts/jest.init.js'],
   moduleFileExtensions: ['js', 'jsx', 'json'],
   coverageDirectory: './coverage/',
   collectCoverage: true,

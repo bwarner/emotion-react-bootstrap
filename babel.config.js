@@ -4,6 +4,7 @@ module.exports = {
       '@babel/env',
       {
         useBuiltIns: 'entry',
+        corejs: 2,
       },
     ],
     '@babel/react',
