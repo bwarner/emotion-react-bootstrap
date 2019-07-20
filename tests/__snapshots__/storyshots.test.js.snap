@@ -4489,6 +4489,10 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-4 emotion-2"
         onClick={[Function]}
         tag="button"
+<<<<<<< HEAD
+=======
+        type={undefined}
+>>>>>>> master
       >
         secondary
       </button>
@@ -4497,6 +4501,10 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-7 emotion-2"
         onClick={[Function]}
         tag="button"
+<<<<<<< HEAD
+=======
+        type={undefined}
+>>>>>>> master
       >
         success
       </button>
@@ -4505,6 +4513,10 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-10 emotion-2"
         onClick={[Function]}
         tag="button"
+<<<<<<< HEAD
+=======
+        type={undefined}
+>>>>>>> master
       >
         info
       </button>
@@ -4513,6 +4525,10 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-13 emotion-2"
         onClick={[Function]}
         tag="button"
+<<<<<<< HEAD
+=======
+        type={undefined}
+>>>>>>> master
       >
         warning
       </button>
@@ -4521,6 +4537,10 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-16 emotion-2"
         onClick={[Function]}
         tag="button"
+<<<<<<< HEAD
+=======
+        type={undefined}
+>>>>>>> master
       >
         danger
       </button>
@@ -4529,6 +4549,10 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-2"
         onClick={[Function]}
         tag="button"
+<<<<<<< HEAD
+=======
+        type={undefined}
+>>>>>>> master
       >
         link
       </button>
@@ -4751,6 +4775,10 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-1 emotion-2 emotion-3 disabled"
         onClick={[Function]}
         tag="button"
+<<<<<<< HEAD
+=======
+        type={undefined}
+>>>>>>> master
       >
         Primary button
       </button>
@@ -4759,6 +4787,10 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-5 emotion-2 emotion-3 disabled"
         onClick={[Function]}
         tag="button"
+<<<<<<< HEAD
+=======
+        type={undefined}
+>>>>>>> master
       >
         Button
       </button>
@@ -5113,6 +5145,10 @@ fieldset:disabled a.emotion-0 {
         className="emotion-0 emotion-1 emotion-2"
         onClick={[Function]}
         tag="button"
+<<<<<<< HEAD
+=======
+        type={undefined}
+>>>>>>> master
       >
         primary
       </button>
@@ -5406,6 +5442,10 @@ input[type="button"].emotion-19 {
           className="emotion-0 emotion-1 emotion-2 emotion-3"
           onClick={[Function]}
           tag="button"
+<<<<<<< HEAD
+=======
+          type={undefined}
+>>>>>>> master
         >
           Large Button
         </button>
@@ -5414,6 +5454,10 @@ input[type="button"].emotion-19 {
           className="emotion-0 emotion-5 emotion-2 emotion-3"
           onClick={[Function]}
           tag="button"
+<<<<<<< HEAD
+=======
+          type={undefined}
+>>>>>>> master
         >
           Large Button
         </button>
@@ -5426,6 +5470,10 @@ input[type="button"].emotion-19 {
           className="emotion-0 emotion-1 emotion-10 emotion-3"
           onClick={[Function]}
           tag="button"
+<<<<<<< HEAD
+=======
+          type={undefined}
+>>>>>>> master
         >
           Small Button
         </button>
@@ -5434,6 +5482,10 @@ input[type="button"].emotion-19 {
           className="emotion-0 emotion-5 emotion-10 emotion-3"
           onClick={[Function]}
           tag="button"
+<<<<<<< HEAD
+=======
+          type={undefined}
+>>>>>>> master
         >
           Small Button
         </button>
@@ -5446,6 +5498,10 @@ input[type="button"].emotion-19 {
           className="emotion-0 emotion-1 emotion-10 emotion-19 emotion-3"
           onClick={[Function]}
           tag="button"
+<<<<<<< HEAD
+=======
+          type={undefined}
+>>>>>>> master
         >
           Small Button
         </button>
@@ -5454,6 +5510,10 @@ input[type="button"].emotion-19 {
           className="emotion-0 emotion-5 emotion-10 emotion-19 emotion-3"
           onClick={[Function]}
           tag="button"
+<<<<<<< HEAD
+=======
+          type={undefined}
+>>>>>>> master
         >
           Small Button
         </button>
@@ -5679,6 +5739,7 @@ button.emotion-43:focus {
   color: #fff;
   background-color: #545b62;
   border-color: #4e555b;
+<<<<<<< HEAD
 }
 
 .emotion-3:not(:disabled):not(.disabled):active:focus,
@@ -5856,6 +5917,190 @@ button.emotion-43:focus {
 `;
 
 exports[`Image storyshots Components/Card Card 1`] = `
+=======
+}
+
+.emotion-3:not(:disabled):not(.disabled):active:focus,
+.emotion-3:not(:disabled):not(.disabled).emotion-4:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-7 {
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-0 {
+  margin-bottom: 0.75rem;
+}
+
+.emotion-6 {
+  color: #fff !important;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <div
+        className="emotion-5 emotion-6 emotion-7"
+        style={
+          Object {
+            "backgroundColor": "#333",
+            "borderColor": "#333",
+          }
+        }
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2 emotion-3 emotion-4"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+      <div
+        className="emotion-5 emotion-6 emotion-7 emotion-16"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2 emotion-3 emotion-4"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+      <div
+        className="emotion-5 emotion-6 emotion-7 emotion-25"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2 emotion-3 emotion-4"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+      <div
+        className="emotion-5 emotion-6 emotion-7 emotion-34"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2 emotion-3 emotion-4"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+      <div
+        className="emotion-5 emotion-6 emotion-7 emotion-43"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2 emotion-3 emotion-4"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+      <div
+        className="emotion-5 emotion-6 emotion-7 emotion-52"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2 emotion-3 emotion-4"
+          onClick={[Function]}
+          tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Card Card 1`] = `
 .emotion-3 {
   display: inline-block;
   font-weight: 400;
@@ -5987,6 +6232,266 @@ fieldset:disabled a.emotion-3 {
   }
 }
 
+.emotion-4 {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-4:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-4:focus,
+.emotion-4.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-4.disabled,
+.emotion-4:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-4:not(:disabled):not(.disabled):active,
+.emotion-4:not(:disabled):not(.disabled).emotion-5 {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-4:not(:disabled):not(.disabled):active:focus,
+.emotion-4:not(:disabled):not(.disabled).emotion-5:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-6 {
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-1 {
+  margin-top: -0.375rem;
+  margin-bottom: 0;
+}
+
+.emotion-0 {
+  margin-bottom: 0.75rem;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <div
+        className="emotion-7"
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-6"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            Some quick example text to build on the card title and make up the bulk of the card"s content.
+          </p>
+          <button
+            className="emotion-3 emotion-4 emotion-5"
+            onClick={[Function]}
+            tag="button"
+            type="button"
+          >
+            Button
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Card Columns 1`] = `
+>>>>>>> master
+.emotion-3 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-3 {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.emotion-3:hover,
+.emotion-3:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-3:focus,
+.emotion-3.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-3.disabled,
+.emotion-3:disabled {
+  opacity: 0.65;
+}
+
+.emotion-3:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active,
+.emotion-3:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-3.disabled,
+fieldset:disabled a.emotion-3 {
+  pointer-events: none;
+}
+
+.emotion-3 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-7 {
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+<<<<<<< HEAD
+}
+
+.emotion-7 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-7 > .:first-child .:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+=======
+}
+
+.emotion-7 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-7 > .:first-child .:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+>>>>>>> master
+.emotion-7 > .:last-child .:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-5.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-5.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-5.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-5.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+<<<<<<< HEAD
 .emotion-4 {
   color: #fff;
   background-color: #6c757d;
@@ -6309,6 +6814,87 @@ button.emotion-41:focus {
   }
 }
 
+=======
+.emotion-41 {
+  background-color: #007bff !important;
+}
+
+a.emotion-41:hover,
+a.emotion-41:focus,
+button.emotion-41:hover,
+button.emotion-41:focus {
+  background-color: #0062cc !important;
+}
+
+.emotion-4 {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-4:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-4:focus,
+.emotion-4.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-4.disabled,
+.emotion-4:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-4:not(:disabled):not(.disabled):active,
+.emotion-4:not(:disabled):not(.disabled).emotion-5 {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-4:not(:disabled):not(.disabled):active:focus,
+.emotion-4:not(:disabled):not(.disabled).emotion-5:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-6 {
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-42 .emotion-7 {
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width:576px) {
+  .emotion-42 {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
+    -webkit-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;
+  }
+
+  .emotion-42 .emotion-7 {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+>>>>>>> master
 .emotion-1 {
   margin-top: -0.375rem;
   margin-bottom: 0;
@@ -6342,6 +6928,8 @@ button.emotion-41:focus {
     >
       <div
         className="emotion-7"
+<<<<<<< HEAD
+=======
       >
         <img
           alt="Card image cap"
@@ -6349,6 +6937,45 @@ button.emotion-41:focus {
           src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
           width="100%"
         />
+        <div
+          className="emotion-6"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <button
+            className="emotion-3 emotion-4 emotion-5"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Button
+          </button>
+        </div>
+      </div>
+      <div
+        className="emotion-7"
+>>>>>>> master
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+          width="100%"
+        />
+<<<<<<< HEAD
         <div
           className="emotion-6"
         >
@@ -6375,10 +7002,13 @@ button.emotion-41:focus {
             Button
           </button>
         </div>
+=======
+>>>>>>> master
       </div>
       <div
         className="emotion-7"
       >
+<<<<<<< HEAD
         <img
           alt="Card image cap"
           className=""
@@ -6487,6 +7117,49 @@ button.emotion-41:focus {
         >
           Special Title Treatment
         </div>
+=======
+        <div
+          className="emotion-6"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            This card has supporting text below as a natural lead-in to additional content.
+          </p>
+          <button
+            className="emotion-3 emotion-4 emotion-5"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Button
+          </button>
+        </div>
+      </div>
+      <div
+        className="emotion-7 emotion-23 emotion-6"
+        style={
+          Object {
+            "backgroundColor": "#333",
+            "borderColor": "#333",
+          }
+        }
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
         <p
           className="emotion-0"
         >
@@ -6496,6 +7169,70 @@ button.emotion-41:focus {
           className="emotion-3 emotion-4 emotion-5"
           onClick={[Function]}
           tag="button"
+          type={undefined}
+        >
+          Button
+        </button>
+      </div>
+      <div
+        className="emotion-7"
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-6"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+          </p>
+          <button
+            className="emotion-3 emotion-4 emotion-5"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Button
+          </button>
+        </div>
+      </div>
+      <div
+        className="emotion-7 emotion-23 emotion-6 emotion-41"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+>>>>>>> master
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-3 emotion-4 emotion-5"
+          onClick={[Function]}
+          tag="button"
+<<<<<<< HEAD
+=======
+          type={undefined}
+>>>>>>> master
         >
           Button
         </button>
@@ -6522,6 +7259,7 @@ exports[`Image storyshots Components/Card Content Types 1`] = `
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,0.125);
+<<<<<<< HEAD
   border-radius: 0.25rem;
 }
 
@@ -7269,6 +8007,343 @@ fieldset:disabled a.emotion-3 {
   margin-bottom: 0;
 }
 
+=======
+  border-radius: 0.25rem;
+}
+
+.emotion-7 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-7 > .:first-child .:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-7 > .:last-child .:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-2 {
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-4:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-4 + .emotion-4 {
+  margin-left: 1.25rem;
+}
+
+.emotion-1 {
+  margin-top: -0.375rem;
+  margin-bottom: 0;
+}
+
+.emotion-0 {
+  margin-bottom: 0.75rem;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <div
+        className="emotion-7"
+      >
+        <div
+          className="emotion-2"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+        </div>
+        <img
+          alt="Card cap"
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-2"
+        >
+          <p
+            className="emotion-0"
+          >
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+          <a
+            className="emotion-4"
+            href="#"
+          >
+            Card Link
+          </a>
+          <a
+            className="emotion-4"
+            href="#"
+          >
+            Another Link
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Card Decks 1`] = `
+.emotion-3 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-3 {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.emotion-3:hover,
+.emotion-3:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-3:focus,
+.emotion-3.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-3.disabled,
+.emotion-3:disabled {
+  opacity: 0.65;
+}
+
+.emotion-3:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active,
+.emotion-3:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-3.disabled,
+fieldset:disabled a.emotion-3 {
+  pointer-events: none;
+}
+
+.emotion-3 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-7 {
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+}
+
+.emotion-7 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-7 > .:first-child .:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-7 > .:last-child .:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-5.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-5.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-5.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-5.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+.emotion-4 {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-4:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-4:focus,
+.emotion-4.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-4.disabled,
+.emotion-4:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-4:not(:disabled):not(.disabled):active,
+.emotion-4:not(:disabled):not(.disabled).emotion-5 {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-4:not(:disabled):not(.disabled):active:focus,
+.emotion-4:not(:disabled):not(.disabled).emotion-5:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-6 {
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-24 {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-24 .emotion-7 {
+  margin-bottom: 15px;
+}
+
+@media (min-width:576px) {
+  .emotion-24 {
+    -ms-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .emotion-24 .emotion-7 {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1 0 0%;
+    -webkit-flex: 1 0 0%;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-bottom: 0;
+    margin-left: 15px;
+  }
+}
+
+.emotion-1 {
+  margin-top: -0.375rem;
+  margin-bottom: 0;
+}
+
 .emotion-0 {
   margin-bottom: 0.75rem;
 }
@@ -7302,6 +8377,422 @@ fieldset:disabled a.emotion-3 {
         />
         <div
           className="emotion-6"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          </p>
+          <button
+            className="emotion-3 emotion-4 emotion-5"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Button
+          </button>
+        </div>
+      </div>
+      <div
+        className="emotion-7"
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-6"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            This card has supporting text below as a natural lead-in to additional content.
+          </p>
+          <button
+            className="emotion-3 emotion-4 emotion-5"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Button
+          </button>
+        </div>
+      </div>
+      <div
+        className="emotion-7"
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-6"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+          </p>
+          <button
+            className="emotion-3 emotion-4 emotion-5"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Button
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Card Groups 1`] = `
+.emotion-3 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-3 {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.emotion-3:hover,
+.emotion-3:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-3:focus,
+.emotion-3.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-3.disabled,
+.emotion-3:disabled {
+  opacity: 0.65;
+}
+
+.emotion-3:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active,
+.emotion-3:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-3.disabled,
+fieldset:disabled a.emotion-3 {
+  pointer-events: none;
+}
+
+.emotion-3 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-7 {
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+}
+
+.emotion-7 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-7 > .:first-child .:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-7 > .:last-child .:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-5.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-5.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-5.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-5.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+.emotion-4 {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-4:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-4:focus,
+.emotion-4.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-4.disabled,
+.emotion-4:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-4:not(:disabled):not(.disabled):active,
+.emotion-4:not(:disabled):not(.disabled).emotion-5 {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-4:not(:disabled):not(.disabled):active:focus,
+.emotion-4:not(:disabled):not(.disabled).emotion-5:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-6 {
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-24 {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-24 > .emotion-7 {
+  margin-bottom: 15px;
+}
+
+@media (min-width:576px) {
+  .emotion-24 {
+    -ms-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+
+  .emotion-24 > .emotion-7 {
+    -ms-flex: 1 0 0%;
+    -webkit-flex: 1 0 0%;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    margin-bottom: 0;
+  }
+
+  .emotion-24 > .emotion-7 + .emotion-7 {
+    margin-left: 0;
+    border-left: 0;
+  }
+
+  .emotion-24 > .emotion-7:first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .emotion-24 > .emotion-7:first-child .css-4ii1d1-cardImgTop,
+  .emotion-24 > .emotion-7:first-child .css-1oc2g5l-cardHeader {
+    border-top-right-radius: 0;
+  }
+
+  .emotion-24 > .emotion-7:first-child .css-1xf5iba-cardImgBottom,
+  .emotion-24 > .emotion-7:first-child .css-188w1p0-cardFooter {
+    border-bottom-right-radius: 0;
+  }
+
+  .emotion-24 > .emotion-7:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .emotion-24 > .emotion-7:last-child .css-4ii1d1-cardImgTop,
+  .emotion-24 > .emotion-7:last-child .css-1oc2g5l-cardHeader {
+    border-top-left-radius: 0;
+  }
+
+  .emotion-24 > .emotion-7:last-child .css-1xf5iba-cardImgBottom,
+  .emotion-24 > .emotion-7:last-child .css-188w1p0-cardFooter {
+    border-bottom-left-radius: 0;
+  }
+
+  .emotion-24 > .emotion-7:only-child {
+    border-radius: 0.25rem;
+  }
+
+  .emotion-24 > .emotion-7:only-child .css-4ii1d1-cardImgTop,
+  .emotion-24 > .emotion-7:only-child .css-1oc2g5l-cardHeader {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+
+  .emotion-24 > .emotion-7:only-child .css-1xf5iba-cardImgBottom,
+  .emotion-24 > .emotion-7:only-child .css-188w1p0-cardFooter {
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+
+  .emotion-24 > .emotion-7:not(:first-child):not(:last-child):not(:only-child) {
+    border-radius: 0;
+  }
+
+  .emotion-24 > .emotion-7:not(:first-child):not(:last-child):not(:only-child) .css-4ii1d1-cardImgTop,
+  .emotion-24 > .emotion-7:not(:first-child):not(:last-child):not(:only-child) .css-1xf5iba-cardImgBottom,
+  .emotion-24 > .emotion-7:not(:first-child):not(:last-child):not(:only-child) .css-1oc2g5l-cardHeader,
+  .emotion-24 > .emotion-7:not(:first-child):not(:last-child):not(:only-child) .css-188w1p0-cardFooter {
+    border-radius: 0;
+  }
+}
+
+.emotion-1 {
+  margin-top: -0.375rem;
+  margin-bottom: 0;
+}
+
+>>>>>>> master
+.emotion-0 {
+  margin-bottom: 0.75rem;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      className="emotion-24"
+    >
+      <div
+        className="emotion-7"
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-6"
+<<<<<<< HEAD
         >
           <div
             className="emotion-0"
@@ -7344,6 +8835,13 @@ fieldset:disabled a.emotion-3 {
           >
             Card title
           </div>
+=======
+        >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
           <h6
             className="emotion-1"
           >
@@ -7352,12 +8850,13 @@ fieldset:disabled a.emotion-3 {
           <p
             className="emotion-0"
           >
-            This card has supporting text below as a natural lead-in to additional content.
+            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
           </p>
           <button
             className="emotion-3 emotion-4 emotion-5"
             onClick={[Function]}
             tag="button"
+            type={undefined}
           >
             Button
           </button>
@@ -7375,11 +8874,60 @@ fieldset:disabled a.emotion-3 {
         <div
           className="emotion-6"
         >
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+>>>>>>> master
+          <h6
+            className="emotion-1"
+          >
+            Card subtitle
+          </h6>
+          <p
+            className="emotion-0"
+          >
+            This card has supporting text below as a natural lead-in to additional content.
+          </p>
+          <button
+            className="emotion-3 emotion-4 emotion-5"
+            onClick={[Function]}
+            tag="button"
+<<<<<<< HEAD
+=======
+            type={undefined}
+>>>>>>> master
+          >
+            Button
+          </button>
+        </div>
+      </div>
+      <div
+        className="emotion-7"
+      >
+        <img
+          alt="Card image cap"
+          className=""
+          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180"
+          width="100%"
+        />
+        <div
+          className="emotion-6"
+        >
+<<<<<<< HEAD
           <div
             className="emotion-0"
           >
             Card title
           </div>
+=======
+          <h5
+            className="emotion-0"
+          >
+            Card title
+          </h5>
+>>>>>>> master
           <h6
             className="emotion-1"
           >
@@ -7394,6 +8942,10 @@ fieldset:disabled a.emotion-3 {
             className="emotion-3 emotion-4 emotion-5"
             onClick={[Function]}
             tag="button"
+<<<<<<< HEAD
+=======
+            type={undefined}
+>>>>>>> master
           >
             Button
           </button>
@@ -7432,6 +8984,7 @@ exports[`Image storyshots Components/Card Header and Footer 1`] = `
     -webkit-transition: none;
     transition: none;
   }
+<<<<<<< HEAD
 }
 
 .emotion-3:hover,
@@ -7607,6 +9160,183 @@ fieldset:disabled a.emotion-3 {
 
 .emotion-1 {
   margin-bottom: 0.75rem;
+=======
+}
+
+.emotion-3:hover,
+.emotion-3:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-3:focus,
+.emotion-3.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-3.disabled,
+.emotion-3:disabled {
+  opacity: 0.65;
+}
+
+.emotion-3:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active,
+.emotion-3:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-3.disabled,
+fieldset:disabled a.emotion-3 {
+  pointer-events: none;
+}
+
+.emotion-3 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-8 {
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+}
+
+.emotion-8 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-8 > .:first-child .:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-8 > .:last-child .:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-0 {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0,0,0,0.03);
+  border-bottom: 1px solid rgba(0,0,0,0.125);
+}
+
+.emotion-0:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.emotion-0 + . .:first-child {
+  border-top: 0;
+}
+
+.emotion-5.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-5.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-5.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-5.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+>>>>>>> master
+}
+
+.emotion-4 {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-4:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-4:focus,
+.emotion-4.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-4.disabled,
+.emotion-4:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-4:not(:disabled):not(.disabled):active,
+.emotion-4:not(:disabled):not(.disabled).emotion-5 {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-4:not(:disabled):not(.disabled):active:focus,
+.emotion-4:not(:disabled):not(.disabled).emotion-5:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-6 {
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.emotion-7 {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0,0,0,0.03);
+  border-top: 1px solid rgba(0,0,0,0.125);
+}
+
+.emotion-7:last-child {
+  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+
+.emotion-1 {
+  margin-bottom: 0.75rem;
 }
 
 <div>
@@ -7636,11 +9366,19 @@ fieldset:disabled a.emotion-3 {
         <div
           className="emotion-6"
         >
+<<<<<<< HEAD
           <div
             className="emotion-1"
           >
             Special Title Treatment
           </div>
+=======
+          <h5
+            className="emotion-1"
+          >
+            Special Title Treatment
+          </h5>
+>>>>>>> master
           <p
             className="emotion-1"
           >
@@ -7650,6 +9388,10 @@ fieldset:disabled a.emotion-3 {
             className="emotion-3 emotion-4 emotion-5"
             onClick={[Function]}
             tag="button"
+<<<<<<< HEAD
+=======
+            type={undefined}
+>>>>>>> master
           >
             Go somewhere
           </button>
@@ -7671,11 +9413,19 @@ fieldset:disabled a.emotion-3 {
         <div
           className="emotion-6"
         >
+<<<<<<< HEAD
           <div
             className="emotion-1"
           >
             Special Title Treatment
           </div>
+=======
+          <h5
+            className="emotion-1"
+          >
+            Special Title Treatment
+          </h5>
+>>>>>>> master
           <p
             className="emotion-1"
           >
@@ -7685,6 +9435,10 @@ fieldset:disabled a.emotion-3 {
             className="emotion-3 emotion-4 emotion-5"
             onClick={[Function]}
             tag="button"
+<<<<<<< HEAD
+=======
+            type={undefined}
+>>>>>>> master
           >
             Go somewhere
           </button>
@@ -7785,7 +9539,11 @@ exports[`Image storyshots Components/Card Image Caps 1`] = `
             className="emotion-0"
           >
             Card Title
+<<<<<<< HEAD
           </div>
+=======
+          </h5>
+>>>>>>> master
           <p
             className="emotion-0"
           >
@@ -7808,11 +9566,19 @@ exports[`Image storyshots Components/Card Image Caps 1`] = `
         <div
           className="emotion-3"
         >
+<<<<<<< HEAD
           <div
             className="emotion-0"
           >
             Card Title
           </div>
+=======
+          <h5
+            className="emotion-0"
+          >
+            Card Title
+          </h5>
+>>>>>>> master
           <p
             className="emotion-0"
           >
@@ -7925,11 +9691,19 @@ exports[`Image storyshots Components/Card Image Overlay 1`] = `
         <div
           className="emotion-4"
         >
+<<<<<<< HEAD
           <div
             className="emotion-1"
           >
             Card Title
           </div>
+=======
+          <h5
+            className="emotion-1"
+          >
+            Card Title
+          </h5>
+>>>>>>> master
           <p
             className="emotion-1"
           >
@@ -8174,11 +9948,19 @@ fieldset:disabled a.emotion-2 {
       <div
         className="emotion-5 emotion-6 emotion-7"
       >
+<<<<<<< HEAD
         <div
           className="emotion-0"
         >
           Special Title Treatment
         </div>
+=======
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+>>>>>>> master
         <p
           className="emotion-0"
         >
@@ -8188,6 +9970,10 @@ fieldset:disabled a.emotion-2 {
           className="emotion-2 emotion-3 emotion-4"
           onClick={[Function]}
           tag="button"
+<<<<<<< HEAD
+=======
+          type={undefined}
+>>>>>>> master
         >
           Button
         </button>
@@ -8195,11 +9981,19 @@ fieldset:disabled a.emotion-2 {
       <div
         className="emotion-5 emotion-6 emotion-15"
       >
+<<<<<<< HEAD
         <div
           className="emotion-0"
         >
           Special Title Treatment
         </div>
+=======
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+>>>>>>> master
         <p
           className="emotion-0"
         >
@@ -8209,6 +10003,10 @@ fieldset:disabled a.emotion-2 {
           className="emotion-2 emotion-3 emotion-4"
           onClick={[Function]}
           tag="button"
+<<<<<<< HEAD
+=======
+          type={undefined}
+>>>>>>> master
         >
           Button
         </button>
@@ -8216,11 +10014,19 @@ fieldset:disabled a.emotion-2 {
       <div
         className="emotion-5 emotion-6 emotion-23"
       >
+<<<<<<< HEAD
         <div
           className="emotion-0"
         >
           Special Title Treatment
         </div>
+=======
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+>>>>>>> master
         <p
           className="emotion-0"
         >
@@ -8230,6 +10036,10 @@ fieldset:disabled a.emotion-2 {
           className="emotion-2 emotion-3 emotion-4"
           onClick={[Function]}
           tag="button"
+<<<<<<< HEAD
+=======
+          type={undefined}
+>>>>>>> master
         >
           Button
         </button>
@@ -8258,11 +10068,19 @@ fieldset:disabled a.emotion-2 {
       <div
         className="emotion-5 emotion-6 emotion-39"
       >
+<<<<<<< HEAD
         <div
           className="emotion-0"
         >
           Special Title Treatment
         </div>
+=======
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+>>>>>>> master
         <p
           className="emotion-0"
         >
@@ -8272,6 +10090,10 @@ fieldset:disabled a.emotion-2 {
           className="emotion-2 emotion-3 emotion-4"
           onClick={[Function]}
           tag="button"
+<<<<<<< HEAD
+=======
+          type={undefined}
+>>>>>>> master
         >
           Button
         </button>
@@ -8323,6 +10145,41 @@ exports[`Image storyshots Components/Card Sizing 1`] = `
   border-radius: 0.25rem;
   -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+<<<<<<< HEAD
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-2 {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.emotion-2:hover,
+.emotion-2:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-2:focus,
+.emotion-2.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-2.disabled,
+.emotion-2:disabled {
+  opacity: 0.65;
+}
+
+.emotion-2:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-2:not(:disabled):not(.disabled):active,
+.emotion-2:not(:disabled):not(.disabled). {
+  background-image: none;
+=======
 }
 
 @media screen and (prefers-reduced-motion:reduce) {
@@ -8476,12 +10333,21 @@ fieldset:disabled a.emotion-2 {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
+>>>>>>> master
 }
 
-.emotion-0 {
-  margin-bottom: 0.75rem;
+a.emotion-2.disabled,
+fieldset:disabled a.emotion-2 {
+  pointer-events: none;
 }
 
+<<<<<<< HEAD
+.emotion-2 . {
+  position: relative;
+  top: -1px;
+}
+
+=======
 .emotion-7 {
   position: relative;
   width: 100%;
@@ -8538,6 +10404,324 @@ fieldset:disabled a.emotion-2 {
         <div
           className="emotion-5 emotion-6"
         >
+          <h5
+            className="emotion-0"
+          >
+            Special Title Treatment
+          </h5>
+          <p
+            className="emotion-0"
+          >
+            With supporting text below as a natural lead-in to additional content.
+          </p>
+          <button
+            className="emotion-2 emotion-3 emotion-4"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Go somewhere
+          </button>
+        </div>
+      </div>
+      <div
+        className="emotion-7"
+      >
+        <div
+          className="emotion-5 emotion-6"
+        >
+          <h5
+            className="emotion-0"
+          >
+            Special Title Treatment
+          </h5>
+          <p
+            className="emotion-0"
+          >
+            With supporting text below as a natural lead-in to additional content.
+          </p>
+          <button
+            className="emotion-2 emotion-3 emotion-4"
+            onClick={[Function]}
+            tag="button"
+            type={undefined}
+          >
+            Go somewhere
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Card Text Alignment 1`] = `
+.emotion-2 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-2 {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.emotion-2:hover,
+.emotion-2:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-2:focus,
+.emotion-2.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-2.disabled,
+.emotion-2:disabled {
+  opacity: 0.65;
+}
+
+.emotion-2:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-2:not(:disabled):not(.disabled):active,
+.emotion-2:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-2.disabled,
+fieldset:disabled a.emotion-2 {
+  pointer-events: none;
+}
+
+.emotion-2 . {
+  position: relative;
+  top: -1px;
+}
+
+>>>>>>> master
+.emotion-5 {
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: 0.25rem;
+}
+
+.emotion-5 > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.emotion-5 > .:first-child .:first-child {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.emotion-5 > .:last-child .:last-child {
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.emotion-4.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+<<<<<<< HEAD
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-4.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-4.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+=======
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-4.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-4.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+>>>>>>> master
+  .emotion-4.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+.emotion-3 {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-3:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-3:focus,
+.emotion-3.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-3.disabled,
+.emotion-3:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active,
+.emotion-3:not(:disabled):not(.disabled).emotion-4 {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-3:not(:disabled):not(.disabled):active:focus,
+.emotion-3:not(:disabled):not(.disabled).emotion-4:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-6 {
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+<<<<<<< HEAD
+}
+
+.emotion-0 {
+  margin-bottom: 0.75rem;
+}
+
+.emotion-7 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width:576px) {
+  .emotion-7 {
+    -ms-flex: 0 0 50%;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+=======
+}
+
+.emotion-0 {
+  margin-bottom: 0.75rem;
+>>>>>>> master
+}
+
+.emotion-16 {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+<<<<<<< HEAD
+    <div
+      className="emotion-16"
+    >
+      <div
+        className="emotion-7"
+      >
+        <div
+          className="emotion-5 emotion-6"
+        >
           <div
             className="emotion-0"
           >
@@ -8581,12 +10765,81 @@ fieldset:disabled a.emotion-2 {
             Go somewhere
           </button>
         </div>
+=======
+    <div>
+      <div
+        className="emotion-5 emotion-6"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2 emotion-3 emotion-4"
+          onClick={[Function]}
+          tag="button"
+          type="button"
+        >
+          Go somewhere
+        </button>
+      </div>
+      <div
+        className="text-center emotion-5 emotion-6"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2 emotion-3 emotion-4"
+          onClick={[Function]}
+          tag="button"
+          type="button"
+        >
+          Go somewhere
+        </button>
+      </div>
+      <div
+        className="text-right emotion-5 emotion-6"
+      >
+        <h5
+          className="emotion-0"
+        >
+          Special Title Treatment
+        </h5>
+        <p
+          className="emotion-0"
+        >
+          With supporting text below as a natural lead-in to additional content.
+        </p>
+        <button
+          className="emotion-2 emotion-3 emotion-4"
+          onClick={[Function]}
+          tag="button"
+          type="button"
+        >
+          Go somewhere
+        </button>
+>>>>>>> master
       </div>
     </div>
   </div>
 </div>
 `;
 
+<<<<<<< HEAD
 exports[`Image storyshots Components/Card Text Alignment 1`] = `
 .emotion-2 {
   display: inline-block;
@@ -8670,23 +10923,42 @@ fieldset:disabled a.emotion-2 {
   background-clip: border-box;
   border: 1px solid rgba(0,0,0,0.125);
   border-radius: 0.25rem;
+=======
+exports[`Image storyshots Components/Carousel Example 1`] = `
+.emotion-0.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+>>>>>>> master
 }
 
-.emotion-5 > hr {
-  margin-right: 0;
-  margin-left: 0;
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
 }
 
-.emotion-5 > .:first-child .:first-child {
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+.emotion-0.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
 }
 
-.emotion-5 > .:last-child .:last-child {
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-0.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
 }
 
+<<<<<<< HEAD
 .emotion-4.carousel-item-right {
   -webkit-transform: translateX(100%);
   -webkit-transform: translateX(100%);
@@ -8729,20 +11001,187 @@ fieldset:disabled a.emotion-2 {
   color: #fff;
   background-color: #5a6268;
   border-color: #545b62;
+=======
+.emotion-16 {
+  position: relative;
 }
 
-.emotion-3:focus,
-.emotion-3.focus {
-  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
-}
-
-.emotion-3.disabled,
-.emotion-3:disabled {
+.emotion-15 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  text-align: center;
+  opacity: 0.5;
+  right: 0;
 }
 
+.emotion-15:hover,
+.emotion-15:focus {
+  color: #fff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  opacity: 0.9;
+}
+
+.emotion-13 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.emotion-12 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  left: 0;
+}
+
+.emotion-12:hover,
+.emotion-12:focus {
+  color: #fff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: 0;
+  opacity: 0.9;
+}
+
+.emotion-10 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.emotion-3 {
+  position: relative;
+  display: none;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -ms-perspective: 1000px;
+  perspective: 1000px;
+}
+
+.emotion-3.emotion-0 {
+  display: block;
+  -webkit-transition: -webkit-transform 0.6s ease;
+  -webkit-transition: -webkit-transform 0.6s ease;
+  transition: -webkit-transform 0.6s ease;
+  -webkit-transition: -webkit-transform 0.6s ease;
+  -webkit-transition: transform 0.6s ease;
+  transition: transform 0.6s ease;
+  -webkit-transition: -webkit-transform 0.6s ease,-webkit-transform 0.6s ease;
+  -webkit-transition: transform 0.6s ease,-webkit-transform 0.6s ease;
+  transition: transform 0.6s ease,-webkit-transform 0.6s ease;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-3.emotion-0 {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.emotion-1 {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  left: 0;
+  z-index: 15;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+>>>>>>> master
+}
+
+.emotion-1 li {
+  position: relative;
+  -ms-flex: 0 1 auto;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: rgba(255,255,255,0.5);
+}
+
+.emotion-1 li::before {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 10px;
+  content: "";
+}
+
+<<<<<<< HEAD
 .emotion-3:not(:disabled):not(.disabled):active,
 .emotion-3:not(:disabled):not(.disabled).emotion-4 {
   color: #fff;
@@ -8765,6 +11204,57 @@ fieldset:disabled a.emotion-2 {
 
 .emotion-0 {
   margin-bottom: 0.75rem;
+=======
+.emotion-1 li::after {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 10px;
+  content: "";
+}
+
+.emotion-1 .emotion-0 {
+  background-color: #fff;
+}
+
+.emotion-9 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.emotion-11 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  -webkit-clip: rect(0,0,0,0);
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.emotion-2 {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  display: none !important;
+}
+
+@media (min-width:768px) {
+  .emotion-2 {
+    display: block !important;
+  }
+>>>>>>> master
 }
 
 <div>
@@ -8782,6 +11272,7 @@ fieldset:disabled a.emotion-2 {
       }
     }
   >
+<<<<<<< HEAD
     <div>
       <div
         className="emotion-5 emotion-6"
@@ -8834,6 +11325,101 @@ fieldset:disabled a.emotion-2 {
           className="emotion-0"
         >
           Special Title Treatment
+=======
+    <div
+      className="emotion-16"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <ol
+        className="emotion-1"
+      >
+        <li
+          className="emotion-0"
+        >
+          <button
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          />
+        </li>
+        <li
+          className=""
+        >
+          <button
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          />
+        </li>
+        <li
+          className=""
+        >
+          <button
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          />
+        </li>
+      </ol>
+      <div
+        className="emotion-9"
+        role="listbox"
+      >
+        <div
+          className="emotion-3 emotion-0  "
+        >
+          <img
+            alt="Slide 1"
+            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ba800aa1d%20text%20%7B%20fill%3A%23555%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ba800aa1d%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22285.921875%22%20y%3D%22218.3%22%3EFirst%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+          />
+          <div
+            className="emotion-2"
+          >
+            <h3>
+              Slide 1
+            </h3>
+            <p>
+              Slide 1
+            </p>
+          </div>
+        </div>
+        <div
+          className="emotion-3   "
+        >
+          <img
+            alt="Slide 2"
+            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ba800aa20%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ba800aa20%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3203125%22%20y%3D%22218.3%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+          />
+          <div
+            className="emotion-2"
+          >
+            <h3>
+              Slide 2
+            </h3>
+            <p>
+              Slide 2
+            </p>
+          </div>
+        </div>
+        <div
+          className="emotion-3   "
+        >
+          <img
+            alt="Slide 3"
+            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ba800aa21%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ba800aa21%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277%22%20y%3D%22218.3%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+          />
+          <div
+            className="emotion-2"
+          >
+            <h3>
+              Slide 3
+            </h3>
+            <p>
+              Slide 3
+            </p>
+          </div>
+>>>>>>> master
         </div>
         <p
           className="emotion-0"
@@ -8849,13 +11435,117 @@ fieldset:disabled a.emotion-2 {
           Go somewhere
         </button>
       </div>
+      <button
+        className="emotion-12"
+        onClick={[Function]}
+        onKeyUp={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          aria-hidden="true"
+          className="emotion-10"
+        />
+        <span
+          className="emotion-11"
+        >
+          Previous
+        </span>
+      </button>
+      <button
+        className="emotion-15"
+        onClick={[Function]}
+        onKeyUp={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          aria-hidden="true"
+          className="emotion-13"
+        />
+        <span
+          className="emotion-11"
+        >
+          Next
+        </span>
+      </button>
     </div>
   </div>
 </div>
 `;
 
+<<<<<<< HEAD
 exports[`Image storyshots Components/Carousel Example 1`] = `
 .emotion-0.carousel-item-right {
+=======
+exports[`Image storyshots Components/Collapse Example 1`] = `
+.emotion-0 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-0 {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0:focus,
+.emotion-0.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-0.disabled,
+.emotion-0:disabled {
+  opacity: 0.65;
+}
+
+.emotion-0:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active,
+.emotion-0:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-0.disabled,
+fieldset:disabled a.emotion-0 {
+  pointer-events: none;
+}
+
+.emotion-0 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-2.carousel-item-right {
+>>>>>>> master
   -webkit-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   -ms-transform: translateX(100%);
@@ -8863,7 +11553,11 @@ exports[`Image storyshots Components/Carousel Example 1`] = `
 }
 
 @supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+<<<<<<< HEAD
   .emotion-0.carousel-item-right {
+=======
+  .emotion-2.carousel-item-right {
+>>>>>>> master
     -webkit-transform: translate3d(100%,0,0);
     -webkit-transform: translate3d(100%,0,0);
     -ms-transform: translate3d(100%,0,0);
@@ -8871,7 +11565,11 @@ exports[`Image storyshots Components/Carousel Example 1`] = `
   }
 }
 
+<<<<<<< HEAD
 .emotion-0.carousel-item-left {
+=======
+.emotion-2.carousel-item-left {
+>>>>>>> master
   -webkit-transform: translateX(-100%);
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
@@ -8879,7 +11577,11 @@ exports[`Image storyshots Components/Carousel Example 1`] = `
 }
 
 @supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+<<<<<<< HEAD
   .emotion-0.carousel-item-left {
+=======
+  .emotion-2.carousel-item-left {
+>>>>>>> master
     -webkit-transform: translate3d(-100%,0,0);
     -webkit-transform: translate3d(-100%,0,0);
     -ms-transform: translate3d(-100%,0,0);
@@ -8887,6 +11589,7 @@ exports[`Image storyshots Components/Carousel Example 1`] = `
   }
 }
 
+<<<<<<< HEAD
 .emotion-16 {
   position: relative;
 }
@@ -9073,296 +11776,7 @@ exports[`Image storyshots Components/Carousel Example 1`] = `
   width: 100%;
   height: 10px;
   content: "";
-}
-
-.emotion-1 .emotion-0 {
-  background-color: #fff;
-}
-
-.emotion-9 {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
-.emotion-11 {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  overflow: hidden;
-  -webkit-clip: rect(0,0,0,0);
-  clip: rect(0,0,0,0);
-  white-space: nowrap;
-  border: 0;
-}
-
-.emotion-2 {
-  position: absolute;
-  right: 15%;
-  bottom: 20px;
-  left: 15%;
-  z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
-  text-align: center;
-  display: none !important;
-}
-
-@media (min-width:768px) {
-  .emotion-2 {
-    display: block !important;
-  }
-}
-
-<div>
-  <div
-    style={
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexAlign": "center",
-        "flexDirection": "column",
-        "height": "100%",
-        "justifyContent": "center",
-        "minHeight": 600,
-        "minWidth": 320,
-      }
-    }
-  >
-    <div
-      className="emotion-16"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-    >
-      <ol
-        className="emotion-1"
-      >
-        <li
-          className="emotion-0"
-        >
-          <button
-            onClick={[Function]}
-            onKeyUp={[Function]}
-            type="button"
-          />
-        </li>
-        <li
-          className=""
-        >
-          <button
-            onClick={[Function]}
-            onKeyUp={[Function]}
-            type="button"
-          />
-        </li>
-        <li
-          className=""
-        >
-          <button
-            onClick={[Function]}
-            onKeyUp={[Function]}
-            type="button"
-          />
-        </li>
-      </ol>
-      <div
-        className="emotion-9"
-        role="listbox"
-      >
-        <div
-          className="emotion-3 emotion-0  "
-        >
-          <img
-            alt="Slide 1"
-            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ba800aa1d%20text%20%7B%20fill%3A%23555%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ba800aa1d%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22285.921875%22%20y%3D%22218.3%22%3EFirst%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-          />
-          <div
-            className="emotion-2"
-          >
-            <h3>
-              Slide 1
-            </h3>
-            <p>
-              Slide 1
-            </p>
-          </div>
-        </div>
-        <div
-          className="emotion-3   "
-        >
-          <img
-            alt="Slide 2"
-            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ba800aa20%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ba800aa20%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3203125%22%20y%3D%22218.3%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-          />
-          <div
-            className="emotion-2"
-          >
-            <h3>
-              Slide 2
-            </h3>
-            <p>
-              Slide 2
-            </p>
-          </div>
-        </div>
-        <div
-          className="emotion-3   "
-        >
-          <img
-            alt="Slide 3"
-            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ba800aa21%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ba800aa21%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277%22%20y%3D%22218.3%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-          />
-          <div
-            className="emotion-2"
-          >
-            <h3>
-              Slide 3
-            </h3>
-            <p>
-              Slide 3
-            </p>
-          </div>
-        </div>
-      </div>
-      <button
-        className="emotion-12"
-        onClick={[Function]}
-        onKeyUp={[Function]}
-        tabIndex="0"
-        type="button"
-      >
-        <span
-          aria-hidden="true"
-          className="emotion-10"
-        />
-        <span
-          className="emotion-11"
-        >
-          Previous
-        </span>
-      </button>
-      <button
-        className="emotion-15"
-        onClick={[Function]}
-        onKeyUp={[Function]}
-        tabIndex="0"
-        type="button"
-      >
-        <span
-          aria-hidden="true"
-          className="emotion-13"
-        />
-        <span
-          className="emotion-11"
-        >
-          Next
-        </span>
-      </button>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Image storyshots Components/Collapse Example 1`] = `
-.emotion-0 {
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: 0.25rem;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-}
-
-@media screen and (prefers-reduced-motion:reduce) {
-  .emotion-0 {
-    -webkit-transition: none;
-    transition: none;
-  }
-}
-
-.emotion-0:hover,
-.emotion-0:focus {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.emotion-0:focus,
-.emotion-0.focus {
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
-}
-
-.emotion-0.disabled,
-.emotion-0:disabled {
-  opacity: 0.65;
-}
-
-.emotion-0:not(:disabled):not(.disabled) {
-  cursor: pointer;
-}
-
-.emotion-0:not(:disabled):not(.disabled):active,
-.emotion-0:not(:disabled):not(.disabled). {
-  background-image: none;
-}
-
-a.emotion-0.disabled,
-fieldset:disabled a.emotion-0 {
-  pointer-events: none;
-}
-
-.emotion-0 . {
-  position: relative;
-  top: -1px;
-}
-
-.emotion-2.carousel-item-right {
-  -webkit-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  transform: translateX(100%);
-}
-
-@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
-  .emotion-2.carousel-item-right {
-    -webkit-transform: translate3d(100%,0,0);
-    -webkit-transform: translate3d(100%,0,0);
-    -ms-transform: translate3d(100%,0,0);
-    transform: translate3d(100%,0,0);
-  }
-}
-
-.emotion-2.carousel-item-left {
-  -webkit-transform: translateX(-100%);
-  -webkit-transform: translateX(-100%);
-  -ms-transform: translateX(-100%);
-  transform: translateX(-100%);
-}
-
-@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
-  .emotion-2.carousel-item-left {
-    -webkit-transform: translate3d(-100%,0,0);
-    -webkit-transform: translate3d(-100%,0,0);
-    -ms-transform: translate3d(-100%,0,0);
-    transform: translate3d(-100%,0,0);
-  }
-}
-
+=======
 .emotion-1 {
   color: #fff;
   background-color: #007bff;
@@ -9462,8 +11876,810 @@ fieldset:disabled a.emotion-0 {
   .emotion-6 {
     padding: 4rem 2rem;
   }
+>>>>>>> master
 }
 
+.emotion-1 .emotion-0 {
+  background-color: #fff;
+}
+
+.emotion-9 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.emotion-11 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  -webkit-clip: rect(0,0,0,0);
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.emotion-2 {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  display: none !important;
+}
+
+@media (min-width:768px) {
+  .emotion-2 {
+    display: block !important;
+  }
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+<<<<<<< HEAD
+    <div
+      className="emotion-16"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <ol
+        className="emotion-1"
+      >
+        <li
+          className="emotion-0"
+        >
+          <button
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          />
+        </li>
+        <li
+          className=""
+        >
+          <button
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          />
+        </li>
+        <li
+          className=""
+        >
+          <button
+            onClick={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          />
+        </li>
+      </ol>
+      <div
+        className="emotion-9"
+        role="listbox"
+      >
+        <div
+          className="emotion-3 emotion-0  "
+        >
+          <img
+            alt="Slide 1"
+            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ba800aa1d%20text%20%7B%20fill%3A%23555%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ba800aa1d%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22285.921875%22%20y%3D%22218.3%22%3EFirst%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+          />
+          <div
+            className="emotion-2"
+          >
+            <h3>
+              Slide 1
+            </h3>
+            <p>
+              Slide 1
+            </p>
+          </div>
+        </div>
+        <div
+          className="emotion-3   "
+        >
+          <img
+            alt="Slide 2"
+            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ba800aa20%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ba800aa20%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3203125%22%20y%3D%22218.3%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+          />
+          <div
+            className="emotion-2"
+          >
+            <h3>
+              Slide 2
+            </h3>
+            <p>
+              Slide 2
+            </p>
+          </div>
+        </div>
+        <div
+          className="emotion-3   "
+        >
+          <img
+            alt="Slide 3"
+            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15ba800aa21%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15ba800aa21%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277%22%20y%3D%22218.3%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+          />
+          <div
+            className="emotion-2"
+          >
+            <h3>
+              Slide 3
+            </h3>
+            <p>
+              Slide 3
+=======
+    <div>
+      <button
+        className="emotion-0 emotion-1 emotion-2"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginBottom": "1rem",
+          }
+        }
+        tag="button"
+        type="button"
+      >
+        Toggle
+      </button>
+      <div
+        className="collapse show"
+        style={Object {}}
+      >
+        <div
+          className="emotion-6"
+        >
+          <div
+            className="emotion-5"
+          >
+            <h1
+              className="emotion-3"
+            >
+              Fluid jumbotron
+            </h1>
+            <p
+              className="emotion-4"
+            >
+              This is a modified jumbotron that occupies the entire horizontal space of its parent.
+>>>>>>> master
+            </p>
+          </div>
+        </div>
+      </div>
+<<<<<<< HEAD
+      <button
+        className="emotion-12"
+        onClick={[Function]}
+        onKeyUp={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          aria-hidden="true"
+          className="emotion-10"
+        />
+        <span
+          className="emotion-11"
+        >
+          Previous
+        </span>
+      </button>
+      <button
+        className="emotion-15"
+        onClick={[Function]}
+        onKeyUp={[Function]}
+        tabIndex="0"
+        type="button"
+      >
+        <span
+          aria-hidden="true"
+          className="emotion-13"
+        />
+        <span
+          className="emotion-11"
+        >
+          Next
+        </span>
+      </button>
+=======
+>>>>>>> master
+    </div>
+  </div>
+</div>
+`;
+
+<<<<<<< HEAD
+exports[`Image storyshots Components/Collapse Example 1`] = `
+.emotion-0 {
+=======
+exports[`Image storyshots Components/Dropdowns Dropdown 1`] = `
+.emotion-1 {
+>>>>>>> master
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+<<<<<<< HEAD
+  .emotion-0 {
+=======
+  .emotion-1 {
+>>>>>>> master
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+<<<<<<< HEAD
+.emotion-0:hover,
+.emotion-0:focus {
+=======
+.emotion-1:hover,
+.emotion-1:focus {
+>>>>>>> master
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<<<<<<< HEAD
+.emotion-0:focus,
+.emotion-0.focus {
+=======
+.emotion-1:focus,
+.emotion-1.focus {
+>>>>>>> master
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+<<<<<<< HEAD
+.emotion-0.disabled,
+.emotion-0:disabled {
+  opacity: 0.65;
+}
+
+.emotion-0:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active,
+.emotion-0:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-0.disabled,
+fieldset:disabled a.emotion-0 {
+  pointer-events: none;
+}
+
+.emotion-0 . {
+=======
+.emotion-1.disabled,
+.emotion-1:disabled {
+  opacity: 0.65;
+}
+
+.emotion-1:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-1:not(:disabled):not(.disabled):active,
+.emotion-1:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-1.disabled,
+fieldset:disabled a.emotion-1 {
+  pointer-events: none;
+}
+
+.emotion-1 . {
+>>>>>>> master
+  position: relative;
+  top: -1px;
+}
+
+<<<<<<< HEAD
+.emotion-2.carousel-item-right {
+=======
+.emotion-3.carousel-item-right {
+>>>>>>> master
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+<<<<<<< HEAD
+=======
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-3.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-3.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-3.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+.emotion-0::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.emotion-0:empty::after {
+  margin-left: 0;
+}
+
+.emotion-2 {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-2:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-2:focus,
+.emotion-2.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-2.disabled,
+.emotion-2:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-2:not(:disabled):not(.disabled):active,
+.emotion-2:not(:disabled):not(.disabled).emotion-3 {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-2:not(:disabled):not(.disabled):active:focus,
+.emotion-2:not(:disabled):not(.disabled).emotion-3:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-10 {
+  position: relative;
+>>>>>>> master
+}
+
+.emotion-7 {
+  height: 0;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  border-top: 1px solid #e9ecef;
+}
+
+.emotion-4 {
+  display: block;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 0;
+  font-size: 0.875rem;
+  color: #6c757d;
+  white-space: nowrap;
+}
+
+.emotion-5 {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.emotion-5:hover,
+.emotion-5:focus {
+  color: #16181b;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+
+.emotion-5.emotion-3,
+.emotion-5:active {
+  color: #fff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: #007bff;
+}
+
+.emotion-5.disabled,
+.emotion-5:disabled {
+  color: #6c757d;
+  background-color: transparent;
+}
+
+.emotion-9 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 0.25rem;
+}
+
+.emotion-9[x-placement^="top"],
+.emotion-9[x-placement^="right"],
+.emotion-9[x-placement^="bottom"],
+.emotion-9[x-placement^="left"] {
+  right: auto;
+  bottom: auto;
+}
+
+.emotion-9.css-vbgn0l-show {
+  display: block;
+}
+
+<<<<<<< HEAD
+.emotion-1 {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.emotion-1:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.emotion-1:focus,
+.emotion-1.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5);
+}
+
+.emotion-1.disabled,
+.emotion-1:disabled {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.emotion-1:not(:disabled):not(.disabled):active,
+.emotion-1:not(:disabled):not(.disabled).emotion-2 {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+.emotion-1:not(:disabled):not(.disabled):active:focus,
+.emotion-1:not(:disabled):not(.disabled).emotion-2:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5);
+}
+
+.emotion-5 {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width:576px) {
+  .emotion-5 {
+    max-width: 540px;
+  }
+}
+
+@media (min-width:768px) {
+  .emotion-5 {
+    max-width: 720px;
+  }
+}
+
+@media (min-width:992px) {
+  .emotion-5 {
+    max-width: 960px;
+  }
+}
+
+@media (min-width:1200px) {
+  .emotion-5 {
+    max-width: 1140px;
+  }
+}
+
+@media print {
+  .emotion-5 {
+    min-width: 992px !important;
+  }
+}
+
+.emotion-3 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.emotion-4 {
+  font-size: 1.25rem;
+  font-weight: 300;
+=======
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "height": "inherit",
+        }
+      }
+    >
+      <h2>
+        Dropdowns
+      </h2>
+      <p>
+        The Dropdown component is used to pass the isOpen & toggle props via context to the following components: DropdownToggle, DropdownMenu. The DropdownToggle uses the Button component internally, meaning it also accepts all the props the Button component accepts.
+      </p>
+      <div
+        className="emotion-10"
+        onKeyDown={[Function]}
+      >
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="emotion-0 emotion-1 emotion-2 emotion-3"
+          onClick={[Function]}
+          tag="button"
+          type="button"
+        >
+          Dropdown
+        </button>
+        <div
+          aria-hidden={true}
+          className="emotion-9 false"
+          role="menu"
+          tabIndex="-1"
+          x-placement={undefined}
+        >
+          <h6
+            className="emotion-4"
+            onClick={[Function]}
+            tabIndex="-1"
+            tag="button"
+            type={undefined}
+          >
+            Header
+          </h6>
+          <button
+            className="emotion-5 disabled"
+            disabled={true}
+            onClick={[Function]}
+            tabIndex="-1"
+            tag="button"
+            type="button"
+          >
+            Action
+          </button>
+          <button
+            className="emotion-5"
+            onClick={[Function]}
+            tabIndex="0"
+            tag="button"
+            type="button"
+          >
+            Another Action
+          </button>
+          <div
+            className="emotion-7"
+            onClick={[Function]}
+            tabIndex="-1"
+            tag="button"
+            type={undefined}
+          />
+          <button
+            className="emotion-5"
+            onClick={[Function]}
+            tabIndex="0"
+            tag="button"
+            type="button"
+          >
+            Another Action
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Fade Simple 1`] = `
+.emotion-0 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-0 {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.emotion-0:hover,
+.emotion-0:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0:focus,
+.emotion-0.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-0.disabled,
+.emotion-0:disabled {
+  opacity: 0.65;
+}
+
+.emotion-0:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-0:not(:disabled):not(.disabled):active,
+.emotion-0:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-0.disabled,
+fieldset:disabled a.emotion-0 {
+  pointer-events: none;
+}
+
+.emotion-0 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-2.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-2.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+>>>>>>> master
+}
+
+.emotion-6 {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 0;
+}
+
+@media (min-width:576px) {
+  .emotion-6 {
+    padding: 4rem 2rem;
+  }
+}
+
+<<<<<<< HEAD
 <div>
   <div
     style={
@@ -9528,6 +12744,127 @@ exports[`Image storyshots Components/Dropdowns Dropdown 1`] = `
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
+=======
+.emotion-1 {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.emotion-1:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.emotion-1:focus,
+.emotion-1.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5);
+}
+
+.emotion-1.disabled,
+.emotion-1:disabled {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.emotion-1:not(:disabled):not(.disabled):active,
+.emotion-1:not(:disabled):not(.disabled).emotion-2 {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+.emotion-1:not(:disabled):not(.disabled):active:focus,
+.emotion-1:not(:disabled):not(.disabled).emotion-2:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.5);
+}
+
+.emotion-3 {
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-3 {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.emotion-3:not(.css-vbgn0l-show) {
+  opacity: 0;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <div>
+      <button
+        className="emotion-0 emotion-1 emotion-2"
+        onClick={[Function]}
+        tag="button"
+        type="button"
+      >
+        Toggle Fade
+      </button>
+      <div
+        className="mt3 emotion-3"
+      >
+        This content will fade in and out as the button is pressed
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Form Custom Inputs 1`] = `
+.emotion-0 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  -ms-flex-preferred-size: 0;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.emotion-2 {
+  position: relative;
+  margin-bottom: 0;
+}
+
+.emotion-2::before {
+  position: absolute;
+  top: 0.25rem;
+  left: -1.5rem;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  pointer-events: none;
+  content: "";
+>>>>>>> master
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -9535,6 +12872,7 @@ exports[`Image storyshots Components/Dropdowns Dropdown 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+<<<<<<< HEAD
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
@@ -9546,11 +12884,37 @@ exports[`Image storyshots Components/Dropdowns Dropdown 1`] = `
 
 @media screen and (prefers-reduced-motion:reduce) {
   .emotion-1 {
+=======
+  background-color: #dee2e6;
+}
+
+.emotion-2::after {
+  position: absolute;
+  top: 0.25rem;
+  left: -1.5rem;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  content: "";
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.emotion-2::before {
+  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-2::before {
+>>>>>>> master
     -webkit-transition: none;
     transition: none;
   }
 }
 
+<<<<<<< HEAD
 .emotion-1:hover,
 .emotion-1:focus {
   -webkit-text-decoration: none;
@@ -10422,6 +13786,322 @@ exports[`Image storyshots Components/Form Custom Inputs 1`] = `
   background-color: rgba(0,123,255,0.5);
 }
 
+=======
+.emotion-1 {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.emotion-1.is-valid ~ .emotion-2 {
+  color: #28a745;
+}
+
+.emotion-1.is-valid ~ .emotion-2::before {
+  background-color: #71dd8a;
+}
+
+.emotion-1.is-valid ~ .,
+.emotion-1.is-valid ~ . {
+  display: block;
+}
+
+.emotion-1.is-valid:checked ~ .emotion-2::before {
+  background-color: #34ce57;
+}
+
+.emotion-1.is-valid:focus ~ .emotion-2::before {
+  box-shadow: 0 0 0 1px #fff,0 0 0 0.2rem rgba(40,167,69,0.25);
+}
+
+.emotion-1.is-invalid ~ .emotion-2 {
+  color: #dc3545;
+}
+
+.emotion-1.is-invalid ~ .emotion-2::before {
+  background-color: #efa2a9;
+}
+
+.emotion-1.is-invalid ~ .,
+.emotion-1.is-invalid ~ . {
+  display: block;
+}
+
+.emotion-1.is-invalid:checked ~ .emotion-2::before {
+  background-color: #e4606d;
+}
+
+.emotion-1.is-invalid:focus ~ .emotion-2::before {
+  box-shadow: 0 0 0 1px #fff,0 0 0 0.2rem rgba(220,53,69,0.25);
+}
+
+.emotion-1:checked ~ .emotion-2::before {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.emotion-1:focus ~ .emotion-2::before {
+  box-shadow: 0 0 0 1px #fff,0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-1:active ~ .emotion-2::before {
+  color: #fff;
+  background-color: #b3d7ff;
+}
+
+.emotion-1:disabled ~ .emotion-2 {
+  color: #6c757d;
+}
+
+.emotion-1:disabled ~ .emotion-2::before {
+  background-color: #e9ecef;
+}
+
+.emotion-52 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  margin-bottom: 0;
+}
+
+.emotion-51 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+.emotion-51::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  display: block;
+  height: 2.25rem;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  color: #495057;
+  content: "Browse";
+  background-color: #e9ecef;
+  border-left: 1px solid #ced4da;
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-51 {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.emotion-50 {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  margin: 0;
+  opacity: 0;
+}
+
+.emotion-50.is-valid ~ .emotion-51 {
+  border-color: #28a745;
+}
+
+.emotion-50.is-valid ~ .emotion-51::before {
+  border-color: inherit;
+}
+
+.emotion-50.is-valid ~ .css-ljr0fe-validFeedback,
+.emotion-50.is-valid ~ .css-9ejfky-validTooltip {
+  display: block;
+}
+
+.emotion-50.is-valid:focus ~ .emotion-51 {
+  box-shadow: 0 0 0 0.2rem rgba(40,167,69,0.25);
+}
+
+.emotion-50.is-invalid ~ .emotion-51 {
+  border-color: #dc3545;
+}
+
+.emotion-50.is-invalid ~ .emotion-51::before {
+  border-color: inherit;
+}
+
+.emotion-50.is-invalid ~ .css-knz77-invalidFeedback,
+.emotion-50.is-invalid ~ .css-1lbr7xj-invalidTooltip {
+  display: block;
+}
+
+.emotion-50.is-invalid:focus ~ .emotion-51 {
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.25);
+}
+
+.emotion-50:focus ~ .emotion-51 {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-50:focus ~ .emotion-51::after {
+  border-color: #80bdff;
+}
+
+.emotion-50:disabled ~ .emotion-51 {
+  background-color: #e9ecef;
+}
+
+.emotion-50:lang(en) ~ .emotion-51::after {
+  content: "Browse";
+}
+
+.emotion-34 {
+  display: inline-block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+  line-height: 1.5;
+  color: #495057;
+  vertical-align: middle;
+  background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
+  background-size: 8px 10px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+.emotion-34.is-valid {
+  border-color: #28a745;
+}
+
+.emotion-34.is-valid:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40,167,69,0.25);
+}
+
+.emotion-34.is-valid ~ .css-ljr0fe-validFeedback,
+.emotion-34.is-valid ~ .css-9ejfky-validTooltip {
+  display: block;
+}
+
+.emotion-34.is-invalid {
+  border-color: #dc3545;
+}
+
+.emotion-34.is-invalid:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.25);
+}
+
+.emotion-34.is-invalid ~ .css-knz77-invalidFeedback,
+.emotion-34.is-invalid ~ .css-1lbr7xj-invalidTooltip {
+  display: block;
+}
+
+.emotion-34:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(128,189,255,0.5);
+}
+
+.emotion-34:focus::-ms-value {
+  color: #495057;
+  background-color: #fff;
+}
+
+.emotion-34[multiple],
+.emotion-34[size]:not([size="1"]) {
+  height: auto;
+  padding-right: 0.75rem;
+  background-image: none;
+}
+
+.emotion-34:disabled {
+  color: #6c757d;
+  background-color: #e9ecef;
+}
+
+.emotion-34::-ms-expand {
+  opacity: 0;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-34 {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.emotion-10 {
+  margin-bottom: 1rem;
+}
+
+.emotion-11 {
+  position: relative !important;
+}
+
+.emotion-67 {
+  min-width: 320px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.emotion-3 {
+  position: relative;
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.emotion-15 {
+  position: relative;
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.emotion-15 .emotion-2::before {
+  border-radius: 50%;
+}
+
+.emotion-15 .emotion-1:checked ~ .emotion-2::before {
+  background-color: #007bff;
+}
+
+.emotion-15 .emotion-1:checked ~ .emotion-2::after {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+.emotion-15 .emotion-1:disabled:checked ~ .emotion-2::before {
+  background-color: rgba(0,123,255,0.5);
+}
+
+>>>>>>> master
 <div>
   <div
     style={
@@ -10440,6 +14120,8 @@ exports[`Image storyshots Components/Form Custom Inputs 1`] = `
     <form
       className="emotion-67 emotion-68"
     >
+<<<<<<< HEAD
+=======
       <div
         className="emotion-10 emotion-11"
       >
@@ -10498,18 +14180,81 @@ exports[`Image storyshots Components/Form Custom Inputs 1`] = `
           </div>
         </div>
       </div>
+>>>>>>> master
       <div
         className="emotion-10 emotion-11"
       >
         <label
           className="emotion-0 col-form-label"
           htmlFor="exampleCheckbox"
+<<<<<<< HEAD
+        >
+          Checkboxes
+        </label>
+        <div>
+          <div
+            className="emotion-3"
+          >
+            <input
+              className="emotion-1"
+              id="exampleCustomCheckbox"
+              type="checkbox"
+            />
+            <label
+              className="emotion-2"
+              htmlFor="exampleCustomCheckbox"
+            >
+              Check this custom checkbox
+            </label>
+          </div>
+          <div
+            className="emotion-3"
+          >
+            <input
+              className="emotion-1"
+              id="exampleCustomCheckbox2"
+              type="checkbox"
+            />
+            <label
+              className="emotion-2"
+              htmlFor="exampleCustomCheckbox2"
+            >
+              Or this one
+            </label>
+          </div>
+          <div
+            className="emotion-3"
+          >
+            <input
+              className="emotion-1"
+              disabled={true}
+              id="exampleCustomCheckbox3"
+              type="checkbox"
+            />
+            <label
+              className="emotion-2"
+              htmlFor="exampleCustomCheckbox3"
+            >
+              But not this disabled one
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        className="emotion-10 emotion-11"
+      >
+        <label
+          className="emotion-0 col-form-label"
+          htmlFor="exampleCheckbox"
+=======
+>>>>>>> master
         >
           Radios
         </label>
         <div>
           <div
             className="emotion-15"
+<<<<<<< HEAD
           >
             <input
               className="emotion-1"
@@ -10530,14 +14275,26 @@ exports[`Image storyshots Components/Form Custom Inputs 1`] = `
             <input
               className="emotion-1"
               id="exampleCustomRadio2"
+=======
+          >
+            <input
+              className="emotion-1"
+              id="exampleCustomRadio"
+>>>>>>> master
               name="customRadio"
               type="radio"
             />
             <label
               className="emotion-2"
+<<<<<<< HEAD
               htmlFor="exampleCustomRadio2"
             >
               Or this one
+=======
+              htmlFor="exampleCustomRadio"
+            >
+              Select this custom radio
+>>>>>>> master
             </label>
           </div>
           <div
@@ -10545,12 +14302,18 @@ exports[`Image storyshots Components/Form Custom Inputs 1`] = `
           >
             <input
               className="emotion-1"
+<<<<<<< HEAD
               disabled={true}
               id="exampleCustomRadio3"
+=======
+              id="exampleCustomRadio2"
+              name="customRadio"
+>>>>>>> master
               type="radio"
             />
             <label
               className="emotion-2"
+<<<<<<< HEAD
               htmlFor="exampleCustomRadio3"
             >
               But not this disabled one
@@ -10596,10 +14359,32 @@ exports[`Image storyshots Components/Form Custom Inputs 1`] = `
               htmlFor="exampleCustomInline2"
             >
               and another one
+=======
+              htmlFor="exampleCustomRadio2"
+            >
+              Or this one
+            </label>
+          </div>
+          <div
+            className="emotion-15"
+          >
+            <input
+              className="emotion-1"
+              disabled={true}
+              id="exampleCustomRadio3"
+              type="radio"
+            />
+            <label
+              className="emotion-2"
+              htmlFor="exampleCustomRadio3"
+            >
+              But not this disabled one
+>>>>>>> master
             </label>
           </div>
         </div>
       </div>
+<<<<<<< HEAD
       <div
         className="emotion-10 emotion-11"
       >
@@ -11819,6 +15604,1722 @@ select.emotion-1:focus::-ms-value {
     >
       <div
         className="emotion-3 emotion-4 emotion-5"
+=======
+      <div
+        className="emotion-10 emotion-11"
+>>>>>>> master
+      >
+        <label
+          className="emotion-0 col-form-label"
+          htmlFor="exampleCheckbox"
+        >
+          Inline
+        </label>
+<<<<<<< HEAD
+        <div
+          className="emotion-2"
+        >
+          <input
+            className=" emotion-1"
+            id="exampleEmail"
+            name="email"
+            placeholder="with a placeholder"
+            type="email"
+          />
+        </div>
+      </div>
+      <div
+        className="emotion-3 emotion-4 emotion-5"
+=======
+        <div>
+          <div
+            className="customControlInline emotion-3"
+          >
+            <input
+              className="emotion-1"
+              id="exampleCustomInline"
+              type="checkbox"
+            />
+            <label
+              className="emotion-2"
+              htmlFor="exampleCustomInline"
+            >
+              An inline custom input
+            </label>
+          </div>
+          <div
+            className="customControlInline emotion-3"
+          >
+            <input
+              className="emotion-1"
+              id="exampleCustomInline2"
+              type="checkbox"
+            />
+            <label
+              className="emotion-2"
+              htmlFor="exampleCustomInline2"
+            >
+              and another one
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        className="emotion-10 emotion-11"
+>>>>>>> master
+      >
+        <label
+          className="emotion-0 col-form-label"
+          htmlFor="exampleCustomSelect"
+        >
+          Custom Select
+        </label>
+<<<<<<< HEAD
+        <div
+          className="emotion-2"
+        >
+          <input
+            className=" emotion-1"
+            id="examplePassword"
+            name="password"
+            placeholder="password placeholder"
+            type="password"
+          />
+        </div>
+      </div>
+      <div
+        className="emotion-3 emotion-4 emotion-5"
+=======
+        <select
+          className="emotion-34"
+          id="exampleCustomSelect"
+          name="customSelect"
+          type="select"
+        >
+          <option
+            value=""
+          >
+            Select
+          </option>
+          <option>
+            Value 1
+          </option>
+          <option>
+            Value 2
+          </option>
+          <option>
+            Value 3
+          </option>
+          <option>
+            Value 4
+          </option>
+          <option>
+            Value 5
+          </option>
+        </select>
+      </div>
+      <div
+        className="emotion-10 emotion-11"
+>>>>>>> master
+      >
+        <label
+          className="emotion-0 col-form-label"
+          htmlFor="exampleCustomMutlipleSelect"
+        >
+          Custom Multiple Select
+        </label>
+        <select
+          className="emotion-34"
+          id="exampleCustomMutlipleSelect"
+          multiple={true}
+          name="customSelect"
+          type="select"
+        >
+          <option
+            value=""
+          >
+            Select
+          </option>
+          <option>
+            Value 1
+          </option>
+          <option>
+            Value 2
+          </option>
+          <option>
+            Value 3
+          </option>
+          <option>
+            Value 4
+          </option>
+          <option>
+            Value 5
+          </option>
+        </select>
+      </div>
+      <div
+        className="emotion-10 emotion-11"
+      >
+        <label
+          className="emotion-0 col-form-label"
+          htmlFor="exampleCustomSelectDisabled"
+        >
+          Custom Select Disabled
+        </label>
+<<<<<<< HEAD
+        <div
+          className="emotion-2"
+        >
+          <select
+            className=" emotion-1"
+            id="exampleSelect"
+            name="select"
+            type="select"
+          />
+        </div>
+      </div>
+      <div
+        className="emotion-3 emotion-4 emotion-5"
+=======
+        <select
+          className="emotion-34"
+          disabled={true}
+          id="exampleCustomSelectDisabled"
+          name="customSelect"
+          type="select"
+        >
+          <option
+            value=""
+          >
+            Select
+          </option>
+          <option>
+            Value 1
+          </option>
+          <option>
+            Value 2
+          </option>
+          <option>
+            Value 3
+          </option>
+          <option>
+            Value 4
+          </option>
+          <option>
+            Value 5
+          </option>
+        </select>
+      </div>
+      <div
+        className="emotion-10 emotion-11"
+>>>>>>> master
+      >
+        <label
+          className="emotion-0 col-form-label"
+          htmlFor="exampleCustomMutlipleSelectDisabled"
+        >
+          Custom Multiple Select Disabled
+        </label>
+<<<<<<< HEAD
+        <div
+          className="emotion-2"
+        >
+          <select
+            className=" emotion-1"
+            id="exampleSelectMulti"
+            multiple={true}
+            name="selectMulti"
+            type="select"
+          />
+        </div>
+      </div>
+      <div
+        className="emotion-3 emotion-4 emotion-5"
+=======
+        <select
+          className="emotion-34"
+          disabled={true}
+          id="exampleCustomMutlipleSelectDisabled"
+          multiple={true}
+          name="customSelect"
+          type="select"
+        >
+          <option
+            value=""
+          >
+            Select
+          </option>
+          <option>
+            Value 1
+          </option>
+          <option>
+            Value 2
+          </option>
+          <option>
+            Value 3
+          </option>
+          <option>
+            Value 4
+          </option>
+          <option>
+            Value 5
+          </option>
+        </select>
+      </div>
+      <div
+        className="emotion-10 emotion-11"
+>>>>>>> master
+      >
+        <label
+          className="emotion-0 col-form-label"
+          htmlFor="exampleCustomFileBrowser"
+        >
+          File Browser
+        </label>
+        <div
+<<<<<<< HEAD
+          className="emotion-2"
+        >
+          <textarea
+            className=" emotion-1"
+            id="exampleText"
+            name="text"
+            type="textarea"
+          />
+        </div>
+      </div>
+      <div
+        className="emotion-3 emotion-4 emotion-5"
+=======
+          className="emotion-52"
+        >
+          <input
+            className="emotion-50"
+            id="exampleCustomFileBrowser"
+            name="customFile"
+            type="file"
+          />
+          <label
+            className="emotion-51"
+            htmlFor="exampleCustomFileBrowser"
+          >
+            Choose file
+          </label>
+        </div>
+      </div>
+      <div
+        className="emotion-10 emotion-11"
+>>>>>>> master
+      >
+        <label
+          className="emotion-0 col-form-label"
+          htmlFor="exampleCustomFileBrowser"
+        >
+          File Browser with Custom Label
+        </label>
+<<<<<<< HEAD
+        <div
+          className="emotion-2"
+        >
+          <input
+            className=" emotion-31"
+            id="exampleFile"
+            name="file"
+            type="file"
+          />
+          <small
+            className="emotion-32"
+          >
+            This is some placeholder block-level help text for the above input. It' a bit lighter and easily wraps to a new line.
+          </small>
+        </div>
+      </div>
+      <fieldset
+        className="emotion-3 emotion-4 emotion-5"
+      >
+        <legend
+          className="col-form-label col-sm-2"
+        >
+          Radio Buttons
+        </legend>
+        <div
+          className="emotion-2"
+        >
+          <div
+            className="emotion-39 emotion-5"
+          >
+            <label
+              className="form-check-label emotion-38 col-form-label"
+            >
+              <input
+                className=" emotion-37"
+                name="radio2"
+                type="radio"
+              />
+               
+              Option one is this and that—be sure to include why it' great
+            </label>
+          </div>
+          <div
+            className="emotion-39 emotion-5"
+          >
+            <label
+              className="form-check-label emotion-38 col-form-label"
+            >
+              <input
+                className=" emotion-37"
+                name="radio2"
+                type="radio"
+              />
+               
+              Option two can be something else and selecting it will deselect option one
+            </label>
+          </div>
+          <div
+            className="emotion-39 disabled emotion-5"
+          >
+            <label
+              className="form-check-label emotion-38 col-form-label"
+            >
+              <input
+                className=" emotion-37"
+                disabled={true}
+                name="radio2"
+                type="radio"
+              />
+               
+              Option three is disabled
+            </label>
+          </div>
+        </div>
+      </fieldset>
+      <div
+        className="emotion-3 emotion-4 emotion-5"
+      >
+        <label
+          className="emotion-0 col-form-label"
+          htmlFor="checkbox2"
+        >
+          Checkbox
+        </label>
+        <div
+          className="emotion-2"
+        >
+          <div
+            className="emotion-39 emotion-5"
+          >
+            <label
+              className="form-check-label emotion-38 col-form-label"
+            >
+              <input
+                className=" emotion-37"
+                id="checkbox2"
+                type="checkbox"
+              />
+               
+              Check me out
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        className="emotion-3 emotion-39 emotion-5"
+      >
+        <div
+          className="emotion-2 emotion-66"
+        >
+          <button
+            className="emotion-62 emotion-63 emotion-64"
+            onClick={[Function]}
+            tag="button"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+=======
+        <div
+          className="emotion-52"
+        >
+          <input
+            className="emotion-50"
+            id="exampleCustomFileBrowser"
+            name="customFile"
+            type="file"
+          />
+          <label
+            className="emotion-51"
+            htmlFor="exampleCustomFileBrowser"
+          >
+            Yo, pick a file!
+          </label>
+        </div>
+      </div>
+      <div
+        className="emotion-10 emotion-11"
+      >
+        <label
+          className="emotion-0 col-form-label"
+          htmlFor="exampleCustomFileBrowser"
+        >
+          File Browser Disabled
+        </label>
+        <div
+          className="emotion-52"
+        >
+          <input
+            className="emotion-50"
+            disabled={true}
+            id="exampleCustomFileBrowser"
+            name="customFile"
+            type="file"
+          />
+          <label
+            className="emotion-51"
+            htmlFor="exampleCustomFileBrowser"
+          >
+            Choose file
+          </label>
+        </div>
+      </div>
+>>>>>>> master
+    </form>
+  </div>
+</div>
+`;
+
+<<<<<<< HEAD
+exports[`Image storyshots Components/Form Form Validation 1`] = `
+=======
+exports[`Image storyshots Components/Form Form 1`] = `
+.emotion-43 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-43 {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.emotion-43:hover,
+.emotion-43:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-43:focus,
+.emotion-43.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-43.disabled,
+.emotion-43:disabled {
+  opacity: 0.65;
+}
+
+.emotion-43:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-43:not(:disabled):not(.disabled):active,
+.emotion-43:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-43.disabled,
+fieldset:disabled a.emotion-43 {
+  pointer-events: none;
+}
+
+.emotion-43 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-45.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-45.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-45.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-45.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+.emotion-44 {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-44:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-44:focus,
+.emotion-44.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-44.disabled,
+.emotion-44:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-44:not(:disabled):not(.disabled):active,
+.emotion-44:not(:disabled):not(.disabled).emotion-45 {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-44:not(:disabled):not(.disabled):active:focus,
+.emotion-44:not(:disabled):not(.disabled).emotion-45:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+>>>>>>> master
+.emotion-0 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  -ms-flex-preferred-size: 0;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+<<<<<<< HEAD
+.emotion-8 {
+  display: none;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #28a745;
+}
+
+.emotion-26 {
+  position: absolute;
+  top: 100%;
+  z-index: 5;
+  display: none;
+  max-width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.1rem;
+  font-size: 0.875rem;
+  line-height: 1;
+  color: #fff;
+  background-color: rgba(40,167,69,0.8);
+  border-radius: 0.2rem;
+}
+
+.emotion-2 {
+  display: none;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
+
+.emotion-20 {
+  position: absolute;
+  top: 100%;
+  z-index: 5;
+  display: none;
+  max-width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.1rem;
+  font-size: 0.875rem;
+  line-height: 1;
+  color: #fff;
+  background-color: rgba(220,53,69,0.8);
+  border-radius: 0.2rem;
+=======
+.emotion-27 {
+  position: relative;
+  display: block;
+  padding-left: 1.25rem;
+}
+
+.emotion-25 {
+  position: absolute;
+  margin-top: 0.3rem;
+  margin-left: -1.25rem;
+}
+
+.emotion-25:disabled ~ . {
+  color: #6c757d;
+}
+
+.emotion-25.is-valid ~ . {
+  color: #28a745;
+}
+
+.emotion-25.is-valid ~ .css-ljr0fe-validFeedback,
+.emotion-25.is-valid ~ .css-9ejfky-validTooltip {
+  display: block;
+}
+
+.emotion-25.is-invalid ~ . {
+  color: #dc3545;
+}
+
+.emotion-25.is-invalid ~ .css-knz77-invalidFeedback,
+.emotion-25.is-invalid ~ .css-1lbr7xj-invalidTooltip {
+  display: block;
+>>>>>>> master
+}
+
+.emotion-1 {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-1 {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.emotion-1::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.emotion-1:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-1::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-1::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-1:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-1::-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-1::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-1::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-1:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-1::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-1:disabled,
+.emotion-1[readonly] {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+
+select.emotion-1:not([size]):not([multiple]) {
+  height: calc(2.25rem + 2px);
+}
+
+select.emotion-1:focus::-ms-value {
+  color: #495057;
+  background-color: #fff;
+}
+
+.emotion-1.is-valid {
+  border-color: #28a745;
+}
+
+.emotion-1.is-valid:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40,167,69,0.25);
+}
+
+.emotion-1.is-valid ~ .emotion-8,
+.emotion-1.is-valid ~ .emotion-26 {
+  display: block;
+}
+
+.emotion-1.is-invalid {
+  border-color: #dc3545;
+}
+
+.emotion-1.is-invalid:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.25);
+}
+
+<<<<<<< HEAD
+.emotion-1.is-invalid ~ .emotion-2,
+.emotion-1.is-invalid ~ .emotion-20 {
+  display: block;
+}
+
+.emotion-4 {
+  margin-bottom: 1rem;
+}
+
+.emotion-5 {
+  position: relative !important;
+}
+
+.emotion-36 {
+=======
+.emotion-1.is-invalid ~ .css-knz77-invalidFeedback,
+.emotion-1.is-invalid ~ .css-1lbr7xj-invalidTooltip {
+  display: block;
+}
+
+.emotion-21 {
+  display: block;
+  width: 100%;
+}
+
+.emotion-21.is-valid ~ .css-ljr0fe-validFeedback,
+.emotion-21.is-valid ~ .css-9ejfky-validTooltip {
+  display: block;
+}
+
+.emotion-21.is-invalid ~ .css-knz77-invalidFeedback,
+.emotion-21.is-invalid ~ .css-1lbr7xj-invalidTooltip {
+  display: block;
+}
+
+.emotion-2 {
+  margin-bottom: 1rem;
+}
+
+.emotion-3 {
+  position: relative !important;
+}
+
+.emotion-46 {
+>>>>>>> master
+  min-width: 320px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+<<<<<<< HEAD
+.emotion-3 {
+=======
+.emotion-22 {
+>>>>>>> master
+  display: block;
+  margin-top: 0.25rem;
+  color: #6c757d !important;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <form
+<<<<<<< HEAD
+      className="emotion-36 emotion-37"
+    >
+      <div
+        className="emotion-4 emotion-5"
+=======
+      className="emotion-46 emotion-47"
+    >
+      <div
+        className="emotion-2 emotion-3"
+>>>>>>> master
+      >
+        <label
+          className="emotion-0 col-form-label"
+          htmlFor="exampleEmail"
+        >
+          Input without validation
+        </label>
+        <input
+          className=" emotion-1"
+<<<<<<< HEAD
+          type="text"
+        />
+        <div
+          className="undefined emotion-2"
+        >
+          You will not be able to see this
+        </div>
+        <small
+          className="emotion-3"
+        >
+          Example help text that remains unchanged.
+        </small>
+      </div>
+      <div
+        className="emotion-4 emotion-5"
+=======
+          id="exampleEmail"
+          name="email"
+          placeholder="with a placeholder"
+          type="email"
+        />
+      </div>
+      <div
+        className="emotion-2 emotion-3"
+>>>>>>> master
+      >
+        <label
+          className="emotion-0 col-form-label"
+          htmlFor="exampleEmail"
+        >
+          Valid input
+        </label>
+        <input
+<<<<<<< HEAD
+          className="is-valid emotion-1"
+          type="text"
+        />
+        <div
+          className="undefined emotion-8"
+        >
+          Sweet! that name is available
+        </div>
+        <small
+          className="emotion-3"
+        >
+          Example help text that remains unchanged.
+        </small>
+      </div>
+      <div
+        className="emotion-4 emotion-5"
+=======
+          className=" emotion-1"
+          id="examplePassword"
+          name="password"
+          placeholder="password placeholder"
+          type="password"
+        />
+      </div>
+      <div
+        className="emotion-2 emotion-3"
+>>>>>>> master
+      >
+        <label
+          className="emotion-0 col-form-label"
+          htmlFor="examplePassword"
+        >
+          Invalid input
+        </label>
+<<<<<<< HEAD
+        <input
+          className="is-invalid emotion-1"
+          type="text"
+        />
+        <div
+          className="undefined emotion-2"
+        >
+          Oh noes! that name is already taken
+        </div>
+        <small
+          className="emotion-3"
+        >
+          Example help text that remains unchanged.
+        </small>
+      </div>
+      <div
+        className="emotion-4 emotion-5"
+=======
+        <select
+          className=" emotion-1"
+          id="exampleSelect"
+          name="select"
+          type="select"
+        >
+          <option>
+            1
+          </option>
+          <option>
+            2
+          </option>
+          <option>
+            3
+          </option>
+          <option>
+            4
+          </option>
+          <option>
+            5
+          </option>
+        </select>
+      </div>
+      <div
+        className="emotion-2 emotion-3"
+>>>>>>> master
+      >
+        <label
+          className="emotion-0 col-form-label"
+          htmlFor="exampleEmail"
+        >
+          Input without validation
+        </label>
+<<<<<<< HEAD
+        <input
+          className=" emotion-1"
+          type="text"
+        />
+        <div
+          className="undefined emotion-20"
+        >
+          You will not be able to see this
+        </div>
+        <small
+          className="emotion-3"
+        >
+          Example help text that remains unchanged.
+        </small>
+      </div>
+      <div
+        className="emotion-4 emotion-5"
+=======
+        <select
+          className=" emotion-1"
+          id="exampleSelectMulti"
+          multiple={true}
+          name="selectMulti"
+          type="select"
+        >
+          <option>
+            1
+          </option>
+          <option>
+            2
+          </option>
+          <option>
+            3
+          </option>
+          <option>
+            4
+          </option>
+          <option>
+            5
+          </option>
+        </select>
+      </div>
+      <div
+        className="emotion-2 emotion-3"
+>>>>>>> master
+      >
+        <label
+          className="emotion-0 col-form-label"
+          htmlFor="exampleEmail"
+        >
+          Valid input
+        </label>
+<<<<<<< HEAD
+        <input
+          className="is-valid emotion-1"
+          type="text"
+        />
+        <div
+          className="undefined emotion-26"
+        >
+          Sweet! that name is available
+        </div>
+        <small
+          className="emotion-3"
+        >
+          Example help text that remains unchanged.
+        </small>
+      </div>
+      <div
+        className="emotion-4 emotion-5"
+=======
+        <textarea
+          className=" emotion-1"
+          id="exampleText"
+          name="text"
+          type="textarea"
+        />
+      </div>
+      <div
+        className="emotion-2 emotion-3"
+>>>>>>> master
+      >
+        <label
+          className="emotion-0 col-form-label"
+          htmlFor="examplePassword"
+        >
+          Invalid input
+        </label>
+        <input
+<<<<<<< HEAD
+          className="is-invalid emotion-1"
+          type="text"
+        />
+        <div
+          className="undefined emotion-20"
+        >
+          Oh noes! that name is already taken
+        </div>
+        <small
+          className="emotion-3"
+        >
+          Example help text that remains unchanged.
+        </small>
+      </div>
+=======
+          className=" emotion-21"
+          id="exampleFile"
+          name="file"
+          type="file"
+        />
+        <small
+          className="emotion-22"
+        >
+          This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.
+        </small>
+      </div>
+      <fieldset
+        className="emotion-2 emotion-3"
+      >
+        <legend>
+          Radio Buttons
+        </legend>
+        <div
+          className="emotion-27 emotion-3"
+        >
+          <label
+            className="form-check-label emotion-0 col-form-label"
+            htmlFor={undefined}
+          >
+            <input
+              className=" emotion-25"
+              name="radio1"
+              type="radio"
+            />
+              Option one is this and that—be sure to include why it's great
+          </label>
+        </div>
+        <div
+          className="emotion-27 emotion-3"
+        >
+          <label
+            className="form-check-label emotion-0 col-form-label"
+            htmlFor={undefined}
+          >
+            <input
+              className=" emotion-25"
+              name="radio1"
+              type="radio"
+            />
+              Option two can be something else and selecting it will deselect option one
+          </label>
+        </div>
+        <div
+          className="emotion-27 disabled emotion-3"
+        >
+          <label
+            className="form-check-label emotion-0 col-form-label"
+            htmlFor={undefined}
+          >
+            <input
+              className=" emotion-25"
+              disabled={true}
+              name="radio1"
+              type="radio"
+            />
+              Option three is disabled
+          </label>
+        </div>
+      </fieldset>
+      <div
+        className="emotion-27 emotion-3"
+      >
+        <label
+          className="form-check-label emotion-0 col-form-label"
+          htmlFor={undefined}
+        >
+          <input
+            className=" emotion-25"
+            type="checkbox"
+          />
+            Check me out
+        </label>
+      </div>
+      <button
+        className="emotion-43 emotion-44 emotion-45"
+        onClick={[Function]}
+        tag="button"
+        type={undefined}
+      >
+        Submit
+      </button>
+>>>>>>> master
+    </form>
+  </div>
+</div>
+`;
+
+<<<<<<< HEAD
+exports[`Image storyshots Components/Form Hidden Labels 1`] = `
+.emotion-8 {
+=======
+exports[`Image storyshots Components/Form Form Grid 1`] = `
+.emotion-62 {
+>>>>>>> master
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+<<<<<<< HEAD
+=======
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-62 {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.emotion-62:hover,
+.emotion-62:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-62:focus,
+.emotion-62.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-62.disabled,
+.emotion-62:disabled {
+  opacity: 0.65;
+}
+
+.emotion-62:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-62:not(:disabled):not(.disabled):active,
+.emotion-62:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-62.disabled,
+fieldset:disabled a.emotion-62 {
+  pointer-events: none;
+}
+
+.emotion-62 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-64.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-64.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-64.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-64.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+.emotion-63 {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-63:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-63:focus,
+.emotion-63.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-63.disabled,
+.emotion-63:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-63:not(:disabled):not(.disabled):active,
+.emotion-63:not(:disabled):not(.disabled).emotion-64 {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-63:not(:disabled):not(.disabled):active:focus,
+.emotion-63:not(:disabled):not(.disabled).emotion-64:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-38 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  -ms-flex-preferred-size: 0;
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.emotion-0 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width:576px) {
+  .emotion-0 {
+    -ms-flex: 0 0 16.666667%;
+    -webkit-flex: 0 0 16.666667%;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+}
+
+.emotion-2 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width:576px) {
+  .emotion-2 {
+    -ms-flex: 0 0 83.333333%;
+    -webkit-flex: 0 0 83.333333%;
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+}
+
+.emotion-39 {
+  position: relative;
+  display: block;
+  padding-left: 1.25rem;
+}
+
+.emotion-37 {
+  position: absolute;
+  margin-top: 0.3rem;
+  margin-left: -1.25rem;
+}
+
+.emotion-37:disabled ~ . {
+  color: #6c757d;
+}
+
+.emotion-37.is-valid ~ . {
+  color: #28a745;
+}
+
+.emotion-37.is-valid ~ .css-ljr0fe-validFeedback,
+.emotion-37.is-valid ~ .css-9ejfky-validTooltip {
+  display: block;
+}
+
+.emotion-37.is-invalid ~ . {
+  color: #dc3545;
+}
+
+.emotion-37.is-invalid ~ .css-knz77-invalidFeedback,
+.emotion-37.is-invalid ~ .css-1lbr7xj-invalidTooltip {
+  display: block;
+}
+
+.emotion-1 {
+  display: block;
+  width: 100%;
+>>>>>>> master
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-8 {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.emotion-8:hover,
+.emotion-8:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-8:focus,
+.emotion-8.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-8.disabled,
+.emotion-8:disabled {
+  opacity: 0.65;
+}
+
+.emotion-8:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-8:not(:disabled):not(.disabled):active,
+.emotion-8:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-8.disabled,
+fieldset:disabled a.emotion-8 {
+  pointer-events: none;
+}
+
+.emotion-8 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-10.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-10.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+<<<<<<< HEAD
+.emotion-10.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+=======
+.emotion-1::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-1:disabled,
+.emotion-1[readonly] {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+
+select.emotion-1:not([size]):not([multiple]) {
+  height: calc(2.25rem + 2px);
+}
+
+select.emotion-1:focus::-ms-value {
+  color: #495057;
+  background-color: #fff;
+}
+
+.emotion-1.is-valid {
+  border-color: #28a745;
+}
+
+.emotion-1.is-valid:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40,167,69,0.25);
+}
+
+.emotion-1.is-valid ~ .css-ljr0fe-validFeedback,
+.emotion-1.is-valid ~ .css-9ejfky-validTooltip {
+  display: block;
+>>>>>>> master
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-10.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+.emotion-9 {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+<<<<<<< HEAD
+.emotion-9:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+=======
+.emotion-1.is-invalid ~ .css-knz77-invalidFeedback,
+.emotion-1.is-invalid ~ .css-1lbr7xj-invalidTooltip {
+  display: block;
+}
+
+.emotion-31 {
+  display: block;
+  width: 100%;
+}
+
+.emotion-31.is-valid ~ .css-ljr0fe-validFeedback,
+.emotion-31.is-valid ~ .css-9ejfky-validTooltip {
+  display: block;
+}
+
+.emotion-31.is-invalid ~ .css-knz77-invalidFeedback,
+.emotion-31.is-invalid ~ .css-1lbr7xj-invalidTooltip {
+  display: block;
+>>>>>>> master
+}
+
+.emotion-9:focus,
+.emotion-9.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+<<<<<<< HEAD
+.emotion-9.disabled,
+.emotion-9:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-9:not(:disabled):not(.disabled):active,
+.emotion-9:not(:disabled):not(.disabled).emotion-10 {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-9:not(:disabled):not(.disabled):active:focus,
+.emotion-9:not(:disabled):not(.disabled).emotion-10:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+=======
+@media (min-width:576px) {
+  .emotion-66 {
+    margin-left: 16.666667%;
+  }
+}
+
+.emotion-5 {
+  position: relative !important;
+}
+
+.emotion-3 {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.emotion-70 {
+  min-width: 320px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.emotion-32 {
+  display: block;
+  margin-top: 0.25rem;
+  color: #6c757d !important;
+}
+
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <form
+      className="emotion-70 emotion-71"
+    >
+      <div
+        className="emotion-3 emotion-4 emotion-5"
       >
         <label
           className="emotion-0 col-form-label"
@@ -11961,6 +17462,7 @@ select.emotion-1:focus::-ms-value {
           >
             <label
               className="form-check-label emotion-38 col-form-label"
+              htmlFor={undefined}
             >
               <input
                 className=" emotion-37"
@@ -11976,6 +17478,7 @@ select.emotion-1:focus::-ms-value {
           >
             <label
               className="form-check-label emotion-38 col-form-label"
+              htmlFor={undefined}
             >
               <input
                 className=" emotion-37"
@@ -11991,6 +17494,7 @@ select.emotion-1:focus::-ms-value {
           >
             <label
               className="form-check-label emotion-38 col-form-label"
+              htmlFor={undefined}
             >
               <input
                 className=" emotion-37"
@@ -12021,6 +17525,7 @@ select.emotion-1:focus::-ms-value {
           >
             <label
               className="form-check-label emotion-38 col-form-label"
+              htmlFor={undefined}
             >
               <input
                 className=" emotion-37"
@@ -12043,6 +17548,7 @@ select.emotion-1:focus::-ms-value {
             className="emotion-62 emotion-63 emotion-64"
             onClick={[Function]}
             tag="button"
+            type={undefined}
           >
             Submit
           </button>
@@ -12054,6 +17560,7 @@ select.emotion-1:focus::-ms-value {
 `;
 
 exports[`Image storyshots Components/Form Form Validation 1`] = `
+>>>>>>> master
 .emotion-0 {
   position: relative;
   width: 100%;
@@ -12210,6 +17717,166 @@ select.emotion-1:focus::-ms-value {
 
 .emotion-1.is-valid {
   border-color: #28a745;
+<<<<<<< HEAD
+}
+
+.emotion-1.is-valid:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40,167,69,0.25);
+}
+
+.emotion-1.is-valid ~ .css-ljr0fe-validFeedback,
+.emotion-1.is-valid ~ .css-9ejfky-validTooltip {
+  display: block;
+}
+
+.emotion-1.is-invalid {
+  border-color: #dc3545;
+}
+
+.emotion-1.is-invalid:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.25);
+}
+
+.emotion-1.is-invalid ~ .css-knz77-invalidFeedback,
+.emotion-1.is-invalid ~ .css-1lbr7xj-invalidTooltip {
+  display: block;
+}
+
+.emotion-2 {
+  margin-bottom: 1rem;
+}
+
+.emotion-3 {
+  position: relative !important;
+}
+
+.emotion-12 {
+  min-width: 320px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-12 .css-r9w5r7-formCheck {
+  width: 100%;
+}
+
+@media (min-width:576px) {
+  .emotion-12 label {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  .emotion-12 .emotion-2 {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -ms-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .emotion-12 .emotion-1 {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+
+  .emotion-12 .css-1ro3ark-formControlPlaintext {
+    display: inline-block;
+  }
+
+  .emotion-12 .css-1ac5mho-inputGroup,
+  .emotion-12 .css-181fcq7-customSelect {
+    width: auto;
+  }
+
+  .emotion-12 .css-r9w5r7-formCheck {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: auto;
+    padding-left: 0;
+  }
+
+  .emotion-12 .css-1abxas2-formCheckInput {
+    position: relative;
+    margin-top: 0;
+    margin-right: 0.25rem;
+    margin-left: 0;
+  }
+
+  .emotion-12 .css-z18s3s-customControl {
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .emotion-12 .css-1u6nwwr-customControlLabel {
+    margin-bottom: 0;
+  }
+=======
 }
 
 .emotion-1.is-valid:focus {
@@ -12254,6 +17921,7 @@ select.emotion-1:focus::-ms-value {
   display: block;
   margin-top: 0.25rem;
   color: #6c757d !important;
+>>>>>>> master
 }
 
 <div>
@@ -12272,7 +17940,11 @@ select.emotion-1:focus::-ms-value {
     }
   >
     <form
+<<<<<<< HEAD
+      className="emotion-11 emotion-12"
+=======
       className="emotion-36 emotion-37"
+>>>>>>> master
     >
       <div
         className="emotion-4 emotion-5"
@@ -12418,12 +18090,164 @@ select.emotion-1:focus::-ms-value {
           Example help text that remains unchanged.
         </small>
       </div>
+<<<<<<< HEAD
+       
+      <button
+        className="emotion-8 emotion-9 emotion-10"
+        onClick={[Function]}
+        tag="button"
+      >
+        Submit
+      </button>
+=======
+>>>>>>> master
     </form>
   </div>
 </div>
 `;
 
 exports[`Image storyshots Components/Form Hidden Labels 1`] = `
+.emotion-8 {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-8 {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.emotion-8:hover,
+.emotion-8:focus {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-8:focus,
+.emotion-8.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-8.disabled,
+.emotion-8:disabled {
+  opacity: 0.65;
+}
+
+.emotion-8:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.emotion-8:not(:disabled):not(.disabled):active,
+.emotion-8:not(:disabled):not(.disabled). {
+  background-image: none;
+}
+
+a.emotion-8.disabled,
+fieldset:disabled a.emotion-8 {
+  pointer-events: none;
+}
+
+.emotion-8 . {
+  position: relative;
+  top: -1px;
+}
+
+.emotion-10.carousel-item-right {
+  -webkit-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-10.carousel-item-right {
+    -webkit-transform: translate3d(100%,0,0);
+    -webkit-transform: translate3d(100%,0,0);
+    -ms-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+}
+
+.emotion-10.carousel-item-left {
+  -webkit-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+<<<<<<< HEAD
+<div>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexAlign": "center",
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "minHeight": 600,
+        "minWidth": 320,
+      }
+    }
+  >
+    <form
+      className="emotion-10 emotion-11"
+    >
+      <div
+        className="emotion-2 emotion-3 emotion-4"
+      >
+        <label
+          className="form-check-label emotion-1 col-form-label"
+        >
+          <input
+            className=" emotion-0"
+            type="checkbox"
+          />
+           
+          Some input
+        </label>
+      </div>
+      <div
+        className="emotion-2 emotion-3 emotion-4"
+      >
+        <label
+          className="form-check-label emotion-1 col-form-label"
+        >
+          <input
+            className=" emotion-0"
+            type="checkbox"
+          />
+           
+          Some other input
+        </label>
+      </div>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`Image storyshots Components/Form Inline Form 1`] = `
 .emotion-8 {
   display: inline-block;
   font-weight: 400;
@@ -12557,6 +18381,53 @@ fieldset:disabled a.emotion-8 {
   box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
 }
 
+=======
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+  .emotion-10.carousel-item-left {
+    -webkit-transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+}
+
+.emotion-9 {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-9:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.emotion-9:focus,
+.emotion-9.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+.emotion-9.disabled,
+.emotion-9:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.emotion-9:not(:disabled):not(.disabled):active,
+.emotion-9:not(:disabled):not(.disabled).emotion-10 {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+.emotion-9:not(:disabled):not(.disabled):active:focus,
+.emotion-9:not(:disabled):not(.disabled).emotion-10:focus {
+  box-shadow: 0 0 0 0.2rem rgba(108,117,125,0.5);
+}
+
+>>>>>>> master
 .emotion-0 {
   position: relative;
   width: 100%;
@@ -12876,15 +18747,26 @@ select.emotion-1:focus::-ms-value {
           className=" emotion-1"
           id="examplePassword"
           name="password"
+<<<<<<< HEAD
+          placeholder="don't tell!"
+          type="password"
+        />
+      </div>
+=======
           placeholder="Password"
           type="password"
         />
       </div>
        
+>>>>>>> master
       <button
         className="emotion-8 emotion-9 emotion-10"
         onClick={[Function]}
         tag="button"
+<<<<<<< HEAD
+=======
+        type={undefined}
+>>>>>>> master
       >
         Submit
       </button>
@@ -12892,6 +18774,101 @@ select.emotion-1:focus::-ms-value {
   </div>
 </div>
 `;
+<<<<<<< HEAD
+
+exports[`Image storyshots Components/Form Input Grid Sizing 1`] = `
+.emotion-0 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width:576px) {
+  .emotion-0 {
+    -ms-flex: 0 0 16.666667%;
+    -webkit-flex: 0 0 16.666667%;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+  }
+}
+
+.emotion-3 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width:576px) {
+  .emotion-3 {
+    -ms-flex: 0 0 83.333333%;
+    -webkit-flex: 0 0 83.333333%;
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+}
+
+.emotion-2 {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+  .emotion-2 {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+.emotion-2::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.emotion-2:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-2::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-2::-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+=======
+>>>>>>> master
 
 exports[`Image storyshots Components/Form Inline Checkboxes 1`] = `
 .emotion-1 {
@@ -13001,6 +18978,7 @@ exports[`Image storyshots Components/Form Inline Checkboxes 1`] = `
       >
         <label
           className="form-check-label emotion-1 col-form-label"
+          htmlFor={undefined}
         >
           <input
             className=" emotion-0"
@@ -13015,6 +18993,7 @@ exports[`Image storyshots Components/Form Inline Checkboxes 1`] = `
       >
         <label
           className="form-check-label emotion-1 col-form-label"
+          htmlFor={undefined}
         >
           <input
             className=" emotion-0"
@@ -13461,6 +19440,8 @@ select.emotion-1:focus::-ms-value {
           Email
         </label>
         <input
+<<<<<<< HEAD
+=======
           className=" emotion-1"
           id="exampleEmail"
           name="email"
@@ -13489,6 +19470,7 @@ select.emotion-1:focus::-ms-value {
         className="emotion-8 emotion-9 emotion-10"
         onClick={[Function]}
         tag="button"
+        type={undefined}
       >
         Submit
       </button>
@@ -14375,6 +20357,7 @@ select.emotion-5:focus::-ms-value {
           Search
         </label>
         <input
+>>>>>>> master
           className=" emotion-5"
           id="exampleSearch"
           name="search"
@@ -14489,6 +20472,10 @@ select.emotion-5:focus::-ms-value {
       >
         <label
           className="form-check-label emotion-0 col-form-label"
+<<<<<<< HEAD
+=======
+          htmlFor={undefined}
+>>>>>>> master
         >
           <input
             className=" emotion-57"
@@ -14503,6 +20490,10 @@ select.emotion-5:focus::-ms-value {
       >
         <label
           className="form-check-label emotion-0 col-form-label"
+<<<<<<< HEAD
+=======
+          htmlFor={undefined}
+>>>>>>> master
         >
           <input
             className=" emotion-57"
@@ -14643,6 +20634,7 @@ exports[`Image storyshots Components/Input Group Addon 1`] = `
     -webkit-transition: none;
     transition: none;
   }
+<<<<<<< HEAD
 }
 
 .emotion-2::-ms-expand {
@@ -14762,6 +20754,127 @@ select.emotion-2:focus::-ms-value {
   margin-left: -1px;
 }
 
+=======
+}
+
+.emotion-2::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.emotion-2:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-2::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-2::-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-2::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-2::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-2:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-2::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.emotion-2:disabled,
+.emotion-2[readonly] {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+
+select.emotion-2:not([size]):not([multiple]) {
+  height: calc(2.25rem + 2px);
+}
+
+select.emotion-2:focus::-ms-value {
+  color: #495057;
+  background-color: #fff;
+}
+
+.emotion-2.is-valid {
+  border-color: #28a745;
+}
+
+.emotion-2.is-valid:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40,167,69,0.25);
+}
+
+.emotion-2.is-valid ~ .css-ljr0fe-validFeedback,
+.emotion-2.is-valid ~ .css-9ejfky-validTooltip {
+  display: block;
+}
+
+.emotion-2.is-invalid {
+  border-color: #dc3545;
+}
+
+.emotion-2.is-invalid:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(220,53,69,0.25);
+}
+
+.emotion-2.is-invalid ~ .css-knz77-invalidFeedback,
+.emotion-2.is-invalid ~ .css-1lbr7xj-invalidTooltip {
+  display: block;
+}
+
+.emotion-1 {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: -1px;
+}
+
+.emotion-1 .css-3t638r-btn {
+  position: relative;
+  z-index: 2;
+}
+
+.emotion-1 .css-3t638r-btn + .css-3t638r-btn,
+.emotion-1 .css-3t638r-btn + .,
+.emotion-1 . + .,
+.emotion-1 . + .css-3t638r-btn {
+  margin-left: -1px;
+}
+
+>>>>>>> master
 .emotion-0 {
   display: -ms-flexbox;
   display: -webkit-box;
@@ -14938,6 +21051,50 @@ exports[`Image storyshots Components/Input Group Addon Sizing 1`] = `
 .emotion-7 > . + .,
 .emotion-7 > . + . {
   margin-left: -1px;
+<<<<<<< HEAD
+}
+
+.emotion-7 > .:focus,
+.emotion-7 > .:focus,
+.emotion-7 > . .:focus ~ . {
+  z-index: 3;
+}
+
+.emotion-7 > .:not(:last-child),
+.emotion-7 > .:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.emotion-7 > .:not(:first-child),
+.emotion-7 > .:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.emotion-7 > . {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-7 > .:not(:last-child) .,
+.emotion-7 > .:not(:last-child) .::after {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.emotion-7 > .:not(:first-child) . {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+=======
 }
 
 .emotion-7 > .:focus,
@@ -14990,10 +21147,24 @@ exports[`Image storyshots Components/Input Group Addon Sizing 1`] = `
 .emotion-7 > .:last-child > .:not(:last-child) {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+>>>>>>> master
 }
 
 .emotion-7 > . > .css-3t638r-btn,
 .emotion-7 > . > .,
+<<<<<<< HEAD
+.emotion-7 > .:not(:last-child) > .css-3t638r-btn,
+.emotion-7 > .:not(:last-child) > .,
+.emotion-7 > .:last-child > .css-3t638r-btn:not(:last-child):not(.css-1ij15px-dropdownToggle),
+.emotion-7 > .:last-child > .:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.emotion-7 > . > .css-3t638r-btn,
+.emotion-7 > . > .,
+=======
+>>>>>>> master
 .emotion-7 > .:not(:first-child) > .css-3t638r-btn,
 .emotion-7 > .:not(:first-child) > .,
 .emotion-7 > .:first-child > .css-3t638r-btn:not(:first-child),
@@ -15281,10 +21452,80 @@ select.emotion-2:focus::-ms-value {
 .emotion-3 > .:not(:first-child) . {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+<<<<<<< HEAD
 }
 
 .emotion-3 > . > .css-3t638r-btn,
 .emotion-3 > . > .,
+.emotion-3 > .:not(:last-child) > .css-3t638r-btn,
+.emotion-3 > .:not(:last-child) > .,
+.emotion-3 > .:last-child > .css-3t638r-btn:not(:last-child):not(.css-1ij15px-dropdownToggle),
+.emotion-3 > .:last-child > .:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+=======
+>>>>>>> master
+}
+
+.emotion-3 > . > .css-3t638r-btn,
+.emotion-3 > . > .,
+<<<<<<< HEAD
+.emotion-3 > .:not(:first-child) > .css-3t638r-btn,
+.emotion-3 > .:not(:first-child) > .,
+.emotion-3 > .:first-child > .css-3t638r-btn:not(:first-child),
+.emotion-3 > .:first-child > .:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.emotion-11 {
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+}
+
+.emotion-11 > .css-1ro3ark-formControlPlaintext.emotion-2,
+.emotion-11 > .emotion-1 > .css-1ro3ark-formControlPlaintext.emotion-0,
+.emotion-11 > .css-8r06x9-inputGroupAppend > .css-1ro3ark-formControlPlaintext.emotion-0,
+.emotion-11 > .emotion-1 > .css-1ro3ark-formControlPlaintext.css-3t638r-btn,
+.emotion-11 > .css-8r06x9-inputGroupAppend > .css-1ro3ark-formControlPlaintext.css-3t638r-btn {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.emotion-11 > .emotion-2,
+.emotion-11 > .emotion-1 > .emotion-0,
+.emotion-11 > .css-8r06x9-inputGroupAppend > .emotion-0,
+.emotion-11 > .emotion-1 > .css-3t638r-btn,
+.emotion-11 > .css-8r06x9-inputGroupAppend > .css-3t638r-btn {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+
+.emotion-11 > select.emotion-2:not([size]):not([multiple]),
+.emotion-11 > .emotion-1 > select.emotion-0:not([size]):not([multiple]),
+.emotion-11 > .css-8r06x9-inputGroupAppend > select.emotion-0:not([size]):not([multiple]),
+.emotion-11 > .emotion-1 > select.css-3t638r-btn:not([size]):not([multiple]),
+.emotion-11 > .css-8r06x9-inputGroupAppend > select.css-3t638r-btn:not([size]):not([multiple]) {
+  height: calc(1.8125rem + 2px);
+}
+
+=======
 .emotion-3 > .:not(:last-child) > .css-3t638r-btn,
 .emotion-3 > .:not(:last-child) > .,
 .emotion-3 > .:last-child > .css-3t638r-btn:not(:last-child):not(.css-1ij15px-dropdownToggle),
@@ -15350,6 +21591,7 @@ select.emotion-2:focus::-ms-value {
   height: calc(1.8125rem + 2px);
 }
 
+>>>>>>> master
 .emotion-11 > .,
 .emotion-11 > .,
 .emotion-11 > . {
@@ -26637,7 +32879,11 @@ fieldset:disabled a.emotion-7 {
               <div
                 className="emotion-10 emotion-11"
               >
+<<<<<<< HEAD
                 <div
+=======
+                <h5
+>>>>>>> master
                   className="emotion-5"
                 >
                   Tab 1 Title Treatment
@@ -26662,7 +32908,11 @@ fieldset:disabled a.emotion-7 {
               <div
                 className="emotion-10 emotion-11"
               >
+<<<<<<< HEAD
                 <div
+=======
+                <h5
+>>>>>>> master
                   className="emotion-5"
                 >
                   Tab 1 Title Treatment
@@ -26695,7 +32945,11 @@ fieldset:disabled a.emotion-7 {
               <div
                 className="emotion-10 emotion-11"
               >
+<<<<<<< HEAD
                 <div
+=======
+                <h5
+>>>>>>> master
                   className="emotion-5"
                 >
                   Special Title Treatment
@@ -26720,7 +32974,11 @@ fieldset:disabled a.emotion-7 {
               <div
                 className="emotion-10 emotion-11"
               >
+<<<<<<< HEAD
                 <div
+=======
+                <h5
+>>>>>>> master
                   className="emotion-5"
                 >
                   Special Title Treatment

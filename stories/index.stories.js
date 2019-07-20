@@ -69,7 +69,7 @@ import TooltipsReadme from '../lib/tooltip/README.md';
 modalStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Components/Modal', module).addParameters({
-  readme: { content: ModalReadme },
+  readme: { sidebar: ModalReadme },
 }));
 
 mediaStories.forEach(function cb(entry) {
@@ -77,13 +77,13 @@ mediaStories.forEach(function cb(entry) {
 }, storiesOf('Layout/Media', module));
 
 storiesOf('Layout', module)
-  .addParameters({ readme: { content: LayoutReadme } })
+  .addParameters({ readme: { sidebar: LayoutReadme } })
   .add('Grid', layout);
 
 tableStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Components/Tables', module).addParameters(
-  { readme: { content: TableReadme } },
+  { readme: { sidebar: TableReadme } },
 ));
 
 storiesOf('Components/Alert', module)
@@ -95,7 +95,7 @@ storiesOf('Components/Alert', module)
   .add('Alert with dismiss no fade', AlertFadelessStory);
 
 storiesOf('Components/Badge', module)
-  .addParameters({ readme: { content: BadgeReadme } })
+  .addParameters({ readme: { sidebar: BadgeReadme } })
   .add('Example', Example1)
   .add('Notifications', Example2)
   .add('Contextual variations', Example3)
@@ -103,51 +103,51 @@ storiesOf('Components/Badge', module)
   .add('Links', Example5);
 
 storiesOf('Components/Breadcrumb', module)
-  .addParameters({ readme: { content: BreadcrumbReadme } })
+  .addParameters({ readme: { sidebar: BreadcrumbReadme } })
   .add('Breadcrumb', BreadcrumbStory);
 
 buttonStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Components/Buttons', module).addParameters(
-  { readme: { content: ButtonReadme } },
+  { readme: { sidebar: ButtonReadme } },
 ));
 
 buttonGroupStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Components/Button Group', module).addParameters(
-  { readme: { content: ButtonGroupReadme } },
+  { readme: { sidebar: ButtonGroupReadme } },
 ));
 
 cardStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Card', module).addParameters({ readme: { content: CardReadme } }));
+}, storiesOf('Components/Card', module).addParameters({ readme: { sidebar: CardReadme } }));
 
 dropdownStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Components/Dropdowns', module).addParameters({
-  readme: { content: DropdownReadme },
+  readme: { sidebar: DropdownReadme },
 }));
 
 storiesOf('Components/Fade', module).add('Simple', FadeStory);
 
 formStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Form', module).addParameters({ readme: { content: FormReadme } }));
+}, storiesOf('Components/Form', module).addParameters({ readme: { sidebar: FormReadme } }));
 
 inputGroupStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Components/Input Group', module).addParameters({
-  readme: { content: InputGroupReadme },
+  readme: { sidebar: InputGroupReadme },
 }));
 
 listGroupStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Components/List Group', module).addParameters({
-  readme: { content: ListGroupReadme },
+  readme: { sidebar: ListGroupReadme },
 }));
 
 storiesOf('Components/Pagination', module)
-  .addParameters({ readme: { content: PaginationReadme } })
+  .addParameters({ readme: { sidebar: PaginationReadme } })
   .add('Pagination Simple', PaginationStory)
   .add('Pagination Active', PaginationActiveStory)
   .add('Pagination Disabled', PaginationDisabledStory)
@@ -157,47 +157,47 @@ storiesOf('Components/Pagination', module)
 popoverStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Components/Popovers', module).addParameters({
-  readme: { content: PopoverReadme },
+  readme: { sidebar: PopoverReadme },
 }));
 
 storiesOf('Components/Carousel', module)
-  .addParameters({ readme: { content: CarouselReadme } })
+  .addParameters({ readme: { sidebar: CarouselReadme } })
   .add('Example', CarouselStory);
 
 storiesOf('Components/Collapse', module)
-  .addParameters({ readme: { content: CollapseReadme } })
+  .addParameters({ readme: { sidebar: CollapseReadme } })
   .add('Example', CollapseStory);
 
 jumbotronStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Components/Jumbotron', module).addParameters({
-  readme: { content: JumbotronReadme },
+  readme: { sidebar: JumbotronReadme },
 }));
 
 navStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Nav', module).addParameters({ readme: { content: navReadme } }));
+}, storiesOf('Components/Nav', module).addParameters({ readme: { sidebar: navReadme } }));
 
 progressStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Components/Progress', module).addParameters({
-  readme: { content: progressReadme },
+  readme: { sidebar: progressReadme },
 }));
 
 navbarStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
 }, storiesOf('Components/Navbar', module).addParameters({
-  readme: { content: navbarReadme },
+  readme: { sidebar: navbarReadme },
 }));
 
 tabsStories.forEach(function cb(entry) {
   this.add(entry.name, entry.story);
-}, storiesOf('Components/Tabs', module).addParameters({ readme: { content: tabReadme } }));
+}, storiesOf('Components/Tabs', module).addParameters({ readme: { sidebar: tabReadme } }));
 
 if (process.env.NODE_ENV !== 'test') {
   tooltipsStories.forEach(function cb(entry) {
     this.add(entry.name, entry.story);
   }, storiesOf('Components/Tooltips', module).addParameters({
-    readme: { content: TooltipsReadme },
+    readme: { sidebar: TooltipsReadme },
   }));
 }
