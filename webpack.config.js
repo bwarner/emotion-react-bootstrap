@@ -32,24 +32,14 @@ const config2 = {
 };
 
 module.exports = [
-  (env, argv) => {
-    const mods = { target: 'web' };
-    if (argv.mode === 'production') {
-      mods.mode = 'production';
-    } else {
-      mods.devtool = 'source-map';
-    }
-    return Object.assign({}, config2, mods);
-  },
-  (env, argv) => {
-    const mods = {
-      target: 'node',
-    };
-    if (argv.mode === 'production') {
-      mods.mode = 'production';
-    } else {
-      mods.devtool = 'source-map';
-    }
-    return Object.assign({}, config, mods);
-  },
+  env => Object.assign(config2, {
+    mode: env.production ? 'production' : 'development',
+    devtool: env.production ? 'source-maps' : 'eval',
+    target: 'web',
+  }),
+  env => Object.assign(config, {
+    mode: env.production ? 'production' : 'development',
+    devtool: env.production ? 'source-maps' : 'eval',
+    target: 'node',
+  }),
 ];

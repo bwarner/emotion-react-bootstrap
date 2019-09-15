@@ -4,7 +4,7 @@ jsfiles=$(git diff --cached --name-only --diff-filter=ACM | grep '\.jsx\?$' | tr
 [ -z "$jsfiles" ] && exit 0
 
 echo $jsfiles
-diffs=$(node_modules/.bin/prettier-eslint --list-different $jsfiles)
+diffs=$(node_modules/.bin/prettier-eslint --ignore *.js --ignore "**/dist/**" --ignore ".storybook/**" --list-different $jsfiles)
 [ -z "$diffs" ] && exit 0
 
 echo >&2 "Javascript files must be formatted with prettier. Please run:"

@@ -10,7 +10,7 @@
           // The % refers to the global coverage of users from browserslist
           "browsers": [
             ">5%",
-            "not ie 11",
+           "not ie 11",
             "not op_mini all"
           ]
         }
