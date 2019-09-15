@@ -14,29 +14,17 @@ function Example1() {
         primary
       </Button>
       {' '}
-      <Button color="secondary">
-secondary
-      </Button>
+      <Button color="secondary">secondary</Button>
       {' '}
-      <Button color="success">
-success
-      </Button>
+      <Button color="success">success</Button>
       {' '}
-      <Button color="info">
-info
-      </Button>
+      <Button color="info">info</Button>
       {' '}
-      <Button color="warning">
-warning
-      </Button>
+      <Button color="warning">warning</Button>
       {' '}
-      <Button color="danger">
-danger
-      </Button>
+      <Button color="danger">danger</Button>
       {' '}
-      <Button color="link">
-link
-      </Button>
+      <Button color="link">link</Button>
     </Description>
   );
 }
@@ -78,9 +66,7 @@ function Example3() {
   return (
     <Description title="Sizes" summary="Fancy larger or smaller buttons">
       <fieldset>
-        <legend>
-Large
-        </legend>
+        <legend>Large</legend>
         <Button color="primary" size="lg">
           Large Button
         </Button>
@@ -90,9 +76,7 @@ Large
         </Button>
       </fieldset>
       <fieldset>
-        <legend>
-Small
-        </legend>
+        <legend>Small</legend>
         <Button color="primary" size="sm">
           Small Button
         </Button>
@@ -102,9 +86,7 @@ Small
         </Button>
       </fieldset>
       <fieldset>
-        <legend>
-Block
-        </legend>
+        <legend>Block</legend>
         <Button color="primary" size="sm" block>
           Small Button
         </Button>

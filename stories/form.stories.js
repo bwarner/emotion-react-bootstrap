@@ -22,9 +22,7 @@ class Example1 extends React.Component {
     return (
       <Form>
         <FormGroup>
-          <Label for="exampleEmail">
-Email
-          </Label>
+          <Label for="exampleEmail">Email</Label>
           <Input
             type="email"
             name="email"
@@ -33,9 +31,7 @@ Email
           />
         </FormGroup>
         <FormGroup>
-          <Label for="examplePassword">
-Password
-          </Label>
+          <Label for="examplePassword">Password</Label>
           <Input
             type="password"
             name="password"
@@ -44,64 +40,36 @@ Password
           />
         </FormGroup>
         <FormGroup>
-          <Label for="exampleSelect">
-Select
-          </Label>
+          <Label for="exampleSelect">Select</Label>
           <Input type="select" name="select" id="exampleSelect">
-            <option>
-1
-            </option>
-            <option>
-2
-            </option>
-            <option>
-3
-            </option>
-            <option>
-4
-            </option>
-            <option>
-5
-            </option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
           </Input>
         </FormGroup>
         <FormGroup>
-          <Label for="exampleSelectMulti">
-Select Multiple
-          </Label>
+          <Label for="exampleSelectMulti">Select Multiple</Label>
           <Input
             type="select"
             name="selectMulti"
             id="exampleSelectMulti"
             multiple
           >
-            <option>
-1
-            </option>
-            <option>
-2
-            </option>
-            <option>
-3
-            </option>
-            <option>
-4
-            </option>
-            <option>
-5
-            </option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
           </Input>
         </FormGroup>
         <FormGroup>
-          <Label for="exampleText">
-Text Area
-          </Label>
+          <Label for="exampleText">Text Area</Label>
           <Input type="textarea" name="text" id="exampleText" />
         </FormGroup>
         <FormGroup>
-          <Label for="exampleFile">
-File
-          </Label>
+          <Label for="exampleFile">File</Label>
           <Input type="file" name="file" id="exampleFile" />
           <FormText color="muted">
             This is some placeholder block-level help text for the above input.
@@ -109,9 +77,7 @@ File
           </FormText>
         </FormGroup>
         <FormGroup tag="fieldset">
-          <legend>
-Radio Buttons
-          </legend>
+          <legend>Radio Buttons</legend>
           <FormGroup check>
             <Label check>
               <Input type="radio" name="radio1" />
@@ -139,9 +105,7 @@ Radio Buttons
             &nbsp; Check me out
           </Label>
         </FormGroup>
-        <Button>
-Submit
-        </Button>
+        <Button>Submit</Button>
       </Form>
     );
   }
@@ -218,9 +182,7 @@ function Example2() {
         </Col>
       </FormGroup>
       <FormGroup tag="fieldset" row>
-        <legend className="col-form-label col-sm-2">
-Radio Buttons
-        </legend>
+        <legend className="col-form-label col-sm-2">Radio Buttons</legend>
         <Col sm={10}>
           <FormGroup check>
             <Label check>
@@ -264,9 +226,7 @@ Check me out
       </FormGroup>
       <FormGroup check row>
         <Col sm={{ size: 10, offset: 2 }}>
-          <Button>
-Submit
-          </Button>
+          <Button>Submit</Button>
         </Col>
       </FormGroup>
     </Form>
@@ -298,9 +258,7 @@ function Example3() {
           placeholder="don't tell!"
         />
       </FormGroup>
-      <Button>
-Submit
-      </Button>
+      <Button>Submit</Button>
     </Form>
   );
 }
@@ -309,76 +267,42 @@ function Example4() {
   return (
     <Form>
       <FormGroup>
-        <Label for="exampleEmail">
-Input without validation
-        </Label>
+        <Label for="exampleEmail">Input without validation</Label>
         <Input />
-        <FormFeedback>
-You will not be able to see this
-        </FormFeedback>
-        <FormText>
-Example help text that remains unchanged.
-        </FormText>
+        <FormFeedback>You will not be able to see this</FormFeedback>
+        <FormText>Example help text that remains unchanged.</FormText>
       </FormGroup>
       <FormGroup>
-        <Label for="exampleEmail">
-Valid input
-        </Label>
+        <Label for="exampleEmail">Valid input</Label>
         <Input valid />
-        <FormFeedback valid>
-Sweet! that name is available
-        </FormFeedback>
-        <FormText>
-Example help text that remains unchanged.
-        </FormText>
+        <FormFeedback valid>Sweet! that name is available</FormFeedback>
+        <FormText>Example help text that remains unchanged.</FormText>
       </FormGroup>
       <FormGroup>
-        <Label for="examplePassword">
-Invalid input
-        </Label>
+        <Label for="examplePassword">Invalid input</Label>
         <Input invalid />
-        <FormFeedback>
-Oh noes! that name is already taken
-        </FormFeedback>
-        <FormText>
-Example help text that remains unchanged.
-        </FormText>
+        <FormFeedback>Oh noes! that name is already taken</FormFeedback>
+        <FormText>Example help text that remains unchanged.</FormText>
       </FormGroup>
       <FormGroup>
-        <Label for="exampleEmail">
-Input without validation
-        </Label>
+        <Label for="exampleEmail">Input without validation</Label>
         <Input />
-        <FormFeedback tooltip>
-You will not be able to see this
-        </FormFeedback>
-        <FormText>
-Example help text that remains unchanged.
-        </FormText>
+        <FormFeedback tooltip>You will not be able to see this</FormFeedback>
+        <FormText>Example help text that remains unchanged.</FormText>
       </FormGroup>
       <FormGroup>
-        <Label for="exampleEmail">
-Valid input
-        </Label>
+        <Label for="exampleEmail">Valid input</Label>
         <Input valid />
         <FormFeedback valid tooltip>
           Sweet! that name is available
         </FormFeedback>
-        <FormText>
-Example help text that remains unchanged.
-        </FormText>
+        <FormText>Example help text that remains unchanged.</FormText>
       </FormGroup>
       <FormGroup>
-        <Label for="examplePassword">
-Invalid input
-        </Label>
+        <Label for="examplePassword">Invalid input</Label>
         <Input invalid />
-        <FormFeedback tooltip>
-Oh noes! that name is already taken
-        </FormFeedback>
-        <FormText>
-Example help text that remains unchanged.
-        </FormText>
+        <FormFeedback tooltip>Oh noes! that name is already taken</FormFeedback>
+        <FormText>Example help text that remains unchanged.</FormText>
       </FormGroup>
     </Form>
   );
@@ -387,17 +311,11 @@ Example help text that remains unchanged.
 const Example5 = () => (
   <Form>
     <FormGroup>
-      <Label for="exampleEmail">
-Plain Text (Static)
-      </Label>
-      <Input plaintext>
-Some plain text/ static value
-      </Input>
+      <Label for="exampleEmail">Plain Text (Static)</Label>
+      <Input plaintext>Some plain text/ static value</Input>
     </FormGroup>
     <FormGroup>
-      <Label for="exampleEmail">
-Email
-      </Label>
+      <Label for="exampleEmail">Email</Label>
       <Input
         type="email"
         name="email"
@@ -406,9 +324,7 @@ Email
       />
     </FormGroup>
     <FormGroup>
-      <Label for="examplePassword">
-Password
-      </Label>
+      <Label for="examplePassword">Password</Label>
       <Input
         type="password"
         name="password"
@@ -417,9 +333,7 @@ Password
       />
     </FormGroup>
     <FormGroup>
-      <Label for="exampleUrl">
-Url
-      </Label>
+      <Label for="exampleUrl">Url</Label>
       <Input
         type="url"
         name="url"
@@ -428,9 +342,7 @@ Url
       />
     </FormGroup>
     <FormGroup>
-      <Label for="exampleNumber">
-Number
-      </Label>
+      <Label for="exampleNumber">Number</Label>
       <Input
         type="number"
         name="number"
@@ -439,9 +351,7 @@ Number
       />
     </FormGroup>
     <FormGroup>
-      <Label for="exampleDatetime">
-Datetime
-      </Label>
+      <Label for="exampleDatetime">Datetime</Label>
       <Input
         type="datetime"
         name="datetime"
@@ -450,9 +360,7 @@ Datetime
       />
     </FormGroup>
     <FormGroup>
-      <Label for="exampleDate">
-Date
-      </Label>
+      <Label for="exampleDate">Date</Label>
       <Input
         type="date"
         name="date"
@@ -461,9 +369,7 @@ Date
       />
     </FormGroup>
     <FormGroup>
-      <Label for="exampleTime">
-Time
-      </Label>
+      <Label for="exampleTime">Time</Label>
       <Input
         type="time"
         name="time"
@@ -472,9 +378,7 @@ Time
       />
     </FormGroup>
     <FormGroup>
-      <Label for="exampleColor">
-Color
-      </Label>
+      <Label for="exampleColor">Color</Label>
       <Input
         type="color"
         name="color"
@@ -483,9 +387,7 @@ Color
       />
     </FormGroup>
     <FormGroup>
-      <Label for="exampleSearch">
-Search
-      </Label>
+      <Label for="exampleSearch">Search</Label>
       <Input
         type="search"
         name="search"
@@ -494,59 +396,31 @@ Search
       />
     </FormGroup>
     <FormGroup>
-      <Label for="exampleSelect">
-Select
-      </Label>
+      <Label for="exampleSelect">Select</Label>
       <Input type="select" name="select" id="exampleSelect">
-        <option>
-1
-        </option>
-        <option>
-2
-        </option>
-        <option>
-3
-        </option>
-        <option>
-4
-        </option>
-        <option>
-5
-        </option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
       </Input>
     </FormGroup>
     <FormGroup>
-      <Label for="exampleSelectMulti">
-Select Multiple
-      </Label>
+      <Label for="exampleSelectMulti">Select Multiple</Label>
       <Input type="select" name="selectMulti" id="exampleSelectMulti" multiple>
-        <option>
-1
-        </option>
-        <option>
-2
-        </option>
-        <option>
-3
-        </option>
-        <option>
-4
-        </option>
-        <option>
-5
-        </option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
       </Input>
     </FormGroup>
     <FormGroup>
-      <Label for="exampleText">
-Text Area
-      </Label>
+      <Label for="exampleText">Text Area</Label>
       <Input type="textarea" name="text" id="exampleText" />
     </FormGroup>
     <FormGroup>
-      <Label for="exampleFile">
-File
-      </Label>
+      <Label for="exampleFile">File</Label>
       <Input type="file" name="file" id="exampleFile" />
       <FormText color="muted">
         This is some placeholder block-level help text for the above input.
@@ -596,19 +470,13 @@ const Example7 = () => (
     <Input placeholder="default" />
     <Input placeholder="sm" bsSize="sm" />
     <Input type="select" bsSize="lg">
-      <option>
-Large Select
-      </option>
+      <option>Large Select</option>
     </Input>
     <Input type="select">
-      <option>
-Default Select
-      </option>
+      <option>Default Select</option>
     </Input>
     <Input type="select" bsSize="sm">
-      <option>
-Small Select
-      </option>
+      <option>Small Select</option>
     </Input>
   </Form>
 );
@@ -666,18 +534,14 @@ const Example9 = () => (
       />
     </FormGroup>
     {' '}
-    <Button>
-Submit
-    </Button>
+    <Button>Submit</Button>
   </Form>
 );
 
 const Example10 = () => (
   <Form>
     <FormGroup>
-      <Label for="exampleCheckbox">
-Checkboxes
-      </Label>
+      <Label for="exampleCheckbox">Checkboxes</Label>
       <div>
         <CustomInput
           type="checkbox"
@@ -698,9 +562,7 @@ Checkboxes
       </div>
     </FormGroup>
     <FormGroup>
-      <Label for="exampleCheckbox">
-Radios
-      </Label>
+      <Label for="exampleCheckbox">Radios</Label>
       <div>
         <CustomInput
           type="radio"
@@ -723,9 +585,7 @@ Radios
       </div>
     </FormGroup>
     <FormGroup>
-      <Label for="exampleCheckbox">
-Inline
-      </Label>
+      <Label for="exampleCheckbox">Inline</Label>
       <div>
         <CustomInput
           type="checkbox"
@@ -742,88 +602,46 @@ Inline
       </div>
     </FormGroup>
     <FormGroup>
-      <Label for="exampleCustomSelect">
-Custom Select
-      </Label>
+      <Label for="exampleCustomSelect">Custom Select</Label>
       <CustomInput type="select" id="exampleCustomSelect" name="customSelect">
-        <option value="">
-Select
-        </option>
-        <option>
-Value 1
-        </option>
-        <option>
-Value 2
-        </option>
-        <option>
-Value 3
-        </option>
-        <option>
-Value 4
-        </option>
-        <option>
-Value 5
-        </option>
+        <option value="">Select</option>
+        <option>Value 1</option>
+        <option>Value 2</option>
+        <option>Value 3</option>
+        <option>Value 4</option>
+        <option>Value 5</option>
       </CustomInput>
     </FormGroup>
     <FormGroup>
-      <Label for="exampleCustomMutlipleSelect">
-Custom Multiple Select
-      </Label>
+      <Label for="exampleCustomMutlipleSelect">Custom Multiple Select</Label>
       <CustomInput
         type="select"
         id="exampleCustomMutlipleSelect"
         name="customSelect"
         multiple
       >
-        <option value="">
-Select
-        </option>
-        <option>
-Value 1
-        </option>
-        <option>
-Value 2
-        </option>
-        <option>
-Value 3
-        </option>
-        <option>
-Value 4
-        </option>
-        <option>
-Value 5
-        </option>
+        <option value="">Select</option>
+        <option>Value 1</option>
+        <option>Value 2</option>
+        <option>Value 3</option>
+        <option>Value 4</option>
+        <option>Value 5</option>
       </CustomInput>
     </FormGroup>
     <FormGroup>
-      <Label for="exampleCustomSelectDisabled">
-Custom Select Disabled
-      </Label>
+      <Label for="exampleCustomSelectDisabled">Custom Select Disabled</Label>
       <CustomInput
         type="select"
         id="exampleCustomSelectDisabled"
         name="customSelect"
         disabled
       >
-        <option value="">
-Select
-        </option>
-        <option>
-Value 1
-        </option>
-        <option>
-Value 2
-        </option>
-        <option>
-Value 3
-        </option>
-        <option>
-Value 4
-        </option>
-        <option>
-Value 5
-        </option>
+        <option value="">Select</option>
+        <option>Value 1</option>
+        <option>Value 2</option>
+        <option>Value 3</option>
+        <option>Value 4</option>
+        <option>Value 5</option>
       </CustomInput>
     </FormGroup>
     <FormGroup>
@@ -837,30 +655,16 @@ Value 5
         multiple
         disabled
       >
-        <option value="">
-Select
-        </option>
-        <option>
-Value 1
-        </option>
-        <option>
-Value 2
-        </option>
-        <option>
-Value 3
-        </option>
-        <option>
-Value 4
-        </option>
-        <option>
-Value 5
-        </option>
+        <option value="">Select</option>
+        <option>Value 1</option>
+        <option>Value 2</option>
+        <option>Value 3</option>
+        <option>Value 4</option>
+        <option>Value 5</option>
       </CustomInput>
     </FormGroup>
     <FormGroup>
-      <Label for="exampleCustomFileBrowser">
-File Browser
-      </Label>
+      <Label for="exampleCustomFileBrowser">File Browser</Label>
       <CustomInput
         type="file"
         id="exampleCustomFileBrowser"
@@ -879,9 +683,7 @@ File Browser
       />
     </FormGroup>
     <FormGroup>
-      <Label for="exampleCustomFileBrowser">
-File Browser Disabled
-      </Label>
+      <Label for="exampleCustomFileBrowser">File Browser Disabled</Label>
       <CustomInput
         type="file"
         id="exampleCustomFileBrowser"

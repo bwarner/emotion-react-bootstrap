@@ -5,34 +5,22 @@ import BreadcrumbItem from '../lib/breadcrumb-item';
 const BreadcrumbStory = () => (
   <div>
     <Breadcrumb>
-      <BreadcrumbItem active>
-Home
-      </BreadcrumbItem>
+      <BreadcrumbItem active>Home</BreadcrumbItem>
     </Breadcrumb>
     <Breadcrumb>
       <BreadcrumbItem>
-        <a href="https://www.github.com">
-Home
-        </a>
+        <a href="https://www.github.com">Home</a>
       </BreadcrumbItem>
-      <BreadcrumbItem active>
-Library
-      </BreadcrumbItem>
+      <BreadcrumbItem active>Library</BreadcrumbItem>
     </Breadcrumb>
     <Breadcrumb>
       <BreadcrumbItem>
-        <a href="https://www.github.com">
-Home
-        </a>
+        <a href="https://www.github.com">Home</a>
       </BreadcrumbItem>
       <BreadcrumbItem>
-        <a href="https://www.github.com">
-Library
-        </a>
+        <a href="https://www.github.com">Library</a>
       </BreadcrumbItem>
-      <BreadcrumbItem active>
-Data
-      </BreadcrumbItem>
+      <BreadcrumbItem active>Data</BreadcrumbItem>
     </Breadcrumb>
   </div>
 );

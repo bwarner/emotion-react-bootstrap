@@ -11,9 +11,7 @@ const Example1 = () => (
       />
     </Media>
     <Media body>
-      <Media heading>
-Media heading
-      </Media>
+      <Media heading>Media heading</Media>
       Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
       ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
       tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
@@ -32,9 +30,7 @@ const Example2 = () => (
       />
     </Media>
     <Media body>
-      <Media heading>
-Media heading
-      </Media>
+      <Media heading>Media heading</Media>
       Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
       ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
       tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
@@ -48,9 +44,7 @@ Media heading
           />
         </Media>
         <Media body>
-          <Media heading>
-Nested media heading
-          </Media>
+          <Media heading>Nested media heading</Media>
           Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
           scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in
           vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
@@ -71,9 +65,7 @@ const Example3 = () => (
         />
       </Media>
       <Media body>
-        <Media heading>
-Top aligned media
-        </Media>
+        <Media heading>Top aligned media</Media>
         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
         ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
         tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
@@ -89,9 +81,7 @@ Top aligned media
         />
       </Media>
       <Media body>
-        <Media heading>
-Middle aligned media
-        </Media>
+        <Media heading>Middle aligned media</Media>
         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
         ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
         tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
@@ -107,9 +97,7 @@ Middle aligned media
         />
       </Media>
       <Media body>
-        <Media heading>
-Bottom aligned media
-        </Media>
+        <Media heading>Bottom aligned media</Media>
         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
         ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
         tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
@@ -129,9 +117,7 @@ const Example4 = () => (
         />
       </Media>
       <Media body>
-        <Media heading>
-Media heading
-        </Media>
+        <Media heading>Media heading</Media>
         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
         ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
         tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
@@ -145,9 +131,7 @@ Media heading
             />
           </Media>
           <Media body>
-            <Media heading>
-Nested media heading
-            </Media>
+            <Media heading>Nested media heading</Media>
             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
             scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum
             in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
@@ -161,9 +145,7 @@ Nested media heading
                 />
               </Media>
               <Media body>
-                <Media heading>
-Nested media heading
-                </Media>
+                <Media heading>Nested media heading</Media>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
                 scelerisque ante sollicitudin commodo. Cras purus odio,
                 vestibulum in vulputate at, tempus viverra turpis. Fusce
@@ -182,9 +164,7 @@ Nested media heading
             />
           </Media>
           <Media body>
-            <Media heading>
-Nested media heading
-            </Media>
+            <Media heading>Nested media heading</Media>
             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
             scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum
             in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
@@ -195,9 +175,7 @@ Nested media heading
     </Media>
     <Media tag="li">
       <Media body>
-        <Media heading>
-Media heading
-        </Media>
+        <Media heading>Media heading</Media>
         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
         ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
         tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate

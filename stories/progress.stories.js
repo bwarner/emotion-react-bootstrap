@@ -15,29 +15,17 @@ const centerStyle = {
 
 const ProgressExample = () => (
   <div style={defaultWidthStyle}>
-    <div style={centerStyle}>
-0%
-    </div>
+    <div style={centerStyle}>0%</div>
     <Progress />
-    <div style={centerStyle}>
-25%
-    </div>
+    <div style={centerStyle}>25%</div>
     <Progress value="25" />
-    <div style={centerStyle}>
-50%
-    </div>
+    <div style={centerStyle}>50%</div>
     <Progress value={50} />
-    <div style={centerStyle}>
-75%
-    </div>
+    <div style={centerStyle}>75%</div>
     <Progress value={75} />
-    <div style={centerStyle}>
-100%
-    </div>
+    <div style={centerStyle}>100%</div>
     <Progress value="100" />
-    <div style={centerStyle}>
-Multiple bars
-    </div>
+    <div style={centerStyle}>Multiple bars</div>
     <Progress multi>
       <Progress bar value="15" />
       <Progress bar color="success" value="30" />
@@ -110,26 +98,16 @@ const ProgressLabels = () => (
 
 const ProgressMax = () => (
   <div style={defaultWidthStyle}>
-    <div style={centerStyle}>
-1 of 5
-    </div>
+    <div style={centerStyle}>1 of 5</div>
     <Progress value="1" max="5" />
-    <div style={centerStyle}>
-50 of 135
-    </div>
+    <div style={centerStyle}>50 of 135</div>
     <Progress value={50} max="135" />
-    <div style={centerStyle}>
-75 of 111
-    </div>
+    <div style={centerStyle}>75 of 111</div>
     <Progress value={75} max={111} />
-    <div style={centerStyle}>
-463 of 500
-    </div>
+    <div style={centerStyle}>463 of 500</div>
     <Progress value="463" max={500} />
 
-    <div style={centerStyle}>
-Various (40) of 55
-    </div>
+    <div style={centerStyle}>Various (40) of 55</div>
     <Progress multi>
       <Progress bar value="5" max={55}>
         5
@@ -149,9 +127,7 @@ Various (40) of 55
 
 const ProgressMulti = () => (
   <div style={defaultWidthStyle}>
-    <div style={centerStyle}>
-Plain
-    </div>
+    <div style={centerStyle}>Plain</div>
     <Progress multi>
       <Progress bar value="15" />
       <Progress bar color="success" value="20" />
@@ -159,9 +135,7 @@ Plain
       <Progress bar color="warning" value="20" />
       <Progress bar color="danger" value="15" />
     </Progress>
-    <div style={centerStyle}>
-With Labels
-    </div>
+    <div style={centerStyle}>With Labels</div>
     <Progress multi>
       <Progress bar value="15">
         Meh
@@ -176,9 +150,7 @@ With Labels
         LOOK OUT!!
       </Progress>
     </Progress>
-    <div style={centerStyle}>
-Stripes and Animations
-    </div>
+    <div style={centerStyle}>Stripes and Animations</div>
     <Progress multi>
       <Progress bar striped value="15">
         Stripes

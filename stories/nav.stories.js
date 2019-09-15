@@ -7,24 +7,16 @@ import {
 
 const NavExample = () => (
   <div>
-    <p>
-List Based
-    </p>
+    <p>List Based</p>
     <Nav>
       <NavItem>
-        <NavLink href="#">
-Link
-        </NavLink>
+        <NavLink href="#">Link</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink href="#">
-Link
-        </NavLink>
+        <NavLink href="#">Link</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink href="#">
-Another Link
-        </NavLink>
+        <NavLink href="#">Another Link</NavLink>
       </NavItem>
       <NavItem>
         <NavLink disabled href="#">
@@ -33,21 +25,13 @@ Another Link
       </NavItem>
     </Nav>
     <hr />
-    <p>
-Link Based
-    </p>
+    <p>Link Based</p>
     <Nav>
-      <NavLink href="#">
-Link
-      </NavLink>
+      <NavLink href="#">Link</NavLink>
       {' '}
-      <NavLink href="#">
-Link
-      </NavLink>
+      <NavLink href="#">Link</NavLink>
       {' '}
-      <NavLink href="#">
-Another Link
-      </NavLink>
+      <NavLink href="#">Another Link</NavLink>
       {' '}
       <NavLink disabled href="#">
         Disabled Link
@@ -87,30 +71,18 @@ class NavPills extends Component {
               Dropdown
             </DropdownToggle>
             <DropdownMenu>
-              <DropdownItem header>
-Header
-              </DropdownItem>
-              <DropdownItem disabled>
-Action
-              </DropdownItem>
-              <DropdownItem>
-Another Action
-              </DropdownItem>
+              <DropdownItem header>Header</DropdownItem>
+              <DropdownItem disabled>Action</DropdownItem>
+              <DropdownItem>Another Action</DropdownItem>
               <DropdownItem divider />
-              <DropdownItem>
-Another Action
-              </DropdownItem>
+              <DropdownItem>Another Action</DropdownItem>
             </DropdownMenu>
           </Dropdown>
           <NavItem>
-            <NavLink href="#">
-Link
-            </NavLink>
+            <NavLink href="#">Link</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">
-Another Link
-            </NavLink>
+            <NavLink href="#">Another Link</NavLink>
           </NavItem>
           <NavItem>
             <NavLink disabled href="#">
@@ -155,30 +127,18 @@ class NavTabs extends Component {
               Dropdown
             </DropdownToggle>
             <DropdownMenu>
-              <DropdownItem header>
-Header
-              </DropdownItem>
-              <DropdownItem disabled>
-Action
-              </DropdownItem>
-              <DropdownItem>
-Another Action
-              </DropdownItem>
+              <DropdownItem header>Header</DropdownItem>
+              <DropdownItem disabled>Action</DropdownItem>
+              <DropdownItem>Another Action</DropdownItem>
               <DropdownItem divider />
-              <DropdownItem>
-Another Action
-              </DropdownItem>
+              <DropdownItem>Another Action</DropdownItem>
             </DropdownMenu>
           </Dropdown>
           <NavItem>
-            <NavLink href="#">
-Link
-            </NavLink>
+            <NavLink href="#">Link</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">
-Another Link
-            </NavLink>
+            <NavLink href="#">Another Link</NavLink>
           </NavItem>
           <NavItem>
             <NavLink disabled href="#">
@@ -195,24 +155,16 @@ class NavVertical extends Component {
   render() {
     return (
       <div>
-        <p>
-List Based
-        </p>
+        <p>List Based</p>
         <Nav vertical>
           <NavItem>
-            <NavLink href="#">
-Link
-            </NavLink>
+            <NavLink href="#">Link</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">
-Link
-            </NavLink>
+            <NavLink href="#">Link</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#">
-Another Link
-            </NavLink>
+            <NavLink href="#">Another Link</NavLink>
           </NavItem>
           <NavItem>
             <NavLink disabled href="#">
@@ -221,21 +173,13 @@ Another Link
           </NavItem>
         </Nav>
         <hr />
-        <p>
-Link based
-        </p>
+        <p>Link based</p>
         <Nav vertical>
-          <NavLink href="#">
-Link
-          </NavLink>
+          <NavLink href="#">Link</NavLink>
           {' '}
-          <NavLink href="#">
-Link
-          </NavLink>
+          <NavLink href="#">Link</NavLink>
           {' '}
-          <NavLink href="#">
-Another Link
-          </NavLink>
+          <NavLink href="#">Another Link</NavLink>
           {' '}
           <NavLink disabled href="#">
             Disabled Link

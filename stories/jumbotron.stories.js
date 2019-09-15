@@ -7,9 +7,7 @@ import { Button } from '../lib/button';
 function JumbotronExample1() {
   return (
     <Jumbotron>
-      <h1 className={display3}>
-Hello, world!
-      </h1>
+      <h1 className={display3}>Hello, world!</h1>
       <p className={lead}>
         This is a simple hero unit, a simple Jumbotron-style component for
         calling extra attention to featured content or information.
@@ -20,9 +18,7 @@ Hello, world!
         within the larger container.
       </p>
       <p className={lead}>
-        <Button color="primary">
-Learn More
-        </Button>
+        <Button color="primary">Learn More</Button>
       </p>
     </Jumbotron>
   );
@@ -32,9 +28,7 @@ function JumbotronFluid() {
   return (
     <Jumbotron fluid>
       <Container>
-        <h1 className={display3}>
-Fluid jumbotron
-        </h1>
+        <h1 className={display3}>Fluid jumbotron</h1>
         <p className={lead}>
           This is a modified jumbotron that occupies the entire horizontal space
           of its parent.

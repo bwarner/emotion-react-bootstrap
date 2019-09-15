@@ -14,9 +14,7 @@ import {
 const Example1 = () => (
   <div>
     <InputGroup>
-      <InputGroupAddon addonType="prepend">
-@
-      </InputGroupAddon>
+      <InputGroupAddon addonType="prepend">@</InputGroupAddon>
       <Input placeholder="username" />
     </InputGroup>
     <br />
@@ -35,39 +33,25 @@ const Example1 = () => (
     <br />
     <InputGroup>
       <Input placeholder="username" />
-      <InputGroupAddon addonType="append">
-@example.com
-      </InputGroupAddon>
+      <InputGroupAddon addonType="append">@example.com</InputGroupAddon>
     </InputGroup>
     <br />
     <InputGroup>
       <InputGroupAddon addonType="prepend">
-        <InputGroupText>
-$
-        </InputGroupText>
-        <InputGroupText>
-$
-        </InputGroupText>
+        <InputGroupText>$</InputGroupText>
+        <InputGroupText>$</InputGroupText>
       </InputGroupAddon>
       <Input placeholder="Dolla dolla billz yo!" />
       <InputGroupAddon addonType="append">
-        <InputGroupText>
-$
-        </InputGroupText>
-        <InputGroupText>
-$
-        </InputGroupText>
+        <InputGroupText>$</InputGroupText>
+        <InputGroupText>$</InputGroupText>
       </InputGroupAddon>
     </InputGroup>
     <br />
     <InputGroup>
-      <InputGroupAddon addonType="prepend">
-$
-      </InputGroupAddon>
+      <InputGroupAddon addonType="prepend">$</InputGroupAddon>
       <Input placeholder="Amount" type="number" step="1" />
-      <InputGroupAddon addonType="append">
-.00
-      </InputGroupAddon>
+      <InputGroupAddon addonType="append">.00</InputGroupAddon>
     </InputGroup>
   </div>
 );
@@ -76,9 +60,7 @@ export const Example2 = () => (
   <div>
     <InputGroup>
       <InputGroupAddon addonType="prepend">
-        <InputGroupText>
-To the Left!
-        </InputGroupText>
+        <InputGroupText>To the Left!</InputGroupText>
       </InputGroupAddon>
       <Input />
     </InputGroup>
@@ -86,23 +68,17 @@ To the Left!
     <InputGroup>
       <Input />
       <InputGroupAddon addonType="append">
-        <InputGroupText>
-To the Right!
-        </InputGroupText>
+        <InputGroupText>To the Right!</InputGroupText>
       </InputGroupAddon>
     </InputGroup>
     <br />
     <InputGroup>
       <InputGroupAddon addonType="prepend">
-        <InputGroupText>
-To the Left!
-        </InputGroupText>
+        <InputGroupText>To the Left!</InputGroupText>
       </InputGroupAddon>
       <Input placeholder="and..." />
       <InputGroupAddon addonType="append">
-        <InputGroupText>
-To the Right!
-        </InputGroupText>
+        <InputGroupText>To the Right!</InputGroupText>
       </InputGroupAddon>
     </InputGroup>
   </div>
@@ -111,23 +87,17 @@ To the Right!
 const Example3 = () => (
   <div>
     <InputGroup size="lg">
-      <InputGroupAddon addonType="prepend">
-@lg
-      </InputGroupAddon>
+      <InputGroupAddon addonType="prepend">@lg</InputGroupAddon>
       <Input />
     </InputGroup>
     <br />
     <InputGroup>
-      <InputGroupAddon addonType="prepend">
-@normal
-      </InputGroupAddon>
+      <InputGroupAddon addonType="prepend">@normal</InputGroupAddon>
       <Input />
     </InputGroup>
     <br />
     <InputGroup size="sm">
-      <InputGroupAddon addonType="prepend">
-@sm
-      </InputGroupAddon>
+      <InputGroupAddon addonType="prepend">@sm</InputGroupAddon>
       <Input />
     </InputGroup>
   </div>
@@ -163,9 +133,7 @@ export class Example4 extends React.Component {
       <div>
         <InputGroup>
           <InputGroupAddon addonType="prepend">
-            <Button>
-I&apos;m a button
-            </Button>
+            <Button>I&apos;m a button</Button>
           </InputGroupAddon>
           <Input />
         </InputGroup>
@@ -177,23 +145,13 @@ I&apos;m a button
             isOpen={this.state.dropdownOpen}
             toggle={this.toggleDropDown}
           >
-            <DropdownToggle caret>
-Button Dropdown
-            </DropdownToggle>
+            <DropdownToggle caret>Button Dropdown</DropdownToggle>
             <DropdownMenu>
-              <DropdownItem header>
-Header
-              </DropdownItem>
-              <DropdownItem disabled>
-Action
-              </DropdownItem>
-              <DropdownItem>
-Another Action
-              </DropdownItem>
+              <DropdownItem header>Header</DropdownItem>
+              <DropdownItem disabled>Action</DropdownItem>
+              <DropdownItem>Another Action</DropdownItem>
               <DropdownItem divider />
-              <DropdownItem>
-Another Action
-              </DropdownItem>
+              <DropdownItem>Another Action</DropdownItem>
             </DropdownMenu>
           </InputGroupButtonDropdown>
         </InputGroup>
@@ -204,31 +162,19 @@ Another Action
             isOpen={this.state.splitButtonOpen}
             toggle={this.toggleSplit}
           >
-            <Button outline>
-Split Button
-            </Button>
+            <Button outline>Split Button</Button>
             <DropdownToggle split outline />
             <DropdownMenu>
-              <DropdownItem header>
-Header
-              </DropdownItem>
-              <DropdownItem disabled>
-Action
-              </DropdownItem>
-              <DropdownItem>
-Another Action
-              </DropdownItem>
+              <DropdownItem header>Header</DropdownItem>
+              <DropdownItem disabled>Action</DropdownItem>
+              <DropdownItem>Another Action</DropdownItem>
               <DropdownItem divider />
-              <DropdownItem>
-Another Action
-              </DropdownItem>
+              <DropdownItem>Another Action</DropdownItem>
             </DropdownMenu>
           </InputGroupButtonDropdown>
           <Input placeholder="and..." />
           <InputGroupAddon addonType="append">
-            <Button color="secondary">
-I&apos;m a button
-            </Button>
+            <Button color="secondary">I&apos;m a button</Button>
           </InputGroupAddon>
         </InputGroup>
       </div>

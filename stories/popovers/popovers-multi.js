@@ -43,9 +43,7 @@ class PopoverItem extends React.Component {
             target={`Popover-${this.props.id}`}
             toggle={this.toggle}
           >
-            <PopoverHeader>
-Popover Title
-            </PopoverHeader>
+            <PopoverHeader>Popover Title</PopoverHeader>
             <PopoverBody>
               Sed posuere consectetur est at lobortis. Aenean eu leo quam.
               Pellentesque ornare sem lacinia quam venenatis vestibulum.

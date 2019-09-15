@@ -35,9 +35,7 @@ export class Example extends React.Component {
             target="Popover1"
             toggle={this.toggle}
           >
-            <PopoverHeader>
-Popover Title
-            </PopoverHeader>
+            <PopoverHeader>Popover Title</PopoverHeader>
             <PopoverBody>
               Sed posuere consectetur est at lobortis. Aenean eu leo quam.
               Pellentesque ornare sem lacinia quam venenatis vestibulum.

@@ -18,15 +18,9 @@ function Example1() {
       summary="There are several predefined button styles, each serving its own semantic purpose, with a few extras thrown in for more control."
     >
       <ButtonGroup>
-        <Button>
-Left
-        </Button>
-        <Button>
-Middle
-        </Button>
-        <Button>
-Right
-        </Button>
+        <Button>Left</Button>
+        <Button>Middle</Button>
+        <Button>Right</Button>
       </ButtonGroup>
     </Description>
   );
@@ -37,34 +31,18 @@ function Example2() {
     <Description title="Button Toolbar" summary="Buttons with clear background">
       <ButtonToolbar>
         <ButtonGroup>
-          <Button>
-1
-          </Button>
-          <Button>
-2
-          </Button>
-          <Button>
-3
-          </Button>
-          <Button>
-4
-          </Button>
+          <Button>1</Button>
+          <Button>2</Button>
+          <Button>3</Button>
+          <Button>4</Button>
         </ButtonGroup>
         <ButtonGroup>
-          <Button>
-5
-          </Button>
-          <Button>
-6
-          </Button>
-          <Button>
-7
-          </Button>
+          <Button>5</Button>
+          <Button>6</Button>
+          <Button>7</Button>
         </ButtonGroup>
         <ButtonGroup>
-          <Button>
-8
-          </Button>
+          <Button>8</Button>
         </ButtonGroup>
       </ButtonToolbar>
     </Description>
@@ -75,37 +53,19 @@ function Example3() {
   return (
     <Description title="Sizing" summary="Fancy larger or smaller buttons">
       <ButtonGroup size="lg">
-        <Button>
-Left
-        </Button>
-        <Button>
-Middle
-        </Button>
-        <Button>
-Right
-        </Button>
+        <Button>Left</Button>
+        <Button>Middle</Button>
+        <Button>Right</Button>
       </ButtonGroup>
       <ButtonGroup>
-        <Button>
-Left
-        </Button>
-        <Button>
-Middle
-        </Button>
-        <Button>
-Right
-        </Button>
+        <Button>Left</Button>
+        <Button>Middle</Button>
+        <Button>Right</Button>
       </ButtonGroup>
       <ButtonGroup size="sm">
-        <Button>
-Left
-        </Button>
-        <Button>
-Middle
-        </Button>
-        <Button>
-Right
-        </Button>
+        <Button>Left</Button>
+        <Button>Middle</Button>
+        <Button>Right</Button>
       </ButtonGroup>
     </Description>
   );
@@ -140,23 +100,13 @@ class Example extends Component {
     return (
       <Description title="Nesting" summary="Active Buttons">
         <ButtonGroup vertical={vertical}>
-          <Button>
-1
-          </Button>
-          <Button>
-2
-          </Button>
+          <Button>1</Button>
+          <Button>2</Button>
           <ButtonDropdown isOpen={dropdownOpen} toggle={this.toggle}>
-            <DropdownToggle caret>
-Dropdown
-            </DropdownToggle>
+            <DropdownToggle caret>Dropdown</DropdownToggle>
             <DropdownMenu>
-              <DropdownItem>
-Dropdown Link
-              </DropdownItem>
-              <DropdownItem>
-Dropdown Link
-              </DropdownItem>
+              <DropdownItem>Dropdown Link</DropdownItem>
+              <DropdownItem>Dropdown Link</DropdownItem>
             </DropdownMenu>
           </ButtonDropdown>
         </ButtonGroup>

@@ -13,42 +13,22 @@ const BlueCol = styled(Col)`
 const LayoutStory = () => (
   <Container>
     <Row>
-      <BlueCol>
-.col
-      </BlueCol>
+      <BlueCol>.col</BlueCol>
     </Row>
     <Row>
-      <BlueCol>
-.col
-      </BlueCol>
-      <BlueCol>
-.col
-      </BlueCol>
-      <BlueCol>
-.col
-      </BlueCol>
-      <BlueCol>
-.col
-      </BlueCol>
+      <BlueCol>.col</BlueCol>
+      <BlueCol>.col</BlueCol>
+      <BlueCol>.col</BlueCol>
+      <BlueCol>.col</BlueCol>
     </Row>
     <Row>
-      <BlueCol xs="3">
-.col-3
-      </BlueCol>
-      <BlueCol xs="auto">
-.col-auto - variable width content
-      </BlueCol>
-      <BlueCol xs="3">
-.col-3
-      </BlueCol>
+      <BlueCol xs="3">.col-3</BlueCol>
+      <BlueCol xs="auto">.col-auto - variable width content</BlueCol>
+      <BlueCol xs="3">.col-3</BlueCol>
     </Row>
     <Row>
-      <BlueCol xs="6">
-.col-6
-      </BlueCol>
-      <BlueCol xs="6">
-.col-6
-      </BlueCol>
+      <BlueCol xs="6">.col-6</BlueCol>
+      <BlueCol xs="6">.col-6</BlueCol>
     </Row>
     <Row>
       <BlueCol xs="6" sm="4">
@@ -57,9 +37,7 @@ const LayoutStory = () => (
       <BlueCol xs="6" sm="4">
         .col-6 .col-sm-4
       </BlueCol>
-      <BlueCol sm="4">
-.col-sm-4
-      </BlueCol>
+      <BlueCol sm="4">.col-sm-4</BlueCol>
     </Row>
     <Row>
       <BlueCol sm={{ size: 6, order: 2, offset: 1 }}>

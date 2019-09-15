@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { lead, display3 } from '@farvisionllc/emotion-bootstrap';
-import Collapse from '../lib/collapse';
+import { Collapse } from '../lib';
 import { Button } from '../lib/button';
 import Jumbotron from '../lib/jumbotron';
 import Container from '../lib/layout/container';
@@ -30,9 +30,7 @@ class CollapseExample extends Component {
         <Collapse isOpen={this.state.collapse}>
           <Jumbotron fluid>
             <Container>
-              <h1 className={display3}>
-Fluid jumbotron
-              </h1>
+              <h1 className={display3}>Fluid jumbotron</h1>
               <p className={lead}>
                 This is a modified jumbotron that occupies the entire horizontal
                 space of its parent.

@@ -50,9 +50,7 @@ class ModalExample extends React.Component {
           toggle={this.toggle}
           className={this.props.className}
         >
-          <ModalHeader toggle={this.toggle}>
-Modal title
-          </ModalHeader>
+          <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
           <ModalBody>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -103,9 +101,7 @@ class ModalBackdropExample extends React.Component {
       <div>
         <Form inline onSubmit={e => e.preventDefault()}>
           <FormGroup>
-            <Label for="backdrop">
-Backdrop value
-            </Label>
+            <Label for="backdrop">Backdrop value</Label>
             {' '}
             <Input
               type="select"
@@ -113,15 +109,9 @@ Backdrop value
               id="backdrop"
               onChange={this.changeBackdrop}
             >
-              <option value="true">
-true
-              </option>
-              <option value="false">
-false
-              </option>
-              <option value="static">
-&quot;static&quot;
-              </option>
+              <option value="true">true</option>
+              <option value="false">false</option>
+              <option value="static">&quot;static&quot;</option>
             </Input>
           </FormGroup>
           {' '}
@@ -135,9 +125,7 @@ false
           className={this.props.className}
           backdrop={this.state.backdrop}
         >
-          <ModalHeader toggle={this.toggle}>
-Modal title
-          </ModalHeader>
+          <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
           <ModalBody>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -187,9 +175,7 @@ class ModalCustomTimeoutExample extends React.Component {
           toggle={this.toggle}
           className={this.props.className}
         >
-          <ModalHeader toggle={this.toggle}>
-Modal title
-          </ModalHeader>
+          <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
           <ModalBody>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -248,13 +234,9 @@ class ModalExternalExample extends React.Component {
           className={this.props.className}
           external={externalCloseBtn}
         >
-          <ModalHeader>
-Modal title
-          </ModalHeader>
+          <ModalHeader>Modal title</ModalHeader>
           <ModalBody>
-            <b>
-Look at the top right of the page/viewport!
-            </b>
+            <b>Look at the top right of the page/viewport!</b>
             <br />
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -303,9 +285,7 @@ class ModalFadelessExample extends React.Component {
           toggle={this.toggle}
           className={this.props.className}
         >
-          <ModalHeader toggle={this.toggle}>
-Modal title
-          </ModalHeader>
+          <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
           <ModalBody>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -373,9 +353,7 @@ class ModalNestedExample extends React.Component {
           toggle={this.toggle}
           className={this.props.className}
         >
-          <ModalHeader toggle={this.toggle}>
-Modal title
-          </ModalHeader>
+          <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
           <ModalBody>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -393,12 +371,8 @@ Modal title
               toggle={this.toggleNested}
               onClosed={this.state.closeAll ? this.toggle : undefined}
             >
-              <ModalHeader>
-Nested Modal title
-              </ModalHeader>
-              <ModalBody>
-Stuff and things
-              </ModalBody>
+              <ModalHeader>Nested Modal title</ModalHeader>
+              <ModalBody>Stuff and things</ModalBody>
               <ModalFooter>
                 <Button color="primary" onClick={this.toggleNested}>
                   Done

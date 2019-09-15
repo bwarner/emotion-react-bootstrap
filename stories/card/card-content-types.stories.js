@@ -12,12 +12,8 @@ const Example = () => (
   <div>
     <Card>
       <CardBody>
-        <CardTitle>
-Card title
-        </CardTitle>
-        <CardSubtitle>
-Card subtitle
-        </CardSubtitle>
+        <CardTitle>Card title</CardTitle>
+        <CardSubtitle>Card subtitle</CardSubtitle>
       </CardBody>
       <img
         width="100%"
@@ -29,12 +25,8 @@ Card subtitle
           Some quick example text to build on the card title and make up the
           bulk of the card&apos;s content.
         </CardText>
-        <CardLink href="#">
-Card Link
-        </CardLink>
-        <CardLink href="#">
-Another Link
-        </CardLink>
+        <CardLink href="#">Card Link</CardLink>
+        <CardLink href="#">Another Link</CardLink>
       </CardBody>
     </Card>
   </div>

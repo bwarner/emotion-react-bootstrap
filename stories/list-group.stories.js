@@ -10,21 +10,11 @@ import {
 
 const Example1 = () => (
   <ListGroup>
-    <ListGroupItem>
-Cras justo odio
-    </ListGroupItem>
-    <ListGroupItem>
-Dapibus ac facilisis in
-    </ListGroupItem>
-    <ListGroupItem>
-Morbi leo risus
-    </ListGroupItem>
-    <ListGroupItem>
-Porta ac consectetur ac
-    </ListGroupItem>
-    <ListGroupItem>
-Vestibulum at eros
-    </ListGroupItem>
+    <ListGroupItem>Cras justo odio</ListGroupItem>
+    <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
+    <ListGroupItem>Morbi leo risus</ListGroupItem>
+    <ListGroupItem>Porta ac consectetur ac</ListGroupItem>
+    <ListGroupItem>Vestibulum at eros</ListGroupItem>
   </ListGroup>
 );
 
@@ -33,23 +23,17 @@ const Example2 = () => (
     <ListGroupItem className={justifyContentBetween}>
       Cras justo odio
       {' '}
-      <Badge pill>
-14
-      </Badge>
+      <Badge pill>14</Badge>
     </ListGroupItem>
     <ListGroupItem className={justifyContentBetween}>
       Dapibus ac facilisis in
       {' '}
-      <Badge pill>
-2
-      </Badge>
+      <Badge pill>2</Badge>
     </ListGroupItem>
     <ListGroupItem className={justifyContentBetween}>
       Morbi leo risus
       {' '}
-      <Badge pill>
-1
-      </Badge>
+      <Badge pill>1</Badge>
     </ListGroupItem>
   </ListGroup>
 );
@@ -74,19 +58,14 @@ const Example3 = () => (
 );
 const Example4 = () => (
   <div>
-    <h3>
-Anchors
-      {' '}
-    </h3>
+    <h3>Anchors </h3>
     <ListGroupItemText>
       Be sure to
       {' '}
       <ListGroupItemHeading>
         not use the standard
         {' '}
-        <code>
-.btn
-        </code>
+        <code>.btn</code>
         {' '}
 classes here
       </ListGroupItemHeading>
@@ -110,10 +89,7 @@ classes here
       </ListGroupItem>
     </ListGroup>
     <ListGroupItemText />
-    <h3>
-Buttons
-      {' '}
-    </h3>
+    <h3>Buttons </h3>
     <ListGroup>
       <ListGroupItem active tag="button" action>
         Cras justo odio
@@ -135,45 +111,31 @@ Buttons
 );
 const Example5 = () => (
   <ListGroup>
-    <ListGroupItem color="success">
-Cras justo odio
-    </ListGroupItem>
-    <ListGroupItem color="info">
-Dapibus ac facilisis in
-    </ListGroupItem>
-    <ListGroupItem color="warning">
-Morbi leo risus
-    </ListGroupItem>
-    <ListGroupItem color="danger">
-Porta ac consectetur ac
-    </ListGroupItem>
+    <ListGroupItem color="success">Cras justo odio</ListGroupItem>
+    <ListGroupItem color="info">Dapibus ac facilisis in</ListGroupItem>
+    <ListGroupItem color="warning">Morbi leo risus</ListGroupItem>
+    <ListGroupItem color="danger">Porta ac consectetur ac</ListGroupItem>
   </ListGroup>
 );
 
 const Example6 = () => (
   <ListGroup>
     <ListGroupItem active>
-      <ListGroupItemHeading>
-List group item heading
-      </ListGroupItemHeading>
+      <ListGroupItemHeading>List group item heading</ListGroupItemHeading>
       <ListGroupItemText>
         Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget
         risus varius blandit.
       </ListGroupItemText>
     </ListGroupItem>
     <ListGroupItem>
-      <ListGroupItemHeading>
-List group item heading
-      </ListGroupItemHeading>
+      <ListGroupItemHeading>List group item heading</ListGroupItemHeading>
       <ListGroupItemText>
         Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget
         risus varius blandit.
       </ListGroupItemText>
     </ListGroupItem>
     <ListGroupItem>
-      <ListGroupItemHeading>
-List group item heading
-      </ListGroupItemHeading>
+      <ListGroupItemHeading>List group item heading</ListGroupItemHeading>
       <ListGroupItemText>
         Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget
         risus varius blandit.
