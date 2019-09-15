@@ -17709,8 +17709,7 @@ exports[`Image storyshots Components/List Group Anchors and buttons 1`] = `
         >
           <div>
             <h3>
-              Anchors
-               
+              Anchors 
             </h3>
             <p>
               Be sure to
@@ -17763,8 +17762,7 @@ exports[`Image storyshots Components/List Group Anchors and buttons 1`] = `
             </ul>
             <p />
             <h3>
-              Buttons
-               
+              Buttons 
             </h3>
             <ul
               className="emotion-11"
