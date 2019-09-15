@@ -32,14 +32,14 @@ const config2 = {
 };
 
 module.exports = [
-  env => Object.assign(config2, {
-    mode: env.production ? 'production' : 'development',
-    devtool: env.production ? 'source-maps' : 'eval',
+  env => Object.assign({}, config2, {
+    mode: env === 'production' ? 'production' : 'development',
+    devtool: env === 'production' ? 'source-maps' : 'eval',
     target: 'web',
   }),
-  env => Object.assign(config, {
-    mode: env.production ? 'production' : 'development',
-    devtool: env.production ? 'source-maps' : 'eval',
+  env => Object.assign({}, config, {
+    mode: env === 'production' ? 'production' : 'development',
+    devtool: env === 'production' ? 'source-maps' : 'eval',
     target: 'node',
   }),
 ];
