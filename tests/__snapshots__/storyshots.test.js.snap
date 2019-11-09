@@ -633,6 +633,26 @@ exports[`Image storyshots Components/Alert Alert with link 1`] = `
   border-radius: 0.25rem;
 }
 
+.emotion-0 {
+  font-weight: 700;
+}
+
+.css-y01ppl-alertDanger .emotion-0 {
+  color: #491217;
+}
+
+.css-9k0sg7-alertDark .emotion-0 {
+  color: #040505;
+}
+
+.css-1a0kudf-alertInfo .emotion-0 {
+  color: #062c33;
+}
+
+.css-6ll3kg-alertLight .emotion-0 {
+  color: #686868;
+}
+
 .emotion-2 {
   color: #004085;
   background-color: #cce5ff;
@@ -643,8 +663,20 @@ exports[`Image storyshots Components/Alert Alert with link 1`] = `
   border-top-color: #9fcdff;
 }
 
-.emotion-2 .css-1amzvqm-alertLink {
+.emotion-2 .emotion-0 {
   color: #002752;
+}
+
+.css-1f1zuae-alertSecondary .emotion-0 {
+  color: #202326;
+}
+
+.css-5ym6ks-alertSuccess .emotion-0 {
+  color: #0b2e13;
+}
+
+.css-zhlw20-alertWarning .emotion-0 {
+  color: #533f03;
 }
 
 .emotion-3 {
@@ -688,10 +720,6 @@ exports[`Image storyshots Components/Alert Alert with link 1`] = `
 
 .css-dirgup-modalBackdrop.emotion-3 {
   opacity: 0;
-}
-
-.emotion-0 {
-  css-1amzvqm-alertLinklabel: AlertLink;
 }
 
 <div
