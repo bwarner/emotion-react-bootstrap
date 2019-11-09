@@ -22,7 +22,8 @@
     }
   },
   "plugins": [
-    "react"
+    "react",
+    "emotion"
   ],
   "rules": {
     "brace-style": [
@@ -69,6 +70,8 @@
     "prefer-destructuring": "error",
     "prefer-promise-reject-errors": "error",
 //    "react/jsx-sort-props": "error",
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
     "react/forbid-prop-types": "off",
     "react/jsx-filename-extension": [
       "error",
@@ -93,7 +96,11 @@
       "aspects": [ "noHref", "invalidHref", "preferButton" ]
     }],
     "jsx-a11y/label-has-for": "off",
-    "jsx-a11y/label-has-associated-control": "on"
+    "jsx-a11y/label-has-associated-control": "on",
+    "emotion/jsx-import": "error",
+    "emotion/no-vanilla": "error",
+    "emotion/import-from-emotion": "error",
+    "emotion/styled-import": "error"
   },
   "overrides": [
     {

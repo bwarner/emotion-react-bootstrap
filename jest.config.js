@@ -4,6 +4,7 @@ module.exports = {
     '^.+\\.jsx?$': 'babel-jest',
     '^.+\\.md?$': 'markdown-loader-jest',
   },
+  snapshotSerializers: ['jest-emotion'],
   testURL: 'http://localhost/',
   testPathIgnorePatterns: ['/node_modules/'],
   setupFilesAfterEnv: ['./scripts/jest.init.js'],

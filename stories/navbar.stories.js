@@ -1,5 +1,6 @@
 /* eslint-disable react/no-multi-comp */
 import React, { Component } from 'react';
+import { mr2, mrAuto } from '@farvisionllc/emotion-bootstrap';
 import Collapse from '../lib/collapse';
 import { Navbar, NavbarToggler, NavbarBrand } from '../lib/navbar';
 import { Nav, NavItem, NavLink } from '../lib/nav';
@@ -84,10 +85,10 @@ class TogglerExample extends Component {
     return (
       <div>
         <Navbar color="primary" light>
-          <NavbarBrand href="/" className="mr-auto">
+          <NavbarBrand href="/" className={mrAuto}>
             Navbar
           </NavbarBrand>
-          <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
+          <NavbarToggler onClick={this.toggleNavbar} className={mr2} />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
               <NavItem>

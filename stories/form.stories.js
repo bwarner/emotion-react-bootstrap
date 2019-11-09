@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 import {
   Button,
   Col,
@@ -704,5 +704,5 @@ export default [
   { name: 'Input Sizing', story: Example7 },
   { name: 'Input Grid Sizing', story: Example8 },
   { name: 'Hidden Labels', story: Example9 },
-  { name: 'Custom Inputs', story: Example10 },
+  // { name: 'Custom Inputs', story: Example10 },
 ];
